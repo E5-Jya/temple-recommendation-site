@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>แนะนำสถานที่สำหรับคุณ — ฐานข้อมูลสถานปฏิบัติธรรมไทย</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #F7F5F0;
+      --foreground: #2D3436;
+      --primary: #4A7C59;
+      --primary-light: #5A8C69;
+      --primary-dark: #3A6C49;
+      --secondary: #A8D5BA;
+      --secondary-light: #C4E8D1;
+      --secondary-dark: #8AC4A3;
+      --accent: #D4A847;
+      --accent-light: #E0BE6E;
+      --accent-dark: #B8902E;
+      --tertiary: #B8A9C9;
+      --tertiary-light: #D0C5DC;
+      --tertiary-dark: #9F8DB6;
+      --warning: #C4836A;
+      --warning-light: #D9A08B;
+      --warning-dark: #A96B52;
+      --surface: #FFFFFF;
+      --surface-alt: #F0EDE6;
+      --card: #FFFFFF;
+      --card-hover: #EFF8F2;
+      --border: #D1CCC4;
+      --border-light: #E5E0D8;
+      --muted: #7A7670;
+      --muted-light: #A09B94;
+      --gradient-primary: linear-gradient(135deg, #4A7C59 0%, #A8D5BA 60%, #D4A847 100%);
+      --gradient-surface: linear-gradient(180deg, #F7F5F0 0%, #EFF8F2 100%);
+      --gradient-header: linear-gradient(135deg, #3A6C49 0%, #4A7C59 100%);
+      --shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+      --shadow-md: 0 4px 12px rgba(45, 52, 54, 0.10);
+      --shadow-lg: 0 8px 24px rgba(45, 52, 54, 0.12);
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-base: 20px;
+      --spacing-lg: 32px;
+      --spacing-xl: 48px;
+      --font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-size-xs: 11px;
+      --font-size-sm: 13px;
+      --font-size-base: 15px;
+      --font-size-md: 17px;
+      --font-size-lg: 22px;
+      --font-size-xl: 28px;
+      --font-size-2xl: 36px;
+      --font-weight-light: 300;
+      --font-weight-normal: 400;
+      --font-weight-medium: 500;
+      --font-weight-semibold: 600;
+      --font-weight-bold: 700;
+      --line-height: 1.65;
+      --transition: 0.2s ease;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: var(--font-family); background: var(--background); color: var(--foreground); font-size: var(--font-size-base); line-height: var(--line-height); min-height: 100vh; }
+
+    /* TOPBAR */
+    .topbar { background: var(--foreground); padding: 12px 40px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .logo-icon { width: 32px; height: 32px; background: var(--primary); border-radius: var(--radius-sm); display: flex; align-items: center; justify-content: center; }
+    .logo-text { color: var(--surface); font-weight: var(--font-weight-bold); font-size: var(--font-size-base); }
+    .logo-sub { color: rgba(255,255,255,0.5); font-size: var(--font-size-xs); }
+    .topbar-links { display: flex; gap: 24px; }
+    .topbar-link { color: rgba(255,255,255,0.6); text-decoration: none; font-size: var(--font-size-sm); transition: color var(--transition); }
+    .topbar-link:hover, .topbar-link.active { color: var(--secondary-light); }
+
+    /* HERO */
+    .hero {
+      background: var(--gradient-header);
+      padding: 64px 40px 72px; text-align: center; position: relative; overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 50% 100%, rgba(168,213,186,0.25) 0%, transparent 70%);
+    }
+    .hero-icon {
+      position: relative; z-index: 1;
+      width: 56px; height: 56px; margin: 0 auto 16px;
+      background: rgba(255,255,255,0.15); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .hero-icon svg { width: 28px; height: 28px; stroke: var(--surface); fill: none; stroke-width: 1.5; }
+    .hero h1 { position: relative; z-index: 1; font-size: clamp(24px, 4vw, 38px); color: var(--surface); font-weight: var(--font-weight-bold); margin-bottom: 12px; }
+    .hero p { position: relative; z-index: 1; color: rgba(255,255,255,0.7); font-size: var(--font-size-base); max-width: 480px; margin: 0 auto; }
+
+    /* QUIZ CONTAINER */
+    .quiz-wrap {
+      max-width: 760px; margin: -32px auto 0; position: relative; z-index: 10;
+      padding: 0 20px 80px;
+    }
+
+    /* PROGRESS */
+    .progress-wrap { margin-bottom: var(--spacing-lg); }
+    .progress-track {
+      height: 4px; background: rgba(74,124,89,0.15); border-radius: 4px;
+      overflow: hidden; margin-bottom: 10px;
+    }
+    .progress-fill {
+      height: 100%; background: linear-gradient(to right, var(--primary), var(--secondary));
+      border-radius: 4px; transition: width 0.4s ease;
+    }
+    .progress-label { font-size: var(--font-size-xs); color: var(--muted); text-align: right; }
+
+    /* QUESTION CARD */
+    .question-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      animation: slideIn 0.35s ease both;
+    }
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    .question-header {
+      background: var(--gradient-header);
+      padding: 28px 32px;
+    }
+    .question-num {
+      font-size: var(--font-size-xs); font-weight: var(--font-weight-bold); letter-spacing: 2px;
+      text-transform: uppercase; color: var(--secondary-light); margin-bottom: 10px;
+    }
+    .question-text {
+      font-size: clamp(18px, 3vw, 24px); font-weight: var(--font-weight-bold); color: var(--surface); line-height: 1.4;
+    }
+    .question-sub { color: rgba(255,255,255,0.55); font-size: 14px; margin-top: 6px; }
+
+    /* OPTIONS */
+    .options-grid { padding: 24px 28px 28px; display: flex; flex-direction: column; gap: 12px; }
+    .option-btn {
+      display: flex; align-items: center; gap: 14px;
+      padding: 16px 20px; border-radius: var(--radius-md);
+      border: 2px solid var(--border); background: var(--surface);
+      cursor: pointer; transition: all var(--transition); text-align: left;
+      font-family: var(--font-family); font-size: var(--font-size-base); color: var(--foreground);
+      width: 100%;
+    }
+    .option-btn:hover { border-color: var(--primary); background: var(--card-hover); transform: translateX(4px); }
+    .option-btn.selected { border-color: var(--primary); background: #EFF8F2; }
+    .option-icon {
+      flex-shrink: 0; width: 36px; height: 36px;
+      display: flex; align-items: center; justify-content: center;
+      background: var(--surface-alt); border-radius: var(--radius-sm);
+      transition: all var(--transition);
+    }
+    .option-icon svg { width: 18px; height: 18px; stroke: var(--primary); fill: none; stroke-width: 1.5; }
+    .option-btn.selected .option-icon { background: var(--primary); }
+    .option-btn.selected .option-icon svg { stroke: var(--surface); }
+    .option-text { flex: 1; }
+    .option-label { font-weight: var(--font-weight-semibold); display: block; }
+    .option-sub { font-size: var(--font-size-xs); color: var(--muted); display: block; margin-top: 2px; }
+    .option-check {
+      width: 22px; height: 22px; border-radius: 50%;
+      border: 2px solid var(--border); flex-shrink: 0;
+      display: flex; align-items: center; justify-content: center;
+      transition: all var(--transition);
+    }
+    .option-btn.selected .option-check {
+      background: var(--primary); border-color: var(--primary);
+    }
+
+    /* NAV BUTTONS */
+    .quiz-nav {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 0 28px 28px;
+    }
+    .btn-nav {
+      padding: 12px 28px; border-radius: var(--radius-sm); font-size: 14px; font-weight: var(--font-weight-semibold);
+      cursor: pointer; border: none; font-family: var(--font-family); transition: all var(--transition);
+    }
+    .btn-back {
+      background: transparent; border: 2px solid var(--border); color: var(--muted);
+    }
+    .btn-back:hover { background: var(--card-hover); border-color: var(--primary); }
+    .btn-next {
+      background: var(--primary); color: var(--surface); padding: 12px 36px;
+    }
+    .btn-next:hover { background: var(--primary-dark); }
+    .btn-next:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* RESULTS */
+    .results-section { display: none; animation: slideIn 0.4s ease both; }
+
+    .results-header-card {
+      background: var(--gradient-header);
+      border-radius: var(--radius-lg);
+      padding: 36px 32px;
+      text-align: center; margin-bottom: 24px;
+      box-shadow: var(--shadow-lg);
+    }
+    .results-icon {
+      width: 52px; height: 52px; margin: 0 auto 16px;
+      background: rgba(255,255,255,0.15); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .results-icon svg { width: 26px; height: 26px; stroke: var(--surface); fill: none; stroke-width: 1.5; }
+    .results-title { font-size: clamp(20px, 3.5vw, 28px); font-weight: var(--font-weight-bold); color: var(--surface); margin-bottom: 8px; }
+    .results-sub { color: rgba(255,255,255,0.6); font-size: var(--font-size-base); }
+    .results-profile {
+      display: inline-block; margin-top: 16px;
+      background: rgba(168,213,186,0.2); border: 1px solid rgba(168,213,186,0.5);
+      color: var(--secondary-light); padding: 6px 18px; border-radius: 20px;
+      font-size: var(--font-size-sm); font-weight: var(--font-weight-semibold);
+    }
+
+    /* RESULT CARDS */
+    .result-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden; margin-bottom: 16px;
+      box-shadow: var(--shadow-md);
+      transition: all 0.25s;
+    }
+    .result-card.top-pick {
+      border-color: var(--primary);
+      box-shadow: 0 4px 24px rgba(74,124,89,0.18);
+    }
+    .top-badge {
+      background: linear-gradient(to right, var(--primary-dark), var(--primary));
+      color: var(--surface); font-size: var(--font-size-xs); font-weight: var(--font-weight-bold);
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 8px 20px; text-align: center;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .top-badge svg { width: 14px; height: 14px; stroke: var(--accent-light); fill: none; stroke-width: 2; }
+    .result-body { padding: 24px; }
+    .result-match {
+      display: flex; justify-content: space-between; align-items: flex-start;
+      margin-bottom: 14px;
+    }
+    .result-names h3 { font-size: 19px; font-weight: var(--font-weight-bold); color: var(--foreground); margin-bottom: 3px; }
+    .result-names p { font-family: 'Cormorant Garamond', serif; font-style: italic; font-size: 14px; color: var(--muted); }
+    .match-score {
+      flex-shrink: 0; margin-left: 16px;
+      width: 52px; height: 52px; border-radius: 50%;
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary));
+      display: flex; align-items: center; justify-content: center;
+      flex-direction: column;
+    }
+    .match-num { font-size: 16px; font-weight: var(--font-weight-bold); color: var(--surface); line-height: 1; }
+    .match-pct { font-size: 9px; color: rgba(255,255,255,0.8); }
+
+    .why-list { margin-bottom: 16px; }
+    .why-item {
+      display: flex; align-items: flex-start; gap: 8px;
+      font-size: var(--font-size-sm); color: var(--foreground); padding: 4px 0;
+    }
+    .why-dot { color: var(--primary); flex-shrink: 0; margin-top: 2px; }
+
+    .result-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 16px; border-top: 1px solid var(--border-light);
+    }
+    .result-location {
+      font-size: var(--font-size-xs); color: var(--muted);
+      display: flex; align-items: center; gap: 4px;
+    }
+    .result-location svg { width: 14px; height: 14px; stroke: var(--muted); fill: none; stroke-width: 1.5; }
+    .btn-visit {
+      display: inline-flex; align-items: center; gap: 6px;
+      padding: 9px 20px; border-radius: var(--radius-sm);
+      background: var(--primary); color: var(--surface);
+      font-size: var(--font-size-sm); font-weight: var(--font-weight-semibold); text-decoration: none;
+      transition: background var(--transition);
+    }
+    .btn-visit:hover { background: var(--primary-dark); }
+
+    .restart-wrap { text-align: center; margin-top: 32px; }
+    .btn-restart {
+      padding: 12px 36px; border-radius: var(--radius-sm);
+      border: 2px solid var(--border); background: var(--surface);
+      font-size: 14px; font-weight: var(--font-weight-semibold); color: var(--muted);
+      cursor: pointer; font-family: var(--font-family); transition: all var(--transition);
+    }
+    .btn-restart:hover { border-color: var(--primary); color: var(--foreground); background: var(--card-hover); }
+
+    /* FOOTER */
+    .page-footer { background: var(--foreground); color: rgba(255,255,255,0.5); text-align: center; padding: 24px 40px; font-size: var(--font-size-xs); }
+    .page-footer a { color: var(--secondary-light); text-decoration: none; }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      .topbar { padding: 12px 16px; }
+      .topbar-links { display: none; }
+      .hero { padding: 48px 20px 56px; }
+      .quiz-wrap { padding: 0 12px 60px; }
+      .question-header { padding: 22px 20px; }
+      .options-grid { padding: 18px 16px 20px; }
+      .quiz-nav { padding: 0 16px 20px; }
+      .result-body { padding: 18px 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<header class="topbar">
+  <a href="#" class="logo">
+    <div class="logo-icon">
+      <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+    </div>
+    <div>
+      <div class="logo-text">ฐานข้อมูลปฏิบัติธรรม</div>
+      <div class="logo-sub">Thai Dhamma Practice Database</div>
+    </div>
+  </a>
+  <nav class="topbar-links">
+    <a href="temple-directory.html" class="topbar-link">ค้นหาสถานที่</a>
+    <a href="temple-recommendation.html" class="topbar-link active">แนะนำสำหรับคุณ</a>
+    <a href="temple-detail.html" class="topbar-link">ตัวอย่างรายละเอียด</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-icon">
+    <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20M2 12h20"/></svg>
+  </div>
+  <h1>สถานที่เหมาะกับคุณ</h1>
+  <p>ตอบคำถาม 5 ข้อ แล้วเราจะแนะนำสถานปฏิบัติธรรมที่ตรงกับความต้องการของคุณ</p>
+</section>
+
+<!-- QUIZ -->
+<div class="quiz-wrap">
+
+  <!-- PROGRESS -->
+  <div class="progress-wrap" id="progressWrap">
+    <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:20%"></div></div>
+    <div class="progress-label" id="progressLabel">คำถามที่ 1 จาก 5</div>
+  </div>
+
+  <!-- QUIZ CARD -->
+  <div id="quizSection">
+    <div class="question-card" id="questionCard">
+      <div class="question-header">
+        <div class="question-num" id="questionNum">คำถามที่ 1</div>
+        <div class="question-text" id="questionText"></div>
+        <div class="question-sub" id="questionSub"></div>
+      </div>
+      <div class="options-grid" id="optionsGrid"></div>
+      <div class="quiz-nav">
+        <button class="btn-nav btn-back" id="btnBack" onclick="goBack()">← ย้อนกลับ</button>
+        <button class="btn-nav btn-next" id="btnNext" onclick="goNext()" disabled>ถัดไป →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESULTS -->
+  <div class="results-section" id="resultsSection"></div>
+
+</div>
+
+<footer class="page-footer">
+  <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · <a href="temple-directory.html">ดูทั้งหมด →</a></p>
+</footer>
+
+<script>
+// SVG icon map — subtle, classic line icons
+const ICONS = {
+  city: '<svg viewBox="0 0 24 24"><path d="M3 21h18M5 21V7l8-4v18M13 21V3l6 4v14M9 9v.01M9 13v.01M9 17v.01M17 9v.01M17 13v.01M17 17v.01"/></svg>',
+  car: '<svg viewBox="0 0 24 24"><path d="M5 17h14M5 17a2 2 0 01-2-2V9a2 2 0 012-2h1l2-3h8l2 3h1a2 2 0 012 2v6a2 2 0 01-2 2M5 17a2 2 0 100 4 2 2 0 000-4zM19 17a2 2 0 100 4 2 2 0 000-4z"/></svg>',
+  globe: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20M2 12h20"/></svg>',
+  clock: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>',
+  moon: '<svg viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/></svg>',
+  calendar: '<svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg>',
+  tent: '<svg viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2zM12 2v20M7.5 12L12 22l4.5-10"/></svg>',
+  gift: '<svg viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><rect x="3" y="12" width="18" height="9" rx="1"/><path d="M12 8v13M3 12h18M7 8c0-2 1-4 3-4s2 2 2 4M17 8c0-2-1-4-3-4s-2 2-2 4"/></svg>',
+  heart: '<svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 000-7.78z"/></svg>',
+  coins: '<svg viewBox="0 0 24 24"><circle cx="9" cy="9" r="7"/><path d="M15 5.5a7 7 0 014.5 11.5"/><path d="M9 6v6l3 1.5"/></svg>',
+  sparkle: '<svg viewBox="0 0 24 24"><path d="M12 2l2.4 7.2L22 12l-7.6 2.8L12 22l-2.4-7.2L2 12l7.6-2.8L12 2z"/></svg>',
+  lotus: '<svg viewBox="0 0 24 24"><path d="M12 21c-4-4-8-7.5-8-11a4 4 0 018 0 4 4 0 018 0c0 3.5-4 7-8 11z"/><path d="M12 21c-2-2-4-4-4-6.5M12 21c2-2 4-4 4-6.5"/></svg>',
+  book: '<svg viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg>',
+  robe: '<svg viewBox="0 0 24 24"><path d="M12 2C8 2 6 5 6 8c0 2 1 4 3 5l-3 9h12l-3-9c2-1 3-3 3-5 0-3-2-6-6-6z"/></svg>',
+  leaf: '<svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21.34M17 8A5 5 0 0121 3c-2 0-5 .5-7 2s-3 4-3 7 1 6 2 8"/></svg>',
+  sprout: '<svg viewBox="0 0 24 24"><path d="M12 22V12M12 12c-4 0-7-3-7-7 4 0 7 3 7 7zM12 12c4 0 7-3 7-7-4 0-7 3-7 7z"/></svg>',
+  compass: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>',
+  flower: '<svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 2a4 4 0 014 4c0 1.95-2 4-4 6-2-2-4-4.05-4-6a4 4 0 014-4zM2 12a4 4 0 014-4c1.95 0 4 2 6 4-2 2-4.05 4-6 4a4 4 0 01-4-4zM22 12a4 4 0 00-4-4c-1.95 0-4 2-6 4 2 2 4.05 4 6 4a4 4 0 004-4zM12 22a4 4 0 01-4-4c0-1.95 2-4 4-6 2 2 4 4.05 4 6a4 4 0 01-4 4z"/></svg>',
+  users: '<svg viewBox="0 0 24 24"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/></svg>',
+  check: '<svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="3"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>'
+};
+
+const QUESTIONS = [
+  {
+    text: "คุณอยู่ที่ไหน หรือเดินทางได้ไกลแค่ไหน?",
+    sub: "เพื่อแนะนำสถานที่ที่เข้าถึงได้สะดวก",
+    options: [
+      { icon: "city", label: "กรุงเทพฯ และปริมณฑล", sub: "ต้องการสถานที่ในเมือง เดินทางสะดวก", value: "bkk" },
+      { icon: "car", label: "ไปต่างจังหวัดได้", sub: "พร้อมเดินทาง ขับรถหรือนั่งรถไปได้", value: "upcountry" },
+      { icon: "globe", label: "ไม่ยึดติดสถานที่", sub: "เน้นที่คุณภาพของสถานที่มากกว่าระยะทาง", value: "any" }
+    ],
+    key: "location"
+  },
+  {
+    text: "คุณมีเวลาปฏิบัติธรรมนานแค่ไหน?",
+    sub: "ช่วยให้เราแนะนำคอร์สที่เหมาะสม",
+    options: [
+      { icon: "clock", label: "ไม่กี่ชั่วโมง", sub: "เย็นวันธรรมดา หรือครึ่งวันเสาร์-อาทิตย์", value: "halfday" },
+      { icon: "moon", label: "2–3 วัน (สุดสัปดาห์)", sub: "วันศุกร์เย็น–วันอาทิตย์", value: "weekend" },
+      { icon: "calendar", label: "1–2 สัปดาห์", sub: "ลาพักร้อน หรือคอร์สระยะกลาง", value: "week" },
+      { icon: "tent", label: "1 เดือนขึ้นไป", sub: "ปฏิบัติอย่างจริงจังระยะยาว", value: "long" }
+    ],
+    key: "duration"
+  },
+  {
+    text: "งบประมาณของคุณเป็นอย่างไร?",
+    sub: "",
+    options: [
+      { icon: "gift", label: "ต้องการฟรีเท่านั้น", sub: "บริจาคตามศรัทธา ไม่มีค่าใช้จ่ายหลัก", value: "free" },
+      { icon: "heart", label: "ได้ถ้าราคาสมเหตุสมผล", sub: "ยินดีจ่ายค่าที่พัก-อาหาร ราคาไม่แพง", value: "budget" },
+      { icon: "coins", label: "งบปานกลาง (1,000–5,000 ฿)", sub: "คอร์สปกติ รวมที่พักและอาหาร", value: "mid" },
+      { icon: "sparkle", label: "ยืดหยุ่นได้", sub: "ราคาไม่ใช่ปัจจัยหลัก เน้นคุณภาพ", value: "any" }
+    ],
+    key: "budget"
+  },
+  {
+    text: "คุณสนใจกิจกรรมใดเป็นพิเศษ?",
+    sub: "เลือกที่ตรงใจคุณมากที่สุด",
+    options: [
+      { icon: "lotus", label: "นั่งสมาธิ / เดินจงกรม", sub: "ปฏิบัติวิปัสสนาอย่างจริงจัง", value: "meditation" },
+      { icon: "book", label: "ฟังบรรยายธรรม", sub: "เรียนรู้หลักธรรม ฟังธรรมบรรยาย", value: "dhamma_talk" },
+      { icon: "robe", label: "บวชชีพราหมณ์ / แม่ชี", sub: "สนใจประสบการณ์บวช", value: "ordain" },
+      { icon: "leaf", label: "ปฏิบัติท่ามกลางธรรมชาติ", sub: "วัดป่า สวน บรรยากาศสงบ", value: "nature" }
+    ],
+    key: "activity"
+  },
+  {
+    text: "คุณเป็นใคร? (เพื่อแนะนำให้ตรงขึ้น)",
+    sub: "",
+    options: [
+      { icon: "sprout", label: "ผู้เริ่มต้น", sub: "เพิ่งสนใจ ไม่มีประสบการณ์มาก", value: "beginner" },
+      { icon: "compass", label: "มีประสบการณ์บ้าง", sub: "เคยปฏิบัติมาแล้ว ต้องการเจาะลึก", value: "intermediate" },
+      { icon: "flower", label: "สตรี หรือต้องการสถานที่สำหรับสตรี", sub: "เน้นบรรยากาศและโปรแกรมสำหรับสตรี", value: "women" },
+      { icon: "users", label: "มาพร้อมครอบครัว / เด็ก", sub: "มีกิจกรรมครอบครัวและค่ายเยาวชน", value: "family" }
+    ],
+    key: "profile"
+  }
+];
+
+const TEMPLES = [
+  {
+    id: "TH-NMA-001", 
+    nameTh: "วัดป่าทรัพย์ทวีธรรมาราม", 
+    nameEn: "Wat Pah Subthawee Dhammaram", 
+    province: "นครราชสีมา", 
+    district: "วังน้ำเขียว", 
+    scores: {
+      location_upcountry: 3,
+      location_any: 2,
+      duration_weekend: 3,
+      duration_week: 3,
+      duration_long: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      activity_ordain: 3,
+      activity_nature: 3,
+      profile_beginner: 3,
+      profile_intermediate: 3,
+      profile_women: 3
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน", "รับบวชพระ/สามเณร", "ถ่ายทอดสดออนไลน์"],
+    link: "temple-detail.html?id=TH-NMA-001"
+  },
+  {
+    id: "TH-BKK-001", 
+    nameTh: "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)", 
+    nameEn: "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)", 
+    province: "กรุงเทพมหานคร", 
+    district: "จตุจักร", 
+    scores: {
+      location_bkk: 3,
+      location_any: 2,
+      duration_halfday: 3,
+      duration_weekend: 3,
+      duration_week: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      profile_beginner: 3,
+      profile_family: 2
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 1 วัน", "ถ่ายทอดสดออนไลน์", "เดินทางสะดวก ในกรุงเทพฯ"],
+    link: "temple-detail.html?id=TH-BKK-001"
+  },
+  {
+    id: "TH-BKK-002", 
+    nameTh: "มูลนิธิบ้านอารีย์", 
+    nameEn: "Baan Aree Foundation", 
+    province: "กรุงเทพมหานคร", 
+    district: "พญาไท", 
+    scores: {
+      location_bkk: 3,
+      location_any: 2,
+      duration_halfday: 3,
+      duration_weekend: 3,
+      duration_week: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_dhamma_talk: 3,
+      profile_beginner: 3,
+      profile_family: 2
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0.5 วัน", "เดินทางสะดวก ในกรุงเทพฯ", "ห้องสมุดธรรมะและศูนย์ปฏิบัติธรรมฆราวาสย่านพญาไท สายหลวงพ่อเทียน จิตฺตสุโภ ฟรีทุกกิจกรรม สามารถร่วมได้"],
+    link: "temple-detail.html?id=TH-BKK-002"
+  },
+  {
+    id: "TH-BKK-003", 
+    nameTh: "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์", 
+    nameEn: "International Vipassana Meditation Centre, Wat Mahadhatu", 
+    province: "กรุงเทพมหานคร", 
+    district: "พระนคร", 
+    scores: {
+      location_bkk: 3,
+      location_any: 2,
+      duration_halfday: 3,
+      duration_weekend: 3,
+      duration_week: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      profile_beginner: 3,
+      profile_women: 3,
+      profile_family: 2
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 1 วัน", "เดินทางสะดวก ในกรุงเทพฯ", "เปิดรับสตรี/แม่ชี"],
+    link: "temple-detail.html?id=TH-BKK-003"
+  },
+  {
+    id: "TH-BKK-004", 
+    nameTh: "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)", 
+    nameEn: "Young Buddhist Association of Thailand (YBAT)", 
+    province: "กรุงเทพมหานคร", 
+    district: "พระโขนง / หลายสาขา", 
+    scores: {
+      location_bkk: 3,
+      location_any: 2,
+      duration_weekend: 3,
+      duration_week: 3,
+      duration_long: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      activity_ordain: 3,
+      profile_beginner: 3,
+      profile_women: 3
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 2 วัน", "รับบวชพระ/สามเณร", "ถ่ายทอดสดออนไลน์"],
+    link: "temple-detail.html?id=TH-BKK-004"
+  },
+  {
+    id: "TH-BKK-005", 
+    nameTh: "สวนอุศม", 
+    nameEn: "Suan Usom (Garden of Moral Purification)", 
+    province: "กรุงเทพมหานคร", 
+    district: "ประเวศ", 
+    scores: {
+      location_bkk: 3,
+      location_any: 2,
+      duration_weekend: 3,
+      duration_week: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      profile_beginner: 3,
+      profile_women: 3
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 2 วัน", "ถ่ายทอดสดออนไลน์", "เดินทางสะดวก ในกรุงเทพฯ"],
+    link: "temple-detail.html?id=TH-BKK-005"
+  },
+  {
+    id: "TH-BKK-006", 
+    nameTh: "เสถียรธรรมสถาน", 
+    nameEn: "Sathira Dhammasathan", 
+    province: "กรุงเทพมหานคร", 
+    district: "บางเขน", 
+    scores: {
+      location_bkk: 3,
+      location_any: 2,
+      duration_weekend: 3,
+      duration_week: 3,
+      duration_long: 3,
+      budget_mid: 2,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      profile_beginner: 3,
+      profile_intermediate: 3,
+      profile_women: 3
+    },
+    whys: ["เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน", "ถ่ายทอดสดออนไลน์", "เดินทางสะดวก ในกรุงเทพฯ", "เปิดรับสตรี/แม่ชี"],
+    link: "temple-detail.html?id=TH-BKK-006"
+  },
+  {
+    id: "TH-NMA-002", 
+    nameTh: "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)", 
+    nameEn: "Baan Rai Tor See Hermitage (Baan Boon)", 
+    province: "นครราชสีมา", 
+    district: "ปากช่อง", 
+    scores: {
+      location_upcountry: 3,
+      location_any: 2,
+      duration_halfday: 3,
+      duration_weekend: 3,
+      duration_week: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      activity_nature: 3,
+      profile_beginner: 3
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0.5 วัน", "ถ่ายทอดสดออนไลน์", "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"],
+    link: "temple-detail.html?id=TH-NMA-002"
+  },
+  {
+    id: "TH-CNX-001", 
+    nameTh: "วัดพระธาตุศรีจอมทองวรวิหาร", 
+    nameEn: "Wat Phra That Si Chom Thong Worawihan", 
+    province: "เชียงใหม่", 
+    district: "จอมทอง", 
+    scores: {
+      location_upcountry: 3,
+      location_any: 2,
+      duration_week: 3,
+      duration_long: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      activity_ordain: 3,
+      activity_nature: 2,
+      profile_beginner: 2,
+      profile_intermediate: 3,
+      profile_women: 3
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 5 วัน", "รับบวชพระ", "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"],
+    link: "temple-detail.html?id=TH-CNX-001"
+  },
+  {
+    id: "TH-NMA-003", 
+    nameTh: "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)", 
+    nameEn: "Buddha Dhamma Satharn Panjakiri", 
+    province: "นครราชสีมา", 
+    district: "ปากช่อง (มวกเหล็ก / มูสี)", 
+    scores: {
+      location_upcountry: 3,
+      location_any: 2,
+      duration_week: 3,
+      budget_free: 3,
+      budget_any: 2,
+      activity_meditation: 3,
+      activity_dhamma_talk: 3,
+      activity_nature: 3,
+      profile_beginner: 2,
+      profile_intermediate: 3
+    },
+    whys: ["ฟรีทุกกิจกรรม บริจาคตามศรัทธา", "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน", "ถ่ายทอดสดออนไลน์", "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"],
+    link: "temple-detail.html?id=TH-NMA-003"
+  }
+];
+
+
+let answers = {};
+let currentQ = 0;
+
+function renderQuestion() {
+  const q = QUESTIONS[currentQ];
+  document.getElementById('questionNum').textContent = `คำถามที่ ${currentQ + 1}`;
+  document.getElementById('questionText').textContent = q.text;
+  document.getElementById('questionSub').textContent = q.sub;
+
+  const pct = ((currentQ + 1) / QUESTIONS.length) * 100;
+  document.getElementById('progressFill').style.width = pct + '%';
+  document.getElementById('progressLabel').textContent = `คำถามที่ ${currentQ + 1} จาก ${QUESTIONS.length}`;
+
+  const btnNext = document.getElementById('btnNext');
+  const isLast = currentQ === QUESTIONS.length - 1;
+  btnNext.textContent = isLast ? 'ดูผลลัพธ์ →' : 'ถัดไป →';
+  btnNext.disabled = !answers[q.key];
+
+  document.getElementById('btnBack').style.visibility = currentQ === 0 ? 'hidden' : 'visible';
+
+  const grid = document.getElementById('optionsGrid');
+  grid.innerHTML = q.options.map(o => `
+    <button class="option-btn ${answers[q.key] === o.value ? 'selected' : ''}"
+      onclick="selectOption('${q.key}', '${o.value}', this)">
+      <div class="option-icon">${ICONS[o.icon]}</div>
+      <div class="option-text">
+        <span class="option-label">${o.label}</span>
+        <span class="option-sub">${o.sub}</span>
+      </div>
+      <div class="option-check">
+        ${answers[q.key] === o.value ? ICONS.check : ''}
+      </div>
+    </button>
+  `).join('');
+
+  const card = document.getElementById('questionCard');
+  card.style.animation = 'none';
+  card.offsetHeight;
+  card.style.animation = 'slideIn 0.35s ease both';
+}
+
+function selectOption(key, value, btn) {
+  answers[key] = value;
+  document.querySelectorAll('.option-btn').forEach(b => {
+    b.classList.remove('selected');
+    b.querySelector('.option-check').innerHTML = '';
+  });
+  btn.classList.add('selected');
+  btn.querySelector('.option-check').innerHTML = ICONS.check;
+  document.getElementById('btnNext').disabled = false;
+}
+
+function goNext() {
+  if (currentQ < QUESTIONS.length - 1) {
+    currentQ++;
+    renderQuestion();
+  } else {
+    showResults();
+  }
+}
+
+function goBack() {
+  if (currentQ > 0) {
+    currentQ--;
+    renderQuestion();
+  }
+}
+
+function scoreTemple(t) {
+  let score = 0;
+  const loc = answers.location;
+  if (loc === 'bkk') score += t.scores['location_bkk'] || 0;
+  else if (loc === 'upcountry') score += t.scores['location_upcountry'] || 0;
+  else score += t.scores['location_any'] || 1;
+
+  const dur = answers.duration;
+  score += t.scores[`duration_${dur}`] || 0;
+
+  const bud = answers.budget;
+  if (bud === 'free') score += t.scores['budget_free'] || 0;
+  else if (bud === 'budget') score += (t.scores['budget_free'] || 0) + (t.scores['budget_budget'] || 0);
+  else if (bud === 'mid') score += (t.scores['budget_mid'] || 0) + (t.scores['budget_budget'] || 0);
+  else score += (t.scores['budget_any'] || 1) + (t.scores['budget_mid'] || 0);
+
+  const act = answers.activity;
+  score += t.scores[`activity_${act}`] || 0;
+
+  const pro = answers.profile;
+  score += t.scores[`profile_${pro}`] || 0;
+
+  return score;
+}
+
+function getProfileLabel() {
+  const map = {
+    beginner: "ผู้เริ่มต้นสนใจธรรมะ",
+    intermediate: "ผู้ปฏิบัติมีประสบการณ์",
+    women: "ผู้หญิงที่ต้องการสถานที่พิเศษ",
+    family: "ครอบครัวที่ต้องการปฏิบัติร่วมกัน"
+  };
+  return map[answers.profile] || "ผู้ปฏิบัติธรรม";
+}
+
+function showResults() {
+  document.getElementById('quizSection').style.display = 'none';
+  document.getElementById('progressWrap').style.display = 'none';
+
+  const scored = TEMPLES.map(t => ({ ...t, score: scoreTemple(t) }))
+    .sort((a, b) => b.score - a.score);
+
+  const maxScore = scored[0].score;
+  const top3 = scored.slice(0, 3);
+
+  const profileLabel = getProfileLabel();
+
+  const html = `
+    <div class="results-header-card">
+      <div class="results-icon">
+        <svg viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+      </div>
+      <div class="results-title">ผลการแนะนำสำหรับคุณ</div>
+      <div class="results-sub">จากคำตอบของคุณ เราพบสถานที่ที่เหมาะที่สุด 3 แห่ง</div>
+      <div class="results-profile">โปรไฟล์: ${profileLabel}</div>
+    </div>
+
+    ${top3.map((t, i) => {
+      const matchPct = Math.round((t.score / maxScore) * 100);
+      return `
+      <div class="result-card ${i === 0 ? 'top-pick' : ''}">
+        ${i === 0 ? `<div class="top-badge"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"/><path d="M8.21 13.89L7 23l5-3 5 3-1.21-9.12"/></svg> เหมาะที่สุดสำหรับคุณ</div>` : ''}
+        <div class="result-body">
+          <div class="result-match">
+            <div class="result-names">
+              <h3>${t.nameTh}</h3>
+              <p>${t.nameEn}</p>
+            </div>
+            <div class="match-score">
+              <div class="match-num">${matchPct}</div>
+              <div class="match-pct">%</div>
+            </div>
+          </div>
+          <div class="why-list">
+            ${t.whys.map(w => `
+              <div class="why-item">
+                <span class="why-dot">✓</span>
+                <span>${w}</span>
+              </div>
+            `).join('')}
+          </div>
+          <div class="result-footer">
+            <div class="result-location">
+              <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              ${t.district}, ${t.province}
+            </div>
+            <a href="${t.link}" class="btn-visit">ดูรายละเอียด →</a>
+          </div>
+        </div>
+      </div>
+    `;}).join('')}
+
+    <div class="restart-wrap">
+      <p style="font-size:13px; color:var(--muted); margin-bottom:12px">ต้องการดูสถานที่ทั้งหมดหรือค้นหาเพิ่มเติม?</p>
+      <a href="temple-directory.html" style="display:inline-block; margin-right:12px; padding:10px 24px; border-radius:var(--radius-sm); background:var(--primary); color:white; text-decoration:none; font-size:13px; font-weight:600;">ดูทุกสถานที่</a>
+      <button class="btn-restart" onclick="restartQuiz()">ทำแบบทดสอบใหม่</button>
+    </div>
+
+    <div style="text-align:center; margin-top:24px; padding-top:24px; border-top:1px solid var(--border-light);">
+      <button class="btn-save-result" id="btnSaveResult" onclick="handleSaveResult()">
+        <svg viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg>
+        บันทึกผลแนะนำ
+      </button>
+      <div id="saveStatus" class="save-status"></div>
+    </div>
+  `;
+
+  // Store for save function
+  window._lastResults = top3.map((t, i) => ({
+    ...t,
+    matchPct: Math.round((t.score / maxScore) * 100)
+  }));
+
+  const res = document.getElementById('resultsSection');
+  res.style.display = 'block';
+  res.innerHTML = html;
+  res.scrollIntoView({ behavior: 'smooth', block: 'start' });
+}
+
+async function handleSaveResult() {
+  const btn = document.getElementById('btnSaveResult');
+  const status = document.getElementById('saveStatus');
+
+  // Check if logged in
+  const user = await getUser();
+  if (!user) {
+    openAuthModal('login');
+    // After login, auto-save
+    const unsub = onAuthChange(async (u) => {
+      if (u) {
+        await doSave();
+      }
+    });
+    return;
+  }
+  await doSave();
+}
+
+async function doSave() {
+  const btn = document.getElementById('btnSaveResult');
+  const status = document.getElementById('saveStatus');
+  if (!btn || !status) return;
+
+  btn.disabled = true;
+  btn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg> กำลังบันทึก...';
+
+  try {
+    await saveRecommendation(answers, window._lastResults);
+    btn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg> บันทึกแล้ว';
+    btn.style.background = 'var(--primary)';
+    status.textContent = 'บันทึกเรียบร้อย! คุณสามารถดูผลย้อนหลังได้เมื่อเข้าสู่ระบบ';
+  } catch (err) {
+    btn.disabled = false;
+    btn.innerHTML = '<svg viewBox="0 0 24 24"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><path d="M17 21v-8H7v8M7 3v5h8"/></svg> บันทึกผลแนะนำ';
+    status.textContent = 'เกิดข้อผิดพลาด: ' + err.message;
+    status.style.color = 'var(--warning)';
+  }
+}
+
+function restartQuiz() {
+  answers = {};
+  currentQ = 0;
+  document.getElementById('resultsSection').style.display = 'none';
+  document.getElementById('resultsSection').innerHTML = '';
+  document.getElementById('quizSection').style.display = 'block';
+  document.getElementById('progressWrap').style.display = 'block';
+  renderQuestion();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Init
+renderQuestion();
+</script>
+
+<!-- Supabase + Auth -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+</body>
+</html>

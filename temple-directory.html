@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ค้นหาสถานปฏิบัติธรรม — ฐานข้อมูลสถานปฏิบัติธรรมไทย</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #F7F5F0;
+      --foreground: #2D3436;
+      --primary: #4A7C59;
+      --primary-light: #5A8C69;
+      --primary-dark: #3A6C49;
+      --secondary: #A8D5BA;
+      --secondary-light: #C4E8D1;
+      --secondary-dark: #8AC4A3;
+      --accent: #D4A847;
+      --accent-light: #E0BE6E;
+      --accent-dark: #B8902E;
+      --tertiary: #B8A9C9;
+      --tertiary-light: #D0C5DC;
+      --tertiary-dark: #9F8DB6;
+      --warning: #C4836A;
+      --warning-light: #D9A08B;
+      --warning-dark: #A96B52;
+      --surface: #FFFFFF;
+      --surface-alt: #F0EDE6;
+      --card: #FFFFFF;
+      --card-hover: #EFF8F2;
+      --border: #D1CCC4;
+      --border-light: #E5E0D8;
+      --muted: #7A7670;
+      --muted-light: #A09B94;
+      --gradient-primary: linear-gradient(135deg, #4A7C59 0%, #A8D5BA 60%, #D4A847 100%);
+      --gradient-surface: linear-gradient(180deg, #F7F5F0 0%, #EFF8F2 100%);
+      --gradient-header: linear-gradient(135deg, #3A6C49 0%, #4A7C59 100%);
+      --shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
+      --shadow-md: 0 4px 12px rgba(45, 52, 54, 0.10);
+      --shadow-lg: 0 8px 24px rgba(45, 52, 54, 0.12);
+      --radius-sm: 6px;
+      --radius-md: 12px;
+      --radius-lg: 18px;
+      --spacing-xs: 4px;
+      --spacing-sm: 8px;
+      --spacing-md: 16px;
+      --spacing-base: 20px;
+      --spacing-lg: 32px;
+      --spacing-xl: 48px;
+      --font-family: 'Sarabun', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      --font-size-xs: 11px;
+      --font-size-sm: 13px;
+      --font-size-base: 15px;
+      --font-size-md: 17px;
+      --font-size-lg: 22px;
+      --font-size-xl: 28px;
+      --font-size-2xl: 36px;
+      --font-weight-light: 300;
+      --font-weight-normal: 400;
+      --font-weight-medium: 500;
+      --font-weight-semibold: 600;
+      --font-weight-bold: 700;
+      --line-height: 1.65;
+      --transition: 0.2s ease;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Sarabun', sans-serif; background: var(--background); color: var(--foreground); font-size: 16px; line-height: 1.6; }
+
+    /* TOPBAR */
+    .topbar {
+      background: var(--foreground);
+      padding: 12px 40px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none;
+    }
+    .logo-icon {
+      width: 32px; height: 32px; background: var(--primary);
+      border-radius: 8px; display: flex; align-items: center; justify-content: center;
+    }
+    .logo-text { color: var(--surface); font-weight: 700; font-size: 15px; }
+    .logo-sub  { color: rgba(255,255,255,0.5); font-size: 11px; }
+    .topbar-links { display: flex; gap: 24px; }
+    .topbar-link { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 13px; transition: color 0.2s; }
+    .topbar-link:hover, .topbar-link.active { color: var(--secondary-light); }
+
+    /* HERO SEARCH */
+    .search-hero {
+      background: var(--gradient-header);
+      padding: 60px 40px 0;
+      text-align: center;
+      position: relative; overflow: hidden;
+    }
+    .search-hero::before {
+      content: '';
+      position: absolute; inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(168,213,186,0.15) 0%, transparent 70%);
+    }
+    .search-hero h1 {
+      position: relative; z-index: 1;
+      font-size: clamp(24px, 4vw, 40px);
+      font-weight: 700; color: var(--surface); margin-bottom: 8px;
+    }
+    .search-hero p {
+      position: relative; z-index: 1;
+      color: rgba(255,255,255,0.6); font-size: 15px; margin-bottom: 32px;
+    }
+    .search-box-wrap {
+      position: relative; z-index: 1;
+      max-width: 680px; margin: 0 auto 40px;
+    }
+    .search-input {
+      width: 100%; padding: 16px 56px 16px 20px;
+      border-radius: 14px; border: 2px solid rgba(168,213,186,0.3);
+      background: rgba(255,255,255,0.08);
+      backdrop-filter: blur(10px);
+      color: var(--surface); font-size: 16px; font-family: 'Sarabun', sans-serif;
+      outline: none; transition: all 0.2s;
+    }
+    .search-input::placeholder { color: rgba(255,255,255,0.4); }
+    .search-input:focus { border-color: var(--secondary); background: rgba(255,255,255,0.12); }
+    .search-icon {
+      position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
+      color: rgba(255,255,255,0.5); pointer-events: none;
+    }
+    .search-stats {
+      position: relative; z-index: 1;
+      display: flex; justify-content: center; gap: 32px;
+      padding: 24px 0 0;
+    }
+    .stat { text-align: center; }
+    .stat-num { font-size: 24px; font-weight: 700; color: var(--secondary-light); }
+    .stat-label { font-size: 12px; color: rgba(255,255,255,0.5); }
+
+    /* WAVE DIVIDER */
+    .wave-divider { display: block; width: 100%; height: 40px; fill: var(--background); }
+
+    /* FILTER BAR */
+    .filter-section {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 0;
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 12px rgba(45, 52, 54, 0.06);
+    }
+    .filter-bar {
+      max-width: 1200px; margin: 0 auto;
+      padding: 14px 40px;
+      display: flex; align-items: center; gap: 12px;
+      overflow-x: auto;
+    }
+    .filter-bar::-webkit-scrollbar { display: none; }
+    .filter-label { font-size: 12px; font-weight: 700; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; white-space: nowrap; }
+    .filter-chip {
+      padding: 7px 16px; border-radius: 20px;
+      font-size: 13px; font-weight: 500; cursor: pointer;
+      border: 1.5px solid var(--border); background: var(--surface);
+      color: var(--foreground); transition: all 0.2s; white-space: nowrap;
+      font-family: 'Sarabun', sans-serif;
+    }
+    .filter-chip:hover { border-color: var(--primary); color: var(--foreground); background: var(--card-hover); }
+    .filter-chip.active { background: var(--primary); border-color: var(--primary); color: var(--surface); }
+    .filter-sep { width: 1px; height: 24px; background: var(--border); flex-shrink: 0; }
+    .sort-select {
+      margin-left: auto; padding: 7px 12px; border-radius: 8px;
+      border: 1.5px solid var(--border); background: var(--surface);
+      font-size: 13px; font-family: 'Sarabun', sans-serif; color: var(--foreground);
+      cursor: pointer; outline: none; flex-shrink: 0;
+    }
+
+    /* MAIN LAYOUT */
+    .main-wrap { max-width: 1200px; margin: 0 auto; padding: 32px 40px 80px; }
+    .results-header {
+      display: flex; align-items: center; justify-content: space-between;
+      margin-bottom: 24px;
+    }
+    .results-count { font-size: 14px; color: var(--muted); }
+    .results-count strong { color: var(--foreground); font-weight: 700; }
+    .view-toggle { display: flex; gap: 4px; }
+    .view-btn {
+      width: 34px; height: 34px; border: 1.5px solid var(--border);
+      background: var(--surface); border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; color: var(--muted); transition: all 0.2s;
+    }
+    .view-btn.active { background: var(--primary); border-color: var(--primary); color: var(--surface); }
+
+    /* TEMPLE CARDS GRID */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
+    }
+
+    .temple-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: all 0.25s;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+    .temple-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--primary);
+    }
+
+    .card-header {
+      height: 120px;
+      display: flex; align-items: flex-end; padding: 16px;
+      position: relative; overflow: hidden;
+    }
+    .card-header-bg {
+      position: absolute; inset: 0;
+    }
+    .card-header-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(45,52,54,0.85) 0%, rgba(45,52,54,0.2) 60%, transparent 100%);
+    }
+    .card-id {
+      position: relative; z-index: 1;
+      font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--secondary-light);
+      background: rgba(0,0,0,0.4); padding: 3px 8px; border-radius: 12px;
+    }
+    .card-province {
+      position: absolute; right: 14px; bottom: 14px; z-index: 1;
+      font-size: 11px; color: rgba(255,255,255,0.7);
+      display: flex; align-items: center; gap: 4px;
+    }
+
+    .card-body { padding: 18px 20px; }
+    .card-name-th { font-size: 17px; font-weight: 700; color: var(--foreground); margin-bottom: 3px; line-height: 1.3; }
+    .card-name-en {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic; font-size: 13px; color: var(--muted); margin-bottom: 12px;
+    }
+    .card-tradition {
+      font-size: 12px; color: var(--foreground);
+      background: var(--surface-alt); border: 1px solid var(--border);
+      display: inline-block; padding: 3px 10px; border-radius: 10px;
+      margin-bottom: 14px;
+    }
+    .card-blurb {
+      font-size: 13px; color: var(--foreground); line-height: 1.6;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 16px;
+    }
+    .card-chips {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px;
+    }
+    .chip {
+      font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 8px;
+    }
+    .chip-y { background: #EFF8F2; color: var(--primary); border: 1px solid var(--secondary); }
+    .chip-cost { background: #EFF8F2; color: var(--primary); border: 1px solid var(--secondary); }
+    .chip-cost-paid { background: #FFF8EC; color: var(--accent-dark); border: 1px solid var(--accent-light); }
+
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      background: var(--surface-alt);
+    }
+    .card-location { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 4px; }
+    .card-arrow {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: var(--primary); color: var(--surface);
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .temple-card:hover .card-arrow { background: var(--primary-dark); }
+
+    /* NO RESULTS */
+    .no-results {
+      text-align: center; padding: 80px 20px;
+      color: var(--muted); display: none;
+    }
+    .no-results-icon {
+      width: 80px; height: 80px; margin: 0 auto 16px;
+      border-radius: 50%; background: var(--card-hover);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--primary);
+    }
+    .no-results h3 { font-size: 18px; color: var(--foreground); margin-bottom: 8px; }
+
+    /* LOAD MORE */
+    .load-more-wrap { text-align: center; margin-top: 40px; }
+    .btn-load { padding: 12px 36px; border-radius: 10px; border: 2px solid var(--border); background: var(--surface); font-size: 14px; font-weight: 600; color: var(--foreground); cursor: pointer; font-family: 'Sarabun', sans-serif; transition: all 0.2s; }
+    .btn-load:hover { border-color: var(--primary); color: var(--foreground); background: var(--card-hover); }
+
+    /* FOOTER */
+    .page-footer { background: var(--foreground); color: rgba(255,255,255,0.5); text-align: center; padding: 24px 40px; font-size: 12px; }
+    .page-footer a { color: var(--secondary-light); text-decoration: none; }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .topbar { padding: 12px 20px; }
+      .topbar-links { display: none; }
+      .search-hero { padding: 40px 20px 0; }
+      .filter-bar { padding: 12px 16px; }
+      .main-wrap { padding: 24px 16px 60px; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .search-stats { gap: 20px; }
+    }
+    @media (max-width: 480px) {
+      .search-input { font-size: 15px; padding: 14px 50px 14px 16px; }
+      .results-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+    }
+
+    /* HIGHLIGHT on search */
+    mark { background: #E8F5E9; color: inherit; border-radius: 2px; }
+  </style>
+</head>
+<body>
+
+<!-- TOPBAR -->
+<header class="topbar">
+  <a href="#" class="logo">
+    <div class="logo-icon">
+      <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+    </div>
+    <div>
+      <div class="logo-text">ฐานข้อมูลปฏิบัติธรรม</div>
+      <div class="logo-sub">Thai Dhamma Practice Database</div>
+    </div>
+  </a>
+  <nav class="topbar-links">
+    <a href="temple-directory.html" class="topbar-link active">ค้นหาสถานที่</a>
+    <a href="temple-recommendation.html" class="topbar-link">แนะนำสำหรับคุณ</a>
+    <a href="temple-detail.html" class="topbar-link">ตัวอย่างรายละเอียด</a>
+  </nav>
+</header>
+
+<!-- HERO SEARCH -->
+<section class="search-hero">
+  <h1>ค้นหาสถานปฏิบัติธรรม</h1>
+  <p>พบสถานที่ปฏิบัติธรรมกว่า 7 แห่งทั่วประเทศไทย เลือกที่เหมาะกับคุณ</p>
+  <div class="search-box-wrap">
+    <input type="text" class="search-input" id="searchInput" placeholder="ค้นหาชื่อวัด, จังหวัด, สายปฏิบัติ...">
+    <div class="search-icon">
+      <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
+    </div>
+  </div>
+  <div class="search-stats">
+    <div class="stat"><div class="stat-num" id="countTotal">7</div><div class="stat-label">สถานที่ทั้งหมด</div></div>
+    <div class="stat"><div class="stat-num">3</div><div class="stat-label">จังหวัด</div></div>
+    <div class="stat"><div class="stat-num" id="countFree">4</div><div class="stat-label">ฟรีทุกกิจกรรม</div></div>
+    <div class="stat"><div class="stat-num" id="countRetreats">6</div><div class="stat-label">มีคอร์สปฏิบัติ</div></div>
+  </div>
+  <svg class="wave-divider" viewBox="0 0 1440 40" preserveAspectRatio="none" fill="var(--background)">
+    <path d="M0,40 C360,0 1080,0 1440,40 L1440,40 L0,40 Z"/>
+  </svg>
+</section>
+
+<!-- FILTER BAR -->
+<div class="filter-section">
+  <div class="filter-bar">
+    <span class="filter-label">กรอง:</span>
+    <button class="filter-chip active" data-filter="all">ทั้งหมด</button>
+    <div class="filter-sep"></div>
+    <button class="filter-chip" data-filter="bkk">กรุงเทพฯ</button>
+    <button class="filter-chip" data-filter="upcountry">ต่างจังหวัด</button>
+    <div class="filter-sep"></div>
+    <button class="filter-chip" data-filter="free">ฟรี</button>
+    <button class="filter-chip" data-filter="retreat">มีคอร์สค้างคืน</button>
+    <button class="filter-chip" data-filter="ordain">บวชได้</button>
+    <button class="filter-chip" data-filter="online">ออนไลน์</button>
+    <button class="filter-chip" data-filter="women">เน้นสตรี</button>
+    <select class="sort-select" id="sortSelect" onchange="renderCards()">
+      <option value="default">เรียงตาม: ค่าเริ่มต้น</option>
+      <option value="alpha">ชื่อ ก–ฮ</option>
+      <option value="province">จังหวัด</option>
+      <option value="cost">ฟรีก่อน</option>
+    </select>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main class="main-wrap">
+  <div class="results-header">
+    <div class="results-count">แสดง <strong id="resultsNum">7</strong> สถานที่</div>
+    <div class="view-toggle">
+      <button class="view-btn active" onclick="setView('grid',this)" title="Grid">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="6" height="6" rx="1"/><rect x="10" y="0" width="6" height="6" rx="1"/><rect x="0" y="10" width="6" height="6" rx="1"/><rect x="10" y="10" width="6" height="6" rx="1"/></svg>
+      </button>
+      <button class="view-btn" onclick="setView('list',this)" title="List">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="16" height="3" rx="1"/><rect x="0" y="6" width="16" height="3" rx="1"/><rect x="0" y="12" width="16" height="3" rx="1"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div class="cards-grid" id="cardsGrid"></div>
+  <div class="no-results" id="noResults">
+    <div class="no-results-icon">
+      <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
+    </div>
+    <h3>ไม่พบสถานที่ที่ตรงกับเงื่อนไข</h3>
+    <p>ลองเปลี่ยนคำค้นหาหรือปรับตัวกรอง</p>
+  </div>
+</main>
+
+<footer class="page-footer">
+  <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · อัปเดต มีนาคม 2026 · <a href="temple-recommendation.html">แนะนำสถานที่ให้ฉัน →</a></p>
+</footer>
+
+<script>
+const TEMPLES = [
+{
+  id: "TH-NMA-001",
+  nameTh: "วัดป่าทรัพย์ทวีธรรมาราม",
+  nameEn: "Wat Pah Subthawee Dhammaram",
+  province: "นครราชสีมา",
+  district: "วังน้ำเขียว",
+  tradition: "ธรรมยุต – Dhammayut",
+  cost: "free",
+  tags: ["retreat", "ordain", "online", "women", "upcountry", "forest"],
+  actRetreats: true,
+  actOrdain: true,
+  actOnline: true,
+  actWomen: true,
+  isFree: true,
+  isBKK: false,
+  abbotTh: "พระอาจารย์กัณหา สุขกาโม",
+  blurb: "วัดป่าสายธรรมยุตกลางธรรมชาติวังน้ำเขียว นำโดยพระอาจารย์กัณหา สุขกาโม ฟรีทุกกิจกรรม | กิจกรรมประจำวัน: ตี 3 ตื่น → นั่งสมาธิ (03:00–05:00) → ทำวัตรเช้า (05:00–06:00) → ฉันอาหารมังสวิรัติ 1 มื้อ (07:30–...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "บวชพระ", "ออนไลน์", "ผู้หญิง/แม่ชี", "ธรรมยุต"],
+  gradient: "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+  link: "temple-detail.html?id=TH-NMA-001"
+},
+{
+  id: "TH-BKK-001",
+  nameTh: "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)",
+  nameEn: "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
+  province: "กรุงเทพมหานคร",
+  district: "จตุจักร",
+  tradition: "เถรวาท (แนวพุทธทาสภิกขุ) – Theravada (Buddhadasa tradition)",
+  cost: "free",
+  tags: ["bkk", "retreat", "online"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: true,
+  actWomen: false,
+  isFree: true,
+  isBKK: true,
+  abbotTh: "ไม่มีเจ้าอาวาส — บริหารโดยมูลนิธิหอจดหมายเหตุพุทธทาส อินทปัญโญ",
+  blurb: "หอจดหมายเหตุพุทธทาสในสวนรถไฟ จตุจักร เปิดฟรี ไม่รับบวช | เปิด พ.–อา. 09:00–17:00 (สโมสรธรรมทาน/ห้องสมุด), สวน 09:00–18:00 | กิจกรรมประจำสัปดาห์: ทำวัตรเช้าทุกเสาร์ 08:00–09:00, ทำวัตรเย็นทุกอาทิตย์ 17...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #0B3D2E, #1A6644)",
+  link: "temple-detail.html?id=TH-BKK-001"
+},
+{
+  id: "TH-BKK-002",
+  nameTh: "มูลนิธิบ้านอารีย์",
+  nameEn: "Baan Aree Foundation",
+  province: "กรุงเทพมหานคร",
+  district: "พญาไท",
+  tradition: "เถรวาท (แนวหลวงพ่อเทียน จิตฺตสุโภ — เจริญสติแบบเคลื่อนไหว) – Theravada (Luang Pho Tian moving-mindfulness tradition)",
+  cost: "free",
+  tags: ["bkk", "retreat"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: false,
+  actWomen: false,
+  isFree: true,
+  isBKK: true,
+  abbotTh: "ไม่มีเจ้าอาวาส — มูลนิธิฆราวาส พระอาจารย์หมุนเวียน",
+  blurb: "ห้องสมุดธรรมะและศูนย์ปฏิบัติธรรมฆราวาสย่านพญาไท สายหลวงพ่อเทียน จิตฺตสุโภ ฟรีทุกกิจกรรม สามารถร่วมได้ ณ มูลนิธิ หรือถ่ายทอดสดทาง Facebook / YouTube | วันจันทร์ 18:30–20:00: Monday Night Meditation — M...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+  link: "temple-detail.html?id=TH-BKK-002"
+},
+{
+  id: "TH-BKK-003",
+  nameTh: "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์",
+  nameEn: "International Vipassana Meditation Centre, Wat Mahadhatu",
+  province: "กรุงเทพมหานคร",
+  district: "พระนคร",
+  tradition: "เถรวาท – สายมหาสีสยาดอ – Theravada – Mahasi Sayadaw lineage",
+  cost: "free",
+  tags: ["bkk", "retreat", "women"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: false,
+  actWomen: true,
+  isFree: true,
+  isBKK: true,
+  abbotTh: "พระพรหมโมลี (วิลาศ ญาณวโร)",
+  blurb: "ศูนย์ปฏิบัติวิปัสสนากรรมฐานนานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์ ตั้งอยู่ในบริเวณ \"ส่วน 5\" ของวัด ริมถนนมหาราช ใจกลางกรุงเทพฯ ใกล้ท่าพระจันทร์ เปิดสอนวิปัสสนากรรมฐานในแนวทางมหาสีสยาดอ (พม่า) โดยเน้นการเด...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "ผู้หญิง/แม่ชี", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+  link: "temple-detail.html?id=TH-BKK-003"
+},
+{
+  id: "TH-BKK-004",
+  nameTh: "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)",
+  nameEn: "Young Buddhist Association of Thailand (YBAT)",
+  province: "กรุงเทพมหานคร",
+  district: "พระโขนง / หลายสาขา",
+  tradition: "เถรวาท – สายมหาสีสยาดอ / แนวทาง ยพส. – Theravada – Mahasi Sayadaw lineage / YBAT method",
+  cost: "free",
+  tags: ["bkk", "retreat", "ordain", "online", "women"],
+  actRetreats: true,
+  actOrdain: true,
+  actOnline: true,
+  actWomen: true,
+  isFree: true,
+  isBKK: true,
+  abbotTh: "คณะกรรมการบริหาร ยพส.",
+  blurb: "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.) ก่อตั้งปี พ.ศ. 2493 โดยนายสัญญา ธรรมศักดิ์ เป็นองค์กรพุทธฆราวาสชั้นนำของไทย มีศูนย์ปฏิบัติธรรม 4 แห่งในกรุงเทพฯ และเครือข่ายทั่วประเทศ สอนวิปัสสนาในแนวมหาสีสยาดอ เน้...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "บวชพระ", "ออนไลน์", "ผู้หญิง/แม่ชี", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+  link: "temple-detail.html?id=TH-BKK-004"
+},
+{
+  id: "TH-BKK-005",
+  nameTh: "สวนอุศม",
+  nameEn: "Suan Usom (Garden of Moral Purification)",
+  province: "กรุงเทพมหานคร",
+  district: "ประเวศ",
+  tradition: "เถรวาท – สายพุทธทาสภิกขุ (ธรรมทาน) – Theravada – Buddhadasa Bhikkhu lineage (Dhamma Dana)",
+  cost: "free",
+  tags: ["bkk", "retreat", "online", "women"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: true,
+  actWomen: true,
+  isFree: true,
+  isBKK: true,
+  abbotTh: "คณะกรรมการมูลนิธิสวนอุศม",
+  blurb: "สวนอุศม เป็นศูนย์ปฏิบัติธรรมแนวพุทธทาสภิกขุ ตั้งอยู่ในซอยอ่อนนุช 84/1 เขตประเวศ กรุงเทพฯ สะดวกเดินทางด้วยรถไฟฟ้า BTS สายสีเหลือง สถานีศรีอุดม ทางออก 1 เน้นการปฏิบัติตามแนว อานาปานสติและการพัฒนาจิต ท่า...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "ผู้หญิง/แม่ชี", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
+  link: "temple-detail.html?id=TH-BKK-005"
+},
+{
+  id: "TH-BKK-006",
+  nameTh: "เสถียรธรรมสถาน",
+  nameEn: "Sathira Dhammasathan",
+  province: "กรุงเทพมหานคร",
+  district: "บางเขน",
+  tradition: "เถรวาท – อานาปานสติ / สายพุทธทาส – Theravada – Anapanasati / Buddhadasa lineage",
+  cost: "paid",
+  tags: ["bkk", "retreat", "online", "women"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: true,
+  actWomen: true,
+  isFree: false,
+  isBKK: true,
+  abbotTh: "แม่ชีศันสนีย์ เสถียรสุต",
+  blurb: "เสถียรธรรมสถาน ก่อตั้งโดยแม่ชีศันสนีย์ เสถียรสุต ปี พ.ศ. 2534 ตั้งอยู่ในซ.วิภาวดีรังสิต 32 เขตจตุจักร กรุงเทพฯ เป็นศูนย์ปฏิบัติธรรมชั้นนำที่เน้นอานาปานสติ และเป็นที่รู้จักในโครงการ บวชชีพราหมณ์สำหรับส...",
+  costLabel: "มีค่าใช้จ่าย (รวมที่พักและอาหา",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "ผู้หญิง/แม่ชี", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+  link: "temple-detail.html?id=TH-BKK-006"
+},
+{
+  id: "TH-NMA-002",
+  nameTh: "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)",
+  nameEn: "Baan Rai Tor See Hermitage (Baan Boon)",
+  province: "นครราชสีมา",
+  district: "ปากช่อง",
+  tradition: "เถรวาท – สายหลวงพ่อชา (Thai Forest Tradition) – Theravada – Ajahn Chah Forest Tradition (Panyaprateep Foundation)",
+  cost: "free",
+  tags: ["retreat", "online", "upcountry", "forest"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: true,
+  actWomen: false,
+  isFree: true,
+  isBKK: false,
+  abbotTh: "พระอาจารย์ชยสาโร (ฌอน ชิเวอร์ตัน)",
+  blurb: "สถานพำนักสงฆ์บ้านไร่ทอสี ตั้งอยู่เชิงเขาใหญ่ อ.ปากช่อง เป็นสถานที่วิเวกของ พระอาจารย์ชยสาโร (Ajahn Jayasaro) พระภิกษุชาวอังกฤษในสายหลวงพ่อชา ผู้บวชตั้งแต่ปี 2523 และพำนักที่นี่ตั้งแต่ปี 2545 ภายใต้การ...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #0B3D2E, #1A6644)",
+  link: "temple-detail.html?id=TH-NMA-002"
+},
+{
+  id: "TH-CNX-001",
+  nameTh: "วัดพระธาตุศรีจอมทองวรวิหาร",
+  nameEn: "Wat Phra That Si Chom Thong Worawihan",
+  province: "เชียงใหม่",
+  district: "จอมทอง",
+  tradition: "เถรวาท – สายมหาสีสยาดอ (สาย พระอาจารย์ทอง สิริมังคโล) – Theravada – Mahasi Sayadaw lineage (Ajahn Tong Sirimangalo tradition)",
+  cost: "free",
+  tags: ["retreat", "ordain", "women", "upcountry"],
+  actRetreats: true,
+  actOrdain: true,
+  actOnline: false,
+  actWomen: true,
+  isFree: true,
+  isBKK: false,
+  abbotTh: "พระครูสิริมังคลาจารย์ (สืบต่อจาก พระอาจารย์ทอง สิริมังคโล ผู้ล่วงลับ ปี 2562)",
+  blurb: "วัดพระธาตุศรีจอมทองวรวิหาร ตั้งอยู่ที่อ.จอมทอง จ.เชียงใหม่ ห่างจากตัวเมืองประมาณ 58 กม. เป็นวัดสำคัญที่ประดิษฐานพระบรมธาตุ (พระอัฐิส่วนพระเศียร) ตั้งแต่ปี พ.ศ. 1995 และเป็นศูนย์วิปัสสนากรรมฐานชั้นนำระ...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "บวชพระ", "ผู้หญิง/แม่ชี", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+  link: "temple-detail.html?id=TH-CNX-001"
+},
+{
+  id: "TH-NMA-003",
+  nameTh: "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)",
+  nameEn: "Buddha Dhamma Satharn Panjakiri",
+  province: "นครราชสีมา",
+  district: "ปากช่อง (มวกเหล็ก / มูสี)",
+  tradition: "เถรวาท – สายพระอาจารย์มั่น (Thai Forest Tradition – กัมมัฏฐาน) – Theravada – Ajahn Mun Thai Forest Tradition (Kammatthana)",
+  cost: "free",
+  tags: ["retreat", "online", "upcountry", "forest"],
+  actRetreats: true,
+  actOrdain: false,
+  actOnline: true,
+  actWomen: false,
+  isFree: true,
+  isBKK: false,
+  abbotTh: "หลวงตาณรงค์ศักดิ์ ขีณาลโย (อดีตผู้พิพากษา บวชปี 2554)",
+  blurb: "พุทธธรรมสถานปัญจคีรี ตั้งอยู่ในป่าแถบมูสี อ.ปากช่อง ใกล้เขาใหญ่ เป็นที่พำนักของหลวงตาณรงค์ศักดิ์ ขีณาลโย อดีตผู้พิพากษาผู้บวชในปี พ.ศ. 2554 และปฏิบัติในสายพระอาจารย์มั่น ศึกษาธรรมกับครูบาอาจารย์หลายอง...",
+  costLabel: "ฟรี",
+  costClass: "chip-cost",
+  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "เถรวาท"],
+  gradient: "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+  link: "temple-detail.html?id=TH-NMA-003"
+}
+];
+
+let currentFilter = 'all';
+let currentView = 'grid';
+
+function escapeHTML(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function highlight(text, query) {
+  if (!query) return escapeHTML(text);
+  const escaped = escapeHTML(text);
+  const re = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+  return escaped.replace(re, '<mark>$1</mark>');
+}
+
+function getFiltered() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const sort = document.getElementById('sortSelect').value;
+
+  let list = TEMPLES.filter(t => {
+    // Filter
+    if (currentFilter === 'bkk' && !t.isBKK) return false;
+    if (currentFilter === 'upcountry' && t.isBKK) return false;
+    if (currentFilter === 'free' && !t.isFree) return false;
+    if (currentFilter === 'retreat' && !t.actRetreats) return false;
+    if (currentFilter === 'ordain' && !t.actOrdain) return false;
+    if (currentFilter === 'online' && !t.actOnline) return false;
+    if (currentFilter === 'women' && !t.actWomen) return false;
+    // Search
+    if (q) {
+      const haystack = (t.nameTh + t.nameEn + t.province + t.district + t.tradition + t.blurb).toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+
+  // Sort
+  if (sort === 'alpha') list.sort((a,b) => a.nameTh.localeCompare(b.nameTh, 'th'));
+  else if (sort === 'province') list.sort((a,b) => a.province.localeCompare(b.province, 'th'));
+  else if (sort === 'cost') list.sort((a,b) => (a.isFree === b.isFree ? 0 : a.isFree ? -1 : 1));
+
+  return list;
+}
+
+function renderCards() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const list = getFiltered();
+  const grid = document.getElementById('cardsGrid');
+  const noRes = document.getElementById('noResults');
+  document.getElementById('resultsNum').textContent = list.length;
+
+  if (list.length === 0) {
+    grid.innerHTML = '';
+    noRes.style.display = 'block';
+    return;
+  }
+  noRes.style.display = 'none';
+
+  grid.innerHTML = list.map(t => `
+    <a href="${t.link}" class="temple-card" data-id="${t.id}">
+      <div class="card-header" style="">
+        <div class="card-header-bg" style="background:${t.gradient}"></div>
+        <div class="card-header-overlay"></div>
+        <div class="card-id">${t.id}</div>
+        <div class="card-province">
+          <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          ${t.district}
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-name-th">${highlight(t.nameTh, q)}</div>
+        <div class="card-name-en">${highlight(t.nameEn, q)}</div>
+        <div class="card-tradition">${highlight(t.tradition, q)}</div>
+        <div class="card-blurb">${highlight(t.blurb, q)}</div>
+        <div class="card-chips">
+          <span class="chip ${t.costClass}">${t.costLabel}</span>
+          ${t.chips.map(c => `<span class="chip chip-y">${c}</span>`).join('')}
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="card-location">
+          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+          ${t.district}, ${t.province}
+        </div>
+        <div class="card-arrow">
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </div>
+      </div>
+    </a>
+  `).join('');
+}
+
+function setView(v, btn) {
+  currentView = v;
+  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  const grid = document.getElementById('cardsGrid');
+  if (v === 'list') {
+    grid.style.gridTemplateColumns = '1fr';
+  } else {
+    grid.style.gridTemplateColumns = '';
+  }
+}
+
+// Filter chips
+document.querySelectorAll('.filter-chip').forEach(chip => {
+  chip.addEventListener('click', function() {
+    document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+    this.classList.add('active');
+    currentFilter = this.dataset.filter;
+    renderCards();
+  });
+});
+
+// Search
+let searchTimer;
+document.getElementById('searchInput').addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(renderCards, 200);
+});
+
+// Initial render
+renderCards();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+</body>
+</html>
