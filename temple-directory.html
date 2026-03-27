@@ -266,6 +266,7 @@
       font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 8px;
     }
     .chip-y { background: #EFF8F2; color: var(--primary); border: 1px solid var(--secondary); }
+    .chip-green { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
     .chip-cost { background: #EFF8F2; color: var(--primary); border: 1px solid var(--secondary); }
     .chip-cost-paid { background: #FFF8EC; color: var(--accent-dark); border: 1px solid var(--accent-light); }
 
@@ -423,6 +424,7 @@ const TEMPLES = [
   id: "TH-NMA-001",
   nameTh: "วัดป่าทรัพย์ทวีธรรมาราม",
   nameEn: "Wat Pah Subthawee Dhammaram",
+  placeType: "วัด",
   province: "นครราชสีมา",
   district: "วังน้ำเขียว",
   tradition: "ธรรมยุต – Dhammayut",
@@ -446,6 +448,7 @@ const TEMPLES = [
   id: "TH-BKK-001",
   nameTh: "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)",
   nameEn: "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
+  placeType: "สถานปฏิบัติธรรม",
   province: "กรุงเทพมหานคร",
   district: "จตุจักร",
   tradition: "เถรวาท (แนวพุทธทาสภิกขุ) – Theravada (Buddhadasa tradition)",
@@ -469,6 +472,7 @@ const TEMPLES = [
   id: "TH-BKK-002",
   nameTh: "มูลนิธิบ้านอารีย์",
   nameEn: "Baan Aree Foundation",
+  placeType: "มูลนิธิ",
   province: "กรุงเทพมหานคร",
   district: "พญาไท",
   tradition: "เถรวาท (แนวหลวงพ่อเทียน จิตฺตสุโภ — เจริญสติแบบเคลื่อนไหว) – Theravada (Luang Pho Tian moving-mindfulness tradition)",
@@ -492,6 +496,7 @@ const TEMPLES = [
   id: "TH-BKK-003",
   nameTh: "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์",
   nameEn: "International Vipassana Meditation Centre, Wat Mahadhatu",
+  placeType: "สถานปฏิบัติธรรม",
   province: "กรุงเทพมหานคร",
   district: "พระนคร",
   tradition: "เถรวาท – สายมหาสีสยาดอ – Theravada – Mahasi Sayadaw lineage",
@@ -515,6 +520,7 @@ const TEMPLES = [
   id: "TH-BKK-004",
   nameTh: "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)",
   nameEn: "Young Buddhist Association of Thailand (YBAT)",
+  placeType: "มูลนิธิ",
   province: "กรุงเทพมหานคร",
   district: "พระโขนง / หลายสาขา",
   tradition: "เถรวาท – สายมหาสีสยาดอ / แนวทาง ยพส. – Theravada – Mahasi Sayadaw lineage / YBAT method",
@@ -538,6 +544,7 @@ const TEMPLES = [
   id: "TH-BKK-005",
   nameTh: "สวนอุศม",
   nameEn: "Suan Usom (Garden of Moral Purification)",
+  placeType: "Wellness Space",
   province: "กรุงเทพมหานคร",
   district: "ประเวศ",
   tradition: "เถรวาท – สายพุทธทาสภิกขุ (ธรรมทาน) – Theravada – Buddhadasa Bhikkhu lineage (Dhamma Dana)",
@@ -561,6 +568,7 @@ const TEMPLES = [
   id: "TH-BKK-006",
   nameTh: "เสถียรธรรมสถาน",
   nameEn: "Sathira Dhammasathan",
+  placeType: "สถานปฏิบัติธรรม",
   province: "กรุงเทพมหานคร",
   district: "บางเขน",
   tradition: "เถรวาท – อานาปานสติ / สายพุทธทาส – Theravada – Anapanasati / Buddhadasa lineage",
@@ -584,6 +592,7 @@ const TEMPLES = [
   id: "TH-NMA-002",
   nameTh: "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)",
   nameEn: "Baan Rai Tor See Hermitage (Baan Boon)",
+  placeType: "Wellness Space",
   province: "นครราชสีมา",
   district: "ปากช่อง",
   tradition: "เถรวาท – สายหลวงพ่อชา (Thai Forest Tradition) – Theravada – Ajahn Chah Forest Tradition (Panyaprateep Foundation)",
@@ -607,6 +616,7 @@ const TEMPLES = [
   id: "TH-CNX-001",
   nameTh: "วัดพระธาตุศรีจอมทองวรวิหาร",
   nameEn: "Wat Phra That Si Chom Thong Worawihan",
+  placeType: "วัด",
   province: "เชียงใหม่",
   district: "จอมทอง",
   tradition: "เถรวาท – สายมหาสีสยาดอ (สาย พระอาจารย์ทอง สิริมังคโล) – Theravada – Mahasi Sayadaw lineage (Ajahn Tong Sirimangalo tradition)",
@@ -630,6 +640,7 @@ const TEMPLES = [
   id: "TH-NMA-003",
   nameTh: "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)",
   nameEn: "Buddha Dhamma Satharn Panjakiri",
+  placeType: "สถานปฏิบัติธรรม",
   province: "นครราชสีมา",
   district: "ปากช่อง (มวกเหล็ก / มูสี)",
   tradition: "เถรวาท – สายพระอาจารย์มั่น (Thai Forest Tradition – กัมมัฏฐาน) – Theravada – Ajahn Mun Thai Forest Tradition (Kammatthana)",
@@ -723,6 +734,7 @@ function renderCards() {
         <div class="card-name-en">${highlight(t.nameEn, q)}</div>
         <div class="card-blurb">${highlight(t.blurb, q)}</div>
         <div class="card-chips">
+          ${t.placeType ? `<span class="chip chip-green">${t.placeType}</span>` : ''}
           ${t.chips.filter(c => !["ฟรี","ธรรมยุต","เถรวาท"].includes(c)).map(c => `<span class="chip chip-y">${c}</span>`).join('')}
         </div>
       </div>
