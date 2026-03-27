@@ -585,11 +585,6 @@
       <div id="retreat" class="section">
         <h2 class="section-title">คอร์สปฏิบัติธรรม</h2>
 
-        <div class="callout">
-          <div class="callout-title"><svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M9 21h6M12 3a6 6 0 00-4 10.5V17h8v-3.5A6 6 0 0012 3z"/></svg> จุดเด่น</div>
-          <div class="callout-body" id="callout-body">ข้อมูลกำลังโหลด...</div>
-        </div>
-
         <div class="card">
           <div class="info-row">
             <div class="info-label">ระยะเวลาขั้นต่ำ</div>
@@ -619,6 +614,11 @@
           <div class="info-row">
             <div class="info-label">เงื่อนไขบวช</div>
             <div class="info-value" id="info-ord-prereq">-</div>
+          </div>
+          <div class="divider" style="margin:16px 0"></div>
+          <div style="font-size:13px; color:var(--muted); line-height:1.5;">
+            <span style="font-weight:600; color:var(--foreground);">ค่าใช้จ่ายโดยประมาณ:</span>
+            <span id="info-cost-bottom">-</span>
           </div>
         </div>
       </div>
@@ -683,34 +683,14 @@
     <!-- RIGHT SIDEBAR -->
     <aside class="sidebar">
 
-      <!-- QUICK FACTS -->
+      <!-- HIGHLIGHTS -->
       <div class="sidebar-card">
-        <div class="sidebar-header">
-          <h3>ค่าใช้จ่ายโดยประมาณ</h3>
-          <div class="price" id="sidebar-price">ดูที่หน้า</div>
-          <div class="price-sub" id="sidebar-price-sub">ต่อคอร์ส</div>
+        <div style="padding:18px 22px 6px; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--primary)">
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M9 21h6M12 3a6 6 0 00-4 10.5V17h8v-3.5A6 6 0 0012 3z"/></svg>
+          จุดเด่น
         </div>
-        <div class="sidebar-body">
-          <div class="sidebar-row">
-            <span class="sidebar-label">ระยะขั้นต่ำ</span>
-            <span class="sidebar-value" id="sidebar-min-days">-</span>
-          </div>
-          <div class="sidebar-row">
-            <span class="sidebar-label">ความจุ</span>
-            <span class="sidebar-value" id="sidebar-capacity">-</span>
-          </div>
-          <div class="sidebar-row">
-            <span class="sidebar-label">จองล่วงหน้า</span>
-            <span class="sidebar-value" id="sidebar-booking" style="color:var(--primary)">-</span>
-          </div>
-          <div class="sidebar-row">
-            <span class="sidebar-label">อาหาร</span>
-            <span class="sidebar-value" id="sidebar-meal">-</span>
-          </div>
-          <div class="sidebar-row">
-            <span class="sidebar-label">บวชชีพราหมณ์</span>
-            <span class="sidebar-value" id="sidebar-ord" style="color:var(--primary)">-</span>
-          </div>
+        <div class="sidebar-body" style="padding-top:8px">
+          <div style="font-size:14px; color:var(--foreground); line-height:1.6;" id="callout-body">ข้อมูลกำลังโหลด...</div>
           <div style="margin-top:16px;">
             <a href="#" target="_blank" class="btn btn-primary" style="width:100%; justify-content:center;" id="sidebar-btn-register">
               สมัครคอร์ส →
@@ -1751,14 +1731,8 @@ const TEMPLES_DETAIL = {
     document.getElementById('map-link').href = 'https://maps.google.com/?q=' + mapQuery;
     document.getElementById('map-address').textContent = temple.district + ', ' + temple.province;
 
-    // Update sidebar info
-    document.getElementById('sidebar-price').textContent = temple.retreatInfo.cost.split('(')[0].trim();
-    document.getElementById('sidebar-price-sub').textContent = 'ต่อคอร์ส';
-    document.getElementById('sidebar-min-days').textContent = temple.retreatInfo.minDays === 'N/A' ? '-' : temple.retreatInfo.minDays + ' วัน';
-    document.getElementById('sidebar-capacity').textContent = temple.retreatInfo.capacity + ' คน';
-    document.getElementById('sidebar-booking').innerHTML = temple.retreatInfo.bookingReq ? '✅ จำเป็น' : '❌ ไม่จำเป็น';
-    document.getElementById('sidebar-meal').textContent = temple.schedule.mealType || 'ดูที่หน้า';
-    document.getElementById('sidebar-ord').innerHTML = temple.ordinationInfo.minDays === 'N/A' ? '❌ ไม่มี' : '✅ (' + temple.ordinationInfo.minDays + ' วัน)';
+    // Update cost info at bottom of retreat section
+    document.getElementById('info-cost-bottom').textContent = temple.retreatInfo.cost || '-';
 
     // Update contact list
     let contactHtml = '';
