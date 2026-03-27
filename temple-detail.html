@@ -1677,9 +1677,8 @@ const TEMPLES_DETAIL = {
 
     // Update activities grid
     let activitiesHtml = '';
-    temple.activities.forEach(activity => {
-      const className = activity.available ? 'yes' : 'no';
-      activitiesHtml += '<div class="activity-chip ' + className + '"><div class="activity-dot"></div>' + activity.name + '</div>';
+    temple.activities.filter(activity => activity.available).forEach(activity => {
+      activitiesHtml += '<div class="activity-chip yes"><div class="activity-dot"></div>' + activity.name + '</div>';
     });
     document.getElementById('activities-grid').innerHTML = activitiesHtml;
 
