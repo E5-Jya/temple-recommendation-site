@@ -692,6 +692,16 @@
               สมัครคอร์ส →
             </a>
           </div>
+          <div style="border-top:1px solid var(--border-light); margin-top:16px; padding-top:14px;">
+            <div class="info-row"><div class="info-label">ระยะขั้นต่ำ</div><div class="info-value" id="sidebar-min-days">-</div></div>
+            <div class="info-row"><div class="info-label">ความจุ</div><div class="info-value" id="sidebar-capacity">-</div></div>
+            <div class="info-row"><div class="info-label">จองล่วงหน้า</div><div class="info-value" id="sidebar-booking">-</div></div>
+            <div class="info-row"><div class="info-label">อาหาร</div><div class="info-value" id="sidebar-meal">-</div></div>
+            <div class="info-row"><div class="info-label">บวชชีพราหมณ์</div><div class="info-value" id="sidebar-ordination">-</div></div>
+            <div style="border-top:1px solid var(--border-light); margin-top:12px; padding-top:12px;">
+              <div class="info-row"><div class="info-label">ค่าใช้จ่ายโดยประมาณ</div><div class="info-value" id="sidebar-cost">-</div></div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -1728,6 +1738,14 @@ const TEMPLES_DETAIL = {
 
     // Update cost info at bottom of retreat section
     document.getElementById('info-cost-bottom').textContent = temple.retreatInfo.cost || '-';
+
+    // Update sidebar retreat info
+    document.getElementById('sidebar-min-days').textContent = temple.retreatInfo.minDays === 'N/A' ? 'ไม่ระบุ' : temple.retreatInfo.minDays + ' วัน';
+    document.getElementById('sidebar-capacity').textContent = temple.retreatInfo.capacity + ' คน';
+    document.getElementById('sidebar-booking').innerHTML = temple.retreatInfo.bookingReq ? '✅ จำเป็น' : '❌ ไม่ต้องจอง';
+    document.getElementById('sidebar-meal').textContent = temple.schedule.mealType || '-';
+    document.getElementById('sidebar-ordination').textContent = temple.ordinationInfo.minDays === 'N/A' ? 'ไม่มีโครงการ' : temple.ordinationInfo.minDays + ' วัน';
+    document.getElementById('sidebar-cost').textContent = temple.retreatInfo.cost || '-';
 
     // Update contact list
     let contactHtml = '';
