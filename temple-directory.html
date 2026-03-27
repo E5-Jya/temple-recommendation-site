@@ -723,8 +723,7 @@ function renderCards() {
         <div class="card-name-en">${highlight(t.nameEn, q)}</div>
         <div class="card-blurb">${highlight(t.blurb, q)}</div>
         <div class="card-chips">
-          <span class="chip ${t.costClass}">${t.costLabel}</span>
-          ${t.chips.map(c => `<span class="chip chip-y">${c}</span>`).join('')}
+          ${t.chips.filter(c => !["ฟรี","ธรรมยุต","เถรวาท"].includes(c)).map(c => `<span class="chip chip-y">${c}</span>`).join('')}
         </div>
       </div>
       <div class="card-footer">
