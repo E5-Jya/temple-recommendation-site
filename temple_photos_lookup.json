@@ -1,0 +1,743 @@
+[
+  {
+    "temple_id": "TH-NMA-001",
+    "name_en": "Wat Pah Subthawee Dhammaram",
+    "name_th": "วัดป่าทรัพย์ทวีธรรมาราม",
+    "hex_cid": "0x311c1555aee70d7d:0x56c57cf9db216038",
+    "place_id": "ChIJfQ3nrlUVHDEROGAh2_l8xVY",
+    "matched_name": "Wat Pha Subthawee Dhammaram",
+    "rating": 4.8,
+    "total_ratings": 656,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEFUfm1pOT2qLWNCxKPxRGb7knhtStomIY8oTPPmFhiISdOOWCU24sQK0Y2DdRwoxZgMCuecgi1DiqMRagV5jm1Df1KpKlTarnmyxSMDvOAdqeq54tLIWr3VDHImn_Uk19OtMptAb76bCmKQdael_u5DI4KxbhuolDuvnMouu0xm4i5TQwI2UtucUSUS42UbHQHCMGvhBzs09oSX8_5_ZLpbdNRjLHLvhymekfio-2VDtwZwh-AT7bsv50vyETiY7_naxQzzdYEG2lCIhw3OwfeQ1NONbOVE-PyyejsdtGv8Gg",
+        "width": 3232,
+        "height": 1296,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFUfm1pOT2qLWNCxKPxRGb7knhtStomIY8oTPPmFhiISdOOWCU24sQK0Y2DdRwoxZgMCuecgi1DiqMRagV5jm1Df1KpKlTarnmyxSMDvOAdqeq54tLIWr3VDHImn_Uk19OtMptAb76bCmKQdael_u5DI4KxbhuolDuvnMouu0xm4i5TQwI2UtucUSUS42UbHQHCMGvhBzs09oSX8_5_ZLpbdNRjLHLvhymekfio-2VDtwZwh-AT7bsv50vyETiY7_naxQzzdYEG2lCIhw3OwfeQ1NONbOVE-PyyejsdtGv8Gg&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115767801528663508347\">Wat Pha Subthawee Dhammaram</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEF6AX99_Tqh9F6ylVPit-r6XTD1xqFcOUNSJuwDZZXZrgp89AggYwUlshTkArx97OxJNopfssu6ML-2t7EyGXo1pJr7X5eLDX4fbuVMobcDOdpYbiXzu87v8FvQFL_H6Jt20SNu76EbLdSffb41HnWh07FlEjn7P-voFi-F8hJLcejfte4Qa_QQfVNiUgTk8rLMTD87l82sPOEMGg2lHc4Qx3TOToyFYFE2RE7SuRks5nMYZBS90Xuq-DAkGhCRhzQhj1eWCV_L2uLT7EIgiBsafk3NOOAVwXov3aWDuiyoAV3iqb1_nXXHLaJt3xVGbVz-3hUF3zP11KvSe1LcpSovQRDRKe7tdVpvWn5ukxcIkgridEvS_HZ8A71UdrDnF28Gd4NJjVuyL8woXQuzZS9hkktLtW4ZsNr2fhu5sk4Om3c-",
+        "width": 4032,
+        "height": 2268,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEF6AX99_Tqh9F6ylVPit-r6XTD1xqFcOUNSJuwDZZXZrgp89AggYwUlshTkArx97OxJNopfssu6ML-2t7EyGXo1pJr7X5eLDX4fbuVMobcDOdpYbiXzu87v8FvQFL_H6Jt20SNu76EbLdSffb41HnWh07FlEjn7P-voFi-F8hJLcejfte4Qa_QQfVNiUgTk8rLMTD87l82sPOEMGg2lHc4Qx3TOToyFYFE2RE7SuRks5nMYZBS90Xuq-DAkGhCRhzQhj1eWCV_L2uLT7EIgiBsafk3NOOAVwXov3aWDuiyoAV3iqb1_nXXHLaJt3xVGbVz-3hUF3zP11KvSe1LcpSovQRDRKe7tdVpvWn5ukxcIkgridEvS_HZ8A71UdrDnF28Gd4NJjVuyL8woXQuzZS9hkktLtW4ZsNr2fhu5sk4Om3c-&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114363380655571287391\">Nada</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEF0hth83Fa6jE71VrHpsjWE-_pEv-cXStsFYUXY72B-PHc3CUvGExXVK-yq8tv5hGZZxEohcTGs1Opt_o-_Dwy4rQH2Ug1zwkFCFnoxJ0f9xjATqLo8_WTNYx646GUCzIrQ-XnrQnUJuZ6VoHUgzaKIkW1mgwyWliOFargMRtR_8kWGC6BKXoAMGp036ELuznQ9G3o46tPoxwd9tMvhBzW__ni6ZiQAUv8Er3GdFfgW3gMHKSlvHN_pEf4TvV_67rGVMRDCsKQgf4lzPKubaUZZ8EgixPag2TTpPCIXUQT3NUvaVorNpcnUd2z5EBFUhl8iydi03TXVMJFgpiCed6r1e_EO_uelyoQzmd4dMPNZeECSN3VmHKBPs1xgx_yIOnaTfpCBDw9KlSdVo5FvH6gQiDYXTcEASwQEuoNDKd6i8g",
+        "width": 2674,
+        "height": 2965,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEF0hth83Fa6jE71VrHpsjWE-_pEv-cXStsFYUXY72B-PHc3CUvGExXVK-yq8tv5hGZZxEohcTGs1Opt_o-_Dwy4rQH2Ug1zwkFCFnoxJ0f9xjATqLo8_WTNYx646GUCzIrQ-XnrQnUJuZ6VoHUgzaKIkW1mgwyWliOFargMRtR_8kWGC6BKXoAMGp036ELuznQ9G3o46tPoxwd9tMvhBzW__ni6ZiQAUv8Er3GdFfgW3gMHKSlvHN_pEf4TvV_67rGVMRDCsKQgf4lzPKubaUZZ8EgixPag2TTpPCIXUQT3NUvaVorNpcnUd2z5EBFUhl8iydi03TXVMJFgpiCed6r1e_EO_uelyoQzmd4dMPNZeECSN3VmHKBPs1xgx_yIOnaTfpCBDw9KlSdVo5FvH6gQiDYXTcEASwQEuoNDKd6i8g&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107059216395247227059\">ประภาส เตชะกฤตเมธีพงศ์</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-BKK-001",
+    "name_en": "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
+    "name_th": "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)",
+    "hex_cid": "0x30e29c5c3ae3e9fd:0xd2c3d67377169d83",
+    "place_id": "ChIJ_enjOlyc4jARg50Wd3PWw9I",
+    "matched_name": "Suan Mokkh Bangkok",
+    "rating": 4.8,
+    "total_ratings": 1024,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEGMmObeumLtK4WIA2236JPj4TXrTA86t0bHi1sogfQ62LIKlG8OPT9H6wV8z8uRal4tHTB7bZPIYPexLwScbzQwW7lMIcikBb-YS4U5IvKB7tL-lQkSi5QCKPKQLNU15BujqbV2VQhYBn4-ZVU0dTQJsLxA4y7ZPjMV54Gvl_eJz9gpnZn8jwWu9VEsLInQwV0LdSmWsro5zRZLysJUISaGk9iV0w6C_-tdQd_kn4wZjXArai2PKtc1lHRfenxPElL74DQByF0SAXT6ycLFY_zwSpW0WVhgtlEk6ug2xYQoHg",
+        "width": 1478,
+        "height": 1108,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGMmObeumLtK4WIA2236JPj4TXrTA86t0bHi1sogfQ62LIKlG8OPT9H6wV8z8uRal4tHTB7bZPIYPexLwScbzQwW7lMIcikBb-YS4U5IvKB7tL-lQkSi5QCKPKQLNU15BujqbV2VQhYBn4-ZVU0dTQJsLxA4y7ZPjMV54Gvl_eJz9gpnZn8jwWu9VEsLInQwV0LdSmWsro5zRZLysJUISaGk9iV0w6C_-tdQd_kn4wZjXArai2PKtc1lHRfenxPElL74DQByF0SAXT6ycLFY_zwSpW0WVhgtlEk6ug2xYQoHg&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103764165962054319947\">สวนโมกข์กรุงเทพ</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEE3I5foIl5zcal9dzbfgFUIyVwyAeEw5zbu1GL-eMxKE3a0cTekQsM6hmS65t2GeTlkLlu9n00Fv1xv8elgT6TTBL3m0CB468baRxuRYTlhck9uig_SsiaEMoJayqkU-ZuNagDk45osOe1ykzFSJiYijj_U0jabez_k_4QvwdZFRZ7WFxH0YPJMhwABcN84nd87VYEIeArowg-oKTfyas6VP7ZPLXKQcoNSx88pc8hM4HnEUTvlEVSDebPTLIJ9xIl2Tkz1c6KQtUHH5T2_zsvQFTBqL3PIs5dCOfG1anePTQ897oJw8bZyFYldQd-Ln3bP1ASUzEXiSna2WJif0cRtonFo-QXVEvGcNbIGwiGKs7v9RBCORl6MD6MuXKYJQz0HVdsSTTMxLuO_V_xOIjVRE3yjn2n9rgoG8-oM0as",
+        "width": 2371,
+        "height": 3379,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEE3I5foIl5zcal9dzbfgFUIyVwyAeEw5zbu1GL-eMxKE3a0cTekQsM6hmS65t2GeTlkLlu9n00Fv1xv8elgT6TTBL3m0CB468baRxuRYTlhck9uig_SsiaEMoJayqkU-ZuNagDk45osOe1ykzFSJiYijj_U0jabez_k_4QvwdZFRZ7WFxH0YPJMhwABcN84nd87VYEIeArowg-oKTfyas6VP7ZPLXKQcoNSx88pc8hM4HnEUTvlEVSDebPTLIJ9xIl2Tkz1c6KQtUHH5T2_zsvQFTBqL3PIs5dCOfG1anePTQ897oJw8bZyFYldQd-Ln3bP1ASUzEXiSna2WJif0cRtonFo-QXVEvGcNbIGwiGKs7v9RBCORl6MD6MuXKYJQz0HVdsSTTMxLuO_V_xOIjVRE3yjn2n9rgoG8-oM0as&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117593843131473895795\">vipawee lsk</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEHD5E9b5vio20GwCUyG3_QgkrhGTwQgWUzwOHHPLrFZfrmioNantac8BbbOXBqg94PGG-tSU07m8Sp5tJ7ivYgJIsG4mytZTN1bTwfxEHlGjwQ-WQLMvvtWG0yCR2bsrXTaaF6uEswphJqGWKADG3qKY5LacKOUx3k1RJCjMXJU7B75E6UzlRID9yq3iH7JRKx-eodlrzyQjyCzV-c486UTLwP1Tj4QC9zNGy7j7vLtutWeEaWQfmixChl7e9tfOpIUY-5rU8lPrVccqw0_1u8O_HsPeDfuwnsbJRiYwcv7MklK36JzPGKbAql-QIaL_fR9wkSzz8nu1h6Og5K78yoNOhCIXTEyydMUDhQRD7uxEBGWjrBO2EsfYAil2z37OOOyC0Ayc4fftqq8OQoIAAFVo6yvz8PEwsfmUwl3n_hh_g",
+        "width": 3280,
+        "height": 2464,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHD5E9b5vio20GwCUyG3_QgkrhGTwQgWUzwOHHPLrFZfrmioNantac8BbbOXBqg94PGG-tSU07m8Sp5tJ7ivYgJIsG4mytZTN1bTwfxEHlGjwQ-WQLMvvtWG0yCR2bsrXTaaF6uEswphJqGWKADG3qKY5LacKOUx3k1RJCjMXJU7B75E6UzlRID9yq3iH7JRKx-eodlrzyQjyCzV-c486UTLwP1Tj4QC9zNGy7j7vLtutWeEaWQfmixChl7e9tfOpIUY-5rU8lPrVccqw0_1u8O_HsPeDfuwnsbJRiYwcv7MklK36JzPGKbAql-QIaL_fR9wkSzz8nu1h6Og5K78yoNOhCIXTEyydMUDhQRD7uxEBGWjrBO2EsfYAil2z37OOOyC0Ayc4fftqq8OQoIAAFVo6yvz8PEwsfmUwl3n_hh_g&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101589403918048598214\">Jude จู๊ด</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-BKK-002",
+    "name_en": "Baan Aree Foundation",
+    "name_th": "มูลนิธิบ้านอารีย์",
+    "hex_cid": "0x30e29ea79eb6686d:0xf0649f1384637df4",
+    "place_id": "ChIJbWi2nqee4jAR9H1jhBOfZPA",
+    "matched_name": "มูลนิธิบ้านอารีย์ (Baan Aree Foundation)",
+    "rating": 4.5,
+    "total_ratings": 133,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEFXBjQ6r0CzGHC0HPVaQR6XGcArF8Zt44GDchpVeqJ6BrjDHsV06ufr7m-TUu-TqtqRdfAAQhSSNaMA2KLLKGQUV-FybzTFxV-C_KWTnan2P8ojKAO5dBQffcjU3EPfBTvyIoYVhi17nPKc88--UqnjpbroIVKw-U7YBNFCrBzxiT-t6QuVZjvUqbF5rrFUplcDdfccgzDHvUS0pW1tNShfH0zVCa7ReJdux4lyLMbDiXzLidVsRn-MMTsWV2Ndw6CMKcVSJwyeFE6OSE6v0dCeJXtqJWhB7SkW9vNfaCugDo9b61qCllwvHiyQbYmiZ7tauf4YE1PAp8d018gFI2HVN_8t19EYm6r8Hn7HEfEZjq4F6wm6PrEzPMuPm2e6Fy6JXVqhmdBfqdazb6H5sXQp9PYSXRdTRjbDDegwZyY",
+        "width": 600,
+        "height": 800,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFXBjQ6r0CzGHC0HPVaQR6XGcArF8Zt44GDchpVeqJ6BrjDHsV06ufr7m-TUu-TqtqRdfAAQhSSNaMA2KLLKGQUV-FybzTFxV-C_KWTnan2P8ojKAO5dBQffcjU3EPfBTvyIoYVhi17nPKc88--UqnjpbroIVKw-U7YBNFCrBzxiT-t6QuVZjvUqbF5rrFUplcDdfccgzDHvUS0pW1tNShfH0zVCa7ReJdux4lyLMbDiXzLidVsRn-MMTsWV2Ndw6CMKcVSJwyeFE6OSE6v0dCeJXtqJWhB7SkW9vNfaCugDo9b61qCllwvHiyQbYmiZ7tauf4YE1PAp8d018gFI2HVN_8t19EYm6r8Hn7HEfEZjq4F6wm6PrEzPMuPm2e6Fy6JXVqhmdBfqdazb6H5sXQp9PYSXRdTRjbDDegwZyY&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110790961686242047114\">Darin Tangsongjitrakul</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGfqmuXuCz4RUbBVOdSpdcWGx9A1RN5LbaRAWRSEh4j11MydTWKjZGJGMEqg2E_eWFU8_i9d8pryQNqjcGShbItEFEB5_j_CULSXUlnkuBEXLnt9gASv5AMHx8DpfDRWX7IQsHmZsQiPahyhH7fCuclms7UqpGK3ElDh8EewLgocIBat19voWtsQnGu14cArmrS9y0ytFhlDjTpnqpt-iMdWzkeK97347yJGVogDeA_ZLugH2buJfxMyZFFwRvA4aSZn91FDiAv-3TQXa9ZCYpCdaGzPSg19SEr065WThTpa-2RUF0dkMirCAT9vdwLphgE2mqSg5jhUbrGsf5aLFBSeFgMpl4D_DDIxErMohugMaAyQSfrH7kDONtKb1tXowOsYojPpVBe1OgYG6O2WITsFPLbYrv-CvlH7QKYMueeRA",
+        "width": 3024,
+        "height": 4032,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGfqmuXuCz4RUbBVOdSpdcWGx9A1RN5LbaRAWRSEh4j11MydTWKjZGJGMEqg2E_eWFU8_i9d8pryQNqjcGShbItEFEB5_j_CULSXUlnkuBEXLnt9gASv5AMHx8DpfDRWX7IQsHmZsQiPahyhH7fCuclms7UqpGK3ElDh8EewLgocIBat19voWtsQnGu14cArmrS9y0ytFhlDjTpnqpt-iMdWzkeK97347yJGVogDeA_ZLugH2buJfxMyZFFwRvA4aSZn91FDiAv-3TQXa9ZCYpCdaGzPSg19SEr065WThTpa-2RUF0dkMirCAT9vdwLphgE2mqSg5jhUbrGsf5aLFBSeFgMpl4D_DDIxErMohugMaAyQSfrH7kDONtKb1tXowOsYojPpVBe1OgYG6O2WITsFPLbYrv-CvlH7QKYMueeRA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109134961410542948176\">Booz Bhumirat</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEEYGceQ_Mxz17ha4a9BtYgTSq3xfGh8kuLCfdwciGMNx4S6k-_B25nNksEKFNrLj3nSSUIADX6HTwkLseNicEh9IEi0XYAEp1gfxgL3qzeEOqwPMtRujTMj57urcshoYo2c0goqfcJK1GZeOrGWqBR-UGQplPHsMrpiadtlZnKiQKf1p09JUPWUWJzcEw4V_EEos5KcIj0QZ0p6KtZpZqop4onVF96nevF8g2zmYOYgS32E5Kz4BOenN0antMCCEyDWNrxwhJmpYzkpPrHWbfExYGXWnOe_HRLXy2edKHig__WPAYo2fzpmZqaRMqIBONStjVUcA0mffm54-wgKvoMGlAYnX3zrfdA6Nnn9hQZImdmbN8TYlIPHLJO5b2W7MlRISgLEgRQ-y2LYoKu0YXjjJhFokaNrT61vSIxZIpivyAw",
+        "width": 3064,
+        "height": 3064,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEYGceQ_Mxz17ha4a9BtYgTSq3xfGh8kuLCfdwciGMNx4S6k-_B25nNksEKFNrLj3nSSUIADX6HTwkLseNicEh9IEi0XYAEp1gfxgL3qzeEOqwPMtRujTMj57urcshoYo2c0goqfcJK1GZeOrGWqBR-UGQplPHsMrpiadtlZnKiQKf1p09JUPWUWJzcEw4V_EEos5KcIj0QZ0p6KtZpZqop4onVF96nevF8g2zmYOYgS32E5Kz4BOenN0antMCCEyDWNrxwhJmpYzkpPrHWbfExYGXWnOe_HRLXy2edKHig__WPAYo2fzpmZqaRMqIBONStjVUcA0mffm54-wgKvoMGlAYnX3zrfdA6Nnn9hQZImdmbN8TYlIPHLJO5b2W7MlRISgLEgRQ-y2LYoKu0YXjjJhFokaNrT61vSIxZIpivyAw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/105771736973266512954\">taro “taromoch” moch</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-BKK-003",
+    "name_en": "International Vipassana Meditation Centre, Wat Mahadhatu",
+    "name_th": "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์",
+    "hex_cid": "0x30e2990bf4c6b303:0x40c27f34f9e12b23",
+    "place_id": "ChIJKUA9EUCZ4jAROA-r0bV3npM",
+    "matched_name": "International Meditation Practice Center",
+    "rating": 4.8,
+    "total_ratings": 34,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEEV_BFcHQ9_yWsuFTVcr6fRb9hNIsmLmVUu0N13E4GIOouaKZ7Jh0a9BU1WWkYBBuuD8SbW7UrirpU8irbcvhbtf3yZIz2-jKRPrMZpYOeeIip8V6scJsoMFYG0leOL0L-KiYzA7KIY2NfHZDvehkOYxy8REgekT06WE9k303_3XvuiC4p-mKS3nN-iqfGmbIaiUZeA14uZMufsOo2WeDCxQMcpOIp3mx8qRw8Neo40y69Z6l7XDs-Q3r0IyOBKnN1D09CMSPqsmCpMI35s65n7-o3V_WYwli1H3wPNNMjTJqtIe95IBxl_vRCVAR4gi2camWV1dZsIdv0pWbTMrLn6A8mTpcsLsEMtl7PitCsSOtbrgy63m4dSo_W73rp5G1v1Ye3jVq1uC0QlG2TCP3dSDZ-zfmnEWRE5A41fZMbnw9A",
+        "width": 2048,
+        "height": 1365,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEV_BFcHQ9_yWsuFTVcr6fRb9hNIsmLmVUu0N13E4GIOouaKZ7Jh0a9BU1WWkYBBuuD8SbW7UrirpU8irbcvhbtf3yZIz2-jKRPrMZpYOeeIip8V6scJsoMFYG0leOL0L-KiYzA7KIY2NfHZDvehkOYxy8REgekT06WE9k303_3XvuiC4p-mKS3nN-iqfGmbIaiUZeA14uZMufsOo2WeDCxQMcpOIp3mx8qRw8Neo40y69Z6l7XDs-Q3r0IyOBKnN1D09CMSPqsmCpMI35s65n7-o3V_WYwli1H3wPNNMjTJqtIe95IBxl_vRCVAR4gi2camWV1dZsIdv0pWbTMrLn6A8mTpcsLsEMtl7PitCsSOtbrgy63m4dSo_W73rp5G1v1Ye3jVq1uC0QlG2TCP3dSDZ-zfmnEWRE5A41fZMbnw9A&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113767442036922856463\">เกรียงไกร สัตยวงศ์ทิพย์</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGQbLbPTSmVsr-pZSE2fPBIibPtKwZ-n7CTWFSpG_2_cxy7_VhCqcKjZnqxxHgdwTXS-OZpELYiVUD-K9JRe-Y1eKFIDXZq0tWlebU6U1Y9WTyuSFuOdU8LveihP4hh1wqobbwPUHj3ogdlh4qcEjNUCpTH69q1R_enfpY6g6wFQD2OVPC04qAmusAzmJ0MwsQsW90Ozw0PPgBZyoagex89G9c2FLdsRXYa8URtoFU5Tk9Jtw-g4pOjYt-25GCE0ejTKp4T_QcA8YYBW54tGAYUQQaOyUNvR62xxSkx-ty6B-b1H02rrN_eoO66jy7wcVeatg0Q4onDrvOXqzxlJB2lh9-aBDpG0hkGnHIpqoUpalhzEQCvJgXljB2yUwF-mUSBd8ZZQa4dszNlFmU-Gsn04UBwp-U6Jv4RzlZpZWG8ew",
+        "width": 3024,
+        "height": 4032,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGQbLbPTSmVsr-pZSE2fPBIibPtKwZ-n7CTWFSpG_2_cxy7_VhCqcKjZnqxxHgdwTXS-OZpELYiVUD-K9JRe-Y1eKFIDXZq0tWlebU6U1Y9WTyuSFuOdU8LveihP4hh1wqobbwPUHj3ogdlh4qcEjNUCpTH69q1R_enfpY6g6wFQD2OVPC04qAmusAzmJ0MwsQsW90Ozw0PPgBZyoagex89G9c2FLdsRXYa8URtoFU5Tk9Jtw-g4pOjYt-25GCE0ejTKp4T_QcA8YYBW54tGAYUQQaOyUNvR62xxSkx-ty6B-b1H02rrN_eoO66jy7wcVeatg0Q4onDrvOXqzxlJB2lh9-aBDpG0hkGnHIpqoUpalhzEQCvJgXljB2yUwF-mUSBd8ZZQa4dszNlFmU-Gsn04UBwp-U6Jv4RzlZpZWG8ew&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116067879204407017353\">J M</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEHMQmPh8IXJvfuhHvOAEmp5Okyzrqutpb6VULBhMVyIJm22qnjiwF7EvttVyJcYZ-wwGIKuT3TT-ul3Pra0HxQ_pSfDEMVDOwMPRBINfMwvVGF__WWOwIuxIkoNZRdsVXcUe9RIZGfHnbuRU3lbGHIzJ5CgqzS6_yBbBdVd9heQdDJSm7dRnTh3c3zrZfbROU6XHazYN3jQC6IV8ZCM8dJUlhFOx4t7XvvlLod64tk67ErtKANVl3pUt0UoUuhi43xpbO7jRgTo3wQhBWCJD-uFRE64bq9bB7_74aV_YtkBlf4XZOf16_otAiN77qIDYwHQw6E8aVF3NdC-1fmXwmyS3fWcZDnK1ezl1mEu-GsTRr7HbrQIeOdLAQB10bRFliY3OfUq_JoiK7TX29kzXMLQEj5GApyt25_4COraMW4o__ioIC-j1Q4UYycTzTu4",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHMQmPh8IXJvfuhHvOAEmp5Okyzrqutpb6VULBhMVyIJm22qnjiwF7EvttVyJcYZ-wwGIKuT3TT-ul3Pra0HxQ_pSfDEMVDOwMPRBINfMwvVGF__WWOwIuxIkoNZRdsVXcUe9RIZGfHnbuRU3lbGHIzJ5CgqzS6_yBbBdVd9heQdDJSm7dRnTh3c3zrZfbROU6XHazYN3jQC6IV8ZCM8dJUlhFOx4t7XvvlLod64tk67ErtKANVl3pUt0UoUuhi43xpbO7jRgTo3wQhBWCJD-uFRE64bq9bB7_74aV_YtkBlf4XZOf16_otAiN77qIDYwHQw6E8aVF3NdC-1fmXwmyS3fWcZDnK1ezl1mEu-GsTRr7HbrQIeOdLAQB10bRFliY3OfUq_JoiK7TX29kzXMLQEj5GApyt25_4COraMW4o__ioIC-j1Q4UYycTzTu4&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109309934236459215052\">Elle Tipping</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-BKK-004",
+    "name_en": "Young Buddhist Association of Thailand (YBAT)",
+    "name_th": "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)",
+    "hex_cid": "0x30e2978b9dfa19c7:0x2dbe32320431e4e3",
+    "place_id": "ChIJxxn6nYuX4jAR4-QxBDIyvi0",
+    "matched_name": "The Young Buddhists Association of Thailand",
+    "rating": 4.7,
+    "total_ratings": 514,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEHXsLOSNdUltyf2nSWXd6ccgdJVRcQ8RrcNiDcNjIg6x3iPnOmZ7sjGWqV7beGCA2nt2ydBEFitskNQiQFHrwr2qK8K5-nlM07uGXIyOzmvt4j11tYe-cuH4fJtbeSkzR28E8e_jtJjwVaEvbs2zuq07w5bIME6h9RvhXKE5_rGyAyB1FgqnL-bCIwpW1iY-kARvODVjaStZH8sbcIopcNaK6LWMN4ZX5aIozAbi_A-kMZVwGExT-9SQWFPCVaKdvDaYZdmXaTgmkxa1i5plHDb8F0JsUo1Hoo-AsCGShnUDw",
+        "width": 2048,
+        "height": 1324,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHXsLOSNdUltyf2nSWXd6ccgdJVRcQ8RrcNiDcNjIg6x3iPnOmZ7sjGWqV7beGCA2nt2ydBEFitskNQiQFHrwr2qK8K5-nlM07uGXIyOzmvt4j11tYe-cuH4fJtbeSkzR28E8e_jtJjwVaEvbs2zuq07w5bIME6h9RvhXKE5_rGyAyB1FgqnL-bCIwpW1iY-kARvODVjaStZH8sbcIopcNaK6LWMN4ZX5aIozAbi_A-kMZVwGExT-9SQWFPCVaKdvDaYZdmXaTgmkxa1i5plHDb8F0JsUo1Hoo-AsCGShnUDw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108108716573649243494\">ยุวพุทธิกสมาคมแห่งประเทศไทย ในพระบรมราชูปถัมภ์</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEHCsT3grfN59qAD9AqCZhbb4R9IF6GX3Bfi2c5fT7UVbyJXdyRN9GgbDs7wxs-fOIsxe7PO13sVga83VZ-aqrCKGr8rfl37ay7MgUf2fMKOP1ZOAlOnUQIMrAuDEHEezldsZ9cXph9cjM5wnwK6Kwl7_0brLK4kkSUtWaLsjmNxuSRkC1H15kO4TH33AIXJp88eis-ATb71Dlc9vHvxy_z0nn74SDwjOIxy1ilBc6jBm1h0H_XwVgn1-LiFq_CnkYYuH64_AE2eLohlT49R47lsbHI-a0PDMkhdYcztuFEW6w",
+        "width": 4096,
+        "height": 2730,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHCsT3grfN59qAD9AqCZhbb4R9IF6GX3Bfi2c5fT7UVbyJXdyRN9GgbDs7wxs-fOIsxe7PO13sVga83VZ-aqrCKGr8rfl37ay7MgUf2fMKOP1ZOAlOnUQIMrAuDEHEezldsZ9cXph9cjM5wnwK6Kwl7_0brLK4kkSUtWaLsjmNxuSRkC1H15kO4TH33AIXJp88eis-ATb71Dlc9vHvxy_z0nn74SDwjOIxy1ilBc6jBm1h0H_XwVgn1-LiFq_CnkYYuH64_AE2eLohlT49R47lsbHI-a0PDMkhdYcztuFEW6w&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108108716573649243494\">ยุวพุทธิกสมาคมแห่งประเทศไทย ในพระบรมราชูปถัมภ์</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEEhNEgsEs7oewpj5vgBuPCCuXCFCQwOb7_JH64c2LAG_OR_92TYRCKeouFKQrngpHKFz0aCF29x5qBL45BZDwut3DPJyLf_MrbFRVkQJRh3MpFYaw6HmoGpqQzJ8FP9LBPNlER220jBDa_czgyUE6wp2lmBhOhJZtpHU9g5vNQOKYiA1GzLxxiKCtyu2x7MbbfIku6z1MUG6qNYnMxU8BKfrjTCcrlh3O1oQluTDYYIpCS3vAH0ze0tLw3WdrMOgU-0mgtWn6_op14Lrp6xwiSrE_MPhG98_gHCzmzknVIpYw",
+        "width": 4096,
+        "height": 2730,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEhNEgsEs7oewpj5vgBuPCCuXCFCQwOb7_JH64c2LAG_OR_92TYRCKeouFKQrngpHKFz0aCF29x5qBL45BZDwut3DPJyLf_MrbFRVkQJRh3MpFYaw6HmoGpqQzJ8FP9LBPNlER220jBDa_czgyUE6wp2lmBhOhJZtpHU9g5vNQOKYiA1GzLxxiKCtyu2x7MbbfIku6z1MUG6qNYnMxU8BKfrjTCcrlh3O1oQluTDYYIpCS3vAH0ze0tLw3WdrMOgU-0mgtWn6_op14Lrp6xwiSrE_MPhG98_gHCzmzknVIpYw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/108108716573649243494\">ยุวพุทธิกสมาคมแห่งประเทศไทย ในพระบรมราชูปถัมภ์</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-BKK-005",
+    "name_en": "Suan Usom (Garden of Moral Purification)",
+    "name_th": "สวนอุศม",
+    "hex_cid": "0x311d5fddd19d3b89:0xe4fd9c19d3809e81",
+    "place_id": "ChIJiTud0d1fHTERgZ6A0xmc_eQ",
+    "matched_name": "สวนอุศม สถานปฏิบัติธรรมแนวท่านพุทธทาสภิกขุ",
+    "rating": 4.6,
+    "total_ratings": 8,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEEyMHK9wBpzCiRFXMiDiXM7QHD2rHBCgMT5YFu5-v6fNMpRHZ-bysi5Ew84CUpdbIlQ9sxxdzqVSJYZZqqawaPZ8EX1Vxnu10AOa6SzxQZYG09EnTYA5tfUWvJcKG5ufskRAyeEvxEgWVGO-jc1xs4_YwGeUT7VLc75GeE4ATpSX1FEld6KNHp9GSRLQB1q4jSfJ0P5QNKdRqs_A2BaMgaR5O8J0soOYbmfmm5tc0zBHYNN0llI1dGIawCIa0yTSRJPXZtwbpb16aEey8pqIH8t_IhT1M-U7-bl_BT3K74Bhg",
+        "width": 571,
+        "height": 272,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEyMHK9wBpzCiRFXMiDiXM7QHD2rHBCgMT5YFu5-v6fNMpRHZ-bysi5Ew84CUpdbIlQ9sxxdzqVSJYZZqqawaPZ8EX1Vxnu10AOa6SzxQZYG09EnTYA5tfUWvJcKG5ufskRAyeEvxEgWVGO-jc1xs4_YwGeUT7VLc75GeE4ATpSX1FEld6KNHp9GSRLQB1q4jSfJ0P5QNKdRqs_A2BaMgaR5O8J0soOYbmfmm5tc0zBHYNN0llI1dGIawCIa0yTSRJPXZtwbpb16aEey8pqIH8t_IhT1M-U7-bl_BT3K74Bhg&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116630884459921991754\">สวนอุศม สถานปฏิบัติธรรมแนวท่านพุทธทาสภิกขุ</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGfi5_nbkSKU-5z3Kix-gP_1ZHm72MFMt226AQvs4lv-Fp8vCLWGSrZpDeRC9YLm_yPeR7JOtoOD0VEiAcrLdiK1mdTCor_6rc0OPMIazc-Xv8EFl_x6idcS_NECaHIfna5pvLF6ma9FJPoKcPTh8uU8_aspi_zcsWX_9cqxqMU-OoFugkir4LtBht-cHP1dg_LQ5bAUEIht1KcPEuY8rHo2PgXc0Bxw-FcKcslyr5DhLSj8ACERphbc25MgaA_hMIVfJ6e7gqWc7V3mZUcCEPwgf9hxUPNTKER3GLpE22Hig4tUZMZv74lDoukj_Ed596YF7_URqI0TAbF-9xuslXNTpoN6vboljOdLuZa61jdPVoFLXxd5yKZV_54HwS62hx-TPBesr-ItsDiHxEHygmHIsPWyWCXdnmdz63SOrs",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGfi5_nbkSKU-5z3Kix-gP_1ZHm72MFMt226AQvs4lv-Fp8vCLWGSrZpDeRC9YLm_yPeR7JOtoOD0VEiAcrLdiK1mdTCor_6rc0OPMIazc-Xv8EFl_x6idcS_NECaHIfna5pvLF6ma9FJPoKcPTh8uU8_aspi_zcsWX_9cqxqMU-OoFugkir4LtBht-cHP1dg_LQ5bAUEIht1KcPEuY8rHo2PgXc0Bxw-FcKcslyr5DhLSj8ACERphbc25MgaA_hMIVfJ6e7gqWc7V3mZUcCEPwgf9hxUPNTKER3GLpE22Hig4tUZMZv74lDoukj_Ed596YF7_URqI0TAbF-9xuslXNTpoN6vboljOdLuZa61jdPVoFLXxd5yKZV_54HwS62hx-TPBesr-ItsDiHxEHygmHIsPWyWCXdnmdz63SOrs&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112493136767264304423\">Polsant Plussind</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGcV_M5Nu43MYQUOi3vyNUI6uLXlr-4qjCZeUn2whI8TBSvDOyZ-gLhbqSBMNePi3JNLBBXGtiZxS1UIVAK7Q0MG4oCVhVsYKrjMLs_KAObsQhZY_gMdkvY2hcZYtNXIGvC7LooZLlgsM_UlkBuRPUFQ1-UeP1klmOjDM67AwDmsqfjxeNnduXxLW7QbUaEIbMLMoRRGAAnGqVPygZdDx7zRnYMAUSloU1oILXJwX5C4SnGjLF-fdXc439GU96tysOU4lDzAUiiEFU3kTIDrl6p_3l32XKdXu-kaLtpQ3pUAw",
+        "width": 2048,
+        "height": 1150,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGcV_M5Nu43MYQUOi3vyNUI6uLXlr-4qjCZeUn2whI8TBSvDOyZ-gLhbqSBMNePi3JNLBBXGtiZxS1UIVAK7Q0MG4oCVhVsYKrjMLs_KAObsQhZY_gMdkvY2hcZYtNXIGvC7LooZLlgsM_UlkBuRPUFQ1-UeP1klmOjDM67AwDmsqfjxeNnduXxLW7QbUaEIbMLMoRRGAAnGqVPygZdDx7zRnYMAUSloU1oILXJwX5C4SnGjLF-fdXc439GU96tysOU4lDzAUiiEFU3kTIDrl6p_3l32XKdXu-kaLtpQ3pUAw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116630884459921991754\">สวนอุศม สถานปฏิบัติธรรมแนวท่านพุทธทาสภิกขุ</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-BKK-006",
+    "name_en": "Sathira Dhammasathan",
+    "name_th": "เสถียรธรรมสถาน",
+    "hex_cid": "0x311d62b7ed183ceb:0x48511e00c98a4f1c",
+    "place_id": "ChIJ6zwY7bdiHTERHE-KyQAeUUg",
+    "matched_name": "Sathira-Dhammasathan",
+    "rating": 4.6,
+    "total_ratings": 1018,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEHWU8szHATw9xylZfQuNKvv8r0UjIP12SGpG9q-Uh7-ynQLDOPR5aIkJSXTI4oqA6SmjY6omkpMd4UOKWj0IHyUW4vbfhVeDc-2AaBBgEIFCb0Eu36OrmRWe3JrtddzOt75Awepoxi5f4I_V5w0BAifn8Z7-eE8IToNq2yqB4uFo3KwFe9uHBbAEia5nRvowTyE8dMsj7F8DdPo0S6ex03uGM4WapOjBgZ_Xnzi85_xylUq7H2_ruXkX0P3uvsnIxNgSdVEceePCGAoZ5dIQ98IrERyDSjSOeffa_46uzcsFA",
+        "width": 4192,
+        "height": 2359,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHWU8szHATw9xylZfQuNKvv8r0UjIP12SGpG9q-Uh7-ynQLDOPR5aIkJSXTI4oqA6SmjY6omkpMd4UOKWj0IHyUW4vbfhVeDc-2AaBBgEIFCb0Eu36OrmRWe3JrtddzOt75Awepoxi5f4I_V5w0BAifn8Z7-eE8IToNq2yqB4uFo3KwFe9uHBbAEia5nRvowTyE8dMsj7F8DdPo0S6ex03uGM4WapOjBgZ_Xnzi85_xylUq7H2_ruXkX0P3uvsnIxNgSdVEceePCGAoZ5dIQ98IrERyDSjSOeffa_46uzcsFA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/109068386854894825363\">Sathira Dhammasathan</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEHZvfa6Te6aoj8NekwC_groMXGVGHEHijgQHdNw1xMRDy7jiHPIgryE1ukqUFNHz5E3bVtTEuzdUn3PmDH9YRe38yxLIio9tl7BqLvFA0QbclIT06MHjX1jvZmH6IT8LVQoPkb0X9Pz84fV95-Nm8ycJqh1ddeD6KiOWOtNZU-Ug9RXNV-opwM8ZAKxBY0t_Cl9xdNl_-roOp_O9-ztdZE8HrypYXdHkVeysznF4IhZfXDgY4gT9Y46a0Xj1u6C3kekpXOmQOfUTVd-RQeEiPpY9leZhAT2VO0CBvKzYwiQ03JBAjQGiVKe4Or3jd2Q02PUsE6qSrfc5X_CRy9OAkUkvXl8fh2sfQMNe1ZhgZm2e_wEdbiXdjI-UXxlJqnzcl9eBFMYFBB_hOaRYG0XeBVU27ybL4F5gibeD8LZ8r2eXw",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHZvfa6Te6aoj8NekwC_groMXGVGHEHijgQHdNw1xMRDy7jiHPIgryE1ukqUFNHz5E3bVtTEuzdUn3PmDH9YRe38yxLIio9tl7BqLvFA0QbclIT06MHjX1jvZmH6IT8LVQoPkb0X9Pz84fV95-Nm8ycJqh1ddeD6KiOWOtNZU-Ug9RXNV-opwM8ZAKxBY0t_Cl9xdNl_-roOp_O9-ztdZE8HrypYXdHkVeysznF4IhZfXDgY4gT9Y46a0Xj1u6C3kekpXOmQOfUTVd-RQeEiPpY9leZhAT2VO0CBvKzYwiQ03JBAjQGiVKe4Or3jd2Q02PUsE6qSrfc5X_CRy9OAkUkvXl8fh2sfQMNe1ZhgZm2e_wEdbiXdjI-UXxlJqnzcl9eBFMYFBB_hOaRYG0XeBVU27ybL4F5gibeD8LZ8r2eXw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104160413783378571373\">Rujitep Peerawanichagul</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEEhcbxkqLCU4sY9zgT4elU65Lxja5wCcFt3QZPUx8qD6PXhNCWUwXVO8Z7qNDKcK2s6gbdZ4IhcY322yPf-kxrG-_UZ4sT4Le4ma68vIJW_JL0ZZr_i1ugGnE2HlzUFvzn5ShayVE8-cwlvWQFzjl1nGwTbSZ7UO8JUSog0uPHFT3_pG51wk-3Wm_r2frnurdhA22nlLc3gi4r_8vcOlaILnSn-BmOsb0uU5MC93yb39O0wQD-sdojDnWUaAhK-Q6DFlvJrcg3CmiIhm9gHKEzucw5Abk8piyItdfDOZ7WzsDNZupxnsT6jAn_P_OkkvF0xbdItU83AWDLY8wDVu63_biVyIUGruNYQt8IEaadCu_uW2uUD6iSGfod6LUKe1DufSh3Mgj3PhghWguFDLCB-zGZIrzUhYUY_MVGfYAs",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEhcbxkqLCU4sY9zgT4elU65Lxja5wCcFt3QZPUx8qD6PXhNCWUwXVO8Z7qNDKcK2s6gbdZ4IhcY322yPf-kxrG-_UZ4sT4Le4ma68vIJW_JL0ZZr_i1ugGnE2HlzUFvzn5ShayVE8-cwlvWQFzjl1nGwTbSZ7UO8JUSog0uPHFT3_pG51wk-3Wm_r2frnurdhA22nlLc3gi4r_8vcOlaILnSn-BmOsb0uU5MC93yb39O0wQD-sdojDnWUaAhK-Q6DFlvJrcg3CmiIhm9gHKEzucw5Abk8piyItdfDOZ7WzsDNZupxnsT6jAn_P_OkkvF0xbdItU83AWDLY8wDVu63_biVyIUGruNYQt8IEaadCu_uW2uUD6iSGfod6LUKe1DufSh3Mgj3PhghWguFDLCB-zGZIrzUhYUY_MVGfYAs&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104160413783378571373\">Rujitep Peerawanichagul</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-NMA-002",
+    "name_en": "Baan Rai Tor See Hermitage (Baan Boon)",
+    "name_th": "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)",
+    "hex_cid": "0x311c2ae214e54eaf:0x051073e5e3a2b89b",
+    "place_id": "ChIJr07lFOIqHDERm7ii4-VzEAU",
+    "matched_name": "Bahn Rai Thawsi - Bahn Boon",
+    "rating": 4.7,
+    "total_ratings": 171,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEFcR9C47sJzKbtXR-3rjSTN2Bod49UYwktx1xV9j4ZQHoPxpdiJjcUOhkknxV8YEejaMomGXgUO01p7M0EL-ieGOH43vrIGXclFUj2oqxu61-zMyj9CTv-gmOGE9yL9gqn4UCKOcL-Bjm01COewqATNzCkl2O459DeFJ6zVQ2biMWfkhM8z0NH4Q8cfCWKn0GTzo7YIzz98DT7WBhxxjSpdKQ5aFM13Cgg8vI65-FYsEt3TW92C6gYOOjU2ZaFUu8F3kVKsUnouyBBWFqOEqiU-Cfi4kW9ttGetwrAtlZfc9bKh_Hz-X-WnmSiZefMZFbjjO-lUlvuZLD8yV4sTNKOPeg_qezw2PktV7ZKcDhVmlzhUroSjzh7LW7HcfaPQe2nH0k7L0xQjC62JmGcnFQz7LaEgwfuQ-YtmIx-F_a-vP0gc",
+        "width": 4160,
+        "height": 3120,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFcR9C47sJzKbtXR-3rjSTN2Bod49UYwktx1xV9j4ZQHoPxpdiJjcUOhkknxV8YEejaMomGXgUO01p7M0EL-ieGOH43vrIGXclFUj2oqxu61-zMyj9CTv-gmOGE9yL9gqn4UCKOcL-Bjm01COewqATNzCkl2O459DeFJ6zVQ2biMWfkhM8z0NH4Q8cfCWKn0GTzo7YIzz98DT7WBhxxjSpdKQ5aFM13Cgg8vI65-FYsEt3TW92C6gYOOjU2ZaFUu8F3kVKsUnouyBBWFqOEqiU-Cfi4kW9ttGetwrAtlZfc9bKh_Hz-X-WnmSiZefMZFbjjO-lUlvuZLD8yV4sTNKOPeg_qezw2PktV7ZKcDhVmlzhUroSjzh7LW7HcfaPQe2nH0k7L0xQjC62JmGcnFQz7LaEgwfuQ-YtmIx-F_a-vP0gc&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101966981967466950196\">อาทิตย์เทพ เหมือนอุย</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEH751cUba-bwoqartF2NWN7ntP2Eb1iZ7dkcLH8QRyyxCPG6RhVpM44mONtemGVrDxsbZmJXSF22FB0Si-dbYQ39p4Dv1pZagE8guNVpCdYK0VR4YEVZSVijRMDylDQGUiUV5tlBSyPfTKG7VYV3bQ_RYaBu_-ViQUruwwx-VecCtNJTlu3Xb53jloUZhxiNfWsSptTouqzE2Gv_cDguWPULu53gz3huIJFuSwpoWFFyzSkqwK5O_PN5U_enjjPqpP2ikriEHHd2ys2iObfD2uZuSeg9x1Mp4TC17qy587rk6zOxR14bBGr98tDADbDUOQ9RlYW4pqLT8nC59JQ4jAaN1ATH5o-hsjytOL7uYnAKAUhbeSXhEEmz80M4zoADQop5xjW2jT_bum9j8K-bKDzbtBnd1rbHc1YBvIjw61ZtA",
+        "width": 1920,
+        "height": 2560,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEH751cUba-bwoqartF2NWN7ntP2Eb1iZ7dkcLH8QRyyxCPG6RhVpM44mONtemGVrDxsbZmJXSF22FB0Si-dbYQ39p4Dv1pZagE8guNVpCdYK0VR4YEVZSVijRMDylDQGUiUV5tlBSyPfTKG7VYV3bQ_RYaBu_-ViQUruwwx-VecCtNJTlu3Xb53jloUZhxiNfWsSptTouqzE2Gv_cDguWPULu53gz3huIJFuSwpoWFFyzSkqwK5O_PN5U_enjjPqpP2ikriEHHd2ys2iObfD2uZuSeg9x1Mp4TC17qy587rk6zOxR14bBGr98tDADbDUOQ9RlYW4pqLT8nC59JQ4jAaN1ATH5o-hsjytOL7uYnAKAUhbeSXhEEmz80M4zoADQop5xjW2jT_bum9j8K-bKDzbtBnd1rbHc1YBvIjw61ZtA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/103657019956311453807\">อารีย์ สังฆะวดี</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGx6EEJfVVlaxUSSs7GErAy5oSRZJRc3_TJv_JMFAxBXe0huF_nYdcg19yhlXj0zFYwE4S_ZNg3HfR-QIjigT2YjZ1KRbxfWleMESCkIZW9GSfX76T6DRfa6q8ZkGUah-fR-pVstr3eH6oYzyMoL7TD_U8s30RGMAdIMg8QmVBak9pe5-NSUYdL0JHNoxHRIOmafiJlpBU_DqFnqjCPkgSNxwjMEhJC7bQAl6j-qAW7HwnO0TeQRM2yKgSE490wffm8IB6AO6Lzu97cXSBHP9_xGSpwIhQ3bkf9gMzB8DPN3wKLSVaNZt0U7JCLTm1YXDKrx9SYHgiR5BUPdTbbMQBRslfQvzN-cwHzWrOtfa3PVwNp7ZHseD2EsSnCsz5mlvRuS4knhyrbsMQywPzI_25AMDvqapvJPpjkAHgbaiS9RPXU",
+        "width": 4160,
+        "height": 3120,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGx6EEJfVVlaxUSSs7GErAy5oSRZJRc3_TJv_JMFAxBXe0huF_nYdcg19yhlXj0zFYwE4S_ZNg3HfR-QIjigT2YjZ1KRbxfWleMESCkIZW9GSfX76T6DRfa6q8ZkGUah-fR-pVstr3eH6oYzyMoL7TD_U8s30RGMAdIMg8QmVBak9pe5-NSUYdL0JHNoxHRIOmafiJlpBU_DqFnqjCPkgSNxwjMEhJC7bQAl6j-qAW7HwnO0TeQRM2yKgSE490wffm8IB6AO6Lzu97cXSBHP9_xGSpwIhQ3bkf9gMzB8DPN3wKLSVaNZt0U7JCLTm1YXDKrx9SYHgiR5BUPdTbbMQBRslfQvzN-cwHzWrOtfa3PVwNp7ZHseD2EsSnCsz5mlvRuS4knhyrbsMQywPzI_25AMDvqapvJPpjkAHgbaiS9RPXU&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101966981967466950196\">อาทิตย์เทพ เหมือนอุย</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-CNX-001",
+    "name_en": "Wat Phra That Si Chom Thong Worawihan",
+    "name_th": "วัดพระธาตุศรีจอมทองวรวิหาร",
+    "hex_cid": "0x30dbb00a4f5407e5:0x7fce78d34646f3bc",
+    "place_id": "ChIJ5QdUTwqw2zARvPNGRtN4zn8",
+    "matched_name": "Wat Phra That Si Chom Thong Worawihan",
+    "rating": 4.7,
+    "total_ratings": 4671,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEE4HkzJ84CWc7SRlxw5fQ3L1Kh4b10qq6N5M5-WFjeDF1dtL9C5ozKxynJX9ej_Xe8kc2aa_Fmj-YXBHGFZVW6l_-WemFfKQ3NEzwJT_vMV7P-8c-2ibbrGs7NSOuhFj-ogtCQC4S6FRKgNZdoFYjBAjOvJk20d7qjoHO236DAYVwbj28c9GAZp76iNXrHRu6eEKGZaKiNtgBuAoMyLVs9r5J8h_2kWkGdK0dexsb9mv-xVNPJhFC7BkUyApzLR9obFQIfCbJq4E7jaK6JHUsh3ut2oeiW8bVBupGk7HFw6iXzPDlXM09A1aYavzklXs-Uaog8kM2RMYq-TbYey-V-5aXMK9_A7vrKffsGJkNbhdlsAtBb-qwX5R6CeSt_A2hVR2_o3XiLRqVruDTZMKEa9r-kzOox26aayXXZQcRqn8Q",
+        "width": 1850,
+        "height": 1212,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEE4HkzJ84CWc7SRlxw5fQ3L1Kh4b10qq6N5M5-WFjeDF1dtL9C5ozKxynJX9ej_Xe8kc2aa_Fmj-YXBHGFZVW6l_-WemFfKQ3NEzwJT_vMV7P-8c-2ibbrGs7NSOuhFj-ogtCQC4S6FRKgNZdoFYjBAjOvJk20d7qjoHO236DAYVwbj28c9GAZp76iNXrHRu6eEKGZaKiNtgBuAoMyLVs9r5J8h_2kWkGdK0dexsb9mv-xVNPJhFC7BkUyApzLR9obFQIfCbJq4E7jaK6JHUsh3ut2oeiW8bVBupGk7HFw6iXzPDlXM09A1aYavzklXs-Uaog8kM2RMYq-TbYey-V-5aXMK9_A7vrKffsGJkNbhdlsAtBb-qwX5R6CeSt_A2hVR2_o3XiLRqVruDTZMKEa9r-kzOox26aayXXZQcRqn8Q&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112175058372371788418\">Wat Chom Tong Vipassana Center</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGGQ3V9jcgKX9UXQG0dfr-2vlpPDjc8y-WGlO61qC5CFl2viLRaSI-WnmSeae3aDO-Q92J-mz2R5EKM5IVPKZFm-mcWEHb0Fyzp5Y0MiU5xqxglLCDfq81uPMBjz6hqd1xx3QUdmqBZ62JR2aPkJ6Mkn36Q1E9RNJHVy7P3DE-xI17_1Lh22UY_IwP-z3fFwZsyAYV7gz527-kAgLl6dDCaNKmstOlxnS9gGPITEvrsWzyQxsxplexXF6K_K0Ij9SFEKkJgQdAtLEI5ooj3ptf-pdblZS3f6zp333M6xVa9LmAA94F8qv2byC55sWI9KUE-DcRd9MG8UFXHHLhnKoSw2_g6iHtLgkBgXANkMBacV1zZr3LFii1txmgplSLjArY7Sl0dAH2rVpYwb3jp5XwtwSw8s7d6ojDZCcijk3Q",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGGQ3V9jcgKX9UXQG0dfr-2vlpPDjc8y-WGlO61qC5CFl2viLRaSI-WnmSeae3aDO-Q92J-mz2R5EKM5IVPKZFm-mcWEHb0Fyzp5Y0MiU5xqxglLCDfq81uPMBjz6hqd1xx3QUdmqBZ62JR2aPkJ6Mkn36Q1E9RNJHVy7P3DE-xI17_1Lh22UY_IwP-z3fFwZsyAYV7gz527-kAgLl6dDCaNKmstOlxnS9gGPITEvrsWzyQxsxplexXF6K_K0Ij9SFEKkJgQdAtLEI5ooj3ptf-pdblZS3f6zp333M6xVa9LmAA94F8qv2byC55sWI9KUE-DcRd9MG8UFXHHLhnKoSw2_g6iHtLgkBgXANkMBacV1zZr3LFii1txmgplSLjArY7Sl0dAH2rVpYwb3jp5XwtwSw8s7d6ojDZCcijk3Q&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115876332650626891149\">Sasiphen Laimai</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGeSPjqm1O1IeUIDZEJ0qzpfl3BXJ1hxp_28GHB7kKSfh1JSRm4S4l-eJfUIOZmmyuF8pw6_F9pybJs_MV06mH6NX3IcppBVRLC2CWtzQ9hpZHKKHYczHDujEz1O5N8NfogGIX88atCdSVTUFiVr8CHwdUqMxu4eSA2jCvEr7eCjkwkY-9Z07zeapXz5VB2QWzV8-e1Omqr1B_cUmPIjufzDZzjN4I59rD_jHtLuEy3q30KdgJ2b0e3-UN4Zm0pGvf5sgj-izzCr2GlgJaPj2PXBbMb_UC2PLIjr9P5C2ohBZ6REKQfBZFhsLUl4Bk2zfI-eg0mDKGpA8NUjndsPHs7tEiXS8L1JnRIZTPYZSmNwAli7b6S3hpkfhKQVsGcXCf3AvDnWsxJ0YiCDTJja1O88lU8sU5LfztH15ofhgvQnyaFiCP0poRiQVUgBEeN",
+        "width": 4000,
+        "height": 3000,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGeSPjqm1O1IeUIDZEJ0qzpfl3BXJ1hxp_28GHB7kKSfh1JSRm4S4l-eJfUIOZmmyuF8pw6_F9pybJs_MV06mH6NX3IcppBVRLC2CWtzQ9hpZHKKHYczHDujEz1O5N8NfogGIX88atCdSVTUFiVr8CHwdUqMxu4eSA2jCvEr7eCjkwkY-9Z07zeapXz5VB2QWzV8-e1Omqr1B_cUmPIjufzDZzjN4I59rD_jHtLuEy3q30KdgJ2b0e3-UN4Zm0pGvf5sgj-izzCr2GlgJaPj2PXBbMb_UC2PLIjr9P5C2ohBZ6REKQfBZFhsLUl4Bk2zfI-eg0mDKGpA8NUjndsPHs7tEiXS8L1JnRIZTPYZSmNwAli7b6S3hpkfhKQVsGcXCf3AvDnWsxJ0YiCDTJja1O88lU8sU5LfztH15ofhgvQnyaFiCP0poRiQVUgBEeN&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117477701646510631526\">Phob Sung</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-NMA-003",
+    "name_en": "Buddha Dhamma Satharn Panjakiri",
+    "name_th": "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)",
+    "hex_cid": "0x311c33ebf8d91eff:0x9df3f72b1d4b88a9",
+    "place_id": "ChIJ_x7Z-OszHDERqYhLHSv3850",
+    "matched_name": "Buddha Dhamma Satharn Panjakiri",
+    "rating": 4.9,
+    "total_ratings": 76,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEHQtg-Z0IDF_CP3r6I884-5Szf53J6XkxOU403o3VPSGCMGV7cV2geFRb0cruP8FjE0azJf4LV1PvEgwlKexOZWJ_n3nbfgBnjlbcbb4LOp6F01rimDMYkzRwU8yUf7Y_Fk5MaqCigAfTLoaQyQ6Qyto2LOOmF4exbC4uWTDpk-Ebe85h_n1pEBOG20ATdANyyRL6ioa2XLuVjv45Yekr8V-G4sdGvnaR2iBJhH1zolsZyQCrMBvyQRwJP9Ru0N76YB1Z9bAZNStIW_cE9cgbhRP3Isit9K-H2J42BUDhJBTggrJzrPsT1oCMgOTtesuKSf_5U4vfxitG5u5NjuvUNBk763-90nto2q--s85mDzOwdqhUuky9w4H6Bxmsp3gC5aGgIgsXyGi7-Q2cLAjEOdj3ZCegBtme9D1U7-woqF3A",
+        "width": 4000,
+        "height": 2252,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHQtg-Z0IDF_CP3r6I884-5Szf53J6XkxOU403o3VPSGCMGV7cV2geFRb0cruP8FjE0azJf4LV1PvEgwlKexOZWJ_n3nbfgBnjlbcbb4LOp6F01rimDMYkzRwU8yUf7Y_Fk5MaqCigAfTLoaQyQ6Qyto2LOOmF4exbC4uWTDpk-Ebe85h_n1pEBOG20ATdANyyRL6ioa2XLuVjv45Yekr8V-G4sdGvnaR2iBJhH1zolsZyQCrMBvyQRwJP9Ru0N76YB1Z9bAZNStIW_cE9cgbhRP3Isit9K-H2J42BUDhJBTggrJzrPsT1oCMgOTtesuKSf_5U4vfxitG5u5NjuvUNBk763-90nto2q--s85mDzOwdqhUuky9w4H6Bxmsp3gC5aGgIgsXyGi7-Q2cLAjEOdj3ZCegBtme9D1U7-woqF3A&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112720981925061531758\">Happy Pook On the right way</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEF8PRV82yvV3tgggWb-ARuYRVVcR_uropfJcsbq98IhxOKIOG0zFeZfOji5JpZV1-jIJAvoG9f22syJDc7v3nIApAKQtvwESuopDuwOQn-5TtMwLzt6u7aWEk12qWi4ADv7CyOVmDeQQjkhTKqCdkCN7PC-klKiApa_q4sEWeeVgTVN_QbPwE4saVjI4Wk1HJiuWGZeTSuOWk9jZzc7fAkZWcZw6keODTV5L5lOB3XDHM36t97kxYjMvpTacIEdCM2kIiGvbKLT1K2c5F2St55LmvUQC6sj9a-d6vP-A68ZGLxwEd8Kcp58fI7B_U9frWTB3nSXpnaqpzhcPRg3xMMpDn1US0eGVhAT-Gpo2-AlU5_X2RPreiLOY6WGw5uDsjn5p7YOSZHcvenOfl31FrutkJnivjQa9ERbyUR1yoA",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEF8PRV82yvV3tgggWb-ARuYRVVcR_uropfJcsbq98IhxOKIOG0zFeZfOji5JpZV1-jIJAvoG9f22syJDc7v3nIApAKQtvwESuopDuwOQn-5TtMwLzt6u7aWEk12qWi4ADv7CyOVmDeQQjkhTKqCdkCN7PC-klKiApa_q4sEWeeVgTVN_QbPwE4saVjI4Wk1HJiuWGZeTSuOWk9jZzc7fAkZWcZw6keODTV5L5lOB3XDHM36t97kxYjMvpTacIEdCM2kIiGvbKLT1K2c5F2St55LmvUQC6sj9a-d6vP-A68ZGLxwEd8Kcp58fI7B_U9frWTB3nSXpnaqpzhcPRg3xMMpDn1US0eGVhAT-Gpo2-AlU5_X2RPreiLOY6WGw5uDsjn5p7YOSZHcvenOfl31FrutkJnivjQa9ERbyUR1yoA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116317285741050605603\">Nuschanok Terdtoonkul</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGc7Pqo2pZvXW4cMF9I3_vCOmypKll5WRlkSWGmPhVq5SgtR16wdsoerOdILBQpH6ajVpeji0eGxQO-H1PUUwB6hC5zaNAU77rfAt4sduD7UZPLKQWmy3tP_etDAhCXyFfquZJyRmihtyCjWWG0jis1WjiiaD59Al2ic6YFAcl7tC0jRtgcHQYprhwFBa81hFFgOwjGe5VHeFVD1n3ZaCNQkXarqtGsGbuBk0ziyoC5ioYMtKWKnIzXVoD7WAhY8QKNsRilE-qPqvBCnl7GrSxP-ZFCOz70DfgSOrjrlkt3o83zhgMjYon5mdR57NPkuLz08CUPQ8CKTmyfO1z2Orxt22S3DPSXOqojluSDzmvpjYDoSbZuVoPkiRPbAGn28jzPFVxOuOiJBN9cwSFV-XM3Id1ZyaoXCk8FsKCE7urP-Bbb",
+        "width": 1108,
+        "height": 1478,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGc7Pqo2pZvXW4cMF9I3_vCOmypKll5WRlkSWGmPhVq5SgtR16wdsoerOdILBQpH6ajVpeji0eGxQO-H1PUUwB6hC5zaNAU77rfAt4sduD7UZPLKQWmy3tP_etDAhCXyFfquZJyRmihtyCjWWG0jis1WjiiaD59Al2ic6YFAcl7tC0jRtgcHQYprhwFBa81hFFgOwjGe5VHeFVD1n3ZaCNQkXarqtGsGbuBk0ziyoC5ioYMtKWKnIzXVoD7WAhY8QKNsRilE-qPqvBCnl7GrSxP-ZFCOz70DfgSOrjrlkt3o83zhgMjYon5mdR57NPkuLz08CUPQ8CKTmyfO1z2Orxt22S3DPSXOqojluSDzmvpjYDoSbZuVoPkiRPbAGn28jzPFVxOuOiJBN9cwSFV-XM3Id1ZyaoXCk8FsKCE7urP-Bbb&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116317285741050605603\">Nuschanok Terdtoonkul</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-AYT-001",
+    "name_en": "Wat Maheyong (Vipassana Vitchalai Institute)",
+    "name_th": "วัดมเหยงคณ์",
+    "hex_cid": "0x311df5dab564e21d:0xaf482d824e9131f6",
+    "place_id": "ChIJHeJktdr1HTER9jGRToItSK8",
+    "matched_name": "Wat Maheyong",
+    "rating": 4.8,
+    "total_ratings": 1043,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEEkrQstekBRqdMZAoh1VjzyY7ngvfWQqOCzbGiNxyah583_NR27EH9ehOiVsULR6jxaLYoKErtvkjV88E7RNDqBLLw_K8F-aRZwcFDqOJNiqb_DeuPMkG23dn3athtcXTS31FFtOaKHWDADjFZhTrgCYSg3qNcoRQgYSdzCv7LvJCTvpT5GMnYcS1T7Rkb7IRzmm29gdTL79BP4n-Eowo1z68rPPjNiiDDBtxN87kN-Nv2y8NNj4E1NCtvK_UGRG9f9j8XcjdYSiaklLjxhkS7IFxU0iYHYEGoc4X1sl2P-hA",
+        "width": 960,
+        "height": 720,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEkrQstekBRqdMZAoh1VjzyY7ngvfWQqOCzbGiNxyah583_NR27EH9ehOiVsULR6jxaLYoKErtvkjV88E7RNDqBLLw_K8F-aRZwcFDqOJNiqb_DeuPMkG23dn3athtcXTS31FFtOaKHWDADjFZhTrgCYSg3qNcoRQgYSdzCv7LvJCTvpT5GMnYcS1T7Rkb7IRzmm29gdTL79BP4n-Eowo1z68rPPjNiiDDBtxN87kN-Nv2y8NNj4E1NCtvK_UGRG9f9j8XcjdYSiaklLjxhkS7IFxU0iYHYEGoc4X1sl2P-hA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117314184640521770103\">วัดมเหยงคณ์</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEEGbxcmfSSjoWifKM_VZbMYaNfPSbPoQXmBmuwP9Ylxh_BrEf8wCSjH4s1vSfuyqqvq81g1ZJXrip3IKRZZFESByaR7xurrHrNxWANKrWaX_v33fTu9q8JmmJsZw6y3mTnD2dp11ULC_G2zACgzCEKfds5Qb79DnW6_ckzec3KADiEGlWfmXQRaKxVt9dBfYxQnjLLSahp5Cj_uepIoL_trOt-ZooDI91q-wHFI8dd1yScW-s11H9fmlX1s8YiC0JL_AENd7bG4CH7Fj8LqMdoQQtkDFtW6BqUZkWbUOq5HTMSTGFI439fHrpXjD179vJj1fOemx0Xz7rJELIpxoFOf4lxoFVkbpAtvag2_m1ZZVbkHwXOpczcxfDfq-jHId0Cp-6Ujl0S8Hiy3KVNbfv6kUfo8Y28RRXbLdI-uXfo8jz8",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEGbxcmfSSjoWifKM_VZbMYaNfPSbPoQXmBmuwP9Ylxh_BrEf8wCSjH4s1vSfuyqqvq81g1ZJXrip3IKRZZFESByaR7xurrHrNxWANKrWaX_v33fTu9q8JmmJsZw6y3mTnD2dp11ULC_G2zACgzCEKfds5Qb79DnW6_ckzec3KADiEGlWfmXQRaKxVt9dBfYxQnjLLSahp5Cj_uepIoL_trOt-ZooDI91q-wHFI8dd1yScW-s11H9fmlX1s8YiC0JL_AENd7bG4CH7Fj8LqMdoQQtkDFtW6BqUZkWbUOq5HTMSTGFI439fHrpXjD179vJj1fOemx0Xz7rJELIpxoFOf4lxoFVkbpAtvag2_m1ZZVbkHwXOpczcxfDfq-jHId0Cp-6Ujl0S8Hiy3KVNbfv6kUfo8Y28RRXbLdI-uXfo8jz8&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104160413783378571373\">Rujitep Peerawanichagul</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGUB35zW64Vx4WzP-jts6w1q79_awZHj0mLOhKijaGC26fFvcRpB8EnXSH8smailEaCn_gZtxfpPpsZ48RAyonX4bRiCZMjFvCR6wmXlGwJ9Q95xKL1DPXWuTxnklpeunt5xGZCYzbr6wHyesxdD7iks2Q6cmWD3yFQSf_RNkWgWNc2eUom00mf9Gjw8apD0PzY-3X75xactTh1WmIVm8d4ofsnEPyo6OK-dNP5DZGHcTCMiE8BF6YzD6Lil_wg1lNj4XygyEDcm9CdNa6Pkfw8FvCh9a_SLxWvxeDDo8Fg0Ay9OcIutEZ53WKIFX0hjSMfn1uKX1U5brZx1QochPd_FVRBaiEjwIDEKW1-TU90mTs-DBEXEEOn6Cyoc5l4TZ7U2ejQH4XronEvnzT6HhpdBfopOvYZFdZBgyeCOQkbZWQ4BB_zwPchS05v-Gy7",
+        "width": 3600,
+        "height": 4800,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGUB35zW64Vx4WzP-jts6w1q79_awZHj0mLOhKijaGC26fFvcRpB8EnXSH8smailEaCn_gZtxfpPpsZ48RAyonX4bRiCZMjFvCR6wmXlGwJ9Q95xKL1DPXWuTxnklpeunt5xGZCYzbr6wHyesxdD7iks2Q6cmWD3yFQSf_RNkWgWNc2eUom00mf9Gjw8apD0PzY-3X75xactTh1WmIVm8d4ofsnEPyo6OK-dNP5DZGHcTCMiE8BF6YzD6Lil_wg1lNj4XygyEDcm9CdNa6Pkfw8FvCh9a_SLxWvxeDDo8Fg0Ay9OcIutEZ53WKIFX0hjSMfn1uKX1U5brZx1QochPd_FVRBaiEjwIDEKW1-TU90mTs-DBEXEEOn6Cyoc5l4TZ7U2ejQH4XronEvnzT6HhpdBfopOvYZFdZBgyeCOQkbZWQ4BB_zwPchS05v-Gy7&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/116303779811421933477\">Namfon Society064</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-CCO-001",
+    "name_en": "Wat Boonyawad",
+    "name_th": "วัดบุญญาวาส",
+    "hex_cid": "0x3103301141462ecd:0x78cdb28fd9e0b789",
+    "place_id": "ChIJzS5GQREwAzERibfg2Y-yzXg",
+    "matched_name": "Wat Boonyawad",
+    "rating": 4.7,
+    "total_ratings": 1008,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEHa3prdbziyiJltKN-5tLG57ARYTwFegD33optyndKI9mNbJBOHtdv2RG8nPPv-Z_hoTra_LnUympDiKLDDacHbtjvjpQMlO1oaRasC2WBM2WxJEOW4-arxocPU5jM0z0ig68_RgP5gS8QOKVLtJx69UyvwZZEUivBiTCVRDzrN70ThEvfz_z4m11-qbbCnza9LuAE0IoG21joLv544Nj6jctpfO8ekYpWVXkFxaoxG4YjdvY56_DLF93BF1Bkh_5qujeEk2h1SNKePpEBgnw5ijrL63uU2atOO9VDASSquhaXXwWBsas_5CFE1550DONr85Me29NgtSTMAhOpjH7Ltf0hw0C32dsXshZ9oAi-Z321a_agcT0Dxuqa9hzs3_LYBlY594qNZ8ZqYj0nwQnS6_dSR-KSFoU45tBBy5cMmf_SC",
+        "width": 2611,
+        "height": 3481,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHa3prdbziyiJltKN-5tLG57ARYTwFegD33optyndKI9mNbJBOHtdv2RG8nPPv-Z_hoTra_LnUympDiKLDDacHbtjvjpQMlO1oaRasC2WBM2WxJEOW4-arxocPU5jM0z0ig68_RgP5gS8QOKVLtJx69UyvwZZEUivBiTCVRDzrN70ThEvfz_z4m11-qbbCnza9LuAE0IoG21joLv544Nj6jctpfO8ekYpWVXkFxaoxG4YjdvY56_DLF93BF1Bkh_5qujeEk2h1SNKePpEBgnw5ijrL63uU2atOO9VDASSquhaXXwWBsas_5CFE1550DONr85Me29NgtSTMAhOpjH7Ltf0hw0C32dsXshZ9oAi-Z321a_agcT0Dxuqa9hzs3_LYBlY594qNZ8ZqYj0nwQnS6_dSR-KSFoU45tBBy5cMmf_SC&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112645824842595887848\">Yuranan Chaiyajak</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEFL1Dxq2HsGv5D8RvuPOFXLts9zc8aF1VqYURzTWdE59PZMg45CsmxH1YfpjqzI_nqVT6V0jdU6nt3AC354rgwES0vVB69V9Zyb8RVIAGAsZ4QyGotz6bUjoSbGeWspOq9XAaosLGGAHHfVCdg1J3puCJBsOhQoOe_gko6fiEwqcvi3f7MjzswpfF-UIUatlrm5D01WJYeKMwSuoTECVLIQ8rrqwuV9rqGBiEVLgKQou8T67XyZztOgEk-hnGBHBSqXxVAnjfvLfw1WkCqipQKF--ul03t-OK6tiyQQ9Fqa53-8GEPGPAAdfBDPK-f7svkuTBH7kuBiNPGR3Ul2zk-Rdsvo8xLPTqm6-K9cQCuW3XwRd7tcGoCEsmh3lSsmT7_Rtdy3kOOASsd5bmmQXNlmB3TWADFIvt-p_X7uxkazV21j",
+        "width": 2048,
+        "height": 1536,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFL1Dxq2HsGv5D8RvuPOFXLts9zc8aF1VqYURzTWdE59PZMg45CsmxH1YfpjqzI_nqVT6V0jdU6nt3AC354rgwES0vVB69V9Zyb8RVIAGAsZ4QyGotz6bUjoSbGeWspOq9XAaosLGGAHHfVCdg1J3puCJBsOhQoOe_gko6fiEwqcvi3f7MjzswpfF-UIUatlrm5D01WJYeKMwSuoTECVLIQ8rrqwuV9rqGBiEVLgKQou8T67XyZztOgEk-hnGBHBSqXxVAnjfvLfw1WkCqipQKF--ul03t-OK6tiyQQ9Fqa53-8GEPGPAAdfBDPK-f7svkuTBH7kuBiNPGR3Ul2zk-Rdsvo8xLPTqm6-K9cQCuW3XwRd7tcGoCEsmh3lSsmT7_Rtdy3kOOASsd5bmmQXNlmB3TWADFIvt-p_X7uxkazV21j&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111825030367259220730\">Teng เต้ง วาไรตี้</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEG21ivtFRjyXnHvZGNsl_q2kbA4tpmxY78hh72qUF27r9P_dVazofOU0HyMkRs0RVtG19_tAHdfsMtiZUx1UjQ7vOdyMOnlimQ6rPFunG99ZkkaJ9qxubuRANzkj36gUoSUVrznYp6KLOEOQP2R4EmudewWb9dTAArPGEQbp_DxxZZBQZnwGYM2puAUTcsWF_dHyIZMb3FKsjRFAEVT_91Q3FI5QmHeDUhNwP1P5A5dg-WB72Ox_23ofrFySQgyhHTglWTg-_9cfCjHlNLIq1JPmObglPjXozfEOR1dZ4QpeUjOV0dDByV1Z8DwvF3AlhHGQtz30-mwNop5LQMywtWz0PjFbifbZladeQWtSFbGIasNEEmTdEx4TACQ_IvadrZuDmt2J5FQ2IbM95nYJF3MXSGRWlC12-LbNpm0Pjzjxtw5",
+        "width": 2268,
+        "height": 4032,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEG21ivtFRjyXnHvZGNsl_q2kbA4tpmxY78hh72qUF27r9P_dVazofOU0HyMkRs0RVtG19_tAHdfsMtiZUx1UjQ7vOdyMOnlimQ6rPFunG99ZkkaJ9qxubuRANzkj36gUoSUVrznYp6KLOEOQP2R4EmudewWb9dTAArPGEQbp_DxxZZBQZnwGYM2puAUTcsWF_dHyIZMb3FKsjRFAEVT_91Q3FI5QmHeDUhNwP1P5A5dg-WB72Ox_23ofrFySQgyhHTglWTg-_9cfCjHlNLIq1JPmObglPjXozfEOR1dZ4QpeUjOV0dDByV1Z8DwvF3AlhHGQtz30-mwNop5LQMywtWz0PjFbifbZladeQWtSFbGIasNEEmTdEx4TACQ_IvadrZuDmt2J5FQ2IbM95nYJF3MXSGRWlC12-LbNpm0Pjzjxtw5&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113761209594811358228\">Surachai Yodkaew</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-RYG-001",
+    "name_en": "Wat Marp Jan",
+    "name_th": "วัดมาบจันทร์",
+    "hex_cid": "0x3103038c0005579f:0x57bc243416b6abd1",
+    "place_id": "ChIJn1cFAIwDAzER0au2FjQkvFc",
+    "matched_name": "Wat Marp Jan วัดมาบจันทร์",
+    "rating": 4.6,
+    "total_ratings": 204,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEGJ6PGZoEmNJ-IUXgC_haw8D1qoZlK5rYjum4eXK7JeA3w-iVGoxaatZ1754a4JD8xYm1TipCa_2q6BUHzkT0Cx3PGRflBfA_ZfldnuCA18I0ihOz_U9eQ8_JEbcE7mZqzo5EzoT2i_CFhFbYPtJRiNNqdL8HoQ-AnpJslEajiT-4nPbuwRRPgom80mSO90CRuG282D_dKih-A-GIctl_3DR_WRULvK7Ev2bzMN8QOEYKhJJ5U8uY1SKQ136aNX60lk2bWo-Y4yZ97k4JrmCKRvE1k-g1XSLPGEdCr1aCubgw",
+        "width": 1280,
+        "height": 853,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGJ6PGZoEmNJ-IUXgC_haw8D1qoZlK5rYjum4eXK7JeA3w-iVGoxaatZ1754a4JD8xYm1TipCa_2q6BUHzkT0Cx3PGRflBfA_ZfldnuCA18I0ihOz_U9eQ8_JEbcE7mZqzo5EzoT2i_CFhFbYPtJRiNNqdL8HoQ-AnpJslEajiT-4nPbuwRRPgom80mSO90CRuG282D_dKih-A-GIctl_3DR_WRULvK7Ev2bzMN8QOEYKhJJ5U8uY1SKQ136aNX60lk2bWo-Y4yZ97k4JrmCKRvE1k-g1XSLPGEdCr1aCubgw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/111888091825430121381\">Wat Marp Jan วัดมาบจันทร์</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGiphaEaBvTdJzdqx8itQRL-B0FkuJE1m8oGNMIR-UOuTfrXrx6d6PZ_DVshoiOlP8XLIh-2Ml40ar-tVQUgjOlFDdmeiDZm418KyD3im345HpT66esJi7LVdw4Jv-wVrJLMzRo3cILS6QRWX6n49vCCHj_yf_HhqNmdkQS1MmtLcsjnwYiRXDtQzK8QLk3FEt5gmWhKoQcG7L8fY6JqekEPmSwG-tLrGBVIkGQfZR-zhyPfBkDnV6znH1aXyhug67aeNzgUqUW57PwFw0-nPvhBM3uu0W0atGEMpEB_SpQCFzOZiA0Y3I6h-kQloQgrQ4EgXfkCLNNp43jnWVmztwumWcMe6z82wRPP0BrW1zOgubEPicPk5joCvoQXNIK5wi0z5iwgE1_g22WznNUlo7GYirTuAulMCU2Q3kMMgfZ8D61",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGiphaEaBvTdJzdqx8itQRL-B0FkuJE1m8oGNMIR-UOuTfrXrx6d6PZ_DVshoiOlP8XLIh-2Ml40ar-tVQUgjOlFDdmeiDZm418KyD3im345HpT66esJi7LVdw4Jv-wVrJLMzRo3cILS6QRWX6n49vCCHj_yf_HhqNmdkQS1MmtLcsjnwYiRXDtQzK8QLk3FEt5gmWhKoQcG7L8fY6JqekEPmSwG-tLrGBVIkGQfZR-zhyPfBkDnV6znH1aXyhug67aeNzgUqUW57PwFw0-nPvhBM3uu0W0atGEMpEB_SpQCFzOZiA0Y3I6h-kQloQgrQ4EgXfkCLNNp43jnWVmztwumWcMe6z82wRPP0BrW1zOgubEPicPk5joCvoQXNIK5wi0z5iwgE1_g22WznNUlo7GYirTuAulMCU2Q3kMMgfZ8D61&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115446723098779160346\">S M</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEHjZwzSkPLjZqWSp9n4EtgNuHch2JhzMGQJzi5hhIvs8rtfTYsDZbbD-pHOx6HM8Tx0ySbVS3_D3ZkxahCJbN4nFxBseeXgdevBK9ecjtUJ7BjcoV4GF-9z87pI2SXcS8_EWx9VhTNW1rxZQjzJA2KWt2cR7twKPVZi0UKEGsSjERo0mI2-Cdb3O8k81-xM1ep8UXTWRVWwt-1ZWYSAsW8HifYuFsy3l5jXCdA07ztXkb9wRvGhpb9YLlSPKreetlPv3fHwpeicdJtQoBjUMivSycTabCfy1pFJnpLNowx9UvJiE0m1X6SO7CffE-OIuTyoXtvltg-HqGYuNKPaD_OqFcWziezMPmp0j9EMEeuTweYGWG4cBTig2Uir4PI_jdXCVXVMnT0OxNt3LfvIZnUdkfcp79O7Y6EKAXhvpTQ0pK8",
+        "width": 2268,
+        "height": 4032,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHjZwzSkPLjZqWSp9n4EtgNuHch2JhzMGQJzi5hhIvs8rtfTYsDZbbD-pHOx6HM8Tx0ySbVS3_D3ZkxahCJbN4nFxBseeXgdevBK9ecjtUJ7BjcoV4GF-9z87pI2SXcS8_EWx9VhTNW1rxZQjzJA2KWt2cR7twKPVZi0UKEGsSjERo0mI2-Cdb3O8k81-xM1ep8UXTWRVWwt-1ZWYSAsW8HifYuFsy3l5jXCdA07ztXkb9wRvGhpb9YLlSPKreetlPv3fHwpeicdJtQoBjUMivSycTabCfy1pFJnpLNowx9UvJiE0m1X6SO7CffE-OIuTyoXtvltg-HqGYuNKPaD_OqFcWziezMPmp0j9EMEeuTweYGWG4cBTig2Uir4PI_jdXCVXVMnT0OxNt3LfvIZnUdkfcp79O7Y6EKAXhvpTQ0pK8&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/118241800235159483103\">หินขาว</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-PTN-001",
+    "name_en": "Wat Pa Chittaphavan",
+    "name_th": "วัดป่าจิตตภาวนา",
+    "hex_cid": "0x311d7ddf5a1df311:0x94b89745b0279a4b",
+    "place_id": "ChIJEfMdWt99HTERS5onsEWXuJQ",
+    "matched_name": "Wat Pa Chittapawana",
+    "rating": 4.6,
+    "total_ratings": 145,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEFdV016hS8Y6RMh1YIPCo5y3Gj7RF3B7K6JSEJ0IfXzQl-YnBaG1QAbLy7zYL9Ovl0YVYJmZae0UGtvNmgrGDrpN6unsHPZBpKFh0WEnrskB0SVwxu3QmnlYdcc5Ys3uq_I5KytNBzDTsEBgqcpT0zOyIkZjKPXwksUxxN-I6gBEt6Ma8hQJqDCr4sxv_vZbi6nANOp9-Y_p3qvQPKUlwae4_hkmvOQyCvce2eoPn8okv6hO6t4Y7R3vH4O1H7icPcPTl7FtjdurAmyNAhKmcV0j5PFsuJsNru3DECf5n78lZcFGDhJPIBoh3GVdPaf5NMwFyTQ_mAkC5EZcAa1kd0dxdDMmNDJbBYFyUYfMg_rdD8KeBiZbmNdGrfLPvx-RcN-LloQbcqz4Ho0uYnmQ2rfV14K6XqUZ4wXdpvyFUiynvoT",
+        "width": 4000,
+        "height": 3000,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFdV016hS8Y6RMh1YIPCo5y3Gj7RF3B7K6JSEJ0IfXzQl-YnBaG1QAbLy7zYL9Ovl0YVYJmZae0UGtvNmgrGDrpN6unsHPZBpKFh0WEnrskB0SVwxu3QmnlYdcc5Ys3uq_I5KytNBzDTsEBgqcpT0zOyIkZjKPXwksUxxN-I6gBEt6Ma8hQJqDCr4sxv_vZbi6nANOp9-Y_p3qvQPKUlwae4_hkmvOQyCvce2eoPn8okv6hO6t4Y7R3vH4O1H7icPcPTl7FtjdurAmyNAhKmcV0j5PFsuJsNru3DECf5n78lZcFGDhJPIBoh3GVdPaf5NMwFyTQ_mAkC5EZcAa1kd0dxdDMmNDJbBYFyUYfMg_rdD8KeBiZbmNdGrfLPvx-RcN-LloQbcqz4Ho0uYnmQ2rfV14K6XqUZ4wXdpvyFUiynvoT&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106090106393114195314\">Wanchai Lokham</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGqnk1gibIuG2zraZ8ZhS_MSesTmjHTNtsBIV0MryCbkyS3XdQ9N3jR1S96T7u2YQ5zOp1Jr2SvlB6CPssrSPjiwmctO3RP9d5bKdhsm0xtV8JQQzeAhNqXv8Jaay6laPzC-Ivi7I5_PiOmV4nEL5PcV3XgTv0qF2-Rwcvu12sHc0fMpVqoxKxNMl2DB54_lYTfKF2z_iBsjUx4cdQw6SfDP0K1_bdOwBvLQokvnrdlRlEknxxQeeKOq-4_tQsG_OsqNHnDopYlXCbxfqZCUHjdh_DozaCYSb7gvGmLWPW_85fZevUgBMs4b-grwqO1VKxrpi9OOET-27wm1mx1BAzHebtGQzulU83-uv3BNqFN_R8Yj5kMmJzG2EYEGyfLoTs8kd3G7L40HlFXNZDFFs_DwOEzCMiX6szx8JoX4nLLJRDr",
+        "width": 1997,
+        "height": 2537,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGqnk1gibIuG2zraZ8ZhS_MSesTmjHTNtsBIV0MryCbkyS3XdQ9N3jR1S96T7u2YQ5zOp1Jr2SvlB6CPssrSPjiwmctO3RP9d5bKdhsm0xtV8JQQzeAhNqXv8Jaay6laPzC-Ivi7I5_PiOmV4nEL5PcV3XgTv0qF2-Rwcvu12sHc0fMpVqoxKxNMl2DB54_lYTfKF2z_iBsjUx4cdQw6SfDP0K1_bdOwBvLQokvnrdlRlEknxxQeeKOq-4_tQsG_OsqNHnDopYlXCbxfqZCUHjdh_DozaCYSb7gvGmLWPW_85fZevUgBMs4b-grwqO1VKxrpi9OOET-27wm1mx1BAzHebtGQzulU83-uv3BNqFN_R8Yj5kMmJzG2EYEGyfLoTs8kd3G7L40HlFXNZDFFs_DwOEzCMiX6szx8JoX4nLLJRDr&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/100484783709881924513\">Nop T</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGvtZYZJsjqyDLhxGnCNA7J1tFoMG_WKoDOreBJAfiWOkXcFwn0XBNNDOS74fEHFMPHBPn4KB9KeA6le6fyryGgSMYZALbnC73xd6cwm2gJq7zb_FzsB1x8fzh0Uua99Ggj3yCSNQtucurTIyr6X1dyOKXJxbf_Q87S7zXbRQ2PXUX2hfESpvD4fDarTIlQvT_pdYAjpZYMpHyCff5HdGI--7VAih9RbxoBRhuW93KW_I-Zi88w_ou5Dty1INaXr7-InDPtGDSpOXQmQZSQCrUsGRW19vpDLkPW6XsQkADyS8D6yha-slF_6zrxJNty6KwqapVHq3ANMLRvvLv5gEqhedadWiT2x3s8sGggIfymAjR9rW9FA1bvC9aFax2ZpdOT0BJrMXbFSfLXY38JWwsdQQFq-4NFNwj5ho0NHsK2VHFq",
+        "width": 3022,
+        "height": 3219,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGvtZYZJsjqyDLhxGnCNA7J1tFoMG_WKoDOreBJAfiWOkXcFwn0XBNNDOS74fEHFMPHBPn4KB9KeA6le6fyryGgSMYZALbnC73xd6cwm2gJq7zb_FzsB1x8fzh0Uua99Ggj3yCSNQtucurTIyr6X1dyOKXJxbf_Q87S7zXbRQ2PXUX2hfESpvD4fDarTIlQvT_pdYAjpZYMpHyCff5HdGI--7VAih9RbxoBRhuW93KW_I-Zi88w_ou5Dty1INaXr7-InDPtGDSpOXQmQZSQCrUsGRW19vpDLkPW6XsQkADyS8D6yha-slF_6zrxJNty6KwqapVHq3ANMLRvvLv5gEqhedadWiT2x3s8sGggIfymAjR9rW9FA1bvC9aFax2ZpdOT0BJrMXbFSfLXY38JWwsdQQFq-4NFNwj5ho0NHsK2VHFq&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/102285725266519390539\">VARICK Headquarters</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-CYP-001",
+    "name_en": "Wat Pa Sukhato – Satipatthana Institute",
+    "name_th": "วัดป่าสุคะโต สถาบันสติปัฏฐาน",
+    "hex_cid": "0x3118aadc768015f5:0x746d4d6f666eab9a",
+    "place_id": "ChIJ9RWAdtyqGDERmqtuZm9NbXQ",
+    "matched_name": "Wat Pasukato",
+    "rating": 4.8,
+    "total_ratings": 375,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEHIjoHcEYkA8LH_PFxpdyv6CIPlXDygWl6oVusVXaNl1rVFn-1pI2KBDJpD76Txwm0xUp-cUi3_8HaIaq94tnMiFNw-m_T1YSs911JW3xfw3mp50HG-gtuzQ6TfLmAGorxxKaiE8KnefXgPDw32i-d00IGF2tQ_gh5Ie4cprRzfOV9yMFvFGlkD_XoT4RCQrnVD9U1PBv4-D8EfNgqOjU3Mm1GZeIsOlRc8JSOzUYX8ps9yHHABaUoQ8aivdAX6G-z691z3YinkrHqgyri63wvqyLtEVh6rjRme6unOh_cTqy5h9CeQ-kYn7mg2zrRLCfAViTxomW3CYNKxAs3DgDwFyKYP1wsXB83JY0AIOAmcqx5V4zVbQIezTq7pXtK6pnjnMlnt3fVDg1qWdH_2K--gkxc_J0anTcBs72nq0FZruA",
+        "width": 960,
+        "height": 720,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHIjoHcEYkA8LH_PFxpdyv6CIPlXDygWl6oVusVXaNl1rVFn-1pI2KBDJpD76Txwm0xUp-cUi3_8HaIaq94tnMiFNw-m_T1YSs911JW3xfw3mp50HG-gtuzQ6TfLmAGorxxKaiE8KnefXgPDw32i-d00IGF2tQ_gh5Ie4cprRzfOV9yMFvFGlkD_XoT4RCQrnVD9U1PBv4-D8EfNgqOjU3Mm1GZeIsOlRc8JSOzUYX8ps9yHHABaUoQ8aivdAX6G-z691z3YinkrHqgyri63wvqyLtEVh6rjRme6unOh_cTqy5h9CeQ-kYn7mg2zrRLCfAViTxomW3CYNKxAs3DgDwFyKYP1wsXB83JY0AIOAmcqx5V4zVbQIezTq7pXtK6pnjnMlnt3fVDg1qWdH_2K--gkxc_J0anTcBs72nq0FZruA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106703427117826692888\">chananchida rerai</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEF7orqZV5OSwEvhG2pqpfdjwn_ughSBmhULM60p6eEyqC_j0bFe1pndUQaiUDkNokLJG26_opFE1jC5LYiBu8iLsupGmdP3mW-d2lUNXivKOb_B_gm8ge0eMERCAdR9GD_L0bUEyHReGDIp30teZoeigjDhmLPyHpvGBS7zF-4JOHOvOqoou3XoEa6S4W1Vsx_3hLw9cgPfURSn4NrudLo4fDjOyPI7oXJNCMggI9brRCLLJM65xa_gChg4A9889sRUlV8rnkueqkxFQMHcR8FDXTbvArQNCMNGABIyHglZFqRrY1yoJjEnGT6Uj3CXh0jDcETctHVjH3As5_CQw_jWI8rA03LCBWuaUhS3GmBdXVeqNKHR38ZEtwI9kyqqbRjMQ409WNoRiRV-K-aJdFWA2nZrHK8yjmanRG41pGhktw",
+        "width": 4800,
+        "height": 2700,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEF7orqZV5OSwEvhG2pqpfdjwn_ughSBmhULM60p6eEyqC_j0bFe1pndUQaiUDkNokLJG26_opFE1jC5LYiBu8iLsupGmdP3mW-d2lUNXivKOb_B_gm8ge0eMERCAdR9GD_L0bUEyHReGDIp30teZoeigjDhmLPyHpvGBS7zF-4JOHOvOqoou3XoEa6S4W1Vsx_3hLw9cgPfURSn4NrudLo4fDjOyPI7oXJNCMggI9brRCLLJM65xa_gChg4A9889sRUlV8rnkueqkxFQMHcR8FDXTbvArQNCMNGABIyHglZFqRrY1yoJjEnGT6Uj3CXh0jDcETctHVjH3As5_CQw_jWI8rA03LCBWuaUhS3GmBdXVeqNKHR38ZEtwI9kyqqbRjMQ409WNoRiRV-K-aJdFWA2nZrHK8yjmanRG41pGhktw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/113367344493607575490\">Niratorn Srisukho</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEGMU7j6AaGj5SWFVUImLbqLlNkEifbo9wFe3Kp_D4145dIUzN8bk_rQMi6DdC8MISPzLEzJj340rUq_z4JdqkoiExOcUCpUH8zaMh9A-VYks3t4-xHpJ1JlPO2_No6ySVmYx06hk6yi8vreCtr4F3XM9Dn2lNyiCcG7suMWiJMQ28ym-8HEQNxIcNFSmWbKqtBfeF05Ue3BVuuyZNt1Qjcu-fY_rL3XU9tfYt5VOzS6OQwt-g8ggjyyq1Op6jnr-Z9Nufyg1wbtiMahKw4AJ8xe3jaHhzP2MZLk3DS7Ny3H59nDBFm3PJ54y3BTigaBhavXJ7A1JFDVYRti6egOpt9V3z97XQC7EcFmkCh35pDG5MOaM74pU13SxtWS_4WSs-Icu7OqGp6z_IT7O45tv7F85kUr8jP-IewEj-09aveiYQ",
+        "width": 720,
+        "height": 405,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGMU7j6AaGj5SWFVUImLbqLlNkEifbo9wFe3Kp_D4145dIUzN8bk_rQMi6DdC8MISPzLEzJj340rUq_z4JdqkoiExOcUCpUH8zaMh9A-VYks3t4-xHpJ1JlPO2_No6ySVmYx06hk6yi8vreCtr4F3XM9Dn2lNyiCcG7suMWiJMQ28ym-8HEQNxIcNFSmWbKqtBfeF05Ue3BVuuyZNt1Qjcu-fY_rL3XU9tfYt5VOzS6OQwt-g8ggjyyq1Op6jnr-Z9Nufyg1wbtiMahKw4AJ8xe3jaHhzP2MZLk3DS7Ny3H59nDBFm3PJ54y3BTigaBhavXJ7A1JFDVYRti6egOpt9V3z97XQC7EcFmkCh35pDG5MOaM74pU13SxtWS_4WSs-Icu7OqGp6z_IT7O45tv7F85kUr8jP-IewEj-09aveiYQ&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/110528171160234082041\">Genuis</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-NMA-004",
+    "name_en": "Ashram Mata Foundation",
+    "name_th": "มูลนิธิอาศรมมาตา",
+    "hex_cid": "0x311c0411b297ff03:0xd5f0cb0a83cedb33",
+    "place_id": "ChIJA_-XshEEHDERM9vOgwrL8NU",
+    "matched_name": "มูลนิธิอาศรมมาตา",
+    "rating": 4.8,
+    "total_ratings": 44,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEHjqbToO2vfCzUwYbiEg6qY0Y14zyhoGdfP6G-Z_FHkzREJYV4S7DaGH0F-gldKXiFevrsA4vT_53M9d0KBcdzXdqySrVK3AEQ9ERdO-B9voDCqbxyWJwts-Wya_bpN3YGjUzrR0fClV6hT1fPSh9FmXYHTHNXoBQJUnBJAk5PkueGpNnV-Ed-L5yaVHUolciHPMteZz3o_1lCDGrS3ZmJCQ5ntl-fdWSGpp-OdRqNZ95ssKM2zi35rmdL82GzMBHyUVXnSyK249jycx6Mirc9H1P_ELxKvYYmNCmd9MnJQT3kzxnrO3Y4xcbEdjB8MH6EvlN4uIqwJZWqI837rG_6A7jrYa9KI3W_fRsN1LrDEbwOk4hAwQinwzTIrUiZDEJd8UfR5IqW4a__KF-Z4crSJ4FYzSwi29THo_qwADXPisi5p",
+        "width": 1280,
+        "height": 960,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHjqbToO2vfCzUwYbiEg6qY0Y14zyhoGdfP6G-Z_FHkzREJYV4S7DaGH0F-gldKXiFevrsA4vT_53M9d0KBcdzXdqySrVK3AEQ9ERdO-B9voDCqbxyWJwts-Wya_bpN3YGjUzrR0fClV6hT1fPSh9FmXYHTHNXoBQJUnBJAk5PkueGpNnV-Ed-L5yaVHUolciHPMteZz3o_1lCDGrS3ZmJCQ5ntl-fdWSGpp-OdRqNZ95ssKM2zi35rmdL82GzMBHyUVXnSyK249jycx6Mirc9H1P_ELxKvYYmNCmd9MnJQT3kzxnrO3Y4xcbEdjB8MH6EvlN4uIqwJZWqI837rG_6A7jrYa9KI3W_fRsN1LrDEbwOk4hAwQinwzTIrUiZDEJd8UfR5IqW4a__KF-Z4crSJ4FYzSwi29THo_qwADXPisi5p&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107737356727245747121\">Molly</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEF4C-vhPc1dIlYC-Xqu_zr4dII9WqfAh42Su0Er1woMIfcfSb9uDo00MR7kupbviGjWFcSa7qHJqtQVPLsiIhoqNPuTg1thfTrubWzAhcnuKQM9Iq8F0o_GnzdFFcF0AzxsY-TeEhk_c3MbFX8Ln38XyWpdJOT7Q3lE3PQkw7IgJRYdUMfoIFge9MQBUvQmzupx3eTnNYDY8rsboONEmgc9E3qjaBLMzxmHOi-g18IrF8HWjB4Rz6zeoE92C7hhbz21hkL-fPD9Y7254DtYwZwZWKkeLny9jzWF29N1Jt-XyOE_bR3RjlBJhVhY72Wkx1sU89pGUl_LBsc4mNvVZjgXWi6S6dVWZWVWICfoPc20Jrlm7njEJX5nYsFkM83-KgCkTENbwa3EbbRJPMU9Tmel1zHsUTyCc5vW-1iBouyE1AIVKmgq2pklSdsyDvx3",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEF4C-vhPc1dIlYC-Xqu_zr4dII9WqfAh42Su0Er1woMIfcfSb9uDo00MR7kupbviGjWFcSa7qHJqtQVPLsiIhoqNPuTg1thfTrubWzAhcnuKQM9Iq8F0o_GnzdFFcF0AzxsY-TeEhk_c3MbFX8Ln38XyWpdJOT7Q3lE3PQkw7IgJRYdUMfoIFge9MQBUvQmzupx3eTnNYDY8rsboONEmgc9E3qjaBLMzxmHOi-g18IrF8HWjB4Rz6zeoE92C7hhbz21hkL-fPD9Y7254DtYwZwZWKkeLny9jzWF29N1Jt-XyOE_bR3RjlBJhVhY72Wkx1sU89pGUl_LBsc4mNvVZjgXWi6S6dVWZWVWICfoPc20Jrlm7njEJX5nYsFkM83-KgCkTENbwa3EbbRJPMU9Tmel1zHsUTyCc5vW-1iBouyE1AIVKmgq2pklSdsyDvx3&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/112017273566131565890\">มูลนิธิ อาศรมมาตา</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEEswvsZYE0L5NZSnkV12i7U15MMZFARwEOmddmXaBBfDsOYRTbF-NT0L5bzBjAfo4gaOxucAiEB6lkogh0p1M_NJWGpdoQZTNZUcYqXMCpT0EN8t5VrNkemxsLggfoHyz43TPLeQcDa09yx9HM3WHhtZbtP_ihZT_9twL35EWwfK6xTsahU9Hsj6tJ6VO8oJv_L2lLOGuvBYNqUS42Z3sof7qswOyi9qE-wRBQKeXw3Ecama5vWyQe4OyFukuZZSrCUy0UF7SfCdhcY0IqolXJz8PY8f77mRuw72WDtR8-SQevm6cYpsY-4s3W7iWQWZZLg30WmfK3IKgMh-3gNiROQ6HjhS5n_6x6EpiDyGngkqLv3UfQ0dgnIOJQdq1IyypZ2covqKjBp8uNci7PDUsKy4_KX3zICFcyaZip6ktQyGC9O",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEswvsZYE0L5NZSnkV12i7U15MMZFARwEOmddmXaBBfDsOYRTbF-NT0L5bzBjAfo4gaOxucAiEB6lkogh0p1M_NJWGpdoQZTNZUcYqXMCpT0EN8t5VrNkemxsLggfoHyz43TPLeQcDa09yx9HM3WHhtZbtP_ihZT_9twL35EWwfK6xTsahU9Hsj6tJ6VO8oJv_L2lLOGuvBYNqUS42Z3sof7qswOyi9qE-wRBQKeXw3Ecama5vWyQe4OyFukuZZSrCUy0UF7SfCdhcY0IqolXJz8PY8f77mRuw72WDtR8-SQevm6cYpsY-4s3W7iWQWZZLg30WmfK3IKgMh-3gNiROQ6HjhS5n_6x6EpiDyGngkqLv3UfQ0dgnIOJQdq1IyypZ2covqKjBp8uNci7PDUsKy4_KX3zICFcyaZip6ktQyGC9O&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/106589985863121508906\">Fah Zerozaro</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-UDN-001",
+    "name_en": "Wat Pa Ban Tat (Wat Kesornsilakul)",
+    "name_th": "วัดป่าบ้านตาด (วัดเกษรศีลคุณ)",
+    "hex_cid": "0x31239fb6bd6d9583:0x8a6302705d21a926",
+    "place_id": "ChIJg5VtvbafIzERJqkhXXACY4o",
+    "matched_name": "Wat Pa Ban Tad",
+    "rating": 4.8,
+    "total_ratings": 2668,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEE87lzKVVJDWfelno7NTzGByB5aCmmnytU277maiIKZQabLkqI7ZUNj4j9KdwvJan_V3HQbTEEsRnf6JElv-lvAlElAwzbbV9wobiYlTRJnEoL9GSOQrfIQ2dUSu6HEIe8ouFKwUyiMkaOwYhQ2nRfjXEOrFYEM4LQl7LE6hNSoyE0oEDeQ1VuF0-tsld4u4q-vTCVaRkhQtYfSzUnDXa1q0x2COzWksAvwvdVdNGPLZOPFMEmYCFIjv-ch9IfuBUQzcpd1kiTXhI40dJa4Yz_RjBVEnWL8C8nSgW8dot1rdVpKOAoDfX1pybUL5kckAmKEfJpKHWkzjdYQs0GQ3EE_wcZElpRM1A2qNw6ssTKR56OirqGRN2mOy8ITt1k_Jy3WHX2_lO7O49XPun0O6ah-_qSOmaHgXA-u1DHPl4SIWIbR",
+        "width": 4800,
+        "height": 3201,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEE87lzKVVJDWfelno7NTzGByB5aCmmnytU277maiIKZQabLkqI7ZUNj4j9KdwvJan_V3HQbTEEsRnf6JElv-lvAlElAwzbbV9wobiYlTRJnEoL9GSOQrfIQ2dUSu6HEIe8ouFKwUyiMkaOwYhQ2nRfjXEOrFYEM4LQl7LE6hNSoyE0oEDeQ1VuF0-tsld4u4q-vTCVaRkhQtYfSzUnDXa1q0x2COzWksAvwvdVdNGPLZOPFMEmYCFIjv-ch9IfuBUQzcpd1kiTXhI40dJa4Yz_RjBVEnWL8C8nSgW8dot1rdVpKOAoDfX1pybUL5kckAmKEfJpKHWkzjdYQs0GQ3EE_wcZElpRM1A2qNw6ssTKR56OirqGRN2mOy8ITt1k_Jy3WHX2_lO7O49XPun0O6ah-_qSOmaHgXA-u1DHPl4SIWIbR&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114297231244360987768\">Siranat Gappimai</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEFhTso55YBdcbnkPyqmV--4XPyR7o683RbtqXVYvcMC5tY6yI1u5tE4byyvAW_KBpqnvT4mBSAloupD32rxtNgizR8IIiDBTn67JNCdzOldK7kEqzu5oxHw2J4AnTILvJ0JRFyIp3bsTlyaLyMrp_b0JXodHZgTioVeucdvq2XNJes1sMPV7bhPr6k1tvG7VGEnqNUbPJhOboc6NvOadZQUMb-8eRfK48Ellx3XpRkMtN94gD2D5URpU1gGyf_5Wbu-ca5ObHRqy5HiT8Au3pI_DkdYhMaCknx8zs93GOxlQc1zOZ8w1s8-HnUxWJsB-cu1DgIRGfhALmjS8hIGfTRNNWlMK7nIXq9BPbbRwxKj5UjRtBhJ7OuIK9m3sAQQ6-nZ54zHbqwqIbMwysBtNKyZeaDwLqjSHwJaJk3ZKPMVug",
+        "width": 4800,
+        "height": 3600,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFhTso55YBdcbnkPyqmV--4XPyR7o683RbtqXVYvcMC5tY6yI1u5tE4byyvAW_KBpqnvT4mBSAloupD32rxtNgizR8IIiDBTn67JNCdzOldK7kEqzu5oxHw2J4AnTILvJ0JRFyIp3bsTlyaLyMrp_b0JXodHZgTioVeucdvq2XNJes1sMPV7bhPr6k1tvG7VGEnqNUbPJhOboc6NvOadZQUMb-8eRfK48Ellx3XpRkMtN94gD2D5URpU1gGyf_5Wbu-ca5ObHRqy5HiT8Au3pI_DkdYhMaCknx8zs93GOxlQc1zOZ8w1s8-HnUxWJsB-cu1DgIRGfhALmjS8hIGfTRNNWlMK7nIXq9BPbbRwxKj5UjRtBhJ7OuIK9m3sAQQ6-nZ54zHbqwqIbMwysBtNKyZeaDwLqjSHwJaJk3ZKPMVug&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117291398907919075005\">Nhums Nhums</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEE5_eOS-htN8NJ6YmVsTfd8FMWcfXwNG6BIP-t3BImIka50ZMW20KdUmEOesA1RIHzzsExB2hYcimTjcPCbhjrTsCrDxBcHFi-4MfeoQlTE_qwJvauUxZzg7JzAvaA7qlOL2ZOhZVu_zuw8qvuBOC2gCofB39npwRsRa6Pvbm7LEVQQyK0DEy0FG49R_RqNxu0vZVyBc7zYcPpj6oxVAboLzBYFUcDWMus-aLE2Yv6upKNoqmQPJy6HtvHDCxs7ekPrSAo4qiUdFhXmHFETIp19fJXbjDtI1q2U8aYi3DDOaiSN57scP8s-ngr4fdacYZAYIfSdzQFHJjCD9LqE4mt03jLVmcfXnBq25lxAHELDTW8o0F3yAXr7iaPW7PUbS4NoWXVZYm5-viFJbLi6XijcdrtkogVMvoCUbZ2R7bjIRA",
+        "width": 3264,
+        "height": 2448,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEE5_eOS-htN8NJ6YmVsTfd8FMWcfXwNG6BIP-t3BImIka50ZMW20KdUmEOesA1RIHzzsExB2hYcimTjcPCbhjrTsCrDxBcHFi-4MfeoQlTE_qwJvauUxZzg7JzAvaA7qlOL2ZOhZVu_zuw8qvuBOC2gCofB39npwRsRa6Pvbm7LEVQQyK0DEy0FG49R_RqNxu0vZVyBc7zYcPpj6oxVAboLzBYFUcDWMus-aLE2Yv6upKNoqmQPJy6HtvHDCxs7ekPrSAo4qiUdFhXmHFETIp19fJXbjDtI1q2U8aYi3DDOaiSN57scP8s-ngr4fdacYZAYIfSdzQFHJjCD9LqE4mt03jLVmcfXnBq25lxAHELDTW8o0F3yAXr7iaPW7PUbS4NoWXVZYm5-viFJbLi6XijcdrtkogVMvoCUbZ2R7bjIRA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/115082824541525128748\">Vc Vcsmart</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-CCO-002",
+    "name_en": "Wat Yannasangwaram Voramahavihara (Under Royal Patronage)",
+    "name_th": "วัดญาณสังวรารามวรมหาวิหาร ในพระบรมราชูปถัมภ์",
+    "hex_cid": "0x31029487f667cb11:0x9b9e6d10e9246228",
+    "place_id": "ChIJEctn9oeUAjERKGIk6RBtnps",
+    "matched_name": "วัดญาณสังวรารามวรมหาวิหาร",
+    "rating": 4.7,
+    "total_ratings": 3449,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEGtBb4FrHalRvB-_VeO6h60O9vBjGvSjcHsIvhwV6BjE_d1q1W0oaCBC6FZTIVfVZQK2FFL84h6iDnBWFtXsPMGGVLAz4L1esq92WuHyAqqIbDj2g5vvSY80s440KXFTZTVrB4RNCbNFeYeOg5FDERU0eMYNJx-f3MpcJsJ0oPhPVEQxLerDK5OhRXW4B4YblEXdnVvxGWmY2QPi_9vu7kP1uSGNpTYgNSEz7WpB7w9S9ZrZfqFPfHgP0dvY6zDwQNdhpCJFpz50hG-0PWpv2nNJ4N6miAcxp2gLJHMSoQE50dtE9EZWSi_Tu5Gg7-pQGj50--0qTl-HGvEJufjqTxy4dsMnTP9Q0E4eSY76sNKG2ncgWWvY2W9mY6xjiT4orjPStr23KOHuGjTZD98Ld_3ly6cQuyE_1UDrt1asHldkw",
+        "width": 3968,
+        "height": 2976,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGtBb4FrHalRvB-_VeO6h60O9vBjGvSjcHsIvhwV6BjE_d1q1W0oaCBC6FZTIVfVZQK2FFL84h6iDnBWFtXsPMGGVLAz4L1esq92WuHyAqqIbDj2g5vvSY80s440KXFTZTVrB4RNCbNFeYeOg5FDERU0eMYNJx-f3MpcJsJ0oPhPVEQxLerDK5OhRXW4B4YblEXdnVvxGWmY2QPi_9vu7kP1uSGNpTYgNSEz7WpB7w9S9ZrZfqFPfHgP0dvY6zDwQNdhpCJFpz50hG-0PWpv2nNJ4N6miAcxp2gLJHMSoQE50dtE9EZWSi_Tu5Gg7-pQGj50--0qTl-HGvEJufjqTxy4dsMnTP9Q0E4eSY76sNKG2ncgWWvY2W9mY6xjiT4orjPStr23KOHuGjTZD98Ld_3ly6cQuyE_1UDrt1asHldkw&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/117314533483817503612\">Pattaya</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEEAihTSu2xruV8aQHOMNJCJMo11txUPN_Zn-ynqSF6OHmdF08416Omq04EntWkOl_9YyluJraH82kWFYEaUN0khZZx5MuXZsI2mFYQ-4BY2Y1kLtVi10jLpRMGSdeW5CwBXZvLak3TfAbVE0pgMN_TrYnRtx1DUKg6aWxkJ8kCO8iiaaVyaFbpN7q-0KAhRBc3u55SJ0-xnO1XwzukrmFt5gGqPd6l2LCyusqJYs2GPWOGV1KK41aBZEDFnLcunwSa4uQoclXMrNsJKg4DsDGWFpJPBNkw3NtRpBBnAGFpqROjiaLEga834jTVDQN1mZThkNNN38wpOuu_oAF22ForN_3pTtO5RRYFCymWya8W_DOLTsI1BKiHN2i7_-CjNsd8bYyxh1IalahSlgaKLya0DfRfftKroCkJOEkwcYFu3uA",
+        "width": 4032,
+        "height": 3024,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEAihTSu2xruV8aQHOMNJCJMo11txUPN_Zn-ynqSF6OHmdF08416Omq04EntWkOl_9YyluJraH82kWFYEaUN0khZZx5MuXZsI2mFYQ-4BY2Y1kLtVi10jLpRMGSdeW5CwBXZvLak3TfAbVE0pgMN_TrYnRtx1DUKg6aWxkJ8kCO8iiaaVyaFbpN7q-0KAhRBc3u55SJ0-xnO1XwzukrmFt5gGqPd6l2LCyusqJYs2GPWOGV1KK41aBZEDFnLcunwSa4uQoclXMrNsJKg4DsDGWFpJPBNkw3NtRpBBnAGFpqROjiaLEga834jTVDQN1mZThkNNN38wpOuu_oAF22ForN_3pTtO5RRYFCymWya8W_DOLTsI1BKiHN2i7_-CjNsd8bYyxh1IalahSlgaKLya0DfRfftKroCkJOEkwcYFu3uA&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107388707482850337599\">Masashi Yamazaki</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEFWz5FKhHAUBnC9D6_tmHjf9Nd9oFJnrM53Auk4unwEruDbhXfmRq8yF0SLNZg-DmF7r_0i5_E5Wsl8SdQmHEx4zkyGkmWsfDooPCRjX81osnlCo7Eu9Ttwj32TXSIrll0WuNXtz_YX28Lc2WaPBI1GFzQv1yBimmt2pxnrb0dbFWaAM1k9O8C6bVhmF-2vfoWds9ZfQgmxRvB3ANrgjpYR2U5wpPXtLhAC5vodvqeX7CWYXb4NOB_PCFlNz2fzBMbZKMyZpTLsIDsbwTf8PVOexHS7bF4-sz61K3FVBr6u7F_NNdOBdE9EF1b5CHDFZravV2XY97HRwajjzccBdtUXSSpMu_pQuyaSDGKQU4JGs6F-GQU1r-cNMFh3bXmXtu-iN6VMIQZxKAxU0G_xCgcQitiXYqRRAOc9ZZRaUGHMKKfg",
+        "width": 1776,
+        "height": 1184,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFWz5FKhHAUBnC9D6_tmHjf9Nd9oFJnrM53Auk4unwEruDbhXfmRq8yF0SLNZg-DmF7r_0i5_E5Wsl8SdQmHEx4zkyGkmWsfDooPCRjX81osnlCo7Eu9Ttwj32TXSIrll0WuNXtz_YX28Lc2WaPBI1GFzQv1yBimmt2pxnrb0dbFWaAM1k9O8C6bVhmF-2vfoWds9ZfQgmxRvB3ANrgjpYR2U5wpPXtLhAC5vodvqeX7CWYXb4NOB_PCFlNz2fzBMbZKMyZpTLsIDsbwTf8PVOexHS7bF4-sz61K3FVBr6u7F_NNdOBdE9EF1b5CHDFZravV2XY97HRwajjzccBdtUXSSpMu_pQuyaSDGKQU4JGs6F-GQU1r-cNMFh3bXmXtu-iN6VMIQZxKAxU0G_xCgcQitiXYqRRAOc9ZZRaUGHMKKfg&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/104556135141589744908\">Aroonratana Pavasutthi</a>"
+        ]
+      }
+    ]
+  },
+  {
+    "temple_id": "TH-CNX-002",
+    "name_en": "Wat Pa Daraphirom",
+    "name_th": "วัดป่าดาราภิรมย์",
+    "hex_cid": "0x30da3c48ffffffff:0xf65471ea1ed7a6b3",
+    "place_id": "ChIJ_____0g82jARs6bXHupxVPY",
+    "matched_name": "Wat Pa Dara Phirom Phra Aram Luang",
+    "rating": 4.8,
+    "total_ratings": 3910,
+    "photos": [
+      {
+        "photo_reference": "AU_ZVEFMU8wWDyq4UP1ZyE5iD3Ep8Rzg8_37Idk0OGK9Sm09LZXSgjG7wG3syLlp2FS5S1v1iQfegZA9bcz6eTc2V8lU2qc0vain-fit8XWciKHS1qCMXmE9e-rF6eRLMS3OvPc9a5wBHJvmC5jKbOjl1MPp9pAqJBo9luPTBQ0cG2-C10CUZY5MSxol6LlI_Yb-KjocYiEj8xiOpOLf_msJjygHIuBKoNiq1rSvf7MqoG6CtGhcF_hNnXwS1oTfyw2qxJuTJddl6-Tn31PujBfA-SRUGnqfAWn--O2Q1o2tfGdLRvovUtE11i8qwcM5EgEfxUpF74mKHn5zLInRWY3dWtZ9JbEUtfcGI65Fi-3BRexjB-0HEtstArZTBTc5ATqwvA_52c7QplTO5dBDRFCwHVKf-9pqSwMjkv5YBwka1NM69g",
+        "width": 4800,
+        "height": 3204,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFMU8wWDyq4UP1ZyE5iD3Ep8Rzg8_37Idk0OGK9Sm09LZXSgjG7wG3syLlp2FS5S1v1iQfegZA9bcz6eTc2V8lU2qc0vain-fit8XWciKHS1qCMXmE9e-rF6eRLMS3OvPc9a5wBHJvmC5jKbOjl1MPp9pAqJBo9luPTBQ0cG2-C10CUZY5MSxol6LlI_Yb-KjocYiEj8xiOpOLf_msJjygHIuBKoNiq1rSvf7MqoG6CtGhcF_hNnXwS1oTfyw2qxJuTJddl6-Tn31PujBfA-SRUGnqfAWn--O2Q1o2tfGdLRvovUtE11i8qwcM5EgEfxUpF74mKHn5zLInRWY3dWtZ9JbEUtfcGI65Fi-3BRexjB-0HEtstArZTBTc5ATqwvA_52c7QplTO5dBDRFCwHVKf-9pqSwMjkv5YBwka1NM69g&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/114571198357967388424\">Kokiat Rungsiyanuwat</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEH3I2DQuF8LdDncDqEiChn1LsdCLixjkodJbiY8og1ZsYkjQrNptrfzqbPhWYiCaoscFpXO3SkbMbEBzXNKkJM8LCcQP0O-NELQk41ENrXM7X5LCxSFz2Ond7qUoroVm0EAMk3101FzpTiiY7kFbBJmsBDVCQSkWnEtI0SJyXp-fx0Vf5k3uLXCyVbs6S_miyypDe8a7gC8MPByBqo5OYZ6f6eTHnXptrTzuqf1c1q-dwVLb7X8B4gnzYD25Lx2CNO_jlOlWCTjocagA5o4ztwDAhqBmkYNm6UUdkYOQ5dbX8OAYfsP3_z2MhbxzTu0QH4-8IarmqwUwqjorZWpeKbOTCWDvKw1Bx0HJLKq4CJZNiR6DN5YtOeAfpVAP7UUV10IGcu6SlO9-6MH0vO4KjcaYvNAejGgsbNV6M2jndV28Q",
+        "width": 3000,
+        "height": 3000,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEH3I2DQuF8LdDncDqEiChn1LsdCLixjkodJbiY8og1ZsYkjQrNptrfzqbPhWYiCaoscFpXO3SkbMbEBzXNKkJM8LCcQP0O-NELQk41ENrXM7X5LCxSFz2Ond7qUoroVm0EAMk3101FzpTiiY7kFbBJmsBDVCQSkWnEtI0SJyXp-fx0Vf5k3uLXCyVbs6S_miyypDe8a7gC8MPByBqo5OYZ6f6eTHnXptrTzuqf1c1q-dwVLb7X8B4gnzYD25Lx2CNO_jlOlWCTjocagA5o4ztwDAhqBmkYNm6UUdkYOQ5dbX8OAYfsP3_z2MhbxzTu0QH4-8IarmqwUwqjorZWpeKbOTCWDvKw1Bx0HJLKq4CJZNiR6DN5YtOeAfpVAP7UUV10IGcu6SlO9-6MH0vO4KjcaYvNAejGgsbNV6M2jndV28Q&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/107230971175287734409\">Blue Yar</a>"
+        ]
+      },
+      {
+        "photo_reference": "AU_ZVEFZBwWUNAX8Odcfnkjq3sTu5cErT-MPzF2eeQCUyadOCUftzCwlG5KkDYrOJvvASNqy0ugHmgWgrRt-xFuHAIheKl3IG2x1g4hFltg_bhvDX-GDtPl9jvqw1hLNjHXmsP-XiGpQQyqn5BefvvJUa4FH9E9_uyrLXGX5VYEBdLXvqya7sUoG9_xcUKU6clEQPgNC9dTPHrYW087SLnKPce4d1ddWLC-wstRTlm9bvpwQDVKaCFvgS9WgL-p4foVbfDm0T_aTDOdcrC-WW3UUnRnT8BgyTguh8z7J5qYNPWo9uBN0yUlI3RccownX89eoUByEz3OI10hnpZYXfo_8VjCxahnGvoiE795Jkp3HZCtDgseNsJ4tyHgPYmWUIB5xm-G8viRuPgbRiC04Qs3YB962rjWQLqdTjmg5NGD3LafPsQ",
+        "width": 3024,
+        "height": 4032,
+        "url": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFZBwWUNAX8Odcfnkjq3sTu5cErT-MPzF2eeQCUyadOCUftzCwlG5KkDYrOJvvASNqy0ugHmgWgrRt-xFuHAIheKl3IG2x1g4hFltg_bhvDX-GDtPl9jvqw1hLNjHXmsP-XiGpQQyqn5BefvvJUa4FH9E9_uyrLXGX5VYEBdLXvqya7sUoG9_xcUKU6clEQPgNC9dTPHrYW087SLnKPce4d1ddWLC-wstRTlm9bvpwQDVKaCFvgS9WgL-p4foVbfDm0T_aTDOdcrC-WW3UUnRnT8BgyTguh8z7J5qYNPWo9uBN0yUlI3RccownX89eoUByEz3OI10hnpZYXfo_8VjCxahnGvoiE795Jkp3HZCtDgseNsJ4tyHgPYmWUIB5xm-G8viRuPgbRiC04Qs3YB962rjWQLqdTjmg5NGD3LafPsQ&key=AIzaSyBMEmf_rdKXD6Aj_EMUiK4iKTSX5m2otwM",
+        "attributions": [
+          "<a href=\"https://maps.google.com/maps/contrib/101095197379545141507\">Suthep jansakun</a>"
+        ]
+      }
+    ]
+  }
+]

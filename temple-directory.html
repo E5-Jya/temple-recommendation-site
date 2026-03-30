@@ -215,12 +215,12 @@
     }
 
     .card-header {
-      height: 120px;
+      height: 180px;
       display: flex; align-items: flex-end; padding: 16px;
       position: relative; overflow: hidden;
     }
     .card-header-bg {
-      position: absolute; inset: 0;
+      position: absolute; inset: 0; overflow: hidden;
     }
     .card-header-overlay {
       position: absolute; inset: 0;
@@ -419,248 +419,7 @@
 </footer>
 
 <script>
-const TEMPLES = [
-{
-  id: "TH-NMA-001",
-  nameTh: "วัดป่าทรัพย์ทวีธรรมาราม",
-  nameEn: "Wat Pah Subthawee Dhammaram",
-  placeType: "วัด",
-  province: "นครราชสีมา",
-  district: "วังน้ำเขียว",
-  tradition: "ธรรมยุต – Dhammayut",
-  cost: "free",
-  tags: ["retreat", "ordain", "online", "women", "upcountry", "forest"],
-  actRetreats: true,
-  actOrdain: true,
-  actOnline: true,
-  actWomen: true,
-  isFree: true,
-  isBKK: false,
-  abbotTh: "พระอาจารย์กัณหา สุขกาโม",
-  blurb: "วัดป่าสายธรรมยุตกลางธรรมชาติวังน้ำเขียว นำโดยพระอาจารย์กัณหา สุขกาโม ฟรีทุกกิจกรรม | กิจกรรมประจำวัน: ตี 3 ตื่น → นั่งสมาธิ (03:00–05:00) → ทำวัตรเช้า (05:00–06:00) → ฉันอาหารมังสวิรัติ 1 มื้อ (07:30–...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "บวชพระ", "ออนไลน์", "ผู้หญิง/แม่ชี", "ธรรมยุต"],
-  gradient: "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
-  link: "temple-detail.html?id=TH-NMA-001"
-},
-{
-  id: "TH-BKK-001",
-  nameTh: "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)",
-  nameEn: "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
-  placeType: "สถานปฏิบัติธรรม",
-  province: "กรุงเทพมหานคร",
-  district: "จตุจักร",
-  tradition: "เถรวาท (แนวพุทธทาสภิกขุ) – Theravada (Buddhadasa tradition)",
-  cost: "free",
-  tags: ["bkk", "retreat", "online"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: true,
-  actWomen: false,
-  isFree: true,
-  isBKK: true,
-  abbotTh: "ไม่มีเจ้าอาวาส — บริหารโดยมูลนิธิหอจดหมายเหตุพุทธทาส อินทปัญโญ",
-  blurb: "หอจดหมายเหตุพุทธทาสในสวนรถไฟ จตุจักร เปิดฟรี ไม่รับบวช | เปิด พ.–อา. 09:00–17:00 (สโมสรธรรมทาน/ห้องสมุด), สวน 09:00–18:00 | กิจกรรมประจำสัปดาห์: ทำวัตรเช้าทุกเสาร์ 08:00–09:00, ทำวัตรเย็นทุกอาทิตย์ 17...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #0B3D2E, #1A6644)",
-  link: "temple-detail.html?id=TH-BKK-001"
-},
-{
-  id: "TH-BKK-002",
-  nameTh: "มูลนิธิบ้านอารีย์",
-  nameEn: "Baan Aree Foundation",
-  placeType: "มูลนิธิ",
-  province: "กรุงเทพมหานคร",
-  district: "พญาไท",
-  tradition: "เถรวาท (แนวหลวงพ่อเทียน จิตฺตสุโภ — เจริญสติแบบเคลื่อนไหว) – Theravada (Luang Pho Tian moving-mindfulness tradition)",
-  cost: "free",
-  tags: ["bkk", "retreat"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: false,
-  actWomen: false,
-  isFree: true,
-  isBKK: true,
-  abbotTh: "ไม่มีเจ้าอาวาส — มูลนิธิฆราวาส พระอาจารย์หมุนเวียน",
-  blurb: "ห้องสมุดธรรมะและศูนย์ปฏิบัติธรรมฆราวาสย่านพญาไท สายหลวงพ่อเทียน จิตฺตสุโภ ฟรีทุกกิจกรรม สามารถร่วมได้ ณ มูลนิธิ หรือถ่ายทอดสดทาง Facebook / YouTube | วันจันทร์ 18:30–20:00: Monday Night Meditation — M...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #1A2A4A, #2C4A80)",
-  link: "temple-detail.html?id=TH-BKK-002"
-},
-{
-  id: "TH-BKK-003",
-  nameTh: "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์",
-  nameEn: "International Vipassana Meditation Centre, Wat Mahadhatu",
-  placeType: "สถานปฏิบัติธรรม",
-  province: "กรุงเทพมหานคร",
-  district: "พระนคร",
-  tradition: "เถรวาท – สายมหาสีสยาดอ – Theravada – Mahasi Sayadaw lineage",
-  cost: "free",
-  tags: ["bkk", "retreat", "women"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: false,
-  actWomen: true,
-  isFree: true,
-  isBKK: true,
-  abbotTh: "พระพรหมโมลี (วิลาศ ญาณวโร)",
-  blurb: "ศูนย์ปฏิบัติวิปัสสนากรรมฐานนานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์ ตั้งอยู่ในบริเวณ \"ส่วน 5\" ของวัด ริมถนนมหาราช ใจกลางกรุงเทพฯ ใกล้ท่าพระจันทร์ เปิดสอนวิปัสสนากรรมฐานในแนวทางมหาสีสยาดอ (พม่า) โดยเน้นการเด...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "ผู้หญิง/แม่ชี", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
-  link: "temple-detail.html?id=TH-BKK-003"
-},
-{
-  id: "TH-BKK-004",
-  nameTh: "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)",
-  nameEn: "Young Buddhist Association of Thailand (YBAT)",
-  placeType: "มูลนิธิ",
-  province: "กรุงเทพมหานคร",
-  district: "พระโขนง / หลายสาขา",
-  tradition: "เถรวาท – สายมหาสีสยาดอ / แนวทาง ยพส. – Theravada – Mahasi Sayadaw lineage / YBAT method",
-  cost: "free",
-  tags: ["bkk", "retreat", "ordain", "online", "women"],
-  actRetreats: true,
-  actOrdain: true,
-  actOnline: true,
-  actWomen: true,
-  isFree: true,
-  isBKK: true,
-  abbotTh: "คณะกรรมการบริหาร ยพส.",
-  blurb: "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.) ก่อตั้งปี พ.ศ. 2493 โดยนายสัญญา ธรรมศักดิ์ เป็นองค์กรพุทธฆราวาสชั้นนำของไทย มีศูนย์ปฏิบัติธรรม 4 แห่งในกรุงเทพฯ และเครือข่ายทั่วประเทศ สอนวิปัสสนาในแนวมหาสีสยาดอ เน้...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "บวชพระ", "ออนไลน์", "ผู้หญิง/แม่ชี", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
-  link: "temple-detail.html?id=TH-BKK-004"
-},
-{
-  id: "TH-BKK-005",
-  nameTh: "สวนอุศม",
-  nameEn: "Suan Usom (Garden of Moral Purification)",
-  placeType: "Wellness Space",
-  province: "กรุงเทพมหานคร",
-  district: "ประเวศ",
-  tradition: "เถรวาท – สายพุทธทาสภิกขุ (ธรรมทาน) – Theravada – Buddhadasa Bhikkhu lineage (Dhamma Dana)",
-  cost: "free",
-  tags: ["bkk", "retreat", "online", "women"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: true,
-  actWomen: true,
-  isFree: true,
-  isBKK: true,
-  abbotTh: "คณะกรรมการมูลนิธิสวนอุศม",
-  blurb: "สวนอุศม เป็นศูนย์ปฏิบัติธรรมแนวพุทธทาสภิกขุ ตั้งอยู่ในซอยอ่อนนุช 84/1 เขตประเวศ กรุงเทพฯ สะดวกเดินทางด้วยรถไฟฟ้า BTS สายสีเหลือง สถานีศรีอุดม ทางออก 1 เน้นการปฏิบัติตามแนว อานาปานสติและการพัฒนาจิต ท่า...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "ผู้หญิง/แม่ชี", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
-  link: "temple-detail.html?id=TH-BKK-005"
-},
-{
-  id: "TH-BKK-006",
-  nameTh: "เสถียรธรรมสถาน",
-  nameEn: "Sathira Dhammasathan",
-  placeType: "สถานปฏิบัติธรรม",
-  province: "กรุงเทพมหานคร",
-  district: "บางเขน",
-  tradition: "เถรวาท – อานาปานสติ / สายพุทธทาส – Theravada – Anapanasati / Buddhadasa lineage",
-  cost: "paid",
-  tags: ["bkk", "retreat", "online", "women"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: true,
-  actWomen: true,
-  isFree: false,
-  isBKK: true,
-  abbotTh: "แม่ชีศันสนีย์ เสถียรสุต",
-  blurb: "เสถียรธรรมสถาน ก่อตั้งโดยแม่ชีศันสนีย์ เสถียรสุต ปี พ.ศ. 2534 ตั้งอยู่ในซ.วิภาวดีรังสิต 32 เขตจตุจักร กรุงเทพฯ เป็นศูนย์ปฏิบัติธรรมชั้นนำที่เน้นอานาปานสติ และเป็นที่รู้จักในโครงการ บวชชีพราหมณ์สำหรับส...",
-  costLabel: "มีค่าใช้จ่าย (รวมที่พักและอาหา",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "ผู้หญิง/แม่ชี", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
-  link: "temple-detail.html?id=TH-BKK-006"
-},
-{
-  id: "TH-NMA-002",
-  nameTh: "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)",
-  nameEn: "Baan Rai Tor See Hermitage (Baan Boon)",
-  placeType: "Wellness Space",
-  province: "นครราชสีมา",
-  district: "ปากช่อง",
-  tradition: "เถรวาท – สายหลวงพ่อชา (Thai Forest Tradition) – Theravada – Ajahn Chah Forest Tradition (Panyaprateep Foundation)",
-  cost: "free",
-  tags: ["retreat", "online", "upcountry", "forest"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: true,
-  actWomen: false,
-  isFree: true,
-  isBKK: false,
-  abbotTh: "พระอาจารย์ชยสาโร (ฌอน ชิเวอร์ตัน)",
-  blurb: "สถานพำนักสงฆ์บ้านไร่ทอสี ตั้งอยู่เชิงเขาใหญ่ อ.ปากช่อง เป็นสถานที่วิเวกของ พระอาจารย์ชยสาโร (Ajahn Jayasaro) พระภิกษุชาวอังกฤษในสายหลวงพ่อชา ผู้บวชตั้งแต่ปี 2523 และพำนักที่นี่ตั้งแต่ปี 2545 ภายใต้การ...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #0B3D2E, #1A6644)",
-  link: "temple-detail.html?id=TH-NMA-002"
-},
-{
-  id: "TH-CNX-001",
-  nameTh: "วัดพระธาตุศรีจอมทองวรวิหาร",
-  nameEn: "Wat Phra That Si Chom Thong Worawihan",
-  placeType: "วัด",
-  province: "เชียงใหม่",
-  district: "จอมทอง",
-  tradition: "เถรวาท – สายมหาสีสยาดอ (สาย พระอาจารย์ทอง สิริมังคโล) – Theravada – Mahasi Sayadaw lineage (Ajahn Tong Sirimangalo tradition)",
-  cost: "free",
-  tags: ["retreat", "ordain", "women", "upcountry"],
-  actRetreats: true,
-  actOrdain: true,
-  actOnline: false,
-  actWomen: true,
-  isFree: true,
-  isBKK: false,
-  abbotTh: "พระครูสิริมังคลาจารย์ (สืบต่อจาก พระอาจารย์ทอง สิริมังคโล ผู้ล่วงลับ ปี 2562)",
-  blurb: "วัดพระธาตุศรีจอมทองวรวิหาร ตั้งอยู่ที่อ.จอมทอง จ.เชียงใหม่ ห่างจากตัวเมืองประมาณ 58 กม. เป็นวัดสำคัญที่ประดิษฐานพระบรมธาตุ (พระอัฐิส่วนพระเศียร) ตั้งแต่ปี พ.ศ. 1995 และเป็นศูนย์วิปัสสนากรรมฐานชั้นนำระ...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "บวชพระ", "ผู้หญิง/แม่ชี", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #1A2A4A, #2C4A80)",
-  link: "temple-detail.html?id=TH-CNX-001"
-},
-{
-  id: "TH-NMA-003",
-  nameTh: "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)",
-  nameEn: "Buddha Dhamma Satharn Panjakiri",
-  placeType: "สถานปฏิบัติธรรม",
-  province: "นครราชสีมา",
-  district: "ปากช่อง (มวกเหล็ก / มูสี)",
-  tradition: "เถรวาท – สายพระอาจารย์มั่น (Thai Forest Tradition – กัมมัฏฐาน) – Theravada – Ajahn Mun Thai Forest Tradition (Kammatthana)",
-  cost: "free",
-  tags: ["retreat", "online", "upcountry", "forest"],
-  actRetreats: true,
-  actOrdain: false,
-  actOnline: true,
-  actWomen: false,
-  isFree: true,
-  isBKK: false,
-  abbotTh: "หลวงตาณรงค์ศักดิ์ ขีณาลโย (อดีตผู้พิพากษา บวชปี 2554)",
-  blurb: "พุทธธรรมสถานปัญจคีรี ตั้งอยู่ในป่าแถบมูสี อ.ปากช่อง ใกล้เขาใหญ่ เป็นที่พำนักของหลวงตาณรงค์ศักดิ์ ขีณาลโย อดีตผู้พิพากษาผู้บวชในปี พ.ศ. 2554 และปฏิบัติในสายพระอาจารย์มั่น ศึกษาธรรมกับครูบาอาจารย์หลายอง...",
-  costLabel: "ฟรี",
-  costClass: "chip-cost",
-  chips: ["คอร์สปฏิบัติ", "ออนไลน์", "เถรวาท"],
-  gradient: "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
-  link: "temple-detail.html?id=TH-NMA-003"
-}
-];
+let TEMPLES = [];
 
 let currentFilter = 'all';
 let currentView = 'grid';
@@ -722,7 +481,7 @@ function renderCards() {
   grid.innerHTML = list.map(t => `
     <a href="${t.link}" class="temple-card" data-id="${t.id}">
       <div class="card-header" style="">
-        <div class="card-header-bg" style="background:${t.gradient}"></div>
+        <div class="card-header-bg" style="background:${t.gradient}"><img src="${t.thumbnailUrl || ('https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + t.slug + '/thumbnail.jpg')}" alt="${t.nameEn}" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'"></div>
         <div class="card-header-overlay"></div>
         <div class="card-province">
           <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
@@ -780,7 +539,18 @@ document.getElementById('searchInput').addEventListener('input', () => {
   searchTimer = setTimeout(renderCards, 200);
 });
 
-// Initial render
-renderCards();
+// Show loading state
+document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted)"><div style="margin-bottom:12px">กำลังโหลดข้อมูล...</div></div>';
+
+fetch('temples-directory.json')
+  .then(function(r) { return r.json(); })
+  .then(function(data) {
+    TEMPLES = data;
+    renderCards();
+  })
+  .catch(function(err) {
+    console.error('Failed to load temple data:', err);
+    document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--warning)">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่</div>';
+  });
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>

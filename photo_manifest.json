@@ -1,0 +1,272 @@
+[
+  {
+    "temple_id": "TH-NMA-001",
+    "name_en": "Wat Pah Subthawee Dhammaram",
+    "slug": "watpah-subthawee",
+    "place_id": "ChIJfQ3nrlUVHDEROGAh2_l8xVY",
+    "rating": 4.8,
+    "total_ratings": 656,
+    "selected_hero": "gallery_2",
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/watpah-subthawee/gallery_2.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/watpah-subthawee/gallery_2.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/watpah-subthawee/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/watpah-subthawee/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-BKK-001",
+    "name_en": "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
+    "slug": "suan-mokkh-bangkok",
+    "place_id": "ChIJ_enjOlyc4jARg50Wd3PWw9I",
+    "rating": 4.8,
+    "total_ratings": 1024,
+    "selected_hero": "gallery_3",
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-mokkh-bangkok/gallery_3.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-mokkh-bangkok/gallery_3.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-mokkh-bangkok/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-mokkh-bangkok/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-BKK-002",
+    "name_en": "Baan Aree Foundation",
+    "slug": "baan-aree-foundation",
+    "place_id": "ChIJbWi2nqee4jAR9H1jhBOfZPA",
+    "rating": 4.5,
+    "total_ratings": 133,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-aree-foundation/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-aree-foundation/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-aree-foundation/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-aree-foundation/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-BKK-003",
+    "name_en": "International Vipassana Meditation Centre, Wat Mahadhatu",
+    "slug": "wat-mahadhatu-vipassana",
+    "place_id": "ChIJKUA9EUCZ4jAROA-r0bV3npM",
+    "rating": 4.8,
+    "total_ratings": 34,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-mahadhatu-vipassana/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-mahadhatu-vipassana/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-mahadhatu-vipassana/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-mahadhatu-vipassana/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-BKK-004",
+    "name_en": "Young Buddhist Association of Thailand (YBAT)",
+    "slug": "ybat-young-buddhist-association",
+    "place_id": "ChIJxxn6nYuX4jAR4-QxBDIyvi0",
+    "rating": 4.7,
+    "total_ratings": 514,
+    "selected_hero": "gallery_2",
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ybat-young-buddhist-association/gallery_2.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ybat-young-buddhist-association/gallery_2.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ybat-young-buddhist-association/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ybat-young-buddhist-association/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-BKK-005",
+    "name_en": "Suan Usom (Garden of Moral Purification)",
+    "slug": "suan-usom",
+    "place_id": "ChIJiTud0d1fHTERgZ6A0xmc_eQ",
+    "rating": 4.6,
+    "total_ratings": 8,
+    "selected_hero": "gallery_2",
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-usom/gallery_2.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-usom/gallery_2.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-usom/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-usom/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-BKK-006",
+    "name_en": "Sathira Dhammasathan",
+    "slug": "sathira-dhammasathan",
+    "place_id": "ChIJ6zwY7bdiHTERHE-KyQAeUUg",
+    "rating": 4.6,
+    "total_ratings": 1018,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/sathira-dhammasathan/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/sathira-dhammasathan/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/sathira-dhammasathan/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/sathira-dhammasathan/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-NMA-002",
+    "name_en": "Baan Rai Tor See Hermitage (Baan Boon)",
+    "slug": "baan-rai-tor-see-baan-boon",
+    "place_id": "ChIJr07lFOIqHDERm7ii4-VzEAU",
+    "rating": 4.7,
+    "total_ratings": 171,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-rai-tor-see-baan-boon/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-rai-tor-see-baan-boon/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-rai-tor-see-baan-boon/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-rai-tor-see-baan-boon/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-CNX-001",
+    "name_en": "Wat Phra That Si Chom Thong Worawihan",
+    "slug": "wat-phra-that-si-chom-thong",
+    "place_id": "ChIJ5QdUTwqw2zARvPNGRtN4zn8",
+    "rating": 4.7,
+    "total_ratings": 4671,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-phra-that-si-chom-thong/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-phra-that-si-chom-thong/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-phra-that-si-chom-thong/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-phra-that-si-chom-thong/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-NMA-003",
+    "name_en": "Buddha Dhamma Satharn Panjakiri",
+    "slug": "panjakiri-dhamma-center",
+    "place_id": "ChIJ_x7Z-OszHDERqYhLHSv3850",
+    "rating": 4.9,
+    "total_ratings": 76,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/panjakiri-dhamma-center/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/panjakiri-dhamma-center/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/panjakiri-dhamma-center/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/panjakiri-dhamma-center/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-AYT-001",
+    "name_en": "Wat Maheyong (Vipassana Vitchalai Institute)",
+    "slug": "wat-maheyong-vipassana",
+    "place_id": "ChIJHeJktdr1HTER9jGRToItSK8",
+    "rating": 4.8,
+    "total_ratings": 1043,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-maheyong-vipassana/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-maheyong-vipassana/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-maheyong-vipassana/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-maheyong-vipassana/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-CCO-001",
+    "name_en": "Wat Boonyawad",
+    "slug": "wat-boonyawad",
+    "place_id": "ChIJzS5GQREwAzERibfg2Y-yzXg",
+    "rating": 4.7,
+    "total_ratings": 1008,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-boonyawad/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-boonyawad/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-boonyawad/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-boonyawad/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-RYG-001",
+    "name_en": "Wat Marp Jan",
+    "slug": "wat-marp-jan",
+    "place_id": "ChIJn1cFAIwDAzER0au2FjQkvFc",
+    "rating": 4.6,
+    "total_ratings": 204,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-marp-jan/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-marp-jan/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-marp-jan/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-marp-jan/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-PTN-001",
+    "name_en": "Wat Pa Chittaphavan",
+    "slug": "wat-pa-chittaphavan",
+    "place_id": "ChIJEfMdWt99HTERS5onsEWXuJQ",
+    "rating": 4.6,
+    "total_ratings": 145,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-chittaphavan/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-chittaphavan/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-chittaphavan/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-chittaphavan/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-CYP-001",
+    "name_en": "Wat Pa Sukhato – Satipatthana Institute",
+    "slug": "wat-pa-sukhato-satipatthana",
+    "place_id": "ChIJ9RWAdtyqGDERmqtuZm9NbXQ",
+    "rating": 4.8,
+    "total_ratings": 375,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-sukhato-satipatthana/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-sukhato-satipatthana/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-sukhato-satipatthana/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-sukhato-satipatthana/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-NMA-004",
+    "name_en": "Ashram Mata Foundation",
+    "slug": "ashram-mata-foundation",
+    "place_id": "ChIJA_-XshEEHDERM9vOgwrL8NU",
+    "rating": 4.8,
+    "total_ratings": 44,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ashram-mata-foundation/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ashram-mata-foundation/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ashram-mata-foundation/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ashram-mata-foundation/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-UDN-001",
+    "name_en": "Wat Pa Ban Tat (Wat Kesornsilakul)",
+    "slug": "wat-pa-ban-tat",
+    "place_id": "ChIJg5VtvbafIzERJqkhXXACY4o",
+    "rating": 4.8,
+    "total_ratings": 2668,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-ban-tat/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-ban-tat/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-ban-tat/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-ban-tat/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-CCO-002",
+    "name_en": "Wat Yannasangwaram Voramahavihara (Under Royal Patronage)",
+    "slug": "wat-yannasangwaram",
+    "place_id": "ChIJEctn9oeUAjERKGIk6RBtnps",
+    "rating": 4.7,
+    "total_ratings": 3449,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-yannasangwaram/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-yannasangwaram/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-yannasangwaram/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-yannasangwaram/gallery_3.jpg"
+    }
+  },
+  {
+    "temple_id": "TH-CNX-002",
+    "name_en": "Wat Pa Daraphirom",
+    "slug": "wat-pa-daraphirom",
+    "place_id": "ChIJ_____0g82jARs6bXHupxVPY",
+    "rating": 4.8,
+    "total_ratings": 3910,
+    "photos": {
+      "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-daraphirom/thumbnail.jpg",
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-daraphirom/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-daraphirom/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-daraphirom/gallery_3.jpg"
+    }
+  }
+]

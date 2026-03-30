@@ -1,0 +1,1693 @@
+{
+  "TH-NMA-001": {
+    "slug": "watpah-subthawee",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/watpah-subthawee/gallery_2.jpg",
+    "nameTh": "วัดป่าทรัพย์ทวีธรรมาราม",
+    "nameEn": "Wat Pah Subthawee Dhammaram",
+    "province": "นครราชสีมา",
+    "district": "วังน้ำเขียว",
+    "tradition": "ธรรมยุต",
+    "abbot": "พระอาจารย์กัณหา สุขกาโม",
+    "blurbTh": "วัดป่าสายธรรมยุตกลางธรรมชาติวังน้ำเขียว นำโดยพระอาจารย์กัณหา สุขกาโม ฟรีทุกกิจกรรม | กิจกรรมประจำวัน: ตี 3 ตื่น → นั่งสมาธิ (03:00–05:00) → ทำวัตรเช้า (05:00–06:00) → ฉันอาหารมังสวิรัติ 1 มื้อ (07:30–09:00) → เดินจงกรม/ปฏิบัติส่วนตัว (09:00–16:00) → ทำวัตรเย็น (18:00–19:30) → ฟังธรรมเทศนา (19:30–20:00) | บวชได้: ผ้าขาว (7 วัน) → เณร (7 วัน) → พระ (ขั้นต่ำ 30 วัน) | ฆราวาสพักปฏิบัติธรรมได้ (จองล่วงหน้า ขั้นต่ำ 3 วัน) | งานประจำปี: กฐินสามัคคี ต.ค.–พ.ย. | Live ธรรมะทาง Facebook | โครงการหมอพบพระ (ปีละครั้ง)",
+    "blurbEn": "Strict Dhammayut forest monastery in Wang Nam Khiao, led by Ajahn Kanha Sukkhamo — free. Daily: wake 3 AM, meditation 03:00–05:00, morning chanting 05:00–06:00, one vegetarian meal 07:30–09:00, walking meditation & practice 09:00–16:00, evening chanting 18:00–19:30, Dhamma talk 19:30–20:00. Ordination: white-robe (min 7d) → novice (min 7d) → monk (min 30d). Lay retreats (advance booking, min 3 days). Annual Kathin Oct–Nov. Facebook Live streaming.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "Free",
+      "bookingReq": true,
+      "bookingChannel": "Facebook / LINE OA",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "30",
+      "cost": "Free",
+      "prerequisite": "ผ้าขาว 7 วัน → เณร 7 วัน → พระ (ขั้นต่ำ 30 วัน)"
+    },
+    "schedule": {
+      "wake": "03:00",
+      "morningChant": "05:00",
+      "mealCount": "1",
+      "mealType": "Vegetarian only",
+      "eveningChant": "18:30"
+    },
+    "contact": {
+      "website": "https://www.watpahsubthawee.org",
+      "facebook": "https://www.facebook.com/Watpahsubthawee/",
+      "facebookEn": "https://www.facebook.com/WatSubthawee/",
+      "line": "@watpahsubthawee",
+      "phone": "",
+      "address": "หมู่ 22 ต.วังหมี อ.วังน้ำเขียว จ.นครราชสีมา"
+    },
+    "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+    "foundedBe": "2559",
+    "foundedCe": "2016",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-BKK-001": {
+    "slug": "suan-mokkh-bangkok",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-mokkh-bangkok/gallery_3.jpg",
+    "nameTh": "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)",
+    "nameEn": "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
+    "province": "กรุงเทพมหานคร",
+    "district": "จตุจักร",
+    "tradition": "เถรวาท (แนวพุทธทาสภิกขุ)",
+    "abbot": "ไม่มีเจ้าอาวาส — บริหารโดยมูลนิธิหอจดหมายเหตุพุทธทาส อินทปัญโญ",
+    "blurbTh": "หอจดหมายเหตุพุทธทาสในสวนรถไฟ จตุจักร เปิดฟรี ไม่รับบวช | เปิด พ.–อา. 09:00–17:00 (สโมสรธรรมทาน/ห้องสมุด), สวน 09:00–18:00 | กิจกรรมประจำสัปดาห์: ทำวัตรเช้าทุกเสาร์ 08:00–09:00, ทำวัตรเย็นทุกอาทิตย์ 17:00–18:00 | Workshop 'ฟัง' ทุกเสาร์แรกของเดือน 14:00–16:00 | เพลินเพลงธรรม ทุกอาทิตย์ที่ 4 ของเดือน 12:00–14:00 | อานาปานสติ ทุกอาทิตย์แรกของเดือน 13:00–17:00 | เทศกาลเจริญสติ 'ภาวนาส่งท้ายปี' (Sati Fest) ทุกธ.ค. ประมาณ 20 ธ.ค.–1 ม.ค. | ลงทะเบียนกิจกรรมพิเศษที่ register.bia.or.th",
+    "blurbEn": "Buddhadasa Indapanno Archives in Chatuchak railway park — free entry, no ordination. Open Wed–Sun 09:00–17:00 (library), grounds 09:00–18:00. Weekly: morning chanting every Saturday 08:00–09:00; evening chanting every Sunday 17:00–18:00. Monthly: 'Listening' workshop 1st Saturday 14:00–16:00; Dharma music 4th Sunday 12:00–14:00; Anapanasati 1st Sunday 13:00–17:00. Annual: Sati Fest Dec 20–Jan 1. Register at register.bia.or.th.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "1",
+      "cost": "Free",
+      "bookingReq": true,
+      "bookingChannel": "register.bia.or.th",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "N/A",
+      "morningChant": "08:00 (ทุกวันเสาร์ — ทำวัตรเช้า ณ สวนพุทธธรรม)",
+      "mealCount": "N/A",
+      "mealType": "ไม่มีบริการอาหาร",
+      "eveningChant": "17:00 (ทุกวันอาทิตย์ — ทำวัตรเย็น ณ ห้องปฏิบัติธรรมชั้น 2)"
+    },
+    "contact": {
+      "website": "https://www.bia.or.th",
+      "facebook": "https://www.facebook.com/buddhadasaarchives/",
+      "facebookEn": "https://www.facebook.com/activitiessuanmokkhbkk/",
+      "line": "@suanmokkh",
+      "phone": "02-936-2900",
+      "address": "สวนวชิรเบญทัศ (สวนรถไฟ) ถ.นิคมรถไฟสาย 2 แขวงจตุจักร กรุงเทพฯ 10900"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
+    "foundedBe": "2552",
+    "foundedCe": "2009",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-BKK-002": {
+    "slug": "baan-aree-foundation",
+    "heroUrl": "",
+    "nameTh": "มูลนิธิบ้านอารีย์",
+    "nameEn": "Baan Aree Foundation",
+    "province": "กรุงเทพมหานคร",
+    "district": "พญาไท",
+    "tradition": "เถรวาท (แนวหลวงพ่อเทียน จิตฺตสุโภ — เจริญสติแบบเคลื่อนไหว)",
+    "abbot": "ไม่มีเจ้าอาวาส — มูลนิธิฆราวาส พระอาจารย์หมุนเวียน",
+    "blurbTh": "ห้องสมุดธรรมะและศูนย์ปฏิบัติธรรมฆราวาสย่านพญาไท สายหลวงพ่อเทียน จิตฺตสุโภ ฟรีทุกกิจกรรม สามารถร่วมได้ ณ มูลนิธิ หรือถ่ายทอดสดทาง Facebook / YouTube | วันจันทร์ 18:30–20:00: Monday Night Meditation — Meditation and Dhamma Talk (วิทยากรหมุนเวียนทุกสัปดาห์) | วันพฤหัสบดี 18:00–20:00: ธรรมวัยทำงาน — พระอาจารย์รับเชิญจากวัดต่างๆ (หมุนเวียนทุกสัปดาห์) | วันเสาร์ 09:30–16:00: Mindful Saturday — ฝึกจิตเจริญสติ/สายธารธรรม/เหงาแล้วโดดเดี่ยว (หัวข้อหมุนเวียน) | ทุกวันอาทิตย์ 09:00–11:00: อภิธรรมเทื้อกูลภาวนา โดยอาจารย์ทองสุข ทองกระจ่าง (งดอาทิตย์ที่ 1 ของเดือน) | ทุกวันอาทิตย์ 13:00–15:00: ภาษาปัญญา (บาลี) โดยอาจารย์ปรีชา แก้วทาสี (งดอาทิตย์ที่ 1 ของเดือน) | ทุกวันจันทร์ 13:00–14:30: ลากเส้นด้วยสติ โดยครูเก่ง | เสาร์สุดท้ายของเดือน 06:30–10:00: ทำบุญตักบาตร ฟังธรรมฐาน เพื่อทาน ศีล ภาวนา | เว็บไซต์: www.baanaree.org | App: Baan Aree | LINE: @baanaree",
+    "blurbEn": "Free urban dharma library and practice center in Phaya Thai — all activities free, join in person or via Facebook/YouTube Live. Speakers rotate weekly but the programme structure is fixed. | Monday 18:30–20:00: Monday Night Meditation — Meditation & Dhamma Talk (rotating guest teachers). | Thursday 18:00–20:00: Dhamma for Working-Age (ธรรมวัยทำงาน) — rotating monk teachers from various temples. | Saturday 09:30–16:00: Mindful Saturday — rotating themes (e.g. mindfulness training, dharma lineage, solitude & letting go). | Every Sunday 09:00–11:00: Abhidhamma Meditation (อภิธรรมเทื้อกูลภาวนา) by Aj. Thongsuk Thongkrajang — skip 1st Sunday. | Every Sunday 13:00–15:00: Language of Wisdom — Pali (ภาษาปัญญา/บาลี) by Aj. Preecha Kaewthasi — skip 1st Sunday. | Every Monday 13:00–14:30: Mindful Drawing (ลากเส้นด้วยสติ) by Kru Keng. | Last Saturday of month 06:30–10:00: Merit-making alms, dharma talk — Dana, Sila, Bhavana. | Website: www.baanaree.org | App: Baan Aree | LINE: @baanaree",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": false
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "0.5",
+      "cost": "Free",
+      "bookingReq": false,
+      "bookingChannel": "ไม่ต้องจอง — walk-in",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "N/A",
+      "morningChant": "06:30 (เสาร์สุดท้ายของเดือน — ตักบาตร)",
+      "mealCount": "N/A",
+      "mealType": "ไม่มีบริการอาหาร (มีตักบาตรเสาร์สุดท้ายของเดือน)",
+      "eveningChant": "18:30 (วันจันทร์) / 18:00 (วันพฤหัสบดี)"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "https://www.facebook.com/baanareefoundation/",
+      "facebookEn": "",
+      "line": "",
+      "phone": "02-619-7474, 02-279-7838",
+      "address": "17/1 ซ.อารีย์ 1 ถ.พหลโยธิน แขวงสามเสนใน เขตพญาไท กรุงเทพฯ 10400 (ใน Banana Family Park)"
+    },
+    "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
+    "foundedBe": "~2540s",
+    "foundedCe": "~late 1990s",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-BKK-003": {
+    "slug": "wat-mahadhatu-vipassana",
+    "heroUrl": "",
+    "nameTh": "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์",
+    "nameEn": "International Vipassana Meditation Centre, Wat Mahadhatu",
+    "province": "กรุงเทพมหานคร",
+    "district": "พระนคร",
+    "tradition": "เถรวาท – สายมหาสีสยาดอ",
+    "abbot": "พระพรหมโมลี (วิลาศ ญาณวโร)",
+    "blurbTh": "ศูนย์ปฏิบัติวิปัสสนากรรมฐานนานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์ ตั้งอยู่ในบริเวณ \"ส่วน 5\" ของวัด ริมถนนมหาราช ใจกลางกรุงเทพฯ ใกล้ท่าพระจันทร์ เปิดสอนวิปัสสนากรรมฐานในแนวทางมหาสีสยาดอ (พม่า) โดยเน้นการเดินจงกรมและนั่งสมาธิสลับกัน ชั่วโมงละครั้ง\n\n🕐 ตารางประจำวัน (4 รอบ/วัน)\n• 07:00–08:00, 09:00–10:00 น. — นั่งสมาธิ/เดินจงกรม (ช่วงเช้า)\n• 13:00–14:00, 15:00–16:00 น. — นั่งสมาธิ/เดินจงกรม (ช่วงบ่าย)\n• เปิดทุกวัน รวมถึงวันหยุดนักขัตฤกษ์\n\n💰 ค่าใช้จ่าย: ฟรี ไม่มีค่าลงทะเบียน (บริจาคตามศรัทธา)\n📋 การลงทะเบียน: ลงทะเบียนที่ศูนย์ฯ ส่วน 5 ชั้น 3 ด้วยตนเอง หรือโทรนัดหมาย 02-222-6011\n🏠 ห้องพัก: มีห้องพักสำหรับผู้ปฏิบัติที่ต้องการพักค้างคืน (ติดต่อสอบถามที่ศูนย์)\n🌍 นักท่องเที่ยวต่างชาติ: มีอาสาสมัครล่ามภาษาอังกฤษในบางเวลา รองรับผู้ปฏิบัติจากทั่วโลก\n📍 การเดินทาง: ท่าเรือท่าพระจันทร์ หรือ MRT สนามไชย ทางออก 4",
+    "blurbEn": "The International Vipassana Meditation Centre at Wat Mahadhatu Yuwarajarangsarit is located in \"Section 5\" of the temple compound on Maharaj Road, central Bangkok, near Tha Phra Chan pier. It offers Vipassana training in the Mahasi Sayadaw tradition, alternating sitting and walking meditation in hourly intervals.\n\n🕐 Daily schedule (4 sessions/day)\n• 07:00–08:00, 09:00–10:00 — sitting/walking meditation (morning)\n• 13:00–14:00, 15:00–16:00 — sitting/walking meditation (afternoon)\n• Open daily including public holidays\n\n💰 Cost: Free (dana/donations welcome)\n📋 Registration: Walk-in at Section 5, 3rd floor, or call 02-222-6011\n🏠 Accommodation: On-site lodging available for overnight practitioners (enquire at centre)\n🌍 International: English-speaking volunteers available at select times; practitioners from all nationalities welcome\n📍 Transport: Tha Phra Chan pier (Chao Phraya Express) or MRT Sam Yot exit 4",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "1",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ลงทะเบียนที่ศูนย์ฯ ส่วน 5 วัดมหาธาตุ โทร 02-222-6011",
+      "capacity": "500+"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "-"
+    },
+    "schedule": {
+      "wake": "04:30",
+      "morningChant": "05:00",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติและเนื้อสัตว์ (ทายกทายิกาถวาย)",
+      "eveningChant": "18:00"
+    },
+    "contact": {
+      "website": "https://www.watmahathat.com",
+      "facebook": "https://www.facebook.com/watmahathat",
+      "facebookEn": "",
+      "line": "",
+      "phone": "02-222-6011",
+      "address": "3 ถนนมหาราช แขวงพระบรมมหาราชวัง เขตพระนคร กรุงเทพฯ 10200"
+    },
+    "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
+    "foundedBe": "2497",
+    "foundedCe": "1954",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-BKK-004": {
+    "slug": "ybat-young-buddhist-association",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ybat-young-buddhist-association/gallery_2.jpg",
+    "nameTh": "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)",
+    "nameEn": "Young Buddhist Association of Thailand (YBAT)",
+    "province": "กรุงเทพมหานคร",
+    "district": "พระโขนง / หลายสาขา",
+    "tradition": "เถรวาท – สายมหาสีสยาดอ / แนวทาง ยพส.",
+    "abbot": "คณะกรรมการบริหาร ยพส.",
+    "blurbTh": "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.) ก่อตั้งปี พ.ศ. 2493 โดยนายสัญญา ธรรมศักดิ์ เป็นองค์กรพุทธฆราวาสชั้นนำของไทย มีศูนย์ปฏิบัติธรรม 4 แห่งในกรุงเทพฯ และเครือข่ายทั่วประเทศ สอนวิปัสสนาในแนวมหาสีสยาดอ เน้นการปฏิบัติจริงทั้งนั่ง-เดิน-ยืน-นอน\n\n📅 โปรแกรมหลัก\n• คอร์สสุดสัปดาห์ (2 วัน 1 คืน): ทุก 2–4 สัปดาห์ ตาม 4 ศูนย์ในกรุงเทพฯ\n• คอร์ส 7 วัน: เปิดเดือนละ 1 ครั้ง สำหรับผู้ผ่านพื้นฐานแล้ว\n• คอร์ส 1 เดือน / 3 เดือน: สำหรับผู้ปฏิบัติขั้นสูง\n• โครงการอุปสมบทภาคฤดูร้อน (เยาวชน อายุ 18–25 ปี): ทุกเดือนเมษายน\n• คอร์สออนไลน์: บรรยายธรรมสดทาง Facebook Live และ YouTube\n\n💰 ค่าใช้จ่าย: คอร์สสั้นฟรีหรือมีค่าใช้จ่ายเล็กน้อย; คอร์สยาวมีค่าที่พักและอาหาร\n📋 การสมัคร: ผ่านเว็บไซต์ ybat.org, Line @ybat, หรือโทร 02-438-6101\n🔑 เงื่อนไข: คอร์ส 7+ วัน ต้องผ่านการอบรมพื้นฐาน 2 วันก่อน\n📍 สำนักงานใหญ่: ซ.เจริญนคร 53 เขตคลองสาน กรุงเทพฯ",
+    "blurbEn": "The Young Buddhist Association of Thailand (YBAT), founded in 1950 by Sanya Dharmasakti, is Thailand's leading lay Buddhist organisation. It operates 4 practice centres across Bangkok and a nationwide network, teaching Vipassana in the Mahasi Sayadaw tradition with emphasis on four-posture continuous awareness.\n\n📅 Main programmes\n• Weekend retreat (2D/1N): Every 2–4 weeks across 4 Bangkok centres\n• 7-day retreat: Monthly, for practitioners with basic course completed\n• 1-month / 3-month intensive retreat: For advanced practitioners\n• Summer ordination programme (youth aged 18–25): Every April\n• Online programme: Live Dhamma talks via Facebook Live and YouTube\n\n💰 Cost: Short courses free or minimal fee; longer courses include room & board fees\n📋 Registration: ybat.org, Line @ybat, or call 02-438-6101\n🔑 Prerequisites: 7+ day courses require completion of a 2-day introductory retreat first\n📍 Head office: Soi Charoen Nakhon 53, Khlong San, Bangkok",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "2",
+      "cost": "ตามโปรแกรม (มีทั้งแบบฟรีและมีค่าใช้จ่าย)",
+      "bookingReq": true,
+      "bookingChannel": "เว็บไซต์ ybat.org, Line @ybat, โทร 02-438-6101",
+      "capacity": "50–200 (แล้วแต่โปรแกรม)"
+    },
+    "ordinationInfo": {
+      "minDays": "7",
+      "cost": "ตามโปรแกรม",
+      "prerequisite": "ผ่านอบรมวิปัสสนาขั้นพื้นฐาน และสมัครล่วงหน้า"
+    },
+    "schedule": {
+      "wake": "04:30",
+      "morningChant": "05:00",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติและเนื้อสัตว์",
+      "eveningChant": "18:30"
+    },
+    "contact": {
+      "website": "https://www.ybat.org",
+      "facebook": "https://www.facebook.com/ybatofficial",
+      "facebookEn": "",
+      "line": "@ybat",
+      "phone": "02-438-6101",
+      "address": "สำนักงานใหญ่: ซ.เจริญนคร 53 คลองสาน กรุงเทพฯ (มีสาขา 4 แห่งในกรุงเทพฯ)"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+    "foundedBe": "2493",
+    "foundedCe": "1950",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-BKK-005": {
+    "slug": "suan-usom",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/suan-usom/gallery_2.jpg",
+    "nameTh": "สวนอุศม",
+    "nameEn": "Suan Usom (Garden of Moral Purification)",
+    "province": "กรุงเทพมหานคร",
+    "district": "ประเวศ",
+    "tradition": "เถรวาท – สายพุทธทาสภิกขุ (ธรรมทาน)",
+    "abbot": "คณะกรรมการมูลนิธิสวนอุศม",
+    "blurbTh": "สวนอุศม เป็นศูนย์ปฏิบัติธรรมแนวพุทธทาสภิกขุ ตั้งอยู่ในซอยอ่อนนุช 84/1 เขตประเวศ กรุงเทพฯ สะดวกเดินทางด้วยรถไฟฟ้า BTS สายสีเหลือง สถานีศรีอุดม ทางออก 1 เน้นการปฏิบัติตามแนว อานาปานสติและการพัฒนาจิต ท่ามกลางบรรยากาศสวนธรรมชาติใจกลางเมือง\n\n📅 โปรแกรมหลัก\n• ปฏิบัติธรรมวันอาทิตย์: เช้า 08:00–11:30 น. ทุกอาทิตย์ (ฟรี)\n• คอร์สสุดสัปดาห์ (2 วัน 1 คืน): เดือนละ 1–2 ครั้ง (รับประมาณ 30 คน)\n• คอร์ส 5 วัน: ทุกไตรมาส สำหรับผู้ผ่านพื้นฐาน\n• บรรยายธรรมออนไลน์: Facebook Live ทุกวันอังคาร 19:00 น.\n• กิจกรรมวันสำคัญทางพุทธศาสนา: วิสาขบูชา มาฆบูชา อาสาฬหบูชา ฯลฯ\n\n💰 ค่าใช้จ่าย: ฟรีทุกกิจกรรม (บริจาคตามศรัทธา; มีค่าอาหารสำหรับคอร์สค้างคืน)\n📋 การสมัคร: suanusom.com, Line @suanusom, โทร 02-328-3641\n🥗 อาหาร: มังสวิรัติทุกมื้อ\n📍 การเดินทาง: BTS สายสีเหลือง สถานีศรีอุดม ทางออก 1 (ห่างประมาณ 300 ม.)",
+    "blurbEn": "Suan Usom is a Buddhadasa Bhikkhu-lineage practice centre located in Soi On Nut 84/1, Prawet district, Bangkok. Conveniently accessible via BTS Yellow Line Sri Udom station (exit 1, ~300 m walk). The centre emphasises Anapanasati and mental development within a lush garden setting inside the city.\n\n📅 Main programmes\n• Sunday practice: Every Sunday 08:00–11:30 (free, no registration)\n• Weekend retreat (2D/1N): 1–2 times per month (~30 participants)\n• 5-day retreat: Quarterly, for practitioners with prior basic course\n• Online Dhamma talks: Facebook Live every Tuesday 19:00\n• Buddhist holy days: Visakha, Makha, Asalha – special programmes\n\n💰 Cost: All activities free (donations welcome; meal contribution for overnight retreats)\n📋 Registration: suanusom.com, Line @suanusom, or 02-328-3641\n🥗 Food: Vegetarian meals served\n📍 Transport: BTS Yellow Line Sri Udom exit 1 (~300 m)",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "2",
+      "cost": "ฟรี (ค่าที่พักและอาหาร; บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "เว็บไซต์ suanusom.com, Line @suanusom, โทร 02-328-3641",
+      "capacity": "30–50"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "-"
+    },
+    "schedule": {
+      "wake": "05:00",
+      "morningChant": "05:30",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "19:00"
+    },
+    "contact": {
+      "website": "https://www.suanusom.com",
+      "facebook": "https://www.facebook.com/suanusom",
+      "facebookEn": "",
+      "line": "@suanusom",
+      "phone": "02-328-3641",
+      "address": "79 ซ.อ่อนนุช 84/1 แขวงประเวศ เขตประเวศ กรุงเทพฯ 10250"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+    "foundedBe": "2530",
+    "foundedCe": "1987",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-BKK-006": {
+    "slug": "sathira-dhammasathan",
+    "heroUrl": "",
+    "nameTh": "เสถียรธรรมสถาน",
+    "nameEn": "Sathira Dhammasathan",
+    "province": "กรุงเทพมหานคร",
+    "district": "บางเขน",
+    "tradition": "เถรวาท – อานาปานสติ / สายพุทธทาส",
+    "abbot": "แม่ชีศันสนีย์ เสถียรสุต",
+    "blurbTh": "เสถียรธรรมสถาน ก่อตั้งโดยแม่ชีศันสนีย์ เสถียรสุต ปี พ.ศ. 2534 ตั้งอยู่ในซ.วิภาวดีรังสิต 32 เขตจตุจักร กรุงเทพฯ เป็นศูนย์ปฏิบัติธรรมชั้นนำที่เน้นอานาปานสติ และเป็นที่รู้จักในโครงการ บวชชีพราหมณ์สำหรับสตรีโดยเฉพาะ มีห้องเกลือหิมาลัย (Himalayan Salt Room) เพื่อสนับสนุนการปฏิบัติ\n\n📅 โปรแกรมหลัก\n• ปฏิบัติธรรมสุดสัปดาห์ (3 วัน 2 คืน): จัดทุกสัปดาห์ รับสมัครล่วงหน้า 20–40 คน\n• คอร์ส 7 วัน และ 10 วัน: จัดรายเดือน เน้นอานาปานสติเข้มข้น\n• โครงการบวชชีพราหมณ์ (เฉพาะสตรี): 8 วัน, อายุ 18 ปีขึ้นไป, ผ่านคอร์สพื้นฐาน\n• โครงการสุขภาพและจิตใจ: ห้องเกลือหิมาลัย, โยคะ, การดูแลผู้ป่วยระยะสุดท้าย\n• บรรยายธรรมออนไลน์: Facebook Live และ YouTube ทุกสัปดาห์\n• กิจกรรมเยาวชน: ค่ายธรรมะสำหรับเด็กและเยาวชนช่วงปิดเทอม\n\n💰 ค่าใช้จ่าย: ประมาณ 2,500–4,500 บาท/คอร์ส (รวมที่พักและอาหารมังสวิรัติ)\n📋 การสมัคร: sdsweb.org, Line @sathiradhammasathan, โทร 02-511-0439\n🌸 จุดเด่น: เน้นสตรีและครอบครัว; บวชชีพราหมณ์; ห้องเกลือหิมาลัย; สิ่งแวดล้อมสีเขียวใจกลางเมือง\n📍 การเดินทาง: BTS สถานีหมอชิต + แท็กซี่/วินมอเตอร์ไซค์ประมาณ 10 นาที",
+    "blurbEn": "Sathira Dhammasathan, founded by Mae Chee Sansanee Sthirasuta in 1991, is located on Soi Vibhavadi Rangsit 32, Chatuchak, Bangkok. It is one of Thailand's most prominent urban practice centres, specialising in Anapanasati meditation and particularly known for its white-robe ordination programme for women. The centre features a Himalayan Salt Room to support deep meditation practice.\n\n📅 Main programmes\n• Weekend retreat (3D/2N): Every week, 20–40 participants; pre-registration required\n• 7-day and 10-day intensives: Monthly, focused Anapanasati practice\n• White-robe (Mae Chee) ordination programme (women only): 8 days, 18+, basic course prerequisite\n• Health & wellbeing: Himalayan Salt Room, yoga, terminal care ministry\n• Online Dhamma talks: Weekly via Facebook Live and YouTube\n• Youth camps: School-holiday Dhamma camps for children and teenagers\n\n💰 Cost: Approx. 2,500–4,500 THB/course (includes accommodation & vegetarian meals)\n📋 Registration: sdsweb.org, Line @sathiradhammasathan, or 02-511-0439\n🌸 Highlights: Women & family focus; mae chee ordination; Himalayan Salt Room; green urban sanctuary\n📍 Transport: BTS Mo Chit + taxi/motorbike ~10 minutes",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": true
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "มีค่าใช้จ่าย (รวมที่พักและอาหาร; ประมาณ 2,500–4,500 บาท/คอร์ส)",
+      "bookingReq": true,
+      "bookingChannel": "เว็บไซต์ sdsweb.org, Line @sathiradhammasathan, โทร 02-511-0439",
+      "capacity": "20–40"
+    },
+    "ordinationInfo": {
+      "minDays": "8",
+      "cost": "ตามที่ศูนย์กำหนด",
+      "prerequisite": "เฉพาะสตรี; ต้องผ่านการอบรมขั้นพื้นฐาน; อายุ 18 ปีขึ้นไป"
+    },
+    "schedule": {
+      "wake": "04:30",
+      "morningChant": "05:00",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "18:30"
+    },
+    "contact": {
+      "website": "https://www.sdsweb.org",
+      "facebook": "https://www.facebook.com/sathiradhammasathan",
+      "facebookEn": "https://www.facebook.com/SathiraDhammasathanENG",
+      "line": "@sathiradhammasathan",
+      "phone": "02-511-0439",
+      "address": "23 ซ.วิภาวดีรังสิต 32 แขวงจตุจักร เขตจตุจักร กรุงเทพฯ 10900"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "2534",
+    "foundedCe": "1991",
+    "lastUpdated": "2026-03-16"
+  },
+  "TH-NMA-002": {
+    "slug": "baan-rai-tor-see-baan-boon",
+    "heroUrl": "",
+    "nameTh": "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)",
+    "nameEn": "Baan Rai Tor See Hermitage (Baan Boon)",
+    "province": "นครราชสีมา",
+    "district": "ปากช่อง",
+    "tradition": "เถรวาท – สายหลวงพ่อชา (Thai Forest Tradition)",
+    "abbot": "พระอาจารย์ชยสาโร (ฌอน ชิเวอร์ตัน)",
+    "blurbTh": "สถานพำนักสงฆ์บ้านไร่ทอสี ตั้งอยู่เชิงเขาใหญ่ อ.ปากช่อง เป็นสถานที่วิเวกของ พระอาจารย์ชยสาโร (Ajahn Jayasaro) พระภิกษุชาวอังกฤษในสายหลวงพ่อชา ผู้บวชตั้งแต่ปี 2523 และพำนักที่นี่ตั้งแต่ปี 2545 ภายใต้การดูแลของมูลนิธิปัญญาประทีป\n\n\"บ้านบุญ\" คือศาลาปฏิบัติธรรมเล็กที่ตั้งอยู่ใกล้เคียง เปิดให้คฤหัสถ์เข้าร่วมกิจกรรม\n\n📅 โปรแกรม\n• บ้านบุญ วันอาทิตย์ (เดือนละ 2 ครั้ง): วันอาทิตย์ที่ 1 และ 3 ของเดือน\n  08:30 ทำวัตรเช้า → นั่งสมาธิ → ฟังธรรม จนถึงประมาณ 10:45 น.\n• คอร์สปฏิบัติธรรม (English Dhamma Retreat): ปีละหลายครั้ง สำหรับผู้ปฏิบัติภาษาอังกฤษ\n• บรรยายธรรมออนไลน์: Facebook Live และ YouTube ทุกครั้งที่มีกิจกรรม\n\n💰 ค่าใช้จ่าย: ฟรีทุกกิจกรรม (บริจาคตามศรัทธา; ถ้าจะถวายอาหารให้นำอาหารมังสวิรัติ\n  หรืออาหารแห้งมาที่ครัวก่อนเริ่มกิจกรรม)\n📋 การเข้าร่วม: Walk-in ได้ที่บ้านบุญ (วันอาทิตย์ที่ 1 และ 3 ของเดือน)\n🌿 จุดเด่น: พระอาจารย์ชยสาโรมีชื่อเสียงด้านการสอนเป็นภาษาอังกฤษ ผู้นำด้านการศึกษา\n  และปรัชญาพุทธ มีหนังสือและสื่อธรรมะเป็นภาษาอังกฤษจำนวนมาก\n📍 สถานที่: เชิงเขาใหญ่ ปากช่อง (พิกัดสาธารณะไม่เปิดเผย ติดต่อผ่านมูลนิธิฯ)\n🖥️ ติดตามออนไลน์: YouTube @dhamma.by.ajahn.jayasaro | FB: jayasaro.panyaprateep.org",
+    "blurbEn": "Baan Rai Tor See Hermitage is the forest retreat of Ajahn Jayasaro (Shaun Chiverton), a British monk in the Ajahn Chah lineage who ordained in 1980 and has lived here since 2002 under the Panyaprateep Foundation. Located at the foot of Khao Yai Mountain, Pak Chong.\n\n\"Baan Boon\" is the nearby lay practice hall open to the public for guided sessions.\n\n📅 Programme\n• Baan Boon Sunday sessions (twice monthly): 1st and 3rd Sundays of each month\n  08:30 morning chanting → sitting meditation → Dhamma talk until ~10:45\n• English Dhamma Retreats: Several times per year for English-speaking practitioners\n• Live streaming: Every session broadcast via Facebook Live and YouTube\n\n💰 Cost: All activities free (dana welcome; if bringing food offerings, vegetarian or non-perishable items to the kitchen before sessions begin)\n📋 Attendance: Walk-in at Baan Boon on 1st and 3rd Sundays; no registration needed\n🌿 Highlights: Ajahn Jayasaro is renowned for English-language Dhamma teachings and Buddhist education philosophy; extensive books, talks, and media available\n📍 Location: Foot of Khao Yai, Pak Chong (exact coordinates not publicly disclosed)\n🖥️ Online: YouTube @dhamma.by.ajahn.jayasaro | FB: jayasaro.panyaprateep.org",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "0.5",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": false,
+      "bookingChannel": "Walk-in ได้ (บ้านบุญ วันอาทิตย์ที่ 1 และ 3 ของเดือน); ดูรายละเอียดที่ jayasaro.panyaprateep.org",
+      "capacity": "จำกัด (สถานที่เล็ก)"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ (พำนักสงฆ์ ไม่ใช่วัด)",
+      "morningChant": "08:30 (วันอาทิตย์บ้านบุญ — ทำวัตรเช้า)",
+      "mealCount": "1–2",
+      "mealType": "มังสวิรัติ (นำมาเองหรือถวาย — ไม่มีบริการอาหารประจำ)",
+      "eveningChant": "ไม่แน่นอน"
+    },
+    "contact": {
+      "website": "https://www.jayasaro.panyaprateep.org",
+      "facebook": "https://www.facebook.com/jayasaro.panyaprateep.org",
+      "facebookEn": "https://www.facebook.com/jayasaro.panyaprateep.org",
+      "line": "",
+      "phone": "",
+      "address": "เชิงเขาใหญ่ อ.ปากช่อง จ.นครราชสีมา (พิกัดแน่นอนไม่เปิดเผยสาธารณะ)"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+    "foundedBe": "~2545",
+    "foundedCe": "~2002",
+    "lastUpdated": "2026-03-23"
+  },
+  "TH-CNX-001": {
+    "slug": "wat-phra-that-si-chom-thong",
+    "heroUrl": "",
+    "nameTh": "วัดพระธาตุศรีจอมทองวรวิหาร",
+    "nameEn": "Wat Phra That Si Chom Thong Worawihan",
+    "province": "เชียงใหม่",
+    "district": "จอมทอง",
+    "tradition": "เถรวาท – สายมหาสีสยาดอ (สาย พระอาจารย์ทอง สิริมังคโล)",
+    "abbot": "พระครูสิริมังคลาจารย์ (สืบต่อจาก พระอาจารย์ทอง สิริมังคโล ผู้ล่วงลับ ปี 2562)",
+    "blurbTh": "วัดพระธาตุศรีจอมทองวรวิหาร ตั้งอยู่ที่อ.จอมทอง จ.เชียงใหม่ ห่างจากตัวเมืองประมาณ 58 กม. เป็นวัดสำคัญที่ประดิษฐานพระบรมธาตุ (พระอัฐิส่วนพระเศียร) ตั้งแต่ปี พ.ศ. 1995 และเป็นศูนย์วิปัสสนากรรมฐานชั้นนำระดับนานาชาติในสายพระอาจารย์ทอง สิริมังคโล (สานต่อจากมหาสีสยาดอ พม่า)\n\n📅 โปรแกรมหลัก\n• คอร์สวิปัสสนาสำหรับคนไทย: 7 วัน, 10 วัน, 14 วัน, 21 วัน — จัดทุกวันเสาร์\n• คอร์สนานาชาติ (ภาษาอังกฤษ/ฝรั่งเศส): รับต่างชาติตลอดปี มีพระอาจารย์สอนภาษาอังกฤษ\n• โครงการบวชพระ: ต้องผ่านคอร์ส 26 วัน + 10 วัน × 2 ก่อนบวช\n• แม่ชี/ผู้ถือศีล 8: มีโปรแกรมรองรับ\n\n🕐 ตารางประจำวัน (ระหว่างคอร์ส)\n• 04:00 ตื่นนอน | 06:00 อาหารเช้า | 11:00 เพล (มื้อสุดท้าย)\n• ปฏิบัติสมาธิ ~10 ชั่วโมง/วัน (นั่ง-เดิน สลับกัน) | 22:00 พักผ่อน\n\n💰 ค่าใช้จ่าย: ฟรีทั้งหมด (บริจาคตามศรัทธาเมื่อจบคอร์ส)\n📋 การสมัคร: reservationchomtong@yahoo.com | WhatsApp +66 93 318 1662 | watchomtong.com\n🏛️ จุดเด่น: วัดเก่าแก่อายุ 500+ ปี พระธาตุสำคัญ ทิวทัศน์ภูเขา รับนักปฏิบัติต่างชาติ\n📍 การเดินทาง: รถประจำทางจากช้างเผือก ชม. ~1:20 ชม. | รถยนต์ตาม ทล.108 ~1 ชม.",
+    "blurbEn": "Wat Phra That Si Chom Thong Worawihan is a 15th-century temple in Chom Thong district, 58 km southwest of Chiang Mai city. It houses a sacred Buddha relic (part of the skull) discovered in 1452, and is home to one of Thailand's most respected international vipassana centres, established by Phra Ajahn Tong Sirimangalo (1923–2019) in the Mahasi Sayadaw tradition.\n\n📅 Main programmes\n• Thai retreats: 7, 10, 14, and 21-day courses, starting every Saturday\n• International retreats: English and French instruction; foreign meditators welcome year-round\n• Monk ordination programme: Requires prior completion of 26-day + two 10-day courses\n• Mae Chee / 8-precept programme: Available for women practitioners\n\n🕐 Daily retreat schedule\n• 04:00 wake | 06:00 breakfast | 11:00 lunch (final meal of day)\n• ~10 hours meditation/day (alternating sitting & walking) | 22:00 lights out\n\n💰 Cost: Entirely free — dana collected at end of course\n📋 Booking: reservationchomtong@yahoo.com | WhatsApp +66 93 318 1662 | watchomtong.com\n🏛️ Highlights: 500+ year old temple, sacred relic, mountain setting, internationally renowned vipassana centre\n📍 Transport: Bus from Chang Phueak terminal ~1h20m | Drive via Hwy 108 ~1 hour",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": true
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "5",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "อีเมล reservationchomtong@yahoo.com หรือ info@watchomtong.com | WhatsApp +66 93 318 1662 | เว็บ watchomtong.com/reservation",
+      "capacity": "ไม่ระบุ (รับทั้งไทยและต่างชาติ)"
+    },
+    "ordinationInfo": {
+      "minDays": "26",
+      "cost": "ฟรี",
+      "prerequisite": "ผ่านคอร์สพื้นฐาน 26 วัน + คอร์ส 10 วัน 2 รอบ (สำหรับการบวชพระ); อายุ 20 ปีขึ้นไป"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "ตี 4 – 5 (สวดมนต์เช้า)",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติและเนื้อสัตว์ (มื้อเช้า 06:00, เพล 11:00 — งดอาหารหลังเที่ยง)",
+      "eveningChant": "ช่วงเย็น (ไม่ระบุเวลาแน่นอน)"
+    },
+    "contact": {
+      "website": "https://www.watchomtong.com",
+      "facebook": "https://www.facebook.com/watchomtong",
+      "facebookEn": "",
+      "line": "",
+      "phone": "053-342184",
+      "address": "157 หมู่ 2 ถ.เชียงใหม่-ฮอด ต.บ้านหลวง อ.จอมทอง จ.เชียงใหม่ 50160"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
+    "foundedBe": "~1993",
+    "foundedCe": "~1450 (วัด) / 1992 (ศูนย์วิปัสสนา)",
+    "lastUpdated": "2026-03-23"
+  },
+  "TH-NMA-003": {
+    "slug": "panjakiri-dhamma-center",
+    "heroUrl": "",
+    "nameTh": "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)",
+    "nameEn": "Buddha Dhamma Satharn Panjakiri",
+    "province": "นครราชสีมา",
+    "district": "ปากช่อง (มวกเหล็ก / มูสี)",
+    "tradition": "เถรวาท – สายพระอาจารย์มั่น (Thai Forest Tradition – กัมมัฏฐาน)",
+    "abbot": "หลวงตาณรงค์ศักดิ์ ขีณาลโย (อดีตผู้พิพากษา บวชปี 2554)",
+    "blurbTh": "พุทธธรรมสถานปัญจคีรี ตั้งอยู่ในป่าแถบมูสี อ.ปากช่อง ใกล้เขาใหญ่ เป็นที่พำนักของหลวงตาณรงค์ศักดิ์ ขีณาลโย อดีตผู้พิพากษาผู้บวชในปี พ.ศ. 2554 และปฏิบัติในสายพระอาจารย์มั่น ศึกษาธรรมกับครูบาอาจารย์หลายองค์ รวมถึงหลวงปู่เรียน, หลวงปู่เดสก์, หลวงตามหาบัว ฯลฯ\n\n📅 โปรแกรม\n• ไม่ใช่ศูนย์ปฏิบัติเชิงพาณิชย์ — ผู้สนใจต้องมีพื้นฐานการปฏิบัติและติดตามธรรมะ\n  ของหลวงตาก่อนการเข้าพำนัก\n• พักได้สูงสุด 7 คืน / ต้องเว้น 7 คืนก่อนกลับมาใหม่\n• ผู้พำนักต้องช่วยงานวัดและปฏิบัติตามระเบียบสงฆ์อย่างเคร่งครัด\n• บรรยายธรรมออนไลน์ทั้งภาษาไทยและอังกฤษ ผ่าน Podcast, YouTube, Facebook\n\n💰 ค่าใช้จ่าย: ฟรี (บริจาคตามศรัทธา)\n📋 การสมัคร: luangtanarongsak.org | อีเมล luangtanarongsak.podcast@gmail.com | LINE @dhammaluangta\n🌿 จุดเด่น: หลวงตาเดินทางสอนธรรมทั่วโลก (ออสเตรเลีย, ยุโรป, สหรัฐอเมริกา) มีสื่อธรรมะภาษาอังกฤษจำนวนมากผ่าน Podcast บน Spotify และ Apple Podcasts\n⚠️ หมายเหตุ: เหมาะสำหรับผู้ปฏิบัติจริงจัง ไม่ใช่ผู้เริ่มต้นทั่วไป",
+    "blurbEn": "Buddha Dhamma Satharn Panjakiri is a forest monastery near Mu Si, Pak Chong, Nakhon Ratchasima, in the foothills of Khao Yai. It is the residence of Luangta Narongsak Kheenalayo, a former Thai judge who ordained in 2011 and practices in the Ajahn Mun Thai Forest Tradition, having trained under multiple senior teachers including Luangta Mahā Boowa.\n\n📅 Programme\n• Not a commercial retreat facility — visitors must have prior practice experience and familiarity with Luangta's teachings before applying to stay\n• Maximum 7-night stay; minimum 7-night gap between visits\n• All residents expected to assist with temple duties and strictly follow monastic code\n• Extensive online Dhamma teachings in Thai and English via Podcast (Spotify, Apple Podcasts), YouTube, and Facebook\n\n💰 Cost: Free (dana)\n📋 Registration: luangtanarongsak.org | luangtanarongsak.podcast@gmail.com | LINE @dhammaluangta\n🌿 Highlights: Luangta regularly teaches internationally (Australia, Europe, USA); unusually extensive English-language Dhamma content for a Thai forest monastery\n⚠️ Note: Suitable for serious, experienced practitioners — not a beginner walk-in centre",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "7",
+      "cost": "ฟรี (ดาน่า / บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ผ่านเว็บ luangtanarongsak.org หรืออีเมล luangtanarongsak.podcast@gmail.com | LINE @dhammaluangta",
+      "capacity": "จำกัดมาก (ไม่ใช่ศูนย์เชิงพาณิชย์)"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ตี 3–4 (สายป่า)",
+      "morningChant": "ตี 4 (สวดมนต์เช้า)",
+      "mealCount": "1",
+      "mealType": "ฉันจังหัน 1 มื้อ (บิณฑบาตหรือรับในบาตร)",
+      "eveningChant": "สวดมนต์เย็น + นั่งสมาธิ (ช่วงเย็น)"
+    },
+    "contact": {
+      "website": "https://www.luangtanarongsak.org",
+      "facebook": "https://www.facebook.com/luangta.narongsak.33",
+      "facebookEn": "https://www.facebook.com/luangta.narongsak.33",
+      "line": "@dhammaluangta",
+      "phone": "",
+      "address": "มูสี อ.ปากช่อง จ.นครราชสีมา 30130 (ใกล้อุทยานแห่งชาติเขาใหญ่)"
+    },
+    "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
+    "foundedBe": "~2555",
+    "foundedCe": "~2012",
+    "lastUpdated": "2026-03-23"
+  },
+  "TH-AYT-001": {
+    "slug": "wat-maheyong-vipassana",
+    "heroUrl": "",
+    "nameTh": "วัดมเหยงคณ์",
+    "nameEn": "Wat Maheyong (Vipassana Vitchalai Institute)",
+    "province": "พระนครศรีอยุธยา",
+    "district": "พระนครศรีอยุธยา",
+    "tradition": "เถรวาท – วิปัสสนากรรมฐาน (สติปัฏฐาน 4)",
+    "abbot": "พระภาวนาเขมคุณ",
+    "blurbTh": "วัดมเหยงคณ์ วัดประวัติศาสตร์อายุกว่า 580 ปีในเกาะอยุธยา ปัจจุบันเป็นที่ตั้งสถาบันวิปัสสนาวิชชาลัย นำโดยพระภาวนาเขมคุณ\n\n📅 โปรแกรม\n• คอร์สวันอาทิตย์ 06:45–09:30 น. (ฟรี)\n• คอร์สสุดสัปดาห์ (2 วัน) เสาร์–อาทิตย์\n• คอร์ส 3–4 วัน และ 9 วัน\n• บวชพระ/สามเณร 1–3 เดือน\n\n💰 ฟรี (วันอาทิตย์); คอร์สอื่นตามโปรแกรม\n📋 activity.watmahaeyong.or.th | LINE @mahaeyong\n🏛️ โบราณสถานอยุธยา เจดีย์อิฐโบราณ\n📍 รถไฟ กรุงเทพฯ–อยุธยา + ตุ๊กตุ๊ก ~1:30 ชม.",
+    "blurbEn": "Wat Maheyong is a 580-year-old historic temple on Ayutthaya Island, home to the Vipassana Vitchalai Institute led by Phra Bhavana Khema Khun.\n\n📅 Programmes\n• Sunday sessions 06:45–09:30 (free)\n• Weekend course (2 days)\n• 3–4 day and 9-day courses\n• Monk/novice ordination 1–3 months\n\n💰 Free Sundays; other courses vary\n📋 activity.watmahaeyong.or.th | LINE @mahaeyong\n🏛️ Ancient Ayutthaya ruins, historic brick chedi\n📍 Train Bangkok–Ayutthaya + tuk-tuk ~1.5 hrs",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "2",
+      "cost": "ฟรี (วันอาทิตย์); คอร์สยาวบางส่วนมีค่าใช้จ่าย",
+      "bookingReq": true,
+      "bookingChannel": "activity.watmahaeyong.or.th | v-vitchalai.com | watmahaeyong@gmail.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "30",
+      "cost": "ตามโปรแกรม",
+      "prerequisite": "โกนหัวและเครา; ผ่านคุณสมบัติพระธรรมวินัย"
+    },
+    "schedule": {
+      "wake": "ก่อน 06:45",
+      "morningChant": "สวดมนต์เช้า (ก่อน 07:00)",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติและเนื้อสัตว์",
+      "eveningChant": "ช่วงเย็น"
+    },
+    "contact": {
+      "website": "https://watmahaeyong.or.th",
+      "facebook": "https://www.facebook.com/watmahaeyong",
+      "facebookEn": "https://www.facebook.com/vippasanavitchalai",
+      "line": "@mahaeyong",
+      "phone": "082-233-3848",
+      "address": "95 หมู่ 2 ต.หันตรา อ.พระนครศรีอยุธยา จ.พระนครศรีอยุธยา"
+    },
+    "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
+    "foundedBe": "1981",
+    "foundedCe": "1438 (วัด) / ศูนย์วิปัสสนา ~2540s",
+    "lastUpdated": "2026-03-27"
+  },
+  "TH-CCO-001": {
+    "slug": "wat-boonyawad",
+    "heroUrl": "",
+    "nameTh": "วัดบุญญาวาส",
+    "nameEn": "Wat Boonyawad",
+    "province": "ชลบุรี",
+    "district": "บ่อทอง",
+    "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 130 วัดหนองป่าพง",
+    "abbot": "หลวงพ่ออาจารย์ตุ่น ธิรจิตโต",
+    "blurbTh": "วัดบุญญาวาส สาขาที่ 130 วัดหนองป่าพง สายหลวงพ่อชา ป่า 80+ ไร่ เขตบ่อทอง จ.ชลบุรี นำโดยหลวงพ่อตุ่น ธิรจิตโต หนึ่งในอาจารย์กรรมฐานชั้นนำของไทย\n\n📅 โปรแกรม\n• ปฏิบัติธรรมฆราวาส แยกชาย-หญิง: สวดมนต์เช้า-เย็น + นั่ง/เดินสมาธิ + ถามตอบ\n• โนเบิลไซเลนซ์ + ศีล 8 ตลอดการพำนัก\n• บวชพระสำหรับต่างชาติ: วัดช่วยเอกสาร bisuti + วีซ่า\n\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 087-999-6154 (09:00–12:00) | Watboonyawad@gmail.com\n🌲 ป่าธรรมชาติ, เจดีย์ทอง, ชุมชนนานาชาติ\n📍 กรุงเทพฯ–ชลบุรี ~2 ชม.",
+    "blurbEn": "Wat Boonyawad, the 130th branch of Wat Nong Pah Pong in the Ajahn Chah lineage, sits on 80+ acres of forest in Bo Thong, Chonburi, under Luang Por Ajahn Dtun Thiracitto.\n\n📅 Programme\n• Lay retreats (men/women separate): chanting, sitting/walking meditation, Dhamma talks, evening Q&A\n• Noble silence + 8 precepts throughout\n• Monk ordination for foreigners: bisuti paperwork + visa assistance\n\n💰 Free (dana)\n📋 +66 87 999 6154 (09:00–12:00) | Watboonyawad@gmail.com\n🌲 Deep forest, golden stupa, international community\n📍 Bangkok to Chonburi ~2 hours",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "โทร 087-999-6154 (09:00–12:00) | Watboonyawad@gmail.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "90",
+      "cost": "ฟรี",
+      "prerequisite": "วีซ่า Non-O 3 เดือน; เยี่ยมวัดล่วงหน้า; วัดช่วยทำ bisuti"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "สวดมนต์เช้า",
+      "mealCount": "1",
+      "mealType": "รับบิณฑบาต (1 มื้อ)",
+      "eveningChant": "สวดมนต์เย็น"
+    },
+    "contact": {
+      "website": "https://watboonyawad.com",
+      "facebook": "https://www.facebook.com/watboonyawad",
+      "facebookEn": "",
+      "line": "",
+      "phone": "087-999-6154",
+      "address": "หมู่ 8 บ้านคลองใหญ่ ต.บ่อทอง อ.บ่อทอง จ.ชลบุรี 20270"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
+    "foundedBe": "2535",
+    "foundedCe": "1992",
+    "lastUpdated": "2026-03-27"
+  },
+  "TH-RYG-001": {
+    "slug": "wat-marp-jan",
+    "heroUrl": "",
+    "nameTh": "วัดมาบจันทร์",
+    "nameEn": "Wat Marp Jan",
+    "province": "ระยอง",
+    "district": "แกลง",
+    "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 73 วัดหนองป่าพง",
+    "abbot": "พระอาจารย์อานันท์ (Ajahn Anan Akincano)",
+    "blurbTh": "วัดมาบจันทร์ สาขาที่ 73 วัดหนองป่าพง สายหลวงพ่อชา ป่า 1,000+ ไร่ อ.แกลง จ.ระยอง นำโดยพระอาจารย์อานันท์\n\n📅 ตาราง\n• 04:30 ตื่น | 05:00 สวดมนต์เช้า | บิณฑบาต | 19:00–21:00 สวดมนต์เย็น + ธรรมะ\n• Zoom สดทุกคืน 19:15–21:00 (GMT+7)\n• พักสูงสุด 7 คืน (ครั้งแรก)\n\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 visit.wmj@gmail.com | 038-026-252 (10:00–11:45 หรือ 15:00–17:00)\n⛵ โบสถ์ทรงเรือ 2 ชั้น | Zoom สดทุกคืน\n📍 ~200 กม. จากกรุงเทพฯ แนะนำรถส่วนตัว",
+    "blurbEn": "Wat Marp Jan, the 73rd branch of Wat Nong Pah Pong, sits on 1,000+ rai of forest in Klaeng, Rayong, under Ajahn Anan Akincano.\n\n📅 Schedule\n• 04:30 wake | 05:00 morning chant | alms round | 19:00–21:00 evening chant + Dhamma\n• Nightly Zoom: 19:15–21:00 GMT+7\n• Max 7 nights for first-time visitors\n\n💰 Free (dana)\n📋 visit.wmj@gmail.com | +66 38 026 252 (10:00–11:45 or 15:00–17:00)\n⛵ Unique 2-storey boat ubosot | Nightly global Zoom\n📍 ~200 km from Bangkok; private car recommended",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "1",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "visit.wmj@gmail.com | แจ้งล่วงหน้า 1–3 วัน",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "10",
+      "cost": "ฟรี",
+      "prerequisite": "ถือศีล 10; ติดต่อวัดล่วงหน้า"
+    },
+    "schedule": {
+      "wake": "04:30",
+      "morningChant": "05:00",
+      "mealCount": "1",
+      "mealType": "รับบิณฑบาต (1 มื้อ/วัน)",
+      "eveningChant": "19:00"
+    },
+    "contact": {
+      "website": "https://watmarpjan.org/en",
+      "facebook": "https://www.facebook.com/watmarpjan",
+      "facebookEn": "https://www.facebook.com/watmarpjan",
+      "line": "",
+      "phone": "038-026-252",
+      "address": "8/1 หมู่ 7 ถ.ต้นลำดวนไพร ต.กลาง อ.แกลง จ.ระยอง 21160"
+    },
+    "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
+    "foundedBe": "2524",
+    "foundedCe": "1981",
+    "lastUpdated": "2026-03-27"
+  },
+  "TH-PTN-001": {
+    "slug": "wat-pa-chittaphavan",
+    "heroUrl": "",
+    "nameTh": "วัดป่าจิตตภาวนา",
+    "nameEn": "Wat Pa Chittaphavan",
+    "province": "ปทุมธานี",
+    "district": "ลำลูกกา",
+    "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 44 วัดหนองป่าพง",
+    "abbot": "พระราชวชิรมุนี (ประสพชัย กันติสีโล)",
+    "blurbTh": "วัดป่าจิตตภาวนา สาขาที่ 44 วัดหนองป่าพง สายหลวงพ่อชา ก่อตั้งปี 2540 อ.ลำลูกกา จ.ปทุมธานี สาขาหลวงพ่อชาที่ใกล้กรุงเทพฯ มากที่สุดแห่งหนึ่ง\n\n📅 สวดมนต์เช้า-เย็น + นั่งสมาธิ + บิณฑบาต ตามแบบแผนวัดป่า\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 โทร 02-532-1548\n🌿 ป่าสงบ ใกล้กรุงเทพฯ\n📍 ปทุมธานี ลำลูกกา ~45 นาทีจากกรุงเทพฯ",
+    "blurbEn": "Wat Pa Chittaphavan, 44th branch of Wat Nong Pah Pong, founded 1997 in Lam Luk Ka, Pathum Thani — one of the closest Ajahn Chah forest monasteries to Bangkok.\n\n📅 Morning/evening chanting, meditation, alms round\n💰 Free (dana)\n📋 02-532-1548\n🌿 Quiet forest, close to Bangkok\n📍 Pathum Thani, Lam Luk Ka ~45 min from Bangkok",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "โทร 02-532-1548",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "ตามมาตรฐานสายป่าหลวงพ่อชา"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ตี 4",
+      "mealCount": "1–2",
+      "mealType": "รับบิณฑบาต",
+      "eveningChant": "ช่วงเย็น"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "",
+      "facebookEn": "",
+      "line": "",
+      "phone": "02-532-1548",
+      "address": "50 หมู่ 5 ต.คูคต อ.ลำลูกกา จ.ปทุมธานี 12130"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "2540",
+    "foundedCe": "1997",
+    "lastUpdated": "2026-03-27"
+  },
+  "TH-CYP-001": {
+    "slug": "wat-pa-sukhato-satipatthana",
+    "heroUrl": "",
+    "nameTh": "วัดป่าสุคะโต สถาบันสติปัฏฐาน",
+    "nameEn": "Wat Pa Sukhato – Satipatthana Institute",
+    "province": "ชัยภูมิ",
+    "district": "แก้งคร้อ",
+    "tradition": "เถรวาท – สายป่ากัมมัฏฐาน / พุทธศาสนาสิ่งแวดล้อม",
+    "abbot": "พระไพศาล วิสาโล",
+    "blurbTh": "วัดป่าสุคะโต อ.แก้งคร้อ จ.ชัยภูมิ นำโดยพระไพศาล วิสาโล พระนักกิจกรรมสังคม-สิ่งแวดล้อมชั้นนำ บวชปี 2526 เป็นที่ตั้งสถาบันสติปัฏฐาน\n\n📅 โปรแกรม\n• คอร์สวิปัสสนา 7 วัน (ปฐมนิเทศอาทิตย์ 13:00 น.)\n• อบรมสติปัฏฐานโดยพระอาจารย์ทรงศิลป์\n• บวชป่า (tree ordination) อนุรักษ์ป่า\n• ค่ายเยาวชน + อบรมอหิงสา\n\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 pasukato.org\n🌲 พระไพศาลมีชื่อเสียงระดับชาติด้านสิ่งแวดล้อม\n📍 จ.ชัยภูมิ ~3.5–4 ชม. จากกรุงเทพฯ",
+    "blurbEn": "Wat Pa Sukhato in Kaeng Khro, Chaiyaphum, led by Phra Paisal Visalo — nationally prominent socially-engaged monk (ordained 1983), internationally known for environmental Buddhism and tree ordination. Houses the Satipatthana Institute.\n\n📅 Programmes\n• 7-day vipassana course (orientation Sunday 13:00)\n• Satipatthana intensives by Phra Ajahn Songsin\n• Tree ordination (บวชป่า) forest conservation\n• Youth camps + nonviolence training\n\n💰 Free (dana)\n📋 pasukato.org\n🌲 Phra Paisal = prominent intellectual monk & environmental activist\n📍 Chaiyaphum ~3.5–4 hrs from Bangkok",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "7",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "pasukato.org | ปฐมนิเทศวันอาทิตย์ 13:00 น. ณ ศาลาหอไตร",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดล่วงหน้า"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ตี 4",
+      "mealCount": "1",
+      "mealType": "รับบิณฑบาต (มังสวิรัติ)",
+      "eveningChant": "ช่วงเย็น"
+    },
+    "contact": {
+      "website": "https://pasukato.org",
+      "facebook": "https://www.facebook.com/pasukato",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "ต.ท่ามะไฟหวาน อ.แก้งคร้อ จ.ชัยภูมิ"
+    },
+    "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
+    "foundedBe": "2526",
+    "foundedCe": "1983",
+    "lastUpdated": "2026-03-27"
+  },
+  "TH-NMA-004": {
+    "slug": "ashram-mata-foundation",
+    "heroUrl": "",
+    "nameTh": "มูลนิธิอาศรมมาตา",
+    "nameEn": "Ashram Mata Foundation",
+    "province": "นครราชสีมา",
+    "district": "ปากช่องไข่",
+    "tradition": "เถรวาท – อานาปานสติ / สติปัฏฐาน 4 (เน้นสตรี)",
+    "abbot": "คณะกรรมการมูลนิธิ",
+    "blurbTh": "มูลนิธิอาศรมมาตา ปากช่องไข่ จ.นครราชสีมา ศูนย์ปฏิบัติธรรมเน้นสตรีพิเศษ สอนอานาปานสติและสติปัฏฐาน 4 ในบรรยากาศธรรมชาติแถบเขาใหญ่\n\n📅 คอร์สปฏิบัติธรรมหลายระยะ (ดูปฏิทิน ashrammata.org)\n• โปรแกรมสตรี: ปฏิบัติและพัฒนาจิตใจ\n• บวชชีพราหมณ์สำหรับสตรี\n• กิจกรรมบริการสังคม\n\n💰 ติดต่อสอบถาม\n📋 ashrammata.org | LINE @ashrammata | 081-913-5031\n🌸 เน้นสตรี; บรรยากาศธรรมชาติเขาใหญ่\n📍 จ.นครราชสีมา ~1.5 ชม. จากกรุงเทพฯ",
+    "blurbEn": "Ashram Mata Foundation, near Pak Thong Chai, Nakhon Ratchasima, is a women-focused meditation centre teaching Anapanasati and Four Foundations of Mindfulness in a Khao Yai natural setting.\n\n📅 Retreats of various lengths (see calendar at ashrammata.org)\n• Women's programme: dedicated practice & mental development\n• White-robe (mae chee) ordination for women\n• Community service activities\n\n💰 Contact for pricing\n📋 ashrammata.org | LINE @ashrammata | +66 81 913 5031\n🌸 Women-focused; natural Khao Yai setting\n📍 Nakhon Ratchasima ~1.5 hrs from Bangkok",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": true
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ติดต่อสอบถาม (น่าจะบริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ashrammata.org | ashrammata@gmail.com | LINE @ashrammata | 081-913-5031",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "สตรีเท่านั้น; ติดต่อมูลนิธิ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://ashrammata.org",
+      "facebook": "https://www.facebook.com/ashrammatafoundation",
+      "facebookEn": "",
+      "line": "@ashrammata",
+      "phone": "081-913-5031",
+      "address": "67 ภูหลวง ปากช่องไข่ จ.นครราชสีมา"
+    },
+    "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-03-27"
+  },
+  "TH-UDN-001": {
+    "slug": "wat-pa-ban-tat",
+    "heroUrl": "",
+    "nameTh": "วัดป่าบ้านตาด (วัดเกษรศีลคุณ)",
+    "nameEn": "Wat Pa Ban Tat (Wat Kesornsilakul)",
+    "province": "อุดรธานี",
+    "district": "เมืองอุดรธานี",
+    "tradition": "ธรรมยุต สายหลวงปู่มั่น (กรรมฐาน)",
+    "abbot": "พระอาจารย์สุธรรม สุธัมโม",
+    "blurbTh": "วัดป่าบ้านตาด หรือชื่อทางการว่า วัดเกษรศีลคุณ เป็นวัดป่ากรรมฐานสายธรรมยุตที่มีชื่อเสียงระดับโลก ตั้งอยู่ที่อำเภอเมือง จังหวัดอุดรธานี ก่อตั้งโดยหลวงตามหาบัว ญาณสัมปันโน สานุศิษย์โดยตรงของหลวงปู่มั่น ภูริทัตโต ปัจจุบันอยู่ในการดูแลของพระอาจารย์สุธรรม สุธัมโม\n\nกิจกรรมและการปฏิบัติ:\n• การปฏิบัติหลัก: เดินจงกรม นั่งภาวนา กำหนดพุทโธ และอานาปานสติ ตามแนวทางสายกรรมฐาน\n• เปิดให้ผู้มีพื้นฐานการปฏิบัติมาแล้วเข้าพักปฏิบัติธรรมได้อย่างอิสระ ไม่มีโปรแกรมตายตัว\n• ฟังธรรมจากพระอาจารย์เมื่อมีโอกาส\n• เยี่ยมชมพิพิธภัณฑ์ธรรมเจดีย์ ซึ่งเก็บรักษาอัฐิและสิ่งของของหลวงตามหาบัว\n\nระเบียบและข้อควรรู้:\n• เหมาะสำหรับผู้มีพื้นฐานการปฏิบัติมาก่อน ไม่รับผู้เริ่มต้น\n• ฉันวันละหนึ่งมื้อ ตามแนวทางธุดงควัตร\n• ประตูวัดปิดเวลา 11:00 น. เพื่อให้พระได้ปฏิบัติอย่างสงบ\n• ไม่มีค่าใช้จ่าย รับบริจาคตามศรัทธา\n• ติดต่อวัดล่วงหน้าก่อนเข้าพัก",
+    "blurbEn": "Wat Pa Ban Tat (Wat Kesornsilakul) is a world-renowned Dhammayut Forest Tradition monastery in Udon Thani, founded by the late Ajahn Maha Boowa Nanasampanno — one of the last direct disciples of Ajahn Mun Bhuridatta. The monastery is now under Phra Ajahn Sutham Suthammo, the third abbot.\n\nActivities & Practice:\n• Core practices: walking meditation (jongkrom), sitting meditation with Buddho mantra and Anapanasati, following the strict Kammasthana Forest tradition\n• Self-directed retreat practice — no fixed program; practitioners follow their own schedule within the monastery's rhythm\n• Dhamma talks from the abbot and senior monks when available\n• Visit the Dhamma Chedi Museum, housing relics and personal effects of Ajahn Maha Boowa\n\nKey Information:\n• Suitable for practitioners with prior meditation experience; not recommended for complete beginners\n• One meal per day (alms round at 8:00 AM), vegetarian-friendly\n• Gates close at 11:00 AM to protect the monks' practice time\n• Free of charge; donations accepted\n• Contact the monastery in advance before visiting for a retreat stay",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่กำหนด (ปฏิบัติอิสระ)",
+      "cost": "ฟรี (รับบริจาค)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "ฟรี",
+      "prerequisite": "ควรมีพื้นฐานการปฏิบัติมาก่อน"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "05:00",
+      "mealCount": "1",
+      "mealType": "มังสวิรัติ / ฉันวันละมื้อ",
+      "eveningChant": "19:00"
+    },
+    "contact": {
+      "website": "https://luangta.com/wadpa-bantad",
+      "facebook": "https://www.facebook.com/watpabaantaadwatkesarasilaguna/",
+      "facebookEn": "",
+      "line": "",
+      "phone": "042-214114",
+      "address": "309/1 หมู่ 1 ตำบลบ้านตาด อำเภอเมืองอุดรธานี จังหวัดอุดรธานี 41000"
+    },
+    "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
+    "foundedBe": "2498",
+    "foundedCe": "1955",
+    "lastUpdated": "2026-03-28"
+  },
+  "TH-CCO-002": {
+    "slug": "wat-yannasangwaram",
+    "heroUrl": "",
+    "nameTh": "วัดญาณสังวรารามวรมหาวิหาร ในพระบรมราชูปถัมภ์",
+    "nameEn": "Wat Yannasangwaram Voramahavihara (Under Royal Patronage)",
+    "province": "ชลบุรี",
+    "district": "บางละมุง",
+    "tradition": "ธรรมยุต สายกรรมฐาน",
+    "abbot": "พระอาจารย์สุชาติ อภิชาโต (พระราชวัชรสังวรมุนี)",
+    "blurbTh": "วัดญาณสังวรารามวรมหาวิหาร ในพระบรมราชูปถัมภ์ เป็นวัดป่าสายธรรมยุตที่มีชื่อเสียงในจังหวัดชลบุรี ก่อตั้งเมื่อ พ.ศ. 2519 โดยมีสมเด็จพระญาณสังวร สมเด็จพระสังฆราช เป็นผู้อุปถัมภ์ ตั้งอยู่ห่างจากพัทยาประมาณ 20 กม. ปัจจุบันมีพระอาจารย์สุชาติ อภิชาโต เป็นพระอาจารย์อาวุโส ซึ่งเคยศึกษาปฏิบัติกับหลวงตามหาบัว วัดป่าบ้านตาด\n\nกิจกรรมและการปฏิบัติ:\n• นั่งสมาธิ / วิปัสสนา และเดินจงกรม ตามแนวทางกรรมฐาน\n• ฟังธรรมจากพระอาจารย์สุชาติ อภิชาโต\n• เปิดรับทุกคน ไม่ต้องมีพื้นฐานมาก่อน เหมาะสำหรับผู้เริ่มต้น\n• รับปฏิบัติธรรมแบบค้างคืน (โปรดติดต่อล่วงหน้า)\n• พิธีอุปสมบทและบรรพชา (บวชพระ/บวชสามเณร)\n• สวมชุดขาว (ถือศีล 8) ได้\n\nระเบียบและข้อควรรู้:\n• เปิดรับทุกคน ไม่ต้องมีพื้นฐาน เหมาะสำหรับผู้เริ่มต้น\n• ฟรี รับบริจาคตามศรัทธา\n• ติดต่อล่วงหน้าเพื่อขอพักค้างคืน โทร 081-586-0188",
+    "blurbEn": "Wat Yannasangwaram Voramahavihara is a prestigious Dhammayut Forest Tradition monastery in Chonburi Province, founded in 1976 under the patronage of Somdet Phra Nyanasamvara, the 19th Supreme Patriarch of Thailand. Located about 20 km southeast of Pattaya, the monastery spans over 360 rai of peaceful forested grounds. The senior meditation teacher is Phra Ajahn Suchart Abhichato, a direct disciple of Ajahn Maha Boowa of Wat Pa Ban Tat.\n\nActivities & Practice:\n• Sitting and walking meditation following the Kammasthana Forest Tradition\n• Dhamma talks and teachings from Phra Ajahn Suchart Abhichato\n• Open to all levels — welcoming for beginners, no prior experience required\n• Overnight retreat stays available (advance booking required)\n• Monk and novice ordination programs\n• White robe (8 precepts) stays available\n\nKey Information:\n• Welcomes all practitioners regardless of experience level\n• Free of charge; donations welcome\n• Contact the monastery in advance for retreat stays: 081-586-0188\n• Open 8:00 AM – 5:00 PM for day visitors",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "N/A",
+      "cost": "ฟรี (รับบริจาค)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง / เว็บไซต์",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "ฟรี",
+      "prerequisite": "เปิดรับทุกคน ไม่ต้องมีพื้นฐาน"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "05:00",
+      "mealCount": "1",
+      "mealType": "ฉันวันละมื้อ (แบบพระป่า)",
+      "eveningChant": "19:00"
+    },
+    "contact": {
+      "website": "http://watyanasangvararam.com/",
+      "facebook": "https://www.facebook.com/watyanchonburi/",
+      "facebookEn": "",
+      "line": "",
+      "phone": "081-586-0188",
+      "address": "999 หมู่ 11 ตำบลห้วยใหญ่ อำเภอบางละมุง จังหวัดชลบุรี 20260"
+    },
+    "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+    "foundedBe": "2519",
+    "foundedCe": "1976",
+    "lastUpdated": "2026-03-28"
+  },
+  "TH-CNX-002": {
+    "slug": "wat-pa-daraphirom",
+    "heroUrl": "",
+    "nameTh": "วัดป่าดาราภิรมย์",
+    "nameEn": "Wat Pa Daraphirom",
+    "province": "เชียงใหม่",
+    "district": "แม่ริม",
+    "tradition": "ธรรมยุต สายหลวงปู่มั่น (กรรมฐาน)",
+    "abbot": "พระเทพวชิราธิบดี",
+    "blurbTh": "วัดป่าดาราภิรมย์ เป็นพระอารามหลวงชั้นตรี สายธรรมยุต ตั้งอยู่ที่อำเภอแม่ริม จังหวัดเชียงใหม่ ก่อตั้งเมื่อ พ.ศ. 2481 โดยมีความเชื่อมโยงกับหลวงปู่มั่น ภูริทัตโต ผู้ก่อตั้งสายป่ากรรมฐานในประเทศไทย วัดแห่งนี้เป็นทั้งวัดป่าที่สงบงามและสถานที่ปฏิบัติธรรมสำหรับฆราวาส\n\nกิจกรรมและการปฏิบัติ:\n• นั่งสมาธิ / วิปัสสนา ตามแนวทางสายป่ากรรมฐาน\n• รับปฏิบัติธรรมแบบค้างคืน เหมาะทั้งผู้เริ่มต้นและผู้มีประสบการณ์\n• สวดมนต์ทำวัตรเย็น เป็นที่นิยมของผู้มาเยือน\n• พิธีอุปสมบทและบรรพชา\n• สวมชุดขาว (ถือศีล 8) ได้\n• วัดตั้งอยู่ในสภาพแวดล้อมธรรมชาติที่สงบสวยงาม เหมาะแก่การพักจิต\n\nระเบียบและข้อควรรู้:\n• รับทั้งผู้เริ่มต้นและผู้มีประสบการณ์\n• ฟรี รับบริจาคตามศรัทธา\n• เปิดให้เข้าชม 08:00–17:00 น.\n• ติดต่อล่วงหน้าเพื่อขอพักค้างคืน โทร 053-862678",
+    "blurbEn": "Wat Pa Daraphirom is a first-class royal forest monastery (Phra Aram Luang) of the Dhammayut order in Mae Rim District, Chiang Mai. Established in 1938, the temple is rooted in the Thai Forest Tradition of Ajahn Mun Bhuridatta. Set in serene natural surroundings, it serves as both a forest monastery and a meditation retreat centre for laypeople.\n\nActivities & Practice:\n• Sitting and walking meditation following the Forest Tradition Kammasthana lineage\n• Overnight retreat stays available — suitable for both beginners and experienced practitioners\n• Evening chanting service (popular with visitors)\n• Monk and novice ordination programs available\n• White robe (8 precepts) stays welcomed\n• Peaceful forest environment ideal for deepening practice\n\nKey Information:\n• Welcomes both beginners and experienced practitioners\n• Free of charge; donations appreciated\n• Open 8:00 AM – 5:00 PM for day visitors\n• Contact in advance for overnight retreat stays: 053-862678",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "N/A",
+      "cost": "ฟรี (รับบริจาค)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "ฟรี",
+      "prerequisite": "มีทั้งสองระดับ (ผู้เริ่มต้นและผู้มีประสบการณ์)"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "05:00",
+      "mealCount": "1",
+      "mealType": "ฉันวันละมื้อ (แบบพระป่า)",
+      "eveningChant": "19:00"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "https://www.facebook.com/Padharabhirom/",
+      "facebookEn": "",
+      "line": "",
+      "phone": "053-862678",
+      "address": "514 หมู่ 1 ตำบลริมใต้ อำเภอแม่ริม จังหวัดเชียงใหม่"
+    },
+    "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+    "foundedBe": "2481",
+    "foundedCe": "1938",
+    "lastUpdated": "2026-03-28"
+  }
+}

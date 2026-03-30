@@ -1,0 +1,528 @@
+[
+  {
+    "id": "TH-NMA-001",
+    "nameTh": "วัดป่าทรัพย์ทวีธรรมาราม",
+    "nameEn": "Wat Pah Subthawee Dhammaram",
+    "province": "นครราชสีมา",
+    "district": "วังน้ำเขียว",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-001"
+  },
+  {
+    "id": "TH-BKK-001",
+    "nameTh": "สวนโมกข์กรุงเทพ (หอจดหมายเหตุพุทธทาส อินทปัญโญ)",
+    "nameEn": "Suan Mokkh Bangkok (Buddhadasa Indapanno Archives)",
+    "province": "กรุงเทพมหานคร",
+    "district": "จตุจักร",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 1 วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-001"
+  },
+  {
+    "id": "TH-BKK-002",
+    "nameTh": "มูลนิธิบ้านอารีย์",
+    "nameEn": "Baan Aree Foundation",
+    "province": "กรุงเทพมหานคร",
+    "district": "พญาไท",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0.5 วัน",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-002"
+  },
+  {
+    "id": "TH-BKK-003",
+    "nameTh": "ศูนย์ปฏิบัติวิปัสสนากรรมฐาน นานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์",
+    "nameEn": "International Vipassana Meditation Centre, Wat Mahadhatu",
+    "province": "กรุงเทพมหานคร",
+    "district": "พระนคร",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_women": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 1 วัน",
+      "เดินทางสะดวก ในกรุงเทพฯ",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-003"
+  },
+  {
+    "id": "TH-BKK-004",
+    "nameTh": "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.)",
+    "nameEn": "Young Buddhist Association of Thailand (YBAT)",
+    "province": "กรุงเทพมหานคร",
+    "district": "พระโขนง / หลายสาขา",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 2 วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-004"
+  },
+  {
+    "id": "TH-BKK-005",
+    "nameTh": "สวนอุศม",
+    "nameEn": "Suan Usom (Garden of Moral Purification)",
+    "province": "กรุงเทพมหานคร",
+    "district": "ประเวศ",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 2 วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "เดินทางสะดวก ในกรุงเทพฯ",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-005"
+  },
+  {
+    "id": "TH-BKK-006",
+    "nameTh": "เสถียรธรรมสถาน",
+    "nameEn": "Sathira Dhammasathan",
+    "province": "กรุงเทพมหานคร",
+    "district": "บางเขน",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "เดินทางสะดวก ในกรุงเทพฯ",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-006"
+  },
+  {
+    "id": "TH-NMA-002",
+    "nameTh": "สถานพำนักสงฆ์บ้านไร่ทอสี (บ้านบุญ)",
+    "nameEn": "Baan Rai Tor See Hermitage (Baan Boon)",
+    "province": "นครราชสีมา",
+    "district": "ปากช่อง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0.5 วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-002"
+  },
+  {
+    "id": "TH-CNX-001",
+    "nameTh": "วัดพระธาตุศรีจอมทองวรวิหาร",
+    "nameEn": "Wat Phra That Si Chom Thong Worawihan",
+    "province": "เชียงใหม่",
+    "district": "จอมทอง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 5 วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-CNX-001"
+  },
+  {
+    "id": "TH-NMA-003",
+    "nameTh": "พุทธธรรมสถานปัญจคีรี (Buddha Dhamma Satharn Panjakiri)",
+    "nameEn": "Buddha Dhamma Satharn Panjakiri",
+    "province": "นครราชสีมา",
+    "district": "ปากช่อง (มวกเหล็ก / มูสี)",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 3,
+      "profile_beginner": 2,
+      "profile_intermediate": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-003"
+  },
+  {
+    "id": "TH-AYT-001",
+    "nameTh": "วัดมเหยงคณ์",
+    "nameEn": "Wat Maheyong (Vipassana Vitchalai Institute)",
+    "province": "พระนครศรีอยุธยา",
+    "district": "พระนครศรีอยุธยา",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 2 วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-AYT-001"
+  },
+  {
+    "id": "TH-CCO-001",
+    "nameTh": "วัดบุญญาวาส",
+    "nameEn": "Wat Boonyawad",
+    "province": "ชลบุรี",
+    "district": "บ่อทอง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-CCO-001"
+  },
+  {
+    "id": "TH-RYG-001",
+    "nameTh": "วัดมาบจันทร์",
+    "nameEn": "Wat Marp Jan",
+    "province": "ระยอง",
+    "district": "แกลง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 1 วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์"
+    ],
+    "link": "temple-detail.html?id=TH-RYG-001"
+  },
+  {
+    "id": "TH-PTN-001",
+    "nameTh": "วัดป่าจิตตภาวนา",
+    "nameEn": "Wat Pa Chittaphavan",
+    "province": "ปทุมธานี",
+    "district": "ลำลูกกา",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-PTN-001"
+  },
+  {
+    "id": "TH-CYP-001",
+    "nameTh": "วัดป่าสุคะโต สถาบันสติปัฏฐาน",
+    "nameEn": "Wat Pa Sukhato – Satipatthana Institute",
+    "province": "ชัยภูมิ",
+    "district": "แก้งคร้อ",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 2,
+      "profile_intermediate": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-CYP-001"
+  },
+  {
+    "id": "TH-NMA-004",
+    "nameTh": "มูลนิธิอาศรมมาตา",
+    "nameEn": "Ashram Mata Foundation",
+    "province": "นครราชสีมา",
+    "district": "ปากช่องไข่",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-004"
+  },
+  {
+    "id": "TH-UDN-001",
+    "nameTh": "วัดป่าบ้านตาด (วัดเกษรศีลคุณ)",
+    "nameEn": "Wat Pa Ban Tat (Wat Kesornsilakul)",
+    "province": "อุดรธานี",
+    "district": "เมืองอุดรธานี",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่กำหนด (ปฏิบัติอิสระ) วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-UDN-001"
+  },
+  {
+    "id": "TH-CCO-002",
+    "nameTh": "วัดญาณสังวรารามวรมหาวิหาร ในพระบรมราชูปถัมภ์",
+    "nameEn": "Wat Yannasangwaram Voramahavihara (Under Royal Patronage)",
+    "province": "ชลบุรี",
+    "district": "บางละมุง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0 วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-CCO-002"
+  },
+  {
+    "id": "TH-CNX-002",
+    "nameTh": "วัดป่าดาราภิรมย์",
+    "nameEn": "Wat Pa Daraphirom",
+    "province": "เชียงใหม่",
+    "district": "แม่ริม",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0 วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-CNX-002"
+  }
+]
