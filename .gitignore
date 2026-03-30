@@ -16,3 +16,4 @@ node_modules/
 # Environment / secrets (if you ever add them)
 .env
 .env.local
+temple_photos_lookup.json
