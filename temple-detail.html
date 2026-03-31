@@ -175,12 +175,12 @@
 
     /* ── QUICK ACTIONS BAR ── */
     .actions-bar {
-      background: var(--white);
+      background: var(--surface);
       border-bottom: 1px solid var(--border);
       padding: 0 40px;
       display: flex; gap: 0;
       position: sticky; top: 0; z-index: 100;
-      box-shadow: 0 2px 12px rgba(26,18,9,0.07);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       overflow-x: auto;
     }
     .actions-bar::-webkit-scrollbar { display: none; }
@@ -526,9 +526,6 @@
         <span id="hero-abbot">เจ้าอาวาส</span>
       </div>
     </div>
-    <div class="hero-badges fade-up-3" id="hero-badges">
-      <span class="badge badge-tradition">ประเพณี</span>
-    </div>
   </div>
 </section>
 
@@ -667,13 +664,6 @@
         </div>
       </div>
 
-      <!-- TAGS -->
-      <div class="section">
-        <h2 class="section-title">แท็ก</h2>
-        <div class="tag-row" id="tags-row">
-          <!-- Dynamically generated -->
-        </div>
-      </div>
 
     </main>
 
@@ -795,8 +785,6 @@ let TEMPLES_DETAIL = {};
     }
 
     // Update hero badges
-    const badgesHtml = '<span class="badge badge-tradition">' + temple.tradition + '</span>';
-    document.getElementById('hero-badges').innerHTML = badgesHtml;
 
     // Update blurbs
     document.getElementById('blurb-th').textContent = temple.blurbTh;
@@ -937,14 +925,6 @@ let TEMPLES_DETAIL = {};
       `;
     }
     document.getElementById('contact-list').innerHTML = contactHtml;
-
-    // Update tags - extract from blurb and tradition
-    const tags = [temple.tradition.split('–')[0].trim(), temple.province, temple.district];
-    let tagsHtml = '';
-    tags.forEach(tag => {
-      tagsHtml += '<span class="tag">' + tag + '</span>';
-    });
-    document.getElementById('tags-row').innerHTML = tagsHtml;
 
     // Update callout
     const calloutTexts = {
