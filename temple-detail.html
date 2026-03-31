@@ -720,10 +720,10 @@
   <p style="margin-top:6px">ข้อมูลนี้จัดทำเพื่อการศึกษาและอ้างอิง · <a href="#">ข้อมูลผิดพลาด? แจ้งเรา</a></p>
 </footer>
 
-<!-- EMBEDDED TEMPLE DATA -->
+<!-- DATA LAYER -->
+<script src="temple-data.js"></script>
 <script>
 let TEMPLES_DETAIL = {};
-
 </script>
 
 <!-- INITIALIZATION AND DYNAMIC CONTENT SCRIPT -->
@@ -960,10 +960,11 @@ let TEMPLES_DETAIL = {};
     document.querySelector('.hero-name-th').textContent = 'กำลังโหลดข้อมูล...';
     document.querySelector('.hero-name-en').textContent = 'Loading...';
 
-    fetch('temples-detail.json')
-      .then(function(r) { return r.json(); })
-      .then(function(data) {
-        TEMPLES_DETAIL = data;
+    fetchTemples()
+      .then(function(rows) {
+        rows.forEach(function(row) {
+          TEMPLES_DETAIL[row.temple_id] = toDetailFormat(row);
+        });
         var templeId = getTempleId();
         populateTempleData(templeId);
       })

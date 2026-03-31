@@ -371,6 +371,7 @@
   <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · <a href="temple-directory.html">ดูทั้งหมด →</a></p>
 </footer>
 
+<script src="temple-data.js"></script>
 <script>
 // SVG icon map — subtle, classic line icons
 const ICONS = {
@@ -455,11 +456,10 @@ const QUESTIONS = [
 
 let TEMPLES = [];
 
-// Load temple data
-fetch('temples-recommendation.json')
-  .then(function(r) { return r.json(); })
-  .then(function(data) {
-    TEMPLES = data;
+// Load temple data from Supabase
+fetchTemples()
+  .then(function(rows) {
+    TEMPLES = rows.map(toRecommendationFormat);
     console.log('Loaded', TEMPLES.length, 'temples for recommendation');
   })
   .catch(function(err) {

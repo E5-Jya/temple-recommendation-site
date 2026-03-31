@@ -418,6 +418,7 @@
   <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · อัปเดต มีนาคม 2026 · <a href="temple-recommendation.html">แนะนำสถานที่ให้ฉัน →</a></p>
 </footer>
 
+<script src="temple-data.js"></script>
 <script>
 let TEMPLES = [];
 
@@ -542,10 +543,9 @@ document.getElementById('searchInput').addEventListener('input', () => {
 // Show loading state
 document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted)"><div style="margin-bottom:12px">กำลังโหลดข้อมูล...</div></div>';
 
-fetch('temples-directory.json')
-  .then(function(r) { return r.json(); })
-  .then(function(data) {
-    TEMPLES = data;
+fetchTemples()
+  .then(function(rows) {
+    TEMPLES = rows.map(toDirectoryFormat);
     renderCards();
   })
   .catch(function(err) {
