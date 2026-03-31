@@ -605,10 +605,6 @@
             <div class="info-label">ช่องทางสมัคร</div>
             <div class="info-value" id="info-channel">-</div>
           </div>
-          <div class="info-row">
-            <div class="info-label">ความจุ</div>
-            <div class="info-value" id="info-capacity">-</div>
-          </div>
           <div class="divider" style="margin:16px 0"></div>
           <div class="info-row">
             <div class="info-label">บวชชีพราหมณ์</div>
@@ -803,7 +799,6 @@ let TEMPLES_DETAIL = {};
     document.getElementById('info-min-days').innerHTML = temple.retreatInfo.minDays === 'N/A' ? 'ไม่ระบุ' : temple.retreatInfo.minDays + ' วัน';
     document.getElementById('info-booking').innerHTML = bookingText;
     document.getElementById('info-channel').textContent = temple.retreatInfo.bookingChannel;
-    document.getElementById('info-capacity').textContent = temple.retreatInfo.capacity + ' คน';
     document.getElementById('info-ord-days').textContent = temple.ordinationInfo.minDays === 'N/A' ? 'ไม่มีโครงการ' : temple.ordinationInfo.minDays + ' วัน';
     document.getElementById('info-ord-prereq').textContent = temple.ordinationInfo.prerequisite;
 
