@@ -978,5 +978,265 @@ let TEMPLES_DETAIL = {};
 
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase-config.js"></script>
+
+<!-- ADMIN INLINE EDITOR -->
+<style>
+  .admin-edit-toggle {
+    position: fixed; bottom: 24px; right: 24px; z-index: 9000;
+    width: 52px; height: 52px; border-radius: 50%;
+    background: var(--primary); color: #fff; border: none;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2); cursor: pointer;
+    display: none; align-items: center; justify-content: center;
+    transition: all 0.2s;
+  }
+  .admin-edit-toggle:hover { background: var(--primary-dark); transform: scale(1.05); }
+  .admin-edit-toggle.active { background: var(--warning); }
+  .admin-edit-toggle svg { width: 22px; height: 22px; stroke: currentColor; fill: none; stroke-width: 2; }
+
+  .admin-save-bar {
+    position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+    z-index: 9000; display: none; align-items: center; gap: 12px;
+    background: var(--foreground); color: #fff; padding: 12px 24px;
+    border-radius: 12px; box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+    font-size: 14px; font-family: inherit;
+  }
+  .admin-save-bar button {
+    padding: 8px 20px; border-radius: 8px; border: none;
+    font-size: 14px; font-weight: 600; font-family: inherit; cursor: pointer;
+  }
+  .admin-save-btn { background: var(--primary); color: #fff; }
+  .admin-save-btn:hover { background: var(--primary-dark); }
+  .admin-cancel-btn { background: transparent; color: rgba(255,255,255,0.7); border: 1px solid rgba(255,255,255,0.2) !important; }
+  .admin-cancel-btn:hover { color: #fff; }
+
+  [data-editable].edit-mode {
+    outline: 2px dashed var(--primary);
+    outline-offset: 2px;
+    border-radius: 4px;
+    min-height: 1em;
+    cursor: text;
+  }
+  [data-editable].edit-mode:focus {
+    outline-color: var(--accent);
+    background: rgba(212,168,71,0.06);
+  }
+  [data-editable].edit-mode:empty::before {
+    content: 'คลิกเพื่อแก้ไข...';
+    color: var(--muted-light);
+    font-style: italic;
+  }
+
+  .admin-toast {
+    position: fixed; top: 24px; right: 24px; z-index: 9999;
+    padding: 14px 24px; border-radius: 10px;
+    font-size: 14px; font-weight: 500; font-family: inherit;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    transform: translateX(120%); transition: transform 0.3s ease;
+  }
+  .admin-toast.show { transform: translateX(0); }
+  .admin-toast.success { background: #EFF8F2; color: var(--primary-dark); border: 1px solid var(--secondary); }
+  .admin-toast.error { background: #FDF2F0; color: var(--warning-dark); border: 1px solid var(--warning-light); }
+</style>
+
+<script>
+(function() {
+  // ── Field mapping: data-editable attribute → Supabase column ──
+  var FIELD_MAP = {
+    'name_th':              { el: 'hero-name-th' },
+    'name_en':              { el: 'hero-name-en' },
+    'blurb_th':             { el: 'blurb-th' },
+    'blurb_en':             { el: 'blurb-en' },
+    'address_th':           { el: 'detail-address' },
+    'tradition_th':         { el: 'detail-tradition' },
+    'phone':                { el: 'detail-phone', extract: true },
+    'website':              { el: 'detail-website', extract: true },
+    'retreat_min_days':     { el: 'info-min-days', parse: 'days' },
+    'retreat_booking_channel': { el: 'info-channel' },
+    'ord_prerequisite':     { el: 'info-ord-prereq' },
+    'sched_wake_time':      { el: 'sched-wake' },
+    'sched_morning_chant':  { el: 'sched-morning' },
+    'sched_evening_chant':  { el: 'sched-evening' },
+  };
+
+  var editMode = false;
+  var hasChanges = false;
+  var originalValues = {};
+
+  // ── Inject UI ──
+  function injectAdminUI() {
+    // Edit toggle button
+    var btn = document.createElement('button');
+    btn.className = 'admin-edit-toggle';
+    btn.id = 'adminEditToggle';
+    btn.title = 'Edit Mode';
+    btn.innerHTML = '<svg viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path stroke-linecap="round" stroke-linejoin="round" d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>';
+    btn.onclick = toggleEditMode;
+    document.body.appendChild(btn);
+
+    // Save bar
+    var bar = document.createElement('div');
+    bar.className = 'admin-save-bar';
+    bar.id = 'adminSaveBar';
+    bar.innerHTML = '<span>มีการแก้ไขที่ยังไม่ได้บันทึก</span>' +
+      '<button class="admin-cancel-btn" onclick="window._adminCancel()">ยกเลิก</button>' +
+      '<button class="admin-save-btn" onclick="window._adminSave()">บันทึก</button>';
+    document.body.appendChild(bar);
+
+    // Toast container
+    var toast = document.createElement('div');
+    toast.className = 'admin-toast';
+    toast.id = 'adminToast';
+    document.body.appendChild(toast);
+  }
+
+  // ── Add schedule IDs for editable time fields ──
+  function tagScheduleFields() {
+    var rows = document.querySelectorAll('.schedule-row .schedule-time');
+    if (rows.length >= 1) rows[0].id = 'sched-wake';
+    if (rows.length >= 2) rows[1].id = 'sched-morning';
+    if (rows.length >= 5) rows[4].id = 'sched-evening';
+  }
+
+  // ── Toggle edit mode ──
+  function toggleEditMode() {
+    editMode = !editMode;
+    var btn = document.getElementById('adminEditToggle');
+    btn.classList.toggle('active', editMode);
+    btn.title = editMode ? 'Exit Edit Mode' : 'Edit Mode';
+
+    if (editMode) {
+      tagScheduleFields();
+      // Store original values and make fields editable
+      Object.keys(FIELD_MAP).forEach(function(col) {
+        var cfg = FIELD_MAP[col];
+        var el = document.getElementById(cfg.el);
+        if (!el) return;
+        el.setAttribute('data-editable', col);
+        el.classList.add('edit-mode');
+        el.contentEditable = 'true';
+        originalValues[col] = el.textContent.trim();
+        el.addEventListener('input', onFieldChange);
+      });
+    } else {
+      // Remove editable state
+      document.querySelectorAll('[data-editable]').forEach(function(el) {
+        el.classList.remove('edit-mode');
+        el.contentEditable = 'false';
+        el.removeAttribute('data-editable');
+        el.removeEventListener('input', onFieldChange);
+      });
+      hasChanges = false;
+      document.getElementById('adminSaveBar').style.display = 'none';
+    }
+  }
+
+  function onFieldChange() {
+    hasChanges = true;
+    document.getElementById('adminSaveBar').style.display = 'flex';
+  }
+
+  // ── Collect changes ──
+  function collectChanges() {
+    var changes = {};
+    Object.keys(FIELD_MAP).forEach(function(col) {
+      var cfg = FIELD_MAP[col];
+      var el = document.getElementById(cfg.el);
+      if (!el) return;
+      var newVal = el.textContent.trim();
+      if (newVal !== originalValues[col]) {
+        // Parse special fields
+        if (cfg.parse === 'days') {
+          var num = newVal.replace(/[^0-9.]/g, '');
+          if (num) changes[col] = num;
+        } else {
+          changes[col] = newVal;
+        }
+      }
+    });
+    return changes;
+  }
+
+  // ── Save to Supabase ──
+  window._adminSave = async function() {
+    var changes = collectChanges();
+    if (Object.keys(changes).length === 0) {
+      showToast('ไม่มีการเปลี่ยนแปลง', 'success');
+      return;
+    }
+
+    var templeId = new URLSearchParams(window.location.search).get('id');
+    if (!templeId) return;
+
+    changes.last_edited_source = 'web';
+    changes.updated_at = new Date().toISOString();
+
+    var saveBtn = document.querySelector('.admin-save-btn');
+    saveBtn.textContent = 'กำลังบันทึก...';
+    saveBtn.disabled = true;
+
+    try {
+      var resp = await _supabase
+        .from('temples')
+        .update(changes)
+        .eq('temple_id', templeId);
+
+      if (resp.error) throw resp.error;
+
+      showToast('บันทึกสำเร็จ (' + Object.keys(changes).length + ' ฟิลด์)', 'success');
+      // Update originals
+      Object.keys(FIELD_MAP).forEach(function(col) {
+        var el = document.getElementById(FIELD_MAP[col].el);
+        if (el) originalValues[col] = el.textContent.trim();
+      });
+      hasChanges = false;
+      document.getElementById('adminSaveBar').style.display = 'none';
+    } catch (err) {
+      console.error('Save failed:', err);
+      showToast('บันทึกล้มเหลว: ' + (err.message || err), 'error');
+    } finally {
+      saveBtn.textContent = 'บันทึก';
+      saveBtn.disabled = false;
+    }
+  };
+
+  // ── Cancel edits ──
+  window._adminCancel = function() {
+    // Restore original values
+    Object.keys(FIELD_MAP).forEach(function(col) {
+      var cfg = FIELD_MAP[col];
+      var el = document.getElementById(cfg.el);
+      if (el && originalValues[col] !== undefined) {
+        el.textContent = originalValues[col];
+      }
+    });
+    hasChanges = false;
+    document.getElementById('adminSaveBar').style.display = 'none';
+  };
+
+  // ── Toast ──
+  function showToast(msg, type) {
+    var t = document.getElementById('adminToast');
+    t.textContent = msg;
+    t.className = 'admin-toast ' + type;
+    setTimeout(function() { t.classList.add('show'); }, 10);
+    setTimeout(function() { t.classList.remove('show'); }, 3000);
+  }
+
+  // ── Init: only show for admins ──
+  async function initAdminEditor() {
+    var admin = await isAdmin();
+    if (!admin) return;
+    injectAdminUI();
+    document.getElementById('adminEditToggle').style.display = 'flex';
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function() { setTimeout(initAdminEditor, 500); });
+  } else {
+    setTimeout(initAdminEditor, 500);
+  }
+})();
+</script>
+
 </body>
 </html>

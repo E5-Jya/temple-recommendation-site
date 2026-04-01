@@ -495,6 +495,15 @@ async function loadMySubmissions() {
   return data || [];
 }
 
+// ── Admin check ─────────────────────────────────────────────
+
+const ADMIN_EMAILS = ['nattawat.vitta@gmail.com', 'earthyinw@gmail.com'];
+
+async function isAdmin() {
+  const user = await getUser();
+  return user && ADMIN_EMAILS.includes(user.email);
+}
+
 // Auto-init when script loads
 function initAuth() {
   injectAuthModal();
