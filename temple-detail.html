@@ -1223,17 +1223,33 @@ let TEMPLES_DETAIL = {};
   }
 
   // ── Init: only show for admins ──
+  var _adminInitDone = false;
   async function initAdminEditor() {
+    if (_adminInitDone) return;
     var admin = await isAdmin();
     if (!admin) return;
+    _adminInitDone = true;
     injectAdminUI();
     document.getElementById('adminEditToggle').style.display = 'flex';
   }
 
+  // Try immediately, on auth change, and after delays (session restore is async)
+  function setupAdminInit() {
+    initAdminEditor();
+    setTimeout(initAdminEditor, 1000);
+    setTimeout(initAdminEditor, 3000);
+    // Also listen for auth state changes
+    if (typeof onAuthChange === 'function') {
+      onAuthChange(function(user) {
+        if (user) initAdminEditor();
+      });
+    }
+  }
+
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', function() { setTimeout(initAdminEditor, 500); });
+    document.addEventListener('DOMContentLoaded', setupAdminInit);
   } else {
-    setTimeout(initAdminEditor, 500);
+    setupAdminInit();
   }
 })();
 </script>
