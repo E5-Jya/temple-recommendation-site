@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ค้นหาสถานปฏิบัติธรรม — ฐานข้อมูลสถานปฏิบัติธรรมไทย</title>
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Noto+Serif+Thai:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
       --background: #F7F5F0;
@@ -67,76 +67,159 @@
     html { scroll-behavior: smooth; }
     body { font-family: 'Sarabun', sans-serif; background: var(--background); color: var(--foreground); font-size: 16px; line-height: 1.6; }
 
-    /* TOPBAR */
-    .topbar {
-      background: var(--foreground);
-      padding: 12px 40px;
-      display: flex; align-items: center; justify-content: space-between;
+    /* ANIMATIONS */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(16px); }
+      to { opacity: 1; transform: translateY(0); }
     }
-    .logo {
-      display: flex; align-items: center; gap: 10px;
-      text-decoration: none;
+    @keyframes breathe {
+      0%, 100% { opacity: 0.4; }
+      50% { opacity: 0.7; }
     }
-    .logo-icon {
-      width: 32px; height: 32px; background: var(--primary);
-      border-radius: 8px; display: flex; align-items: center; justify-content: center;
-    }
-    .logo-text { color: var(--surface); font-weight: 700; font-size: 15px; }
-    .logo-sub  { color: rgba(255,255,255,0.5); font-size: 11px; }
-    .topbar-links { display: flex; gap: 24px; }
-    .topbar-link { color: rgba(255,255,255,0.6); text-decoration: none; font-size: 13px; transition: color 0.2s; }
-    .topbar-link:hover, .topbar-link.active { color: var(--secondary-light); }
 
-    /* HERO SEARCH */
-    .search-hero {
-      background: var(--gradient-header);
-      padding: 60px 40px 0;
-      text-align: center;
-      position: relative; overflow: hidden;
+    /* NAV */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 22px 0;
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
     }
-    .search-hero::before {
-      content: '';
+    .nav.nav-scrolled {
+      background: var(--foreground);
+      padding: 12px 0;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px; cursor: pointer; text-decoration: none;
+    }
+    .nav-logo-text {
+      font-family: 'Noto Serif Thai', serif;
+      font-size: 22px; font-weight: 700; letter-spacing: -0.5px;
+      color: #fff;
+    }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-link {
+      color: rgba(255,255,255,0.85); text-decoration: none;
+      font-size: 15px; font-weight: 400; opacity: 0.85;
+      transition: opacity 0.3s;
+    }
+    .nav-link:hover { opacity: 1; }
+    .nav-link.active { opacity: 1; font-weight: 600; }
+    .nav-btn {
+      padding: 9px 22px; border-radius: 100px;
+      border: 1.5px solid rgba(255,255,255,0.45);
+      background: transparent; color: #fff;
+      font-size: 14px; font-weight: 500; cursor: pointer;
+      font-family: inherit; transition: all 0.3s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.1); }
+
+    /* HERO */
+    .hero {
+      position: relative; min-height: 100vh;
+      display: flex; align-items: center; overflow: hidden;
+      background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&q=80');
+      background-size: cover; background-position: center;
+    }
+    .hero-overlay {
       position: absolute; inset: 0;
-      background: radial-gradient(ellipse 80% 60% at 50% 100%, rgba(168,213,186,0.15) 0%, transparent 70%);
+      background: linear-gradient(135deg, rgba(30,40,30,0.55) 0%, rgba(40,55,45,0.35) 50%, rgba(20,30,25,0.45) 100%);
     }
-    .search-hero h1 {
-      position: relative; z-index: 1;
-      font-size: clamp(24px, 4vw, 40px);
-      font-weight: 700; color: var(--surface); margin-bottom: 8px;
+    .hero-orb {
+      position: absolute; top: 15%; right: 20%;
+      width: 500px; height: 500px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,0.06) 0%, transparent 70%);
+      animation: breathe 8s ease-in-out infinite;
     }
-    .search-hero p {
-      position: relative; z-index: 1;
-      color: rgba(255,255,255,0.6); font-size: 15px; margin-bottom: 32px;
+    .hero-content {
+      position: relative; z-index: 10;
+      max-width: 1200px; width: 100%; margin: 0 auto;
+      padding: 120px 32px 80px;
+      display: flex; flex-direction: column; align-items: flex-start;
     }
-    .search-box-wrap {
-      position: relative; z-index: 1;
-      max-width: 680px; margin: 0 auto 40px;
+    .hero-left { max-width: 620px; }
+    .hero h1 {
+      font-family: 'Noto Serif Thai', serif;
+      font-size: clamp(40px, 5.5vw, 58px);
+      font-weight: 700; color: #fff; line-height: 1.25;
+      letter-spacing: -1px; margin-bottom: 16px;
+      animation: fadeIn 0.8s ease-out both;
+    }
+    .hero-subtitle {
+      font-size: 20px; font-weight: 300; color: rgba(255,255,255,0.8);
+      line-height: 1.7; margin-bottom: 32px; max-width: 460px;
+      animation: fadeIn 0.8s ease-out 0.15s both;
+    }
+    .hero-stats-badge {
+      display: inline-flex; align-items: center; gap: 24px;
+      padding: 14px 28px; border-radius: 16px;
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255,255,255,0.12);
+      margin-bottom: 32px;
+      animation: fadeIn 0.8s ease-out both;
+    }
+    .hero-stats-badge .stat-item {
+      display: flex; flex-direction: column; align-items: center; gap: 2px;
+    }
+    .hero-stats-badge .stat-item .num {
+      font-family: 'Noto Serif Thai', serif;
+      font-size: 22px; font-weight: 700; color: #fff;
+    }
+    .hero-stats-badge .stat-item .lbl {
+      font-size: 11px; color: rgba(255,255,255,0.55); font-weight: 400; white-space: nowrap;
+    }
+    .hero-stats-badge .divider {
+      width: 1px; height: 32px; background: rgba(255,255,255,0.15);
+    }
+    .hero-search-wrap {
+      width: 100%; max-width: 540px;
+      margin-bottom: 24px;
+      animation: fadeIn 0.8s ease-out 0.25s both;
+      position: relative;
     }
     .search-input {
       width: 100%; padding: 16px 56px 16px 20px;
-      border-radius: 14px; border: 2px solid rgba(168,213,186,0.3);
-      background: rgba(255,255,255,0.08);
-      backdrop-filter: blur(10px);
-      color: var(--surface); font-size: 16px; font-family: 'Sarabun', sans-serif;
+      border-radius: 14px; border: 1.5px solid rgba(255,255,255,0.2);
+      background: rgba(255,255,255,0.1);
+      backdrop-filter: blur(20px);
+      color: #fff; font-size: 16px; font-family: 'Sarabun', sans-serif;
       outline: none; transition: all 0.2s;
     }
     .search-input::placeholder { color: rgba(255,255,255,0.4); }
-    .search-input:focus { border-color: var(--secondary); background: rgba(255,255,255,0.12); }
+    .search-input:focus { border-color: rgba(255,255,255,0.4); background: rgba(255,255,255,0.15); }
     .search-icon {
       position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
       color: rgba(255,255,255,0.5); pointer-events: none;
     }
-    .search-stats {
-      position: relative; z-index: 1;
-      display: flex; justify-content: center; gap: 32px;
-      padding: 24px 0 0;
+    .hero-cta {
+      display: inline-flex; align-items: center; gap: 10px;
+      padding: 16px 36px; border-radius: 100px; border: none;
+      background: rgba(255,255,255,0.95); color: var(--foreground);
+      font-size: 17px; font-weight: 600; cursor: pointer; font-family: inherit;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      animation: fadeIn 0.8s ease-out 0.35s both;
+      text-decoration: none;
     }
-    .stat { text-align: center; }
-    .stat-num { font-size: 24px; font-weight: 700; color: var(--secondary-light); }
-    .stat-label { font-size: 12px; color: rgba(255,255,255,0.5); }
-
-    /* WAVE DIVIDER */
-    .wave-divider { display: block; width: 100%; height: 40px; fill: var(--background); }
+    .hero-cta:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(0,0,0,0.18);
+      background: #fff;
+    }
+    .hero-cta svg { transition: transform 0.3s; }
+    .hero-cta:hover svg { transform: translateX(4px); }
+    .scroll-hint {
+      position: absolute; bottom: 32px; left: 50%; transform: translateX(-50%);
+      display: flex; flex-direction: column; align-items: center; gap: 6px;
+      animation: breathe 3s ease-in-out infinite; cursor: pointer;
+    }
+    .scroll-hint span {
+      color: rgba(255,255,255,0.4); font-size: 11px; letter-spacing: 2px; text-transform: uppercase;
+    }
 
     /* FILTER BAR */
     .filter-section {
@@ -241,7 +324,7 @@
     .card-body { padding: 18px 20px; overflow: hidden; flex: 1; display: flex; flex-direction: column; }
     .card-name-th { font-size: 17px; font-weight: 700; color: var(--foreground); margin-bottom: 3px; line-height: 1.3; }
     .card-name-en {
-      font-family: 'Cormorant Garamond', serif;
+      font-family: 'Noto Serif Thai', serif;
       font-style: italic; font-size: 13px; color: var(--muted); margin-bottom: 12px;
     }
     .card-tradition {
@@ -309,17 +392,20 @@
 
     /* RESPONSIVE */
     @media (max-width: 900px) {
-      .topbar { padding: 12px 20px; }
-      .topbar-links { display: none; }
-      .search-hero { padding: 40px 20px 0; }
       .filter-bar { padding: 12px 16px; }
       .main-wrap { padding: 24px 16px 60px; }
       .cards-grid { grid-template-columns: 1fr; }
-      .search-stats { gap: 20px; }
+      .nav-links .nav-link { display: none; }
+      .hero-content { padding: 100px 24px 60px; }
+      .hero-left { max-width: 100%; }
+      .hero-stats-badge { gap: 16px; padding: 12px 20px; }
+      .hero-stats-badge .stat-item .num { font-size: 18px; }
+      .hero h1 { font-size: 32px; }
     }
     @media (max-width: 480px) {
       .search-input { font-size: 15px; padding: 14px 50px 14px 16px; }
       .results-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+      .hero-stats-badge { flex-wrap: wrap; gap: 12px; }
     }
 
     /* HIGHLIGHT on search */
@@ -328,43 +414,63 @@
 </head>
 <body>
 
-<!-- TOPBAR -->
-<header class="topbar">
-  <a href="#" class="logo">
-    <div class="logo-icon">
-      <svg width="18" height="18" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <svg width="28" height="28" viewBox="0 0 64 64" fill="none">
+        <path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/>
+        <path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/>
+        <path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/>
+        <path d="M32 52C32 52 8 40 4 32C0 24 8 16 8 16C8 16 12 28 20 36C28 44 32 52 32 52Z" fill="#fff" opacity="0.3"/>
+        <path d="M32 52C32 52 56 40 60 32C64 24 56 16 56 16C56 16 52 28 44 36C36 44 32 52 32 52Z" fill="#fff" opacity="0.3"/>
+      </svg>
+      <span class="nav-logo-text">พักใจ</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link active" href="temple-directory.html">ค้นหาสถานที่</a>
+      <a class="nav-link" href="temple-recommendation.html">แนะนำสำหรับคุณ</a>
+      <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ</button>
     </div>
-    <div>
-      <div class="logo-text">ฐานข้อมูลปฏิบัติธรรม</div>
-      <div class="logo-sub">Thai Dhamma Practice Database</div>
-    </div>
-  </a>
-  <nav class="topbar-links">
-    <a href="temple-directory.html" class="topbar-link active">ค้นหาสถานที่</a>
-    <a href="temple-recommendation.html" class="topbar-link">แนะนำสำหรับคุณ</a>
-    <a href="temple-detail.html" class="topbar-link">ตัวอย่างรายละเอียด</a>
-  </nav>
-</header>
+  </div>
+</nav>
 
-<!-- HERO SEARCH -->
-<section class="search-hero">
-  <h1>ค้นหาสถานปฏิบัติธรรม</h1>
-  <p>พบสถานที่ปฏิบัติธรรมกว่า 7 แห่งทั่วประเทศไทย เลือกที่เหมาะกับคุณ</p>
-  <div class="search-box-wrap">
-    <input type="text" class="search-input" id="searchInput" placeholder="ค้นหาชื่อวัด, จังหวัด, สายปฏิบัติ...">
-    <div class="search-icon">
-      <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-orb"></div>
+
+  <div class="hero-content">
+    <div class="hero-left">
+      <div class="hero-stats-badge">
+        <div class="stat-item"><span class="num" id="countTotal">19</span><span class="lbl">สถานปฏิบัติธรรม</span></div>
+        <div class="divider"></div>
+        <div class="stat-item"><span class="num">8</span><span class="lbl">จังหวัด</span></div>
+        <div class="divider"></div>
+        <div class="stat-item"><span class="num" id="countFree">0</span><span class="lbl">ฟรีทุกกิจกรรม</span></div>
+      </div>
+
+      <h1>หาที่พักใจ</h1>
+      <p class="hero-subtitle">เราอยากช่วยให้คุณค้นพบสถานที่ปฏิบัติธรรม<br>ที่เหมาะ และใกล้ตัวคุณ</p>
+
+      <div class="hero-search-wrap">
+        <input type="text" class="search-input" id="searchInput" placeholder="ค้นหาชื่อวัด, จังหวัด, สายปฏิบัติ...">
+        <div class="search-icon">
+          <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
+        </div>
+      </div>
+
+      <a href="temple-recommendation.html" class="hero-cta">
+        ค้นหาสิ่งที่เหมาะกับคุณ
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+      </a>
     </div>
   </div>
-  <div class="search-stats">
-    <div class="stat"><div class="stat-num" id="countTotal">7</div><div class="stat-label">สถานที่ทั้งหมด</div></div>
-    <div class="stat"><div class="stat-num">3</div><div class="stat-label">จังหวัด</div></div>
-    <div class="stat"><div class="stat-num" id="countFree">4</div><div class="stat-label">ฟรีทุกกิจกรรม</div></div>
-    <div class="stat"><div class="stat-num" id="countRetreats">6</div><div class="stat-label">มีคอร์สปฏิบัติ</div></div>
+
+  <div class="scroll-hint" onclick="document.querySelector('.filter-section').scrollIntoView({behavior:'smooth'})">
+    <span>เลื่อนลง</span>
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
   </div>
-  <svg class="wave-divider" viewBox="0 0 1440 40" preserveAspectRatio="none" fill="var(--background)">
-    <path d="M0,40 C360,0 1080,0 1440,40 L1440,40 L0,40 Z"/>
-  </svg>
 </section>
 
 <!-- FILTER BAR -->
@@ -547,10 +653,22 @@ fetchTemples()
   .then(function(rows) {
     TEMPLES = rows.map(toDirectoryFormat);
     renderCards();
+    document.getElementById('countTotal').textContent = TEMPLES.length;
+    document.getElementById('countFree').textContent = TEMPLES.filter(function(t){ return t.isFree; }).length;
   })
   .catch(function(err) {
     console.error('Failed to load temple data:', err);
     document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--warning)">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่</div>';
   });
+
+// Nav scroll effect
+window.addEventListener('scroll', function() {
+  var nav = document.getElementById('nav');
+  if (window.scrollY > window.innerHeight * 0.7) {
+    nav.classList.add('nav-scrolled');
+  } else {
+    nav.classList.remove('nav-scrolled');
+  }
+});
 </script>
 <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>

@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="page-title">สถานปฏิบัติธรรม — ฐานข้อมูลสถานปฏิบัติธรรมไทย</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Noto+Serif+Thai:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
     :root {
   --background: #F7F5F0;
@@ -80,6 +80,40 @@
       font-size: 16px;
       line-height: 1.7;
     }
+
+    /* NAV */
+    .nav-solid {
+      background: var(--foreground);
+      padding: 14px 0;
+      position: relative; z-index: 1000;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px; cursor: pointer; text-decoration: none;
+    }
+    .nav-logo-text {
+      font-family: 'Noto Serif Thai', serif;
+      font-size: 22px; font-weight: 700; letter-spacing: -0.5px;
+      color: #fff;
+    }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-link {
+      color: rgba(255,255,255,0.7); text-decoration: none;
+      font-size: 15px; font-weight: 400;
+      transition: color 0.3s;
+    }
+    .nav-link:hover { color: rgba(255,255,255,1); }
+    .nav-btn {
+      padding: 9px 22px; border-radius: 100px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+      background: transparent; color: #fff;
+      font-size: 14px; font-weight: 500; cursor: pointer;
+      font-family: inherit; transition: all 0.3s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.1); }
 
     /* ── HERO ── */
     .hero {
@@ -456,6 +490,8 @@
 
     /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
+      .nav-links .nav-link { display: none; }
+      .nav-inner { padding: 0 20px; }
       .layout {
         grid-template-columns: 1fr;
         padding: 24px 0 60px;
@@ -497,6 +533,27 @@
   </style>
 </head>
 <body>
+
+<!-- NAV -->
+<nav class="nav-solid">
+  <div class="nav-inner">
+    <a class="nav-logo" href="index.html">
+      <svg width="28" height="28" viewBox="0 0 64 64" fill="none">
+        <path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/>
+        <path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/>
+        <path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/>
+        <path d="M32 52C32 52 8 40 4 32C0 24 8 16 8 16C8 16 12 28 20 36C28 44 32 52 32 52Z" fill="#fff" opacity="0.3"/>
+        <path d="M32 52C32 52 56 40 60 32C64 24 56 16 56 16C56 16 52 28 44 36C36 44 32 52 32 52Z" fill="#fff" opacity="0.3"/>
+      </svg>
+      <span class="nav-logo-text">พักใจ</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="temple-directory.html">ค้นหาสถานที่</a>
+      <a class="nav-link" href="temple-recommendation.html">แนะนำสำหรับคุณ</a>
+      <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ</button>
+    </div>
+  </div>
+</nav>
 
 <!-- HERO -->
 <section class="hero">
