@@ -803,17 +803,19 @@ let TEMPLES_DETAIL = {};
     document.getElementById('info-ord-prereq').textContent = temple.ordinationInfo.prerequisite;
 
     // Update schedule
-    // Helper: parse time string like "08:00 (detail)" into { time: "08:00", detail: "detail" }
+    // Helper: parse time string into { time, detail }
     function parseScheduleTime(raw) {
       if (!raw || raw === 'N/A' || raw === '-' || raw === '') return { time: raw || '-', detail: '' };
-      const match = raw.match(/^(\d{1,2}[.:]\d{2})\s*\((.+)\)$/);
-      if (match) return { time: match[1], detail: match[2] };
-      // Also handle "ตี 3" style or just a time
-      const timeOnly = raw.match(/^(\d{1,2}[.:]\d{2})/);
-      if (timeOnly) {
-        const rest = raw.slice(timeOnly[0].length).trim();
-        return { time: timeOnly[1], detail: rest.replace(/^\(/, '').replace(/\)$/, '') };
-      }
+      // Pattern 1: starts with HH:MM followed by parenthetical detail e.g. "08:00 (ทุกวันเสาร์ — ...)"
+      var m1 = raw.match(/^(\d{1,2}[.:]\d{2})\s*\((.+)\)$/);
+      if (m1) return { time: m1[1], detail: m1[2] };
+      // Pattern 2: starts with HH:MM followed by extra text (no parentheses) e.g. "03:00 นาฬิกา"
+      var m2 = raw.match(/^(\d{1,2}[.:]\d{2})\s+(.+)$/);
+      if (m2) return { time: m2[1], detail: m2[2] };
+      // Pattern 3: starts with Thai text followed by parenthetical e.g. "สวดมนต์เช้า (ก่อน 07:00)"
+      var m3 = raw.match(/^(.+?)\s*\((.+)\)$/);
+      if (m3) return { time: m3[2], detail: m3[1] };
+      // Pattern 4: Thai prefix + time e.g. "ก่อน 06:45" or "ตี 3" — keep as-is in time column
       return { time: raw, detail: '' };
     }
     const wake = parseScheduleTime(temple.schedule.wake);
