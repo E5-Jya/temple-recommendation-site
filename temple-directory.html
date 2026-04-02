@@ -410,6 +410,103 @@
 
     /* HIGHLIGHT on search */
     mark { background: #E8F5E9; color: inherit; border-radius: 2px; }
+
+    /* ABOUT + MISSION SECTION */
+    .about-mission-wrapper {
+      background: #F8F7F4;
+      color: #1C1C1C;
+    }
+    .about {
+      max-width: 1200px; margin: 0 auto;
+      padding: 100px 32px 80px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: start;
+    }
+    .about-label {
+      font-size: 12px; font-weight: 600; color: #999;
+      text-transform: uppercase; letter-spacing: 2px;
+      margin-bottom: 20px;
+    }
+    .about-headline {
+      font-family: 'Prompt', sans-serif;
+      font-size: 28px; font-weight: 700; color: #1C1C1C;
+      line-height: 1.45; letter-spacing: -0.5px;
+    }
+    .about-body {
+      font-size: 16px; color: #666; line-height: 1.85; font-weight: 300;
+      margin-bottom: 24px;
+    }
+    .about-body:last-of-type { margin-bottom: 0; }
+    .mission {
+      max-width: 1200px; margin: 0 auto;
+      padding: 0 32px 80px;
+    }
+    .mission-inner {
+      padding: 48px 56px;
+      border-radius: 24px;
+      background: #2D3A2E;
+      color: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+    .mission-inner::before {
+      content: '';
+      position: absolute; top: -80px; right: -80px;
+      width: 300px; height: 300px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(107,114,86,0.25) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .mission-inner::after {
+      content: '';
+      position: absolute; bottom: -60px; left: -60px;
+      width: 200px; height: 200px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,0.04) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .mission-text {
+      font-size: 18px; color: rgba(255,255,255,0.9);
+      line-height: 1.8; font-weight: 600;
+      margin-bottom: 12px;
+      text-align: center;
+      position: relative; z-index: 1;
+    }
+    .mission-text-sub {
+      font-size: 16px; color: rgba(255,255,255,0.6);
+      line-height: 1.8; font-weight: 500;
+      margin-bottom: 28px;
+      text-align: center;
+      position: relative; z-index: 1;
+    }
+    .mission-links {
+      display: flex; gap: 16px;
+      justify-content: center;
+      position: relative; z-index: 1;
+    }
+    .mission-link {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 14px; font-weight: 500; color: rgba(255,255,255,0.9);
+      text-decoration: none;
+      padding: 12px 24px; border-radius: 100px;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.12);
+      transition: all 0.3s;
+    }
+    .mission-link:hover {
+      background: rgba(255,255,255,0.18);
+      border-color: rgba(255,255,255,0.25);
+      transform: translateY(-1px);
+    }
+    .mission-link svg { flex-shrink: 0; }
+
+    @media (max-width: 900px) {
+      .about { grid-template-columns: 1fr; gap: 40px; padding: 64px 24px 48px; }
+      .mission { padding: 0 24px 48px; }
+      .mission-inner { padding: 36px 28px; }
+      .mission-text { font-size: 16px; }
+      .mission-text-sub { font-size: 14px; }
+    }
   </style>
 </head>
 <body>
@@ -472,6 +569,49 @@
     <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="2" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
   </div>
 </section>
+
+<!-- ABOUT + MISSION -->
+<div class="about-mission-wrapper">
+  <section class="about">
+    <div class="about-left">
+      <p class="about-label">เกี่ยวกับโครงการ</p>
+      <h2 class="about-headline">
+        โครงการ Non-Profit ที่อยากช่วยให้คนรุ่นใหม่เข้าถึงการปฏิบัติธรรมได้ง่ายขึ้น
+      </h2>
+    </div>
+    <div class="about-right">
+      <p class="about-body">
+        ท่ามกลางโลกที่เร่งรีบและเต็มไปด้วยความวุ่นวาย สุขภาพจิตกลายเป็นสิ่งที่ทุกคนต้องใส่ใจ — โดยเฉพาะคนรุ่นใหม่ที่เผชิญแรงกดดันจากทุกทิศทาง
+      </p>
+      <p class="about-body">
+        "สืบธรรม" เกิดขึ้นจากความตั้งใจที่อยากรวบรวมสถานที่ปฏิบัติธรรมทั่วประเทศไทยไว้ในที่เดียว โดยคัดเลือกเฉพาะสถานที่ที่ได้รับการรับรองจากผู้ปฏิบัติจริง เพื่อให้คุณมั่นใจได้ว่าทุกที่ที่แนะนำนั้นมีคุณภาพ
+      </p>
+      <p class="about-body">
+        โครงการนี้เป็น Non-Profit — เราไม่ได้แสวงหากำไร เราเพียงอยากเป็นสะพานเชื่อมให้คุณค้นพบว่า Mental Wellness เริ่มต้นได้ง่ายๆ ใกล้ตัวคุณ
+      </p>
+    </div>
+  </section>
+  <section class="mission">
+    <div class="mission-inner">
+      <p class="mission-text">
+        ข้อมูลทั้งหมดรวบรวมจากเว็บไซต์ของแต่ละสถานที่ปฏิบัติธรรมโดยตรง กรุณาตรวจสอบรายละเอียดกับสถานที่อีกครั้งก่อนเดินทาง
+      </p>
+      <p class="mission-text-sub">
+        หากมีข้อมูลตรงไหนที่อยากให้ปรับแก้ สามารถแจ้งเข้ามาได้ที่ช่องทางด้านล่าง
+      </p>
+      <div class="mission-links">
+        <a href="#" class="mission-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+          แจ้งแก้ไขข้อมูล
+        </a>
+        <a href="#" class="mission-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+          แนะนำสถานที่เพิ่มเติม
+        </a>
+      </div>
+    </div>
+  </section>
+</div>
 
 <!-- FILTER BAR -->
 <div class="filter-section">
