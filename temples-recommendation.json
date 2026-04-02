@@ -491,8 +491,8 @@
     "whys": [
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0 วัน",
       "รับบวชพระ/สามเณร",
-      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
-      "เปิดรับสตรี/แม่ชี"
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "temple-detail.html?id=TH-CCO-002"
   },
@@ -524,5 +524,432 @@
       "เปิดรับสตรี/แม่ชี"
     ],
     "link": "temple-detail.html?id=TH-CNX-002"
+  },
+  {
+    "id": "TH-CCO-003",
+    "nameTh": "วัดสวนสันติธรรม",
+    "nameEn": "Wat Suan Santidham",
+    "province": "ชลบุรี",
+    "district": "ศรีราชา",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-CCO-003"
+  },
+  {
+    "id": "TH-NMA-005",
+    "nameTh": "วัดแสงธรรมวังเขาเขียว",
+    "nameEn": "Wat Saeng Tham Wang Khao Khiao",
+    "province": "นครราชสีมา",
+    "district": "วังน้ำเขียว",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-005"
+  },
+  {
+    "id": "TH-SBR-001",
+    "nameTh": "หอมนสิการ",
+    "nameEn": "Ho Manasikarn",
+    "province": "สระบุรี",
+    "district": "แก่งคอย",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-SBR-001"
+  },
+  {
+    "id": "TH-UBN-001",
+    "nameTh": "สถานปฏิบัติธรรมเสริมรังษี",
+    "nameEn": "Serm Rangsri Meditation Centre",
+    "province": "ไม่ระบุ",
+    "district": "ไม่ระบุ",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-UBN-001"
+  },
+  {
+    "id": "TH-UBN-002",
+    "nameTh": "วัดป่านานาชาติ",
+    "nameEn": "Wat Pah Nanachat (International Forest Monastery)",
+    "province": "อุบลราชธานี",
+    "district": "วารินชำราบ",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 2,
+      "profile_intermediate": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-UBN-002"
+  },
+  {
+    "id": "TH-NMA-006",
+    "nameTh": "วัดป่ารัตนวัน",
+    "nameEn": "Wat Pa Ratanawan",
+    "province": "นครราชสีมา",
+    "district": "วังน้ำเขียว",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-006"
+  },
+  {
+    "id": "TH-NMA-007",
+    "nameTh": "หมู่บ้านพลัม ประเทศไทย",
+    "nameEn": "Thai Plum Village International Practice Centre",
+    "province": "นครราชสีมา",
+    "district": "ปากช่อง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 5 วัน",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "temple-detail.html?id=TH-NMA-007"
+  },
+  {
+    "id": "TH-PTN-002",
+    "nameTh": "วัดทับทิมแดง",
+    "nameEn": "Wat Thapthim Daeng (Ruby Red Temple)",
+    "province": "ปทุมธานี",
+    "district": "คลองหลวง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-PTN-002"
+  },
+  {
+    "id": "TH-PRE-001",
+    "nameTh": "วัดแพร่ธรรมาราม",
+    "nameEn": "Wat Phrae Dhammaram",
+    "province": "แพร่",
+    "district": "เด่นชัย",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-PRE-001"
+  },
+  {
+    "id": "TH-PRE-002",
+    "nameTh": "วัดแพร่แสงเทียน",
+    "nameEn": "Wat Phrae Saeng Thian",
+    "province": "แพร่",
+    "district": "ร้องกวาง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-PRE-002"
+  },
+  {
+    "id": "TH-UTD-001",
+    "nameTh": "วัดอุตรดิตถ์ธรรมาราม",
+    "nameEn": "Wat Uttaradit Dhammaram",
+    "province": "อุตรดิตถ์",
+    "district": "เมืองอุตรดิตถ์",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-UTD-001"
+  },
+  {
+    "id": "TH-BKK-007",
+    "nameTh": "วัดธรรมมงคลเถาบุญนนทวิหาร",
+    "nameEn": "Wat Dhammamongkol (Thao Bun Non Vihara)",
+    "province": "กรุงเทพมหานคร",
+    "district": "พระโขนง",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 1 วัน",
+      "รับบวชพระ/สามเณร",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-007"
+  },
+  {
+    "id": "TH-BKK-008",
+    "nameTh": "บ้านจิตสบาย",
+    "nameEn": "Baan Jit Sabai (House of Peaceful Mind)",
+    "province": "กรุงเทพมหานคร",
+    "district": "ทวีวัฒนา",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-008"
+  },
+  {
+    "id": "TH-BKK-009",
+    "nameTh": "ศูนย์ปฏิบัติธรรมภาษีเจริญ",
+    "nameEn": "Phasi Charoen Dhamma Practice Centre",
+    "province": "กรุงเทพมหานคร",
+    "district": "ภาษีเจริญ",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "temple-detail.html?id=TH-BKK-009"
+  },
+  {
+    "id": "TH-NPT-001",
+    "nameTh": "วัดญาณเวศกวัน",
+    "nameEn": "Wat Nyanavesakavan",
+    "province": "นครปฐม",
+    "district": "สามพราน",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์"
+    ],
+    "link": "temple-detail.html?id=TH-NPT-001"
+  },
+  {
+    "id": "TH-MULTI-001",
+    "nameTh": "ศูนย์วิปัสสนาโคเอ็นก้า (Dhamma.org) — 10 ศูนย์ทั่วไทย",
+    "nameEn": "Vipassana Meditation Thailand (S.N. Goenka / Dhamma.org) — 10 Centres Nationwide",
+    "province": "หลายจังหวัด (ดูรายละเอียดใน notes)",
+    "district": "หลายอำเภอ",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 10 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "temple-detail.html?id=TH-MULTI-001"
   }
 ]

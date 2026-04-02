@@ -8,8 +8,8 @@
     "district": "วังน้ำเขียว",
     "tradition": "ธรรมยุต",
     "abbot": "พระอาจารย์กัณหา สุขกาโม",
-    "blurbTh": "วัดป่าสายธรรมยุตกลางธรรมชาติวังน้ำเขียว นำโดยพระอาจารย์กัณหา สุขกาโม ฟรีทุกกิจกรรม | กิจกรรมประจำวัน: ตี 3 ตื่น → นั่งสมาธิ (03:00–05:00) → ทำวัตรเช้า (05:00–06:00) → ฉันอาหารมังสวิรัติ 1 มื้อ (07:30–09:00) → เดินจงกรม/ปฏิบัติส่วนตัว (09:00–16:00) → ทำวัตรเย็น (18:00–19:30) → ฟังธรรมเทศนา (19:30–20:00) | บวชได้: ผ้าขาว (7 วัน) → เณร (7 วัน) → พระ (ขั้นต่ำ 30 วัน) | ฆราวาสพักปฏิบัติธรรมได้ (จองล่วงหน้า ขั้นต่ำ 3 วัน) | งานประจำปี: กฐินสามัคคี ต.ค.–พ.ย. | Live ธรรมะทาง Facebook | โครงการหมอพบพระ (ปีละครั้ง)",
-    "blurbEn": "Strict Dhammayut forest monastery in Wang Nam Khiao, led by Ajahn Kanha Sukkhamo — free. Daily: wake 3 AM, meditation 03:00–05:00, morning chanting 05:00–06:00, one vegetarian meal 07:30–09:00, walking meditation & practice 09:00–16:00, evening chanting 18:00–19:30, Dhamma talk 19:30–20:00. Ordination: white-robe (min 7d) → novice (min 7d) → monk (min 30d). Lay retreats (advance booking, min 3 days). Annual Kathin Oct–Nov. Facebook Live streaming.",
+    "blurbTh": "วัดป่าทรัพย์ทวีธรรมาราม ตั้งอยู่กลางป่าดงดิบในอำเภอวังน้ำเขียว จังหวัดนครราชสีมา สืบทอดวิถีชีวิตสายธรรมยุตกรรมฐานที่พระอาจารย์มั่น ภูริทัตโต ปลูกฝังไว้ในแผ่นดินอีสาน — วิถีของป่า ความเรียบง่าย และการปฏิบัติที่เข้มข้น นำโดยพระอาจารย์กัณหา สุขกาโม ผู้เลือกวางชีวิตสงัดในป่ามากกว่าความอื้อฉาวของชื่อเสียง วัดแห่งนี้จึงกลายเป็นที่พักใจของผู้แสวงหาธรรมในยุคที่โลกเร่งรีบไม่หยุด\n\nด้วยธรรมชาติที่ยังบริสุทธิ์และบรรยากาศที่เงียบสงบไม่มีสัญญาณความวุ่นวายจากเมือง วัดป่าทรัพย์ทวีธรรมารามเป็นพื้นที่ที่จิตสามารถผ่อนคลายและลึกลงสู่การปฏิบัติอย่างแท้จริง การตื่นในยามดึกเพื่อนั่งสมาธิ การรับอาหารมื้อเดียว และการเดินจงกรมในป่า เป็นจังหวะชีวิตที่ขัดเกลาจิตใจได้อย่างที่ตำราบอกไม่ได้\n\nวัดเปิดรับทั้งนักปฏิบัติธรรมฆราวาสและผู้ใฝ่บวช ทุกกิจกรรมไม่มีค่าใช้จ่าย เพราะที่นี่เชื่อว่าธรรมะไม่ใช่สินค้า ผู้ที่พร้อมจะสละความสะดวกสบายชั่วคราวเพื่อหาความสงบที่ยั่งยืน จะพบว่าวังน้ำเขียวคือจุดหมายที่คุ้มค่าการเดินทาง",
+    "blurbEn": "Deep in the forested hills of Wang Nam Khiao, Nakhon Ratchasima, Wat Pa Sap Tawee Thammarama stands as a living expression of the Dhammayut forest tradition — the austere, meditative path shaped by Ajahn Mun Bhuridatta that transformed Thai Buddhism in the twentieth century. Led by Ajahn Kanha Sukkhamo, the monastery has quietly become a refuge for practitioners who are searching not for comfort, but for depth. There are no marketing campaigns here, only the rhythms of forest life and sincere practice.\n\nThe monastery's character is shaped as much by its surroundings as by its teachers. Dense jungle, clean mountain air, and a near-total absence of urban noise create conditions that allow the mind to settle in ways that city-based practice rarely permits. Waking before dawn, sitting in the stillness of the forest, eating a single vegetarian meal — these are not inconveniences but the very architecture of transformation.\n\nThe monastery welcomes lay practitioners of all experience levels as well as those considering ordination, and all programmes are offered freely. Those willing to exchange ordinary comfort for genuine quiet will find in Wang Nam Khiao one of the most honest places to practise in all of Thailand.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -97,8 +97,8 @@
     "district": "จตุจักร",
     "tradition": "เถรวาท (แนวพุทธทาสภิกขุ)",
     "abbot": "ไม่มีเจ้าอาวาส — บริหารโดยมูลนิธิหอจดหมายเหตุพุทธทาส อินทปัญโญ",
-    "blurbTh": "หอจดหมายเหตุพุทธทาสในสวนรถไฟ จตุจักร เปิดฟรี ไม่รับบวช | เปิด พ.–อา. 09:00–17:00 (สโมสรธรรมทาน/ห้องสมุด), สวน 09:00–18:00 | กิจกรรมประจำสัปดาห์: ทำวัตรเช้าทุกเสาร์ 08:00–09:00, ทำวัตรเย็นทุกอาทิตย์ 17:00–18:00 | Workshop 'ฟัง' ทุกเสาร์แรกของเดือน 14:00–16:00 | เพลินเพลงธรรม ทุกอาทิตย์ที่ 4 ของเดือน 12:00–14:00 | อานาปานสติ ทุกอาทิตย์แรกของเดือน 13:00–17:00 | เทศกาลเจริญสติ 'ภาวนาส่งท้ายปี' (Sati Fest) ทุกธ.ค. ประมาณ 20 ธ.ค.–1 ม.ค. | ลงทะเบียนกิจกรรมพิเศษที่ register.bia.or.th",
-    "blurbEn": "Buddhadasa Indapanno Archives in Chatuchak railway park — free entry, no ordination. Open Wed–Sun 09:00–17:00 (library), grounds 09:00–18:00. Weekly: morning chanting every Saturday 08:00–09:00; evening chanting every Sunday 17:00–18:00. Monthly: 'Listening' workshop 1st Saturday 14:00–16:00; Dharma music 4th Sunday 12:00–14:00; Anapanasati 1st Sunday 13:00–17:00. Annual: Sati Fest Dec 20–Jan 1. Register at register.bia.or.th.",
+    "blurbTh": "เมื่อพุทธทาสภิกขุมรณภาพในปี พ.ศ. 2536 ความคิดของท่านไม่ได้สูญไปกับร่างกาย — มันยังคงมีชีวิตอยู่ในงานเขียน งานศิลป์ และเสียงของท่านที่บันทึกไว้กว่า 70 ปี หอจดหมายเหตุพุทธทาส อินทปัญโญ หรือสวนโมกข์กรุงเทพ เปิดทำการในปี พ.ศ. 2554 ริมสระน้ำในสวนรถไฟ จตุจักร ด้วยพันธกิจเดียวคือรักษาและส่งต่อมรดกธรรมของพระสงฆ์นักคิดผู้ยิ่งใหญ่ที่สุดคนหนึ่งของไทย\n\nหอจดหมายเหตุแห่งนี้ไม่ใช่พิพิธภัณฑ์ที่เงียบงัน แต่เป็นพื้นที่มีชีวิต มีห้องสมุดที่รวบรวมงานของพุทธทาสภิกขุและนักคิดทางพุทธศาสนาจากทั่วโลก มีหอธรรมและลานประชุมสำหรับการศึกษาและปฏิบัติ รวมถึงสวนสงบที่ชาวกรุงเทพฯ แวะมาพักจิตใจได้ทุกวัน ท่ามกลางเมืองที่ไม่เคยหลับ ที่นี่คือเกาะสงบที่ยึดโยงกับสายธารปัญญาที่ลึกซึ้ง\n\nไม่มีค่าเข้าชม ไม่รับอุปสมบท แต่เปิดกว้างสำหรับทุกคนที่อยากรู้จักธรรมะในเชิงลึกและในเชิงกว้าง ทั้งผ่านงานวรรณกรรม ศิลปะ ดนตรี และปรัชญา ในแบบที่พุทธทาสภิกขุเคยสอนมาตลอดชีวิตของท่าน",
+    "blurbEn": "When Buddhadasa Bhikkhu passed away in 1993, he left behind one of the most extraordinary bodies of Buddhist thought the twentieth century produced — thousands of Dhamma talks, essays, and artistic works that challenged Thais and international scholars alike to look at Buddhism with fresh eyes. The Buddhadasa Indapanno Archives, known as Suan Mokkh Bangkok, opened in 2011 beside a railway pond in Chatuchak Park as a living tribute to that legacy. It is not a museum but an active centre for learning, reflection, and the transmission of Dharma in the modern world.\n\nThe archives house a remarkable collection of Buddhadasa's manuscripts, recordings, and original works, alongside a broader library of Buddhist thought from across traditions. Exhibition spaces, meditation halls, and tranquil gardens make it equally suited to quiet contemplation or structured study. In a city that rarely pauses, Suan Mokkh Bangkok offers one of Bangkok's most genuine invitations to slow down and think.\n\nEntry is free, and the grounds are open to anyone curious about the depth and breadth of Buddhist philosophy — from scholars and students to those simply looking for a moment of stillness on a busy city afternoon.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -186,8 +186,8 @@
     "district": "พญาไท",
     "tradition": "เถรวาท (แนวหลวงพ่อเทียน จิตฺตสุโภ — เจริญสติแบบเคลื่อนไหว)",
     "abbot": "ไม่มีเจ้าอาวาส — มูลนิธิฆราวาส พระอาจารย์หมุนเวียน",
-    "blurbTh": "ห้องสมุดธรรมะและศูนย์ปฏิบัติธรรมฆราวาสย่านพญาไท สายหลวงพ่อเทียน จิตฺตสุโภ ฟรีทุกกิจกรรม สามารถร่วมได้ ณ มูลนิธิ หรือถ่ายทอดสดทาง Facebook / YouTube | วันจันทร์ 18:30–20:00: Monday Night Meditation — Meditation and Dhamma Talk (วิทยากรหมุนเวียนทุกสัปดาห์) | วันพฤหัสบดี 18:00–20:00: ธรรมวัยทำงาน — พระอาจารย์รับเชิญจากวัดต่างๆ (หมุนเวียนทุกสัปดาห์) | วันเสาร์ 09:30–16:00: Mindful Saturday — ฝึกจิตเจริญสติ/สายธารธรรม/เหงาแล้วโดดเดี่ยว (หัวข้อหมุนเวียน) | ทุกวันอาทิตย์ 09:00–11:00: อภิธรรมเทื้อกูลภาวนา โดยอาจารย์ทองสุข ทองกระจ่าง (งดอาทิตย์ที่ 1 ของเดือน) | ทุกวันอาทิตย์ 13:00–15:00: ภาษาปัญญา (บาลี) โดยอาจารย์ปรีชา แก้วทาสี (งดอาทิตย์ที่ 1 ของเดือน) | ทุกวันจันทร์ 13:00–14:30: ลากเส้นด้วยสติ โดยครูเก่ง | เสาร์สุดท้ายของเดือน 06:30–10:00: ทำบุญตักบาตร ฟังธรรมฐาน เพื่อทาน ศีล ภาวนา | เว็บไซต์: www.baanaree.org | App: Baan Aree | LINE: @baanaree",
-    "blurbEn": "Free urban dharma library and practice center in Phaya Thai — all activities free, join in person or via Facebook/YouTube Live. Speakers rotate weekly but the programme structure is fixed. | Monday 18:30–20:00: Monday Night Meditation — Meditation & Dhamma Talk (rotating guest teachers). | Thursday 18:00–20:00: Dhamma for Working-Age (ธรรมวัยทำงาน) — rotating monk teachers from various temples. | Saturday 09:30–16:00: Mindful Saturday — rotating themes (e.g. mindfulness training, dharma lineage, solitude & letting go). | Every Sunday 09:00–11:00: Abhidhamma Meditation (อภิธรรมเทื้อกูลภาวนา) by Aj. Thongsuk Thongkrajang — skip 1st Sunday. | Every Sunday 13:00–15:00: Language of Wisdom — Pali (ภาษาปัญญา/บาลี) by Aj. Preecha Kaewthasi — skip 1st Sunday. | Every Monday 13:00–14:30: Mindful Drawing (ลากเส้นด้วยสติ) by Kru Keng. | Last Saturday of month 06:30–10:00: Merit-making alms, dharma talk — Dana, Sila, Bhavana. | Website: www.baanaree.org | App: Baan Aree | LINE: @baanaree",
+    "blurbTh": "ในซอยเล็กๆ ของย่านอารีย์ กรุงเทพฯ มูลนิธิบ้านอารีย์เป็นหนึ่งในสถานที่ที่หายากที่สุดในเมือง — ศูนย์ปฏิบัติธรรมฆราวาสที่เชื่อว่าการพัฒนาจิตใจไม่ควรมีราคาและไม่ควรต้องออกนอกเมือง ก่อตั้งในแนวทางของหลวงพ่อเทียน จิตฺตสุโภ ผู้บุกเบิกรูปแบบการเจริญสติแบบเคลื่อนไหวที่เชื่อมโยงกายและจิตเข้าด้วยกัน มูลนิธิแห่งนี้จึงไม่ใช่แค่ห้องนั่งสมาธิ แต่เป็นพื้นที่แห่งการตื่นรู้ในชีวิตประจำวัน\n\nแนวทางของหลวงพ่อเทียนไม่เน้นการหนีไปอยู่ป่าหรือปลีกตัวจากสังคม แต่เน้นการเห็นจิตใจได้ในทุกความเคลื่อนไหว ทุกปฏิกิริยา ทุกลมหายใจ — และนั่นคือสิ่งที่มูลนิธิบ้านอารีย์นำมาสู่ผู้คนในกรุงเทพฯ ที่ต้องใช้ชีวิตกับความเร่งรีบทุกวัน บรรยากาศอบอุ่นและเปิดกว้าง วิทยากรหมุนเวียน และโปรแกรมที่ไม่ต้องจองล่วงหน้า ทำให้ที่นี่เข้าถึงได้สำหรับทุกคน\n\nทุกกิจกรรมฟรีและเปิดรับทั้งการมาด้วยตัวเองและผ่านสื่อออนไลน์ สำหรับชาวกรุงเทพฯ ที่อยากเรียนรู้ธรรมะในชีวิตจริง ไม่ใช่ธรรมะในหน้าตำรา บ้านอารีย์คืออีกบ้านหนึ่งที่รอคุณอยู่",
+    "blurbEn": "Tucked into a quiet soi in Bangkok's Ari neighbourhood, Baan Aree Foundation has built something genuinely rare in one of Asia's most frenetic cities: a free, open-door practice space rooted in the moving-mindfulness teachings of Luang Por Tien Cittasubho. Luang Por Tien's approach was revolutionary in its simplicity — he taught that awareness does not require a retreat centre or monastic robes, only an honest attention to the rhythms of the body and the arising and passing of the mind, moment by moment.\n\nThat teaching finds its natural home in the urban lay context of Bangkok. Baan Aree serves working people, families, and those who cannot step away from city life but still wish to cultivate something genuine within it. A rotating roster of visiting teachers, a welcoming community atmosphere, and a no-booking-needed policy keep the foundation accessible and alive. Activities are broadcast online for those who cannot attend in person.\n\nEverything here is offered freely. For those who want to understand Buddhism not as doctrine but as lived practice — in the middle of meetings, traffic, and ordinary days — Baan Aree Foundation offers a warm and honest starting point.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -275,8 +275,8 @@
     "district": "พระนคร",
     "tradition": "เถรวาท – สายมหาสีสยาดอ",
     "abbot": "พระพรหมโมลี (วิลาศ ญาณวโร)",
-    "blurbTh": "ศูนย์ปฏิบัติวิปัสสนากรรมฐานนานาชาติ วัดมหาธาตุยุวราชรังสฤษฎิ์ ตั้งอยู่ในบริเวณ \"ส่วน 5\" ของวัด ริมถนนมหาราช ใจกลางกรุงเทพฯ ใกล้ท่าพระจันทร์ เปิดสอนวิปัสสนากรรมฐานในแนวทางมหาสีสยาดอ (พม่า) โดยเน้นการเดินจงกรมและนั่งสมาธิสลับกัน ชั่วโมงละครั้ง\n\n🕐 ตารางประจำวัน (4 รอบ/วัน)\n• 07:00–08:00, 09:00–10:00 น. — นั่งสมาธิ/เดินจงกรม (ช่วงเช้า)\n• 13:00–14:00, 15:00–16:00 น. — นั่งสมาธิ/เดินจงกรม (ช่วงบ่าย)\n• เปิดทุกวัน รวมถึงวันหยุดนักขัตฤกษ์\n\n💰 ค่าใช้จ่าย: ฟรี ไม่มีค่าลงทะเบียน (บริจาคตามศรัทธา)\n📋 การลงทะเบียน: ลงทะเบียนที่ศูนย์ฯ ส่วน 5 ชั้น 3 ด้วยตนเอง หรือโทรนัดหมาย 02-222-6011\n🏠 ห้องพัก: มีห้องพักสำหรับผู้ปฏิบัติที่ต้องการพักค้างคืน (ติดต่อสอบถามที่ศูนย์)\n🌍 นักท่องเที่ยวต่างชาติ: มีอาสาสมัครล่ามภาษาอังกฤษในบางเวลา รองรับผู้ปฏิบัติจากทั่วโลก\n📍 การเดินทาง: ท่าเรือท่าพระจันทร์ หรือ MRT สนามไชย ทางออก 4",
-    "blurbEn": "The International Vipassana Meditation Centre at Wat Mahadhatu Yuwarajarangsarit is located in \"Section 5\" of the temple compound on Maharaj Road, central Bangkok, near Tha Phra Chan pier. It offers Vipassana training in the Mahasi Sayadaw tradition, alternating sitting and walking meditation in hourly intervals.\n\n🕐 Daily schedule (4 sessions/day)\n• 07:00–08:00, 09:00–10:00 — sitting/walking meditation (morning)\n• 13:00–14:00, 15:00–16:00 — sitting/walking meditation (afternoon)\n• Open daily including public holidays\n\n💰 Cost: Free (dana/donations welcome)\n📋 Registration: Walk-in at Section 5, 3rd floor, or call 02-222-6011\n🏠 Accommodation: On-site lodging available for overnight practitioners (enquire at centre)\n🌍 International: English-speaking volunteers available at select times; practitioners from all nationalities welcome\n📍 Transport: Tha Phra Chan pier (Chao Phraya Express) or MRT Sam Yot exit 4",
+    "blurbTh": "วัดมหาธาตุยุวราชรังสฤษฎิ์ เป็นหนึ่งในวัดสำคัญที่สุดของกรุงเทพฯ มีอายุย้อนไปถึงยุครัตนโกสินทร์ตอนต้น ตั้งอยู่ริมถนนมหาราชใกล้ท่าพระจันทร์และพระราชวังและมหาวิทยาลัยธรรมศาสตร์ แต่ภายในกำแพงวัดนี้ยังซ่อน \"ส่วน 5\" ไว้ — ศูนย์ปฏิบัติวิปัสสนากรรมฐานนานาชาติที่เปิดมาตั้งแต่ปี พ.ศ. 2500 กว่า และเป็นหนึ่งในสถานที่ที่ต้อนรับนักปฏิบัติต่างชาติได้ยาวนานที่สุดในประเทศไทย\n\nที่นี่ใช้แนวทางมหาสีสยาดอจากพม่า — การเน้นสติปัฏฐานผ่านการนั่ง-เดินสลับกัน และการสังเกตปัจจุบันขณะอย่างต่อเนื่อง วิธีนี้เรียบง่าย ตรงไปตรงมา และเข้าถึงได้สำหรับผู้ที่เพิ่งเริ่มต้นปฏิบัติ นักปฏิบัติสามารถเรียนได้ตั้งแต่ชั่วโมงเดียวจนถึงหลายสัปดาห์ โดยพระสงฆ์หลายรูปสามารถสอนเป็นภาษาอังกฤษได้\n\nในยุคที่การปฏิบัติวิปัสสนาแพร่หลายไปทั่วโลก วัดมหาธาตุยังคงดำรงบทบาทเป็นจุดเริ่มต้นที่เชื่อถือได้สำหรับนักเดินทางชาวต่างชาติและชาวไทยที่แสวงหาธรรม โดยไม่ต้องออกจากใจกลางกรุงเทพฯ",
+    "blurbEn": "Wat Mahadhatu Yuwarajarangsarit is one of Bangkok's most storied royal monasteries, its gates opening onto Maharaj Road just steps from the Grand Palace and Tha Phra Chan pier. But within the temple's ancient walls, Section 5 has quietly served a very different purpose for more than half a century: as Bangkok's oldest and most accessible international vipassana meditation centre, it has welcomed monks, nuns, and lay practitioners from dozens of countries, offering serious instruction in a location that could hardly be more central.\n\nThe centre teaches in the Mahasi Sayadaw tradition of Burma — a systematic method of alternating sitting and walking meditation, developing continuous moment-to-moment awareness that cuts through mental proliferation at its root. The technique is direct, non-sectarian, and well suited to beginners and experienced practitioners alike. Several monks offer instruction in English, making this one of the few places in Bangkok where a foreign visitor can receive genuine one-on-one teaching without a language barrier.\n\nWhether you have an afternoon or a full week, Section 5 offers a rare opportunity to encounter authentic Theravada practice in the heart of one of Asia's busiest cities — free of charge, and without the need to travel far from where you already are.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -364,8 +364,8 @@
     "district": "พระโขนง / หลายสาขา",
     "tradition": "เถรวาท – สายมหาสีสยาดอ / แนวทาง ยพส.",
     "abbot": "คณะกรรมการบริหาร ยพส.",
-    "blurbTh": "ยุวพุทธิกสมาคมแห่งประเทศไทย (ยพส.) ก่อตั้งปี พ.ศ. 2493 โดยนายสัญญา ธรรมศักดิ์ เป็นองค์กรพุทธฆราวาสชั้นนำของไทย มีศูนย์ปฏิบัติธรรม 4 แห่งในกรุงเทพฯ และเครือข่ายทั่วประเทศ สอนวิปัสสนาในแนวมหาสีสยาดอ เน้นการปฏิบัติจริงทั้งนั่ง-เดิน-ยืน-นอน\n\n📅 โปรแกรมหลัก\n• คอร์สสุดสัปดาห์ (2 วัน 1 คืน): ทุก 2–4 สัปดาห์ ตาม 4 ศูนย์ในกรุงเทพฯ\n• คอร์ส 7 วัน: เปิดเดือนละ 1 ครั้ง สำหรับผู้ผ่านพื้นฐานแล้ว\n• คอร์ส 1 เดือน / 3 เดือน: สำหรับผู้ปฏิบัติขั้นสูง\n• โครงการอุปสมบทภาคฤดูร้อน (เยาวชน อายุ 18–25 ปี): ทุกเดือนเมษายน\n• คอร์สออนไลน์: บรรยายธรรมสดทาง Facebook Live และ YouTube\n\n💰 ค่าใช้จ่าย: คอร์สสั้นฟรีหรือมีค่าใช้จ่ายเล็กน้อย; คอร์สยาวมีค่าที่พักและอาหาร\n📋 การสมัคร: ผ่านเว็บไซต์ ybat.org, Line @ybat, หรือโทร 02-438-6101\n🔑 เงื่อนไข: คอร์ส 7+ วัน ต้องผ่านการอบรมพื้นฐาน 2 วันก่อน\n📍 สำนักงานใหญ่: ซ.เจริญนคร 53 เขตคลองสาน กรุงเทพฯ",
-    "blurbEn": "The Young Buddhist Association of Thailand (YBAT), founded in 1950 by Sanya Dharmasakti, is Thailand's leading lay Buddhist organisation. It operates 4 practice centres across Bangkok and a nationwide network, teaching Vipassana in the Mahasi Sayadaw tradition with emphasis on four-posture continuous awareness.\n\n📅 Main programmes\n• Weekend retreat (2D/1N): Every 2–4 weeks across 4 Bangkok centres\n• 7-day retreat: Monthly, for practitioners with basic course completed\n• 1-month / 3-month intensive retreat: For advanced practitioners\n• Summer ordination programme (youth aged 18–25): Every April\n• Online programme: Live Dhamma talks via Facebook Live and YouTube\n\n💰 Cost: Short courses free or minimal fee; longer courses include room & board fees\n📋 Registration: ybat.org, Line @ybat, or call 02-438-6101\n🔑 Prerequisites: 7+ day courses require completion of a 2-day introductory retreat first\n📍 Head office: Soi Charoen Nakhon 53, Khlong San, Bangkok",
+    "blurbTh": "ยุวพุทธิกสมาคมแห่งประเทศไทย หรือ ยพส. ก่อตั้งขึ้นเมื่อวันที่ 14 มิถุนายน พ.ศ. 2493 ในยุคหลังสงครามโลกครั้งที่สอง ท่ามกลางความตระหนักของกลุ่มนักศึกษาและปัญญาชนหนุ่มสาวว่าพุทธศาสนาไทยต้องการสายลมใหม่ — การศึกษาธรรมะที่เน้นการปฏิบัติจริง ไม่ใช่เพียงพิธีกรรมและประเพณี หนึ่งในผู้ร่วมก่อตั้งคือนายสัญญา ธรรมศักดิ์ ผู้ที่ต่อมาดำรงตำแหน่งนายกรัฐมนตรีและประธานองค์กรพุทธศาสนาโลก ซึ่งบ่งบอกถึงน้ำหนักและวิสัยทัศน์ของสมาคมแห่งนี้ตั้งแต่ต้น\n\nตลอด 7 ทศวรรษที่ผ่านมา ยพส. สร้างรากฐานให้กับวิปัสสนากรรมฐานในแนวมหาสีสยาดอในไทย ด้วยศูนย์ปฏิบัติธรรม 4 แห่งในกรุงเทพฯ และเครือข่ายสาขาทั่วประเทศ สมาคมฯ ทำให้การปฏิบัติธรรมเป็นเรื่องที่ฆราวาสธรรมดาเข้าถึงได้ ไม่ใช่สิทธิพิเศษของพระสงฆ์หรือผู้มีเวลาว่างเท่านั้น\n\nสำหรับผู้ที่ต้องการเรียนวิปัสสนาอย่างเป็นระบบ มีผู้สอนที่มีประสบการณ์ และมีชุมชนฆราวาสที่เข้มแข็งรองรับ ยพส. คือประตูบานแรกและน่าเชื่อถือที่สุดบานหนึ่งในการก้าวเข้าสู่การปฏิบัติธรรมในกรุงเทพฯ",
+    "blurbEn": "The Young Buddhist Association of Thailand was born on 14 June 1950 out of a conviction shared by a group of young intellectuals and students: that Thai Buddhism needed renewal. In the aftermath of war and in the face of a rapidly modernising society, they believed the Dhamma had to be taught not merely as ritual and ceremony, but as living practice accessible to ordinary working people. Among the co-founders was Sanya Dharmasakti, who would later serve as Prime Minister of Thailand and as President of the World Fellowship of Buddhists — a signal, from the very beginning, of the seriousness and ambition behind the project.\n\nIn the seven decades since, YBAT has become the backbone of lay vipassana practice in Thailand. Working within the Mahasi Sayadaw tradition, it operates four practice centres in Bangkok alongside a national network of affiliated groups, training teachers, publishing Dhamma texts, and running retreats that have guided generations of Thais through the fundamentals of meditation. It helped normalise the idea that intensive practice was not the province of monks alone.\n\nFor those beginning their meditation journey in Bangkok — or those returning to deepen it — YBAT remains one of the most structured, experienced, and welcoming organisations in the country.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -453,8 +453,8 @@
     "district": "ประเวศ",
     "tradition": "เถรวาท – สายพุทธทาสภิกขุ (ธรรมทาน)",
     "abbot": "คณะกรรมการมูลนิธิสวนอุศม",
-    "blurbTh": "สวนอุศม เป็นศูนย์ปฏิบัติธรรมแนวพุทธทาสภิกขุ ตั้งอยู่ในซอยอ่อนนุช 84/1 เขตประเวศ กรุงเทพฯ สะดวกเดินทางด้วยรถไฟฟ้า BTS สายสีเหลือง สถานีศรีอุดม ทางออก 1 เน้นการปฏิบัติตามแนว อานาปานสติและการพัฒนาจิต ท่ามกลางบรรยากาศสวนธรรมชาติใจกลางเมือง\n\n📅 โปรแกรมหลัก\n• ปฏิบัติธรรมวันอาทิตย์: เช้า 08:00–11:30 น. ทุกอาทิตย์ (ฟรี)\n• คอร์สสุดสัปดาห์ (2 วัน 1 คืน): เดือนละ 1–2 ครั้ง (รับประมาณ 30 คน)\n• คอร์ส 5 วัน: ทุกไตรมาส สำหรับผู้ผ่านพื้นฐาน\n• บรรยายธรรมออนไลน์: Facebook Live ทุกวันอังคาร 19:00 น.\n• กิจกรรมวันสำคัญทางพุทธศาสนา: วิสาขบูชา มาฆบูชา อาสาฬหบูชา ฯลฯ\n\n💰 ค่าใช้จ่าย: ฟรีทุกกิจกรรม (บริจาคตามศรัทธา; มีค่าอาหารสำหรับคอร์สค้างคืน)\n📋 การสมัคร: suanusom.com, Line @suanusom, โทร 02-328-3641\n🥗 อาหาร: มังสวิรัติทุกมื้อ\n📍 การเดินทาง: BTS สายสีเหลือง สถานีศรีอุดม ทางออก 1 (ห่างประมาณ 300 ม.)",
-    "blurbEn": "Suan Usom is a Buddhadasa Bhikkhu-lineage practice centre located in Soi On Nut 84/1, Prawet district, Bangkok. Conveniently accessible via BTS Yellow Line Sri Udom station (exit 1, ~300 m walk). The centre emphasises Anapanasati and mental development within a lush garden setting inside the city.\n\n📅 Main programmes\n• Sunday practice: Every Sunday 08:00–11:30 (free, no registration)\n• Weekend retreat (2D/1N): 1–2 times per month (~30 participants)\n• 5-day retreat: Quarterly, for practitioners with prior basic course\n• Online Dhamma talks: Facebook Live every Tuesday 19:00\n• Buddhist holy days: Visakha, Makha, Asalha – special programmes\n\n💰 Cost: All activities free (donations welcome; meal contribution for overnight retreats)\n📋 Registration: suanusom.com, Line @suanusom, or 02-328-3641\n🥗 Food: Vegetarian meals served\n📍 Transport: BTS Yellow Line Sri Udom exit 1 (~300 m)",
+    "blurbTh": "สวนอุศม ก่อตั้งในปี พ.ศ. 2530 ในซอยอ่อนนุชย่านประเวศ เป็นส่วนหนึ่งของเครือข่ายธรรมทานในสายพุทธทาสภิกขุ — ปรัชญาที่ว่าธรรมะคือสิ่งที่ต้องแบ่งปัน ไม่ใช่สะสม ชื่อ \"อุศม\" มาจากคำบาลีที่แปลว่า \"ความอบอุ่น\" — และนั่นคือสิ่งที่สวนแห่งนี้ตั้งใจมอบให้ พื้นที่อบอุ่นในเมืองที่ผู้คนสามารถมาหยุดพัก ฝึกจิต และสัมผัสธรรมะในชีวิตจริง\n\nพุทธทาสภิกขุสอนว่าหัวใจของพุทธศาสนาไม่ใช่พิธีกรรม แต่คือการเข้าใจธรรมชาติของจิตใจและการดับทุกข์ผ่านการรู้เนื้อรู้ตัว สวนอุศมนำแนวคิดนี้มาสู่คนเมืองผ่านชั้นเรียนสมาธิประจำวัน ธรรมะเสวนา และโครงการปฏิบัติธรรมที่อาหารและที่พักเป็นมังสวิรัติ สะท้อนความเชื่อเรื่องความเมตตาและการไม่เบียดเบียน\n\nผู้ที่สนใจทำงานจิตอาสา ปฏิบัติธรรมระยะสั้น หรือแค่แวะเข้ามาเรียนรู้ธรรมะจากแหล่งที่มีรากเหง้าชัดเจน สวนอุศมยินดีต้อนรับทุกคนในบรรยากาศที่เรียบง่ายและจริงใจ ท่ามกลางสีเขียวของสวนในเมืองที่หาได้ยากในกรุงเทพฯ",
+    "blurbEn": "Founded in 1987 in Bangkok's Prawet district, Suan Usom carries forward a lineage rooted in one of Thailand's most intellectually courageous Buddhist thinkers. Buddhadasa Bhikkhu, the southern monk who spent decades rethinking and re-presenting the Dhamma for modern minds, taught that Buddhism's essence was not ceremony or superstition but the direct investigation of suffering and liberation. The Dhamma Dana network he inspired — of which Suan Usom is a part — was built on the conviction that these teachings should be given freely and belong to everyone.\n\nThe name Usom comes from a Pali word meaning warmth, and that quality pervades the place. Set in a quiet garden amid Bangkok's urban sprawl, the centre offers daily meditation, Dhamma talks, and residential retreats on a vegetarian basis — small, sincere, and unhurried. It is a place for people who want to practise seriously without leaving the city, and who find inspiration in Buddhadasa's tradition of questioning received wisdom and seeking understanding at its root.\n\nCommunity service, white-robe ceremonies, and special events round out the calendar for those drawn to a practice life that is both contemplative and engaged.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -542,8 +542,8 @@
     "district": "บางเขน",
     "tradition": "เถรวาท – อานาปานสติ / สายพุทธทาส",
     "abbot": "แม่ชีศันสนีย์ เสถียรสุต",
-    "blurbTh": "เสถียรธรรมสถาน ก่อตั้งโดยแม่ชีศันสนีย์ เสถียรสุต ปี พ.ศ. 2534 ตั้งอยู่ในซ.วิภาวดีรังสิต 32 เขตจตุจักร กรุงเทพฯ เป็นศูนย์ปฏิบัติธรรมชั้นนำที่เน้นอานาปานสติ และเป็นที่รู้จักในโครงการ บวชชีพราหมณ์สำหรับสตรีโดยเฉพาะ มีห้องเกลือหิมาลัย (Himalayan Salt Room) เพื่อสนับสนุนการปฏิบัติ\n\n📅 โปรแกรมหลัก\n• ปฏิบัติธรรมสุดสัปดาห์ (3 วัน 2 คืน): จัดทุกสัปดาห์ รับสมัครล่วงหน้า 20–40 คน\n• คอร์ส 7 วัน และ 10 วัน: จัดรายเดือน เน้นอานาปานสติเข้มข้น\n• โครงการบวชชีพราหมณ์ (เฉพาะสตรี): 8 วัน, อายุ 18 ปีขึ้นไป, ผ่านคอร์สพื้นฐาน\n• โครงการสุขภาพและจิตใจ: ห้องเกลือหิมาลัย, โยคะ, การดูแลผู้ป่วยระยะสุดท้าย\n• บรรยายธรรมออนไลน์: Facebook Live และ YouTube ทุกสัปดาห์\n• กิจกรรมเยาวชน: ค่ายธรรมะสำหรับเด็กและเยาวชนช่วงปิดเทอม\n\n💰 ค่าใช้จ่าย: ประมาณ 2,500–4,500 บาท/คอร์ส (รวมที่พักและอาหารมังสวิรัติ)\n📋 การสมัคร: sdsweb.org, Line @sathiradhammasathan, โทร 02-511-0439\n🌸 จุดเด่น: เน้นสตรีและครอบครัว; บวชชีพราหมณ์; ห้องเกลือหิมาลัย; สิ่งแวดล้อมสีเขียวใจกลางเมือง\n📍 การเดินทาง: BTS สถานีหมอชิต + แท็กซี่/วินมอเตอร์ไซค์ประมาณ 10 นาที",
-    "blurbEn": "Sathira Dhammasathan, founded by Mae Chee Sansanee Sthirasuta in 1991, is located on Soi Vibhavadi Rangsit 32, Chatuchak, Bangkok. It is one of Thailand's most prominent urban practice centres, specialising in Anapanasati meditation and particularly known for its white-robe ordination programme for women. The centre features a Himalayan Salt Room to support deep meditation practice.\n\n📅 Main programmes\n• Weekend retreat (3D/2N): Every week, 20–40 participants; pre-registration required\n• 7-day and 10-day intensives: Monthly, focused Anapanasati practice\n• White-robe (Mae Chee) ordination programme (women only): 8 days, 18+, basic course prerequisite\n• Health & wellbeing: Himalayan Salt Room, yoga, terminal care ministry\n• Online Dhamma talks: Weekly via Facebook Live and YouTube\n• Youth camps: School-holiday Dhamma camps for children and teenagers\n\n💰 Cost: Approx. 2,500–4,500 THB/course (includes accommodation & vegetarian meals)\n📋 Registration: sdsweb.org, Line @sathiradhammasathan, or 02-511-0439\n🌸 Highlights: Women & family focus; mae chee ordination; Himalayan Salt Room; green urban sanctuary\n📍 Transport: BTS Mo Chit + taxi/motorbike ~10 minutes",
+    "blurbTh": "เสถียรธรรมสถาน ก่อตั้งในปี พ.ศ. 2534 โดยแม่ชีศันสนีย์ เสถียรสุต ด้วยวิสัยทัศน์ที่ต้องการสร้างพื้นที่ปลอดภัยสำหรับผู้หญิงในการเข้าถึงธรรม ณ ใจกลางกรุงเทพฯ จากศูนย์ปฏิบัติธรรมเล็กๆ ในซอยวิภาวดี วันนี้เสถียรธรรมสถานเติบโตเป็นองค์กรพุทธศาสนาชั้นนำ มีชื่อเสียงระดับนานาชาติในด้านการผนวกธรรมะเข้ากับชีวิตสมัยใหม่ โครงการบวชชีพราหมณ์ \"ผู้หญิงกับพระพุทธศาสนา\" ที่นี่เปิดพื้นที่ให้สตรีทุกอายุได้สัมผัสการบวชในรูปแบบที่งดงามและเต็มไปด้วยความหมาย\n\nแม่ชีศันสนีย์สอนในแนวอานาปานสติ โดยเน้นให้ผู้ปฏิบัตินำธรรมะกลับไปใช้ในชีวิตครอบครัวและการงาน ไม่ใช่แยกออกจากโลก ที่เสถียรธรรมสถาน ธรรมะไม่ใช่สิ่งที่อยู่ในวัดเท่านั้น — มันคือสิ่งที่หล่อเลี้ยงชีวิตทุกวัน ด้วยแนวคิดนี้ เสถียรธรรมสถานจึงดึงดูดทั้งผู้หญิงทำงาน แม่ลูกอ่อน นักศึกษา และผู้ที่กำลังเผชิญกับการสูญเสียมาตลอดกว่าสามสิบปี\n\nผู้ที่มาเยือนสามารถร่วมปฏิบัติธรรม เข้าค่ายกรรมฐาน หรือสมัครร่วมโครงการบวชชีพราหมณ์อันเป็นเอกลักษณ์ของที่นี่ สำหรับใครก็ตามที่มองหาพื้นที่ที่ความจริงใจ ความอบอุ่น และการปฏิบัติที่แท้จริงพบกัน เสถียรธรรมสถานคือหนึ่งในบ้านทางจิตวิญญาณที่งดงามที่สุดของกรุงเทพฯ",
+    "blurbEn": "Sathira Dhammasathan was founded in 1991 by Mae Chee Sansanee Sthirasuta with a quiet but revolutionary intention: to create a safe, nurturing space where women could access the Dhamma on equal footing. What began as a small practice centre in a Bangkok side street has grown into one of Thailand's most respected Buddhist institutions, known internationally for its work bridging ancient contemplative practice with the realities of modern life. Mae Chee Sansanee teaches in the Anapanasati tradition, but her approach is deeply practical — she encourages practitioners to bring mindfulness into family life, work, and relationships, not retreat from them.\n\nThe centre is perhaps best known for its white-robe ordination programme, offering women a rare and meaningful taste of monastic life. Over three decades it has welcomed working mothers, university students, grieving families, and those simply looking for a way to live with more integrity and awareness. This breadth of welcome is itself an expression of the Dhamma.\n\nFor anyone seeking a place where sincerity, warmth, and genuine practice meet, Sathira Dhammasathan is one of Bangkok's most extraordinary spiritual homes. Retreats, meditation classes, and the white-robe programme are offered throughout the year.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -631,8 +631,8 @@
     "district": "ปากช่อง",
     "tradition": "เถรวาท – สายหลวงพ่อชา (Thai Forest Tradition)",
     "abbot": "พระอาจารย์ชยสาโร (ฌอน ชิเวอร์ตัน)",
-    "blurbTh": "สถานพำนักสงฆ์บ้านไร่ทอสี ตั้งอยู่เชิงเขาใหญ่ อ.ปากช่อง เป็นสถานที่วิเวกของ พระอาจารย์ชยสาโร (Ajahn Jayasaro) พระภิกษุชาวอังกฤษในสายหลวงพ่อชา ผู้บวชตั้งแต่ปี 2523 และพำนักที่นี่ตั้งแต่ปี 2545 ภายใต้การดูแลของมูลนิธิปัญญาประทีป\n\n\"บ้านบุญ\" คือศาลาปฏิบัติธรรมเล็กที่ตั้งอยู่ใกล้เคียง เปิดให้คฤหัสถ์เข้าร่วมกิจกรรม\n\n📅 โปรแกรม\n• บ้านบุญ วันอาทิตย์ (เดือนละ 2 ครั้ง): วันอาทิตย์ที่ 1 และ 3 ของเดือน\n  08:30 ทำวัตรเช้า → นั่งสมาธิ → ฟังธรรม จนถึงประมาณ 10:45 น.\n• คอร์สปฏิบัติธรรม (English Dhamma Retreat): ปีละหลายครั้ง สำหรับผู้ปฏิบัติภาษาอังกฤษ\n• บรรยายธรรมออนไลน์: Facebook Live และ YouTube ทุกครั้งที่มีกิจกรรม\n\n💰 ค่าใช้จ่าย: ฟรีทุกกิจกรรม (บริจาคตามศรัทธา; ถ้าจะถวายอาหารให้นำอาหารมังสวิรัติ\n  หรืออาหารแห้งมาที่ครัวก่อนเริ่มกิจกรรม)\n📋 การเข้าร่วม: Walk-in ได้ที่บ้านบุญ (วันอาทิตย์ที่ 1 และ 3 ของเดือน)\n🌿 จุดเด่น: พระอาจารย์ชยสาโรมีชื่อเสียงด้านการสอนเป็นภาษาอังกฤษ ผู้นำด้านการศึกษา\n  และปรัชญาพุทธ มีหนังสือและสื่อธรรมะเป็นภาษาอังกฤษจำนวนมาก\n📍 สถานที่: เชิงเขาใหญ่ ปากช่อง (พิกัดสาธารณะไม่เปิดเผย ติดต่อผ่านมูลนิธิฯ)\n🖥️ ติดตามออนไลน์: YouTube @dhamma.by.ajahn.jayasaro | FB: jayasaro.panyaprateep.org",
-    "blurbEn": "Baan Rai Tor See Hermitage is the forest retreat of Ajahn Jayasaro (Shaun Chiverton), a British monk in the Ajahn Chah lineage who ordained in 1980 and has lived here since 2002 under the Panyaprateep Foundation. Located at the foot of Khao Yai Mountain, Pak Chong.\n\n\"Baan Boon\" is the nearby lay practice hall open to the public for guided sessions.\n\n📅 Programme\n• Baan Boon Sunday sessions (twice monthly): 1st and 3rd Sundays of each month\n  08:30 morning chanting → sitting meditation → Dhamma talk until ~10:45\n• English Dhamma Retreats: Several times per year for English-speaking practitioners\n• Live streaming: Every session broadcast via Facebook Live and YouTube\n\n💰 Cost: All activities free (dana welcome; if bringing food offerings, vegetarian or non-perishable items to the kitchen before sessions begin)\n📋 Attendance: Walk-in at Baan Boon on 1st and 3rd Sundays; no registration needed\n🌿 Highlights: Ajahn Jayasaro is renowned for English-language Dhamma teachings and Buddhist education philosophy; extensive books, talks, and media available\n📍 Location: Foot of Khao Yai, Pak Chong (exact coordinates not publicly disclosed)\n🖥️ Online: YouTube @dhamma.by.ajahn.jayasaro | FB: jayasaro.panyaprateep.org",
+    "blurbTh": "ที่เชิงเขาใหญ่ในอำเภอปากช่อง บ้านไร่ทอสีตั้งอยู่อย่างเงียบสงบเหมือนจะซ่อนตัวจากโลก นี่คือสถานที่พำนักของพระอาจารย์ชยสาโร (Ajahn Jayasaro) ชาวอังกฤษผู้บวชในปี พ.ศ. 2523 ภายใต้หลวงพ่อชา สุภัทโท และใช้ชีวิตในสายป่ากรรมฐานมาตลอดกว่าสี่สิบปี ท่านย้ายมาพำนักที่บ้านไร่ทอสีในปี พ.ศ. 2545 ภายใต้การอุปถัมภ์ของมูลนิธิปัญญาประทีป และเลือกที่จะสานต่องานสอนธรรมในวิถีที่สงัดและลึกมากขึ้น\n\nพระอาจารย์ชยสาโรเป็นที่รู้จักทั้งในหมู่ผู้ปฏิบัติชาวไทยและต่างชาติ งานเขียน คำสอน และธรรมกถาของท่านสะท้อนถึงความลึกซึ้งของจิตใจที่ผ่านการขัดเกลามาอย่างยาวนาน ทั้งในด้านปัญญาและความเมตตา สถานที่นี้จึงไม่ใช่สถานที่ท่องเที่ยวหรือรีสอร์ตสุขภาพ แต่เป็นอาวาสของพระภิกษุผู้ปฏิบัติจริง ที่เปิดให้ผู้ที่พร้อมจะรับธรรมะอย่างแท้จริง\n\nบ้านไร่ทอสีมีโอกาสเปิดรับนักปฏิบัติธรรมแบบจำกัด กิจกรรมและธรรมกถาจัดขึ้นเป็นครั้งคราว ผู้ที่สนใจควรติดตามข้อมูลจากมูลนิธิปัญญาประทีปล่วงหน้า เพราะโอกาสที่จะได้รับคำสอนจากท่านในพื้นที่ส่วนตัวเช่นนี้หาได้ยากยิ่ง",
+    "blurbEn": "At the foot of Khao Yai mountain, tucked away on a quiet hillside in Pak Chong, Baan Rai Tor See is the hermitage of Ajahn Jayasaro — a British monk who has spent more than four decades in the Thai Forest Tradition. He ordained under Ajahn Chah in 1980 and spent years at Wat Pah Nanachat before settling here in 2002 under the patronage of the Panyaprateep Foundation. His decision to withdraw into greater solitude was not a retreat from the world but a deepening of commitment — to the practice itself and to the transmission of teaching that can only come from a life genuinely lived.\n\nAjahn Jayasaro is known to both Thai and international audiences through his books, talks, and the particular quality of his teaching: precise, warm, and rooted in decades of forest practice. His writings on raising children in Buddhism have reached an enormous audience; his Dhamma talks carry the authority of lived understanding rather than theoretical knowledge.\n\nBaan Rai Tor See is not a retreat centre in the conventional sense — it is a monk's home, and access is limited and intentional. Occasional teachings and retreats are organised through the Panyaprateep Foundation. For those fortunate enough to be invited, a visit here is a rare encounter with the Thai Forest Tradition at its most authentic.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -720,8 +720,8 @@
     "district": "จอมทอง",
     "tradition": "เถรวาท – สายมหาสีสยาดอ (สาย พระอาจารย์ทอง สิริมังคโล)",
     "abbot": "พระครูสิริมังคลาจารย์ (สืบต่อจาก พระอาจารย์ทอง สิริมังคโล ผู้ล่วงลับ ปี 2562)",
-    "blurbTh": "วัดพระธาตุศรีจอมทองวรวิหาร ตั้งอยู่ที่อ.จอมทอง จ.เชียงใหม่ ห่างจากตัวเมืองประมาณ 58 กม. เป็นวัดสำคัญที่ประดิษฐานพระบรมธาตุ (พระอัฐิส่วนพระเศียร) ตั้งแต่ปี พ.ศ. 1995 และเป็นศูนย์วิปัสสนากรรมฐานชั้นนำระดับนานาชาติในสายพระอาจารย์ทอง สิริมังคโล (สานต่อจากมหาสีสยาดอ พม่า)\n\n📅 โปรแกรมหลัก\n• คอร์สวิปัสสนาสำหรับคนไทย: 7 วัน, 10 วัน, 14 วัน, 21 วัน — จัดทุกวันเสาร์\n• คอร์สนานาชาติ (ภาษาอังกฤษ/ฝรั่งเศส): รับต่างชาติตลอดปี มีพระอาจารย์สอนภาษาอังกฤษ\n• โครงการบวชพระ: ต้องผ่านคอร์ส 26 วัน + 10 วัน × 2 ก่อนบวช\n• แม่ชี/ผู้ถือศีล 8: มีโปรแกรมรองรับ\n\n🕐 ตารางประจำวัน (ระหว่างคอร์ส)\n• 04:00 ตื่นนอน | 06:00 อาหารเช้า | 11:00 เพล (มื้อสุดท้าย)\n• ปฏิบัติสมาธิ ~10 ชั่วโมง/วัน (นั่ง-เดิน สลับกัน) | 22:00 พักผ่อน\n\n💰 ค่าใช้จ่าย: ฟรีทั้งหมด (บริจาคตามศรัทธาเมื่อจบคอร์ส)\n📋 การสมัคร: reservationchomtong@yahoo.com | WhatsApp +66 93 318 1662 | watchomtong.com\n🏛️ จุดเด่น: วัดเก่าแก่อายุ 500+ ปี พระธาตุสำคัญ ทิวทัศน์ภูเขา รับนักปฏิบัติต่างชาติ\n📍 การเดินทาง: รถประจำทางจากช้างเผือก ชม. ~1:20 ชม. | รถยนต์ตาม ทล.108 ~1 ชม.",
-    "blurbEn": "Wat Phra That Si Chom Thong Worawihan is a 15th-century temple in Chom Thong district, 58 km southwest of Chiang Mai city. It houses a sacred Buddha relic (part of the skull) discovered in 1452, and is home to one of Thailand's most respected international vipassana centres, established by Phra Ajahn Tong Sirimangalo (1923–2019) in the Mahasi Sayadaw tradition.\n\n📅 Main programmes\n• Thai retreats: 7, 10, 14, and 21-day courses, starting every Saturday\n• International retreats: English and French instruction; foreign meditators welcome year-round\n• Monk ordination programme: Requires prior completion of 26-day + two 10-day courses\n• Mae Chee / 8-precept programme: Available for women practitioners\n\n🕐 Daily retreat schedule\n• 04:00 wake | 06:00 breakfast | 11:00 lunch (final meal of day)\n• ~10 hours meditation/day (alternating sitting & walking) | 22:00 lights out\n\n💰 Cost: Entirely free — dana collected at end of course\n📋 Booking: reservationchomtong@yahoo.com | WhatsApp +66 93 318 1662 | watchomtong.com\n🏛️ Highlights: 500+ year old temple, sacred relic, mountain setting, internationally renowned vipassana centre\n📍 Transport: Bus from Chang Phueak terminal ~1h20m | Drive via Hwy 108 ~1 hour",
+    "blurbTh": "วัดพระธาตุศรีจอมทองวรวิหาร เป็นหนึ่งในวัดศักดิ์สิทธิ์ที่เก่าแก่ที่สุดของภาคเหนือ ก่อตั้งมาตั้งแต่ราวปี พ.ศ. 1995 ตามตำนานเล่าว่าพระอัฐิส่วนพระเศียรของพระพุทธเจ้าถูกอัญเชิญมาประดิษฐานที่นี่ ทำให้วัดแห่งนี้กลายเป็นสถานที่แสวงบุญสำคัญของชาวล้านนามาหลายศตวรรษ ภายใต้ยอดเจดีย์ทองที่สะท้อนแสงอยู่ท่ามกลางขุนเขาสุดขอบอำเภอจอมทอง จ.เชียงใหม่\n\nแต่วัดศรีจอมทองไม่ได้เป็นเพียงสถานที่แสวงบุญทางประวัติศาสตร์เท่านั้น ในยุคปัจจุบัน วัดได้รับการฟื้นฟูให้เป็นศูนย์วิปัสสนากรรมฐานชั้นนำระดับนานาชาติ ภายใต้การนำของพระอาจารย์อาคม (ต่อมาเป็นพระราชสิทธาจารย์) ผู้สืบทอดการสอนวิปัสสนาแนวสติปัฏฐาน 4 ในสายของพระครูบาอาจารย์เจ้าคุณพระโพธิรังสี ท่านได้รับการยอมรับจากทั้งนักปฏิบัติชาวไทยและต่างชาติว่าเป็นอาจารย์กรรมฐานระดับแนวหน้า\n\nผู้ที่มาวัดศรีจอมทองสามารถร่วมคอร์สวิปัสสนาแบบเข้มข้น ตั้งแต่ระยะสั้นไปจนถึงหลายสัปดาห์ ในบรรยากาศที่หล่อหลอมด้วยทั้งความศรัทธาทางประวัติศาสตร์และความจริงจังทางการปฏิบัติ การมาที่นี่จึงเป็นทั้งการแสวงบุญและการฝึกจิตในเวลาเดียวกัน",
+    "blurbEn": "Wat Phra That Si Chom Thong Worawihan stands at the edge of a river valley 58 kilometres southwest of Chiang Mai, its golden chedi catching the light above the plains of Chom Thong district. The temple was established around 1452 CE, when, according to tradition, a relic believed to be part of the Buddha's skull was enshrined here — a discovery that transformed an ordinary forest site into one of the most revered places of pilgrimage in the Lanna kingdom. For centuries, kings, princes, and ordinary believers have made the journey south from Chiang Mai to pay their respects.\n\nBut Wat Si Chom Thong has never stood still on its history. Under the guidance of Ajahn Arkom, later honoured as Phra Ratchasitthacharya, the temple was quietly rebuilt into one of Thailand's foremost international vipassana centres. His method follows the Satipatthana tradition — a systematic, direct approach to developing mindfulness through the body, feelings, mind states, and Dhamma objects — and has attracted serious practitioners from across Asia, Europe, and the Americas.\n\nA retreat here weaves together two kinds of encounter: the gravity of a genuinely ancient sacred site and the precision of serious meditation instruction. Courses run from short intensive sessions to extended programmes, welcoming both beginners and experienced practitioners.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -809,8 +809,8 @@
     "district": "ปากช่อง (มวกเหล็ก / มูสี)",
     "tradition": "เถรวาท – สายพระอาจารย์มั่น (Thai Forest Tradition – กัมมัฏฐาน)",
     "abbot": "หลวงตาณรงค์ศักดิ์ ขีณาลโย (อดีตผู้พิพากษา บวชปี 2554)",
-    "blurbTh": "พุทธธรรมสถานปัญจคีรี ตั้งอยู่ในป่าแถบมูสี อ.ปากช่อง ใกล้เขาใหญ่ เป็นที่พำนักของหลวงตาณรงค์ศักดิ์ ขีณาลโย อดีตผู้พิพากษาผู้บวชในปี พ.ศ. 2554 และปฏิบัติในสายพระอาจารย์มั่น ศึกษาธรรมกับครูบาอาจารย์หลายองค์ รวมถึงหลวงปู่เรียน, หลวงปู่เดสก์, หลวงตามหาบัว ฯลฯ\n\n📅 โปรแกรม\n• ไม่ใช่ศูนย์ปฏิบัติเชิงพาณิชย์ — ผู้สนใจต้องมีพื้นฐานการปฏิบัติและติดตามธรรมะ\n  ของหลวงตาก่อนการเข้าพำนัก\n• พักได้สูงสุด 7 คืน / ต้องเว้น 7 คืนก่อนกลับมาใหม่\n• ผู้พำนักต้องช่วยงานวัดและปฏิบัติตามระเบียบสงฆ์อย่างเคร่งครัด\n• บรรยายธรรมออนไลน์ทั้งภาษาไทยและอังกฤษ ผ่าน Podcast, YouTube, Facebook\n\n💰 ค่าใช้จ่าย: ฟรี (บริจาคตามศรัทธา)\n📋 การสมัคร: luangtanarongsak.org | อีเมล luangtanarongsak.podcast@gmail.com | LINE @dhammaluangta\n🌿 จุดเด่น: หลวงตาเดินทางสอนธรรมทั่วโลก (ออสเตรเลีย, ยุโรป, สหรัฐอเมริกา) มีสื่อธรรมะภาษาอังกฤษจำนวนมากผ่าน Podcast บน Spotify และ Apple Podcasts\n⚠️ หมายเหตุ: เหมาะสำหรับผู้ปฏิบัติจริงจัง ไม่ใช่ผู้เริ่มต้นทั่วไป",
-    "blurbEn": "Buddha Dhamma Satharn Panjakiri is a forest monastery near Mu Si, Pak Chong, Nakhon Ratchasima, in the foothills of Khao Yai. It is the residence of Luangta Narongsak Kheenalayo, a former Thai judge who ordained in 2011 and practices in the Ajahn Mun Thai Forest Tradition, having trained under multiple senior teachers including Luangta Mahā Boowa.\n\n📅 Programme\n• Not a commercial retreat facility — visitors must have prior practice experience and familiarity with Luangta's teachings before applying to stay\n• Maximum 7-night stay; minimum 7-night gap between visits\n• All residents expected to assist with temple duties and strictly follow monastic code\n• Extensive online Dhamma teachings in Thai and English via Podcast (Spotify, Apple Podcasts), YouTube, and Facebook\n\n💰 Cost: Free (dana)\n📋 Registration: luangtanarongsak.org | luangtanarongsak.podcast@gmail.com | LINE @dhammaluangta\n🌿 Highlights: Luangta regularly teaches internationally (Australia, Europe, USA); unusually extensive English-language Dhamma content for a Thai forest monastery\n⚠️ Note: Suitable for serious, experienced practitioners — not a beginner walk-in centre",
+    "blurbTh": "พุทธธรรมสถานปัญจคีรีเป็นที่พำนักของหลวงตาณรงค์ศักดิ์ ขีณาลโย อดีตผู้พิพากษาอาวุโสผู้สละเก้าอี้ตุลาการมาบวชในปี พ.ศ. 2554 เมื่ออายุ 59 ปี เส้นทางของท่านสะท้อนสิ่งที่พุทธศาสนาสอนมาเสมอ — ว่าการตื่นรู้ไม่จำกัดอยู่กับผู้ที่เกิดมาในเพศนักบวช แต่เป็นไปได้สำหรับทุกคนที่มีความตั้งใจจริง หลวงตาณรงค์ศักดิ์ศึกษาธรรมกับครูบาอาจารย์หลายท่านในสายป่ากรรมฐาน ก่อนมาก่อตั้งสถานปฏิบัติธรรมในป่าแถบมูสี อำเภอปากช่อง ใกล้เขาใหญ่\n\nชื่อ \"ปัญจคีรี\" หมายถึง \"ห้าภูเขา\" สะท้อนทั้งภูมิประเทศที่ล้อมรอบด้วยเทือกเขาและนัยยะแห่งการปฏิบัติที่ต้องอาศัยความอดทนในการปีนขึ้นสูง สถานที่แห่งนี้อยู่ในป่าอย่างแท้จริง เงียบสงบ สัปปายะสำหรับผู้ปฏิบัติสายป่ากรรมฐาน และโดดเด่นด้วยความเป็นกันเองและบรรยากาศที่ห่างไกลจากความเป็นทางการ\n\nปัญจคีรีเหมาะอย่างยิ่งสำหรับนักปฏิบัติที่ต้องการใช้เวลาอย่างมีความหมายในป่า ห่างจากความวุ่นวาย และเปิดรับคำสอนในสายพระป่าที่สืบทอดกันมาจากพระอาจารย์มั่น ภูริทัตโต และลูกศิษย์ของท่าน",
+    "blurbEn": "There is something quietly extraordinary about the story of Buddha Dhamma Satharn Panjakiri: it was founded not by a monk who had known no other life, but by a man who spent decades as a senior judge before choosing, at the age of fifty-nine, to trade his legal robes for a monk's ones. Luangta Narongsak Kheenalayo ordained in 2011, studied under several respected teachers in the Thai Forest Tradition, and eventually established this small forest monastery in the Mu Si area of Pak Chong, in the shadow of Khao Yai mountain.\n\nThe name Panjakiri — Five Mountains — refers to the surrounding hills and carries the suggestion of aspiration: a path that requires effort and patience, and that rewards those willing to climb. The monastery sits in genuine forest, quiet and removed from tourist circuits, shaped by the austere simplicity that defines the tradition of Ajahn Mun and his inheritors. Luangta Narongsak's own story gives the place a particular warmth — it speaks to practitioners from professional backgrounds who wonder whether the path is open to them too.\n\nPanjakiri is best suited to those seeking a few days of serious practice in a forest setting, close to nature and close to teachers whose practice has been tested by years rather than months.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -898,8 +898,8 @@
     "district": "พระนครศรีอยุธยา",
     "tradition": "เถรวาท – วิปัสสนากรรมฐาน (สติปัฏฐาน 4)",
     "abbot": "พระภาวนาเขมคุณ",
-    "blurbTh": "วัดมเหยงคณ์ วัดประวัติศาสตร์อายุกว่า 580 ปีในเกาะอยุธยา ปัจจุบันเป็นที่ตั้งสถาบันวิปัสสนาวิชชาลัย นำโดยพระภาวนาเขมคุณ\n\n📅 โปรแกรม\n• คอร์สวันอาทิตย์ 06:45–09:30 น. (ฟรี)\n• คอร์สสุดสัปดาห์ (2 วัน) เสาร์–อาทิตย์\n• คอร์ส 3–4 วัน และ 9 วัน\n• บวชพระ/สามเณร 1–3 เดือน\n\n💰 ฟรี (วันอาทิตย์); คอร์สอื่นตามโปรแกรม\n📋 activity.watmahaeyong.or.th | LINE @mahaeyong\n🏛️ โบราณสถานอยุธยา เจดีย์อิฐโบราณ\n📍 รถไฟ กรุงเทพฯ–อยุธยา + ตุ๊กตุ๊ก ~1:30 ชม.",
-    "blurbEn": "Wat Maheyong is a 580-year-old historic temple on Ayutthaya Island, home to the Vipassana Vitchalai Institute led by Phra Bhavana Khema Khun.\n\n📅 Programmes\n• Sunday sessions 06:45–09:30 (free)\n• Weekend course (2 days)\n• 3–4 day and 9-day courses\n• Monk/novice ordination 1–3 months\n\n💰 Free Sundays; other courses vary\n📋 activity.watmahaeyong.or.th | LINE @mahaeyong\n🏛️ Ancient Ayutthaya ruins, historic brick chedi\n📍 Train Bangkok–Ayutthaya + tuk-tuk ~1.5 hrs",
+    "blurbTh": "วัดมเหยงคณ์เป็นวัดเก่าแก่อายุกว่า 580 ปีในเกาะอยุธยา สร้างในยุคกรุงศรีอยุธยาเป็นราชธานี ชื่อ \"มเหยงคณ์\" ปรากฏในพงศาวดารว่าเป็นสถานที่ที่พระมหากษัตริย์เคยเสด็จมาทรงผนวช กาลเวลาผ่านไปหลายร้อยปี วัดแห่งนี้ผ่านทั้งสงคราม การรุกราน และช่วงเวลาแห่งการฟื้นฟู ก่อนที่ในยุคปัจจุบันจะได้รับการสถาปนาใหม่ในฐานะศูนย์กลางวิปัสสนากรรมฐาน ภายใต้การนำของพระภาวนาเขมคุณ และสถาบันวิปัสสนาวิชชาลัยที่ก่อตั้งขึ้นภายในวัด\n\nวิชชาลัยสอนวิปัสสนาในแนวทางที่เข้าถึงได้สำหรับคนทุกกลุ่ม ทั้งผู้ที่เพิ่งเริ่มต้นและผู้ปฏิบัติที่มีประสบการณ์ คอร์สวันอาทิตย์เปิดโอกาสให้ผู้ที่ทำงานวันธรรมดาได้ฝึกปฏิบัติสม่ำเสมอโดยไม่ต้องหยุดงานนาน ขณะที่คอร์สสุดสัปดาห์และคอร์สนานหนึ่งสัปดาห์ให้ประสบการณ์ที่ลึกกว่า\n\nการปฏิบัติธรรมในวัดที่มีพื้นหลังทางประวัติศาสตร์อันยาวนานเช่นนี้มีมิติพิเศษ บรรยากาศของอยุธยา ซากโบราณสถาน และความรู้สึกว่าคนไทยรุ่นแล้วรุ่นเล่าเคยเดินทางมาแสวงบุญที่นี่ ทำให้การปฏิบัติมีความลึกซึ้งมากกว่าในห้องสมาธิทั่วไป",
+    "blurbEn": "Wat Maheyong is among the oldest surviving temples on Ayutthaya Island, its foundations reaching back more than five centuries to the Ayutthaya Kingdom at its height. The chronicles record it as a place where royal figures came to ordain, and its name has carried weight in Thai Buddhist memory long before the modern era of meditation retreats and wellness tourism. The temple survived conquest, abandonment, and reconstruction, and today it stands as something unusual: a genuinely ancient site that has reinvented itself as an active centre for vipassana practice.\n\nThe Vipassana Vitchalai Institute, established within the temple grounds under the guidance of Phra Bhavana Khema Khun, brings systematic meditation instruction to this historic setting. Sunday programmes offer a practical entry point for those who cannot take extended time away from work; weekend intensives and seven-day retreats allow for deeper immersion. The approach is accessible and methodical, suited to beginners as much as to experienced practitioners looking for a structured environment.\n\nThere is a particular quality to practising at Wat Maheyong that no purpose-built retreat centre can replicate — the weight of history, the ruins of the old capital visible beyond the walls, the sense that this land has been a site of spiritual seeking for as long as Thai civilisation has existed.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -987,8 +987,8 @@
     "district": "บ่อทอง",
     "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 130 วัดหนองป่าพง",
     "abbot": "หลวงพ่ออาจารย์ตุ่น ธิรจิตโต",
-    "blurbTh": "วัดบุญญาวาส สาขาที่ 130 วัดหนองป่าพง สายหลวงพ่อชา ป่า 80+ ไร่ เขตบ่อทอง จ.ชลบุรี นำโดยหลวงพ่อตุ่น ธิรจิตโต หนึ่งในอาจารย์กรรมฐานชั้นนำของไทย\n\n📅 โปรแกรม\n• ปฏิบัติธรรมฆราวาส แยกชาย-หญิง: สวดมนต์เช้า-เย็น + นั่ง/เดินสมาธิ + ถามตอบ\n• โนเบิลไซเลนซ์ + ศีล 8 ตลอดการพำนัก\n• บวชพระสำหรับต่างชาติ: วัดช่วยเอกสาร bisuti + วีซ่า\n\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 087-999-6154 (09:00–12:00) | Watboonyawad@gmail.com\n🌲 ป่าธรรมชาติ, เจดีย์ทอง, ชุมชนนานาชาติ\n📍 กรุงเทพฯ–ชลบุรี ~2 ชม.",
-    "blurbEn": "Wat Boonyawad, the 130th branch of Wat Nong Pah Pong in the Ajahn Chah lineage, sits on 80+ acres of forest in Bo Thong, Chonburi, under Luang Por Ajahn Dtun Thiracitto.\n\n📅 Programme\n• Lay retreats (men/women separate): chanting, sitting/walking meditation, Dhamma talks, evening Q&A\n• Noble silence + 8 precepts throughout\n• Monk ordination for foreigners: bisuti paperwork + visa assistance\n\n💰 Free (dana)\n📋 +66 87 999 6154 (09:00–12:00) | Watboonyawad@gmail.com\n🌲 Deep forest, golden stupa, international community\n📍 Bangkok to Chonburi ~2 hours",
+    "blurbTh": "วัดบุญญาวาส สาขาที่ 130 ของวัดหนองป่าพง สร้างขึ้นในปี พ.ศ. 2535 โดยหลวงพ่ออาจารย์ตุ่น (พระอาจารย์อาคาเรช ธิรจิตโต) ลูกศิษย์โดยตรงของหลวงพ่อชา สุภัทโท ผู้ฝึกปฏิบัติมาตั้งแต่ช่วงต้นๆ ของวัดหนองป่าพง ก่อนจะออกมาบุกเบิกวัดในป่า 80 กว่าไร่ ในเขตบ่อทอง จังหวัดชลบุรี ด้วยวิถีชีวิตที่เคร่งครัดและการปฏิบัติที่มั่นคงเป็นเวลาหลายสิบปี หลวงพ่ออาจารย์ตุ่นได้รับการยอมรับในวงกว้างว่าเป็นหนึ่งในอาจารย์กรรมฐานชั้นนำของไทย\n\nป่าขนาดใหญ่ที่ล้อมรอบวัด ไม่ใช่เพียงฉากหลังที่สวยงาม แต่เป็นส่วนสำคัญของการฝึกฝน ชีวิตในวัดป่าตามแบบหลวงพ่อชา — ตื่นก่อนรุ่งสาง เดินบิณฑบาต ทำงานร่วมกันด้วยจิตสำนึก และนั่งสมาธิในความเงียบ — เป็นวินัยที่สอนอะไรได้มากกว่าตำราหนาเล่มใด วัดบุญญาวาสยังเปิดรับพระภิกษุชาวต่างชาติและผู้ที่ต้องการบวชเรียน ทำให้ที่นี่กลายเป็นหนึ่งในแหล่งบ่มเพาะสายป่ากรรมฐานที่แข็งแกร่งในภาคตะวันออก\n\nสำหรับฆราวาสที่แสวงหาการปฏิบัติในสายหลวงพ่อชาอย่างแท้จริง วัดบุญญาวาสเปิดรับทั้งชายและหญิงในโปรแกรมแยกกัน ท่ามกลางธรรมชาติที่รักษาจิตใจได้อย่างที่เมืองให้ไม่ได้",
+    "blurbEn": "Wat Boonyawad, the 130th branch of Wat Nong Pah Pong, was established in 1992 by Luang Por Ajahn Dtun Thiracitto — one of Ajahn Chah's close disciples and today one of the most widely respected meditation teachers in the Thai Forest Tradition. After years of training at Wat Nong Pah Pong, Ajahn Dtun spent two years in solitary forest practice before founding this monastery on eighty acres of dense Chonburi forest. The place bears the mark of someone who took his teacher's guidance seriously and built something to last.\n\nThe forest is not incidental here. In the Ajahn Chah tradition, the environment itself is the teaching — the silence, the physical demands of forest life, the daily rhythms of alms rounds and communal work and evening chanting cultivate qualities of mind that cannot be manufactured in a lecture room. Wat Boonyawad has become an important training ground for Western monastics in addition to Thai monks and lay practitioners, reflecting Ajahn Chah's internationalist spirit.\n\nLay retreats are offered separately for men and women, following the forest schedule. For those seeking the genuine Ajahn Chah experience — not as a heritage tour but as a living practice — Wat Boonyawad in the forests of Bo Thong district offers exactly that.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1076,8 +1076,8 @@
     "district": "แกลง",
     "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 73 วัดหนองป่าพง",
     "abbot": "พระอาจารย์อานันท์ (Ajahn Anan Akincano)",
-    "blurbTh": "วัดมาบจันทร์ สาขาที่ 73 วัดหนองป่าพง สายหลวงพ่อชา ป่า 1,000+ ไร่ อ.แกลง จ.ระยอง นำโดยพระอาจารย์อานันท์\n\n📅 ตาราง\n• 04:30 ตื่น | 05:00 สวดมนต์เช้า | บิณฑบาต | 19:00–21:00 สวดมนต์เย็น + ธรรมะ\n• Zoom สดทุกคืน 19:15–21:00 (GMT+7)\n• พักสูงสุด 7 คืน (ครั้งแรก)\n\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 visit.wmj@gmail.com | 038-026-252 (10:00–11:45 หรือ 15:00–17:00)\n⛵ โบสถ์ทรงเรือ 2 ชั้น | Zoom สดทุกคืน\n📍 ~200 กม. จากกรุงเทพฯ แนะนำรถส่วนตัว",
-    "blurbEn": "Wat Marp Jan, the 73rd branch of Wat Nong Pah Pong, sits on 1,000+ rai of forest in Klaeng, Rayong, under Ajahn Anan Akincano.\n\n📅 Schedule\n• 04:30 wake | 05:00 morning chant | alms round | 19:00–21:00 evening chant + Dhamma\n• Nightly Zoom: 19:15–21:00 GMT+7\n• Max 7 nights for first-time visitors\n\n💰 Free (dana)\n📋 visit.wmj@gmail.com | +66 38 026 252 (10:00–11:45 or 15:00–17:00)\n⛵ Unique 2-storey boat ubosot | Nightly global Zoom\n📍 ~200 km from Bangkok; private car recommended",
+    "blurbTh": "วัดมาบจันทร์ สาขาที่ 73 ของวัดหนองป่าพง ก่อตั้งในปี พ.ศ. 2527 โดยพระอาจารย์อานันท์ อกิญจโน ผู้ที่เคยเป็นพระอุปัฏฐากส่วนตัวของหลวงพ่อชา สุภัทโท — ใกล้ชิดกับอาจารย์ของท่านในช่วงบั้นปลายชีวิตมากกว่าใครๆ ประสบการณ์ที่ได้รับจากการรับใช้ใกล้ชิดนั้นหล่อหลอมสิ่งที่พระอาจารย์อานันท์นำมาสร้างในป่าอำเภอแกลง จังหวัดระยอง — วัดที่ทั้งเข้มแข็งในด้านการปฏิบัติและเปิดกว้างในการรับผู้คนจากทั่วโลก\n\nบนพื้นที่กว่า 1,000 ไร่ของป่าชายฝั่งระยอง วัดมาบจันทร์ขยายตัวจากสำนักสงฆ์เล็กๆ สู่ศูนย์กลางการสอนธรรมที่รองรับพระภิกษุจากออสเตรเลีย บราซิล ศรีลังกา และหลายประเทศ ความสามารถของพระอาจารย์อานันท์ในการสอนทั้งภาษาไทยและอังกฤษ รวมถึงวิธีการสอนที่อ่อนโยนแต่ตรงประเด็น ทำให้วัดมาบจันทร์กลายเป็นหนึ่งในวัดป่าที่เชื่อมสะพานระหว่างตะวันออกและตะวันตกได้ดีที่สุดแห่งหนึ่ง\n\nสำหรับนักปฏิบัติฆราวาสที่ต้องการสัมผัสชีวิตวัดป่าในสายหลวงพ่อชาอย่างแท้จริง วัดมาบจันทร์เปิดรับทั้งชาวไทยและต่างชาติ ท่ามกลางป่าที่กว้างใหญ่และบรรยากาศที่ทั้งเคร่งครัดและอบอุ่นในคราวเดียวกัน",
+    "blurbEn": "Wat Marp Jan was founded in 1984 by Ajahn Anan Akincano, who holds a singular place in the Ajahn Chah lineage: he was Ajahn Chah's personal attendant during the final years of the great teacher's life, witnessing at close range the practice and presence of one of the twentieth century's most influential Buddhist monks. What he carried from that relationship into the forests of Klaeng district, Rayong, was something more than technique — it was an understanding of how the Dhamma lives in a human being.\n\nOver four decades, Wat Marp Jan has grown from a small forest clearing into a major teaching monastery spread across more than a thousand rai of coastal forest. Its reach has extended far beyond Thailand, drawing resident monastics from Australia, Brazil, Sri Lanka, and beyond. Ajahn Anan's teaching — gentle, precise, and grounded in long personal practice — bridges East and West with unusual ease, and his willingness to teach in both Thai and English has made Wat Marp Jan one of the most internationally connected forest monasteries in Southeast Asia.\n\nLay practitioners of all backgrounds and nationalities are welcome to join the monastery's rhythms, in an environment that balances the rigor of the forest tradition with genuine warmth and accessibility.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1165,8 +1165,8 @@
     "district": "ลำลูกกา",
     "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 44 วัดหนองป่าพง",
     "abbot": "พระราชวชิรมุนี (ประสพชัย กันติสีโล)",
-    "blurbTh": "วัดป่าจิตตภาวนา สาขาที่ 44 วัดหนองป่าพง สายหลวงพ่อชา ก่อตั้งปี 2540 อ.ลำลูกกา จ.ปทุมธานี สาขาหลวงพ่อชาที่ใกล้กรุงเทพฯ มากที่สุดแห่งหนึ่ง\n\n📅 สวดมนต์เช้า-เย็น + นั่งสมาธิ + บิณฑบาต ตามแบบแผนวัดป่า\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 โทร 02-532-1548\n🌿 ป่าสงบ ใกล้กรุงเทพฯ\n📍 ปทุมธานี ลำลูกกา ~45 นาทีจากกรุงเทพฯ",
-    "blurbEn": "Wat Pa Chittaphavan, 44th branch of Wat Nong Pah Pong, founded 1997 in Lam Luk Ka, Pathum Thani — one of the closest Ajahn Chah forest monasteries to Bangkok.\n\n📅 Morning/evening chanting, meditation, alms round\n💰 Free (dana)\n📋 02-532-1548\n🌿 Quiet forest, close to Bangkok\n📍 Pathum Thani, Lam Luk Ka ~45 min from Bangkok",
+    "blurbTh": "วัดป่าจิตตภาวนา สาขาที่ 44 ของวัดหนองป่าพง ก่อตั้งในปี พ.ศ. 2540 ในเขตลำลูกกา จังหวัดปทุมธานี ไม่ไกลจากกรุงเทพฯ นับเป็นหนึ่งในสาขาหลวงพ่อชาที่ใกล้เมืองหลวงที่สุด ทำให้ชาวกรุงเทพฯ ที่หลงรักวิถีป่ากรรมฐานสามารถเดินทางมาปฏิบัติธรรมได้โดยไม่ต้องลาหยุดยาว นำโดยพระราชวชิรมุนี (ประสพชัย กันติสีโล) ผู้สืบทอดแบบแผนชีวิตวัดป่าอย่างต่อเนื่อง\n\nแม้ตั้งอยู่ใกล้เมือง แต่วัดป่าจิตตภาวนาพยายามรักษาบรรยากาศและวินัยของวัดป่าไว้อย่างครบถ้วน จังหวะชีวิตที่นี่ — ตื่นก่อนรุ่งสาง สวดมนต์ทำวัตร เดินบิณฑบาตในชุมชน และนั่งสมาธิในความเงียบ — ไม่ต่างจากวัดในป่าลึก เพียงแต่ความใกล้กรุงเทพฯ ทำให้ผู้คนสามารถเข้าถึงได้มากขึ้น\n\nสำหรับผู้ที่สนใจบวชเรียนในสายหลวงพ่อชา วัดแห่งนี้เปิดรับทั้งการอุปสมบทและบรรพชา นับเป็นจุดเชื่อมต่อที่สำคัญระหว่างชีวิตฆราวาสในเมืองและวิถีของสายป่ากรรมฐานที่ยังมีชีวิตและสืบทอดต่อไป",
+    "blurbEn": "Wat Pa Chittaphavan was established in 1997 as the 44th branch of Wat Nong Pah Pong, the monastery in Ubon Ratchathani where Ajahn Chah built his forest tradition into an international movement. Located in Lam Luk Ka, Pathum Thani, it sits closer to Bangkok than almost any other monastery in the Ajahn Chah lineage — a fact that matters enormously for city-dwelling practitioners who feel drawn to the forest way but cannot easily travel for weeks at a time. Led by Phra Ratchawachiramuni (Prasopchai Kantasilo), the monastery holds to the full discipline and daily rhythms of its parent tradition.\n\nWhat makes Wat Pa Chittaphavan distinctive is not novelty but fidelity — to waking before dawn, to the almsround through the surrounding community, to evening chanting and sitting in the kind of silence that only a forest setting allows. The monastery has resisted the urban pull toward accessibility at the cost of authenticity, and that integrity draws practitioners who know what they are looking for.\n\nOrdination is available here, both as a fully ordained monk and as a novice, following the standards of the forest lineage. For those at the edge of Bangkok who wish to explore the Ajahn Chah tradition without travelling to the Northeast, this monastery offers the genuine article.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1254,8 +1254,8 @@
     "district": "แก้งคร้อ",
     "tradition": "เถรวาท – สายป่ากัมมัฏฐาน / พุทธศาสนาสิ่งแวดล้อม",
     "abbot": "พระไพศาล วิสาโล",
-    "blurbTh": "วัดป่าสุคะโต อ.แก้งคร้อ จ.ชัยภูมิ นำโดยพระไพศาล วิสาโล พระนักกิจกรรมสังคม-สิ่งแวดล้อมชั้นนำ บวชปี 2526 เป็นที่ตั้งสถาบันสติปัฏฐาน\n\n📅 โปรแกรม\n• คอร์สวิปัสสนา 7 วัน (ปฐมนิเทศอาทิตย์ 13:00 น.)\n• อบรมสติปัฏฐานโดยพระอาจารย์ทรงศิลป์\n• บวชป่า (tree ordination) อนุรักษ์ป่า\n• ค่ายเยาวชน + อบรมอหิงสา\n\n💰 ฟรี (บริจาคตามศรัทธา)\n📋 pasukato.org\n🌲 พระไพศาลมีชื่อเสียงระดับชาติด้านสิ่งแวดล้อม\n📍 จ.ชัยภูมิ ~3.5–4 ชม. จากกรุงเทพฯ",
-    "blurbEn": "Wat Pa Sukhato in Kaeng Khro, Chaiyaphum, led by Phra Paisal Visalo — nationally prominent socially-engaged monk (ordained 1983), internationally known for environmental Buddhism and tree ordination. Houses the Satipatthana Institute.\n\n📅 Programmes\n• 7-day vipassana course (orientation Sunday 13:00)\n• Satipatthana intensives by Phra Ajahn Songsin\n• Tree ordination (บวชป่า) forest conservation\n• Youth camps + nonviolence training\n\n💰 Free (dana)\n📋 pasukato.org\n🌲 Phra Paisal = prominent intellectual monk & environmental activist\n📍 Chaiyaphum ~3.5–4 hrs from Bangkok",
+    "blurbTh": "วัดป่าสุคะโตในอำเภอแก้งคร้อ จังหวัดชัยภูมิ ไม่ใช่แค่วัดป่าธรรมดา — มันเป็นฐานของพระนักกิจกรรมสังคมและสิ่งแวดล้อมผู้สำคัญที่สุดคนหนึ่งของไทย พระไพศาล วิสาโล บวชในปี พ.ศ. 2526 หลังศึกษาจบและมีความตระหนักอย่างลึกซึ้งว่าวิกฤตของสังคมและสิ่งแวดล้อมต้องการมากกว่านักเคลื่อนไหว — ต้องการผู้ที่ฝึกจิตใจจากข้างในออกมาด้วย ท่านเป็นผู้ร่วมก่อตั้งเสขิยธรรม เครือข่ายพระนักกิจกรรมสังคมที่ริเริ่มพิธีบวชต้นไม้เพื่อปกป้องป่าชุมชน\n\nการเชื่อมระหว่างการปฏิบัติจิตใจและการดูแลโลกคือหัวใจของวัดป่าสุคะโต และเป็นสิ่งที่ดึงดูดนักปฏิบัติรุ่นใหม่ที่มองว่าพุทธศาสนาต้องมีคำตอบต่อโลกสมัยใหม่ ไม่ใช่แค่ที่หลบหนีจากมัน สถาบันสติปัฏฐานที่ตั้งอยู่ภายในวัดเปิดสอนทั้งสมาธิเบื้องต้นและคอร์สวิปัสสนาเข้มข้น\n\nผู้ที่มาวัดป่าสุคะโตจะพบทั้งป่าที่สงบและชุมชนที่ตื่นตัว ที่ซึ่งการปฏิบัติธรรมและความห่วงใยต่อสังคมไม่ใช่คนละเรื่อง แต่หล่อหลอมกันจนแยกไม่ออก",
+    "blurbEn": "Wat Pa Sukhato in Kaeng Khro district, Chaiyaphum, is the home of one of Thailand's most remarkable Buddhist voices: Phra Paisal Visalo, who ordained in 1983 and has since become the country's foremost socially engaged monk and environmental Buddhist thinker. His conviction, from the beginning, was that a monk's responsibility extends beyond the monastery walls — that the Dhamma must respond to deforestation, inequality, and the suffering created by unchecked development. He co-founded Sekhyadhamma, a national network of activist monks, and pioneered the practice of tree ordination ceremonies, using Buddhist ritual to protect community forests from logging.\n\nThe integration of contemplative practice and concern for the world is the defining spirit of Wat Pa Sukhato. It draws practitioners who find inspiration not in retreat from society but in the idea that a mind trained in awareness is better equipped to address its problems. The Satipatthana Institute within the monastery provides a structured setting for both introductory and intensive meditation training.\n\nVisitors to Wat Pa Sukhato encounter a forest that is both a physical place and a living argument — that Buddhism in the twenty-first century can be as engaged with the fate of forests and communities as it is with the fate of individual minds.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1343,8 +1343,8 @@
     "district": "ปากช่องไข่",
     "tradition": "เถรวาท – อานาปานสติ / สติปัฏฐาน 4 (เน้นสตรี)",
     "abbot": "คณะกรรมการมูลนิธิ",
-    "blurbTh": "มูลนิธิอาศรมมาตา ปากช่องไข่ จ.นครราชสีมา ศูนย์ปฏิบัติธรรมเน้นสตรีพิเศษ สอนอานาปานสติและสติปัฏฐาน 4 ในบรรยากาศธรรมชาติแถบเขาใหญ่\n\n📅 คอร์สปฏิบัติธรรมหลายระยะ (ดูปฏิทิน ashrammata.org)\n• โปรแกรมสตรี: ปฏิบัติและพัฒนาจิตใจ\n• บวชชีพราหมณ์สำหรับสตรี\n• กิจกรรมบริการสังคม\n\n💰 ติดต่อสอบถาม\n📋 ashrammata.org | LINE @ashrammata | 081-913-5031\n🌸 เน้นสตรี; บรรยากาศธรรมชาติเขาใหญ่\n📍 จ.นครราชสีมา ~1.5 ชม. จากกรุงเทพฯ",
-    "blurbEn": "Ashram Mata Foundation, near Pak Thong Chai, Nakhon Ratchasima, is a women-focused meditation centre teaching Anapanasati and Four Foundations of Mindfulness in a Khao Yai natural setting.\n\n📅 Retreats of various lengths (see calendar at ashrammata.org)\n• Women's programme: dedicated practice & mental development\n• White-robe (mae chee) ordination for women\n• Community service activities\n\n💰 Contact for pricing\n📋 ashrammata.org | LINE @ashrammata | +66 81 913 5031\n🌸 Women-focused; natural Khao Yai setting\n📍 Nakhon Ratchasima ~1.5 hrs from Bangkok",
+    "blurbTh": "มูลนิธิอาศรมมาตา ตั้งอยู่บนเนินเขาในเขตปากช่องไข่ จังหวัดนครราชสีมา ใกล้เขาใหญ่ เป็นพื้นที่ที่สร้างขึ้นเพื่อสตรีโดยเฉพาะ — ไม่ใช่เพราะผู้หญิงต้องการการปกป้อง แต่เพราะการปฏิบัติธรรมในพื้นที่ที่ผู้หญิงรู้สึกปลอดภัยและไม่ต้องปรับตัวตามบรรทัดฐานชายเป็นใหญ่ ทำให้การเดินทางภายในลึกและจริงใจยิ่งขึ้น อาศรมแห่งนี้สอนอานาปานสติและสติปัฏฐาน 4 ในบรรยากาศธรรมชาติที่เงียบสงบและน่าสัปปายะ\n\n\"มาตา\" แปลว่าแม่ — และนั่นสะท้อนถึงพลังงานที่อาศรมแห่งนี้พยายามปลูกฝัง ความเมตตา ความอดทน และการดูแลทั้งตัวเองและผู้อื่น ในชั้นเรียนและคอร์สปฏิบัติธรรมที่จัดขึ้นตลอดปี สตรีจากทุกช่วงวัยสามารถมาหยุดพัก ฟื้นฟู และกลับไปสู่รากเหง้าของจิตใจ\n\nสำหรับสตรีที่มองหาชุมชนปฏิบัติธรรมที่มีพื้นที่ให้เสียงและประสบการณ์ของตนได้รับการรับรอง อาศรมมาตายังเปิดโปรแกรมบวชชีพราหมณ์และกิจกรรมงานจิตอาสา ทำให้ที่นี่เป็นมากกว่าศูนย์ปฏิบัติธรรม แต่เป็นชุมชนแห่งการเดินทางร่วมกัน",
+    "blurbEn": "Ashram Mata Foundation sits on a hillside near Pak Thong Chai, Nakhon Ratchasima, in the foothills of the Khao Yai range — a setting chosen for its quiet and its distance from the noise of ordinary life. Its name, Mata, means mother, and that word captures the quality the ashram seeks to embody: a space of care, patience, and inward nurturing, oriented specifically toward women practitioners. The founders understood that women's meditation experience is sometimes shaped by contexts that were not designed with them in mind; Ashram Mata was created as an alternative.\n\nThe practice here follows Anapanasati and the Four Foundations of Mindfulness, taught in a natural environment that allows the mind to settle and the body to find ease. Retreats throughout the year offer women of all ages a chance to pause, to deepen their practice, and to return to themselves — whether they arrive as complete beginners or as experienced meditators.\n\nBeyond meditation retreats, the ashram runs a white-robe ordination programme and community service activities, building a community of practice rather than merely a venue for it. For any woman seeking a place where her spiritual journey is genuinely supported and seen, Ashram Mata offers something rare and valuable.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1432,8 +1432,8 @@
     "district": "เมืองอุดรธานี",
     "tradition": "ธรรมยุต สายหลวงปู่มั่น (กรรมฐาน)",
     "abbot": "พระอาจารย์สุธรรม สุธัมโม",
-    "blurbTh": "วัดป่าบ้านตาด หรือชื่อทางการว่า วัดเกษรศีลคุณ เป็นวัดป่ากรรมฐานสายธรรมยุตที่มีชื่อเสียงระดับโลก ตั้งอยู่ที่อำเภอเมือง จังหวัดอุดรธานี ก่อตั้งโดยหลวงตามหาบัว ญาณสัมปันโน สานุศิษย์โดยตรงของหลวงปู่มั่น ภูริทัตโต ปัจจุบันอยู่ในการดูแลของพระอาจารย์สุธรรม สุธัมโม\n\nกิจกรรมและการปฏิบัติ:\n• การปฏิบัติหลัก: เดินจงกรม นั่งภาวนา กำหนดพุทโธ และอานาปานสติ ตามแนวทางสายกรรมฐาน\n• เปิดให้ผู้มีพื้นฐานการปฏิบัติมาแล้วเข้าพักปฏิบัติธรรมได้อย่างอิสระ ไม่มีโปรแกรมตายตัว\n• ฟังธรรมจากพระอาจารย์เมื่อมีโอกาส\n• เยี่ยมชมพิพิธภัณฑ์ธรรมเจดีย์ ซึ่งเก็บรักษาอัฐิและสิ่งของของหลวงตามหาบัว\n\nระเบียบและข้อควรรู้:\n• เหมาะสำหรับผู้มีพื้นฐานการปฏิบัติมาก่อน ไม่รับผู้เริ่มต้น\n• ฉันวันละหนึ่งมื้อ ตามแนวทางธุดงควัตร\n• ประตูวัดปิดเวลา 11:00 น. เพื่อให้พระได้ปฏิบัติอย่างสงบ\n• ไม่มีค่าใช้จ่าย รับบริจาคตามศรัทธา\n• ติดต่อวัดล่วงหน้าก่อนเข้าพัก",
-    "blurbEn": "Wat Pa Ban Tat (Wat Kesornsilakul) is a world-renowned Dhammayut Forest Tradition monastery in Udon Thani, founded by the late Ajahn Maha Boowa Nanasampanno — one of the last direct disciples of Ajahn Mun Bhuridatta. The monastery is now under Phra Ajahn Sutham Suthammo, the third abbot.\n\nActivities & Practice:\n• Core practices: walking meditation (jongkrom), sitting meditation with Buddho mantra and Anapanasati, following the strict Kammasthana Forest tradition\n• Self-directed retreat practice — no fixed program; practitioners follow their own schedule within the monastery's rhythm\n• Dhamma talks from the abbot and senior monks when available\n• Visit the Dhamma Chedi Museum, housing relics and personal effects of Ajahn Maha Boowa\n\nKey Information:\n• Suitable for practitioners with prior meditation experience; not recommended for complete beginners\n• One meal per day (alms round at 8:00 AM), vegetarian-friendly\n• Gates close at 11:00 AM to protect the monks' practice time\n• Free of charge; donations accepted\n• Contact the monastery in advance before visiting for a retreat stay",
+    "blurbTh": "วัดป่าบ้านตาด หรือ วัดเกษรศีลคุณ ในอุดรธานี เป็นดินแดนศักดิ์สิทธิ์ในประวัติศาสตร์สายป่ากรรมฐานไทย ก่อตั้งโดยหลวงตามหาบัว ญาณสัมปันโน ลูกศิษย์โดยตรงและผู้สืบทอดพระธรรมคำสอนของหลวงปู่มั่น ภูริทัตโต หลวงตามหาบัวเดินทางตลอดชีวิตในฐานะพระป่า ก่อนมาหยุดพักและสร้างวัดแห่งนี้ขึ้นในช่วงกลางศตวรรษที่ 20 ท่านนิพพานในปี พ.ศ. 2554 เมื่ออายุ 97 ปี ทิ้งไว้เพียงสิ่งที่สำคัญที่สุด — แบบอย่างของนักปฏิบัติที่ไม่เคยถอย\n\nชื่อเสียงของหลวงตามหาบัวแผ่กว้างทั้งในและนอกประเทศ ไม่ใช่จากการเดินทางหรือสื่อ แต่จากคุณภาพของท่านเอง ในช่วงวิกฤตเศรษฐกิจไทยปี 2540 ท่านเริ่มโครงการระดมทองให้แผ่นดินที่ระดมทองและเงินบริจาคได้นับหมื่นกิโลกรัม — เหตุการณ์ที่แสดงถึงทั้งบารมีและจริยธรรมที่ไม่มีที่สิ้นสุดของท่าน\n\nวัดป่าบ้านตาดยังคงดำเนินต่อไปในฐานะศูนย์กลางของการปฏิบัติสายป่ากรรมฐาน เปิดรับนักปฏิบัติที่พร้อมจะฝึกฝนจริงจังในสายธรรมยุตกรรมฐาน ณ สถานที่ที่ซึมซับประวัติศาสตร์ของปรมาจารย์ผู้ยิ่งใหญ่ไว้ทุกอณู",
+    "blurbEn": "Wat Pa Ban Tat — formally known as Wat Kesornsilakul — stands in the forests south of Udon Thani as one of the holiest sites in Thai forest Buddhism. It was here that Ajahn Maha Boowa Nanasampanno, the last surviving direct disciple of the legendary forest master Ajahn Mun Bhuridatta, settled and taught for decades. Ajahn Maha Boowa had spent years wandering the forests of the Northeast and meditating in caves, in the uncompromising style that Ajahn Mun had imprinted on the Thai Forest Tradition, before making this his home. He died in 2011 at the age of ninety-seven, and the monastery that survives him preserves both his relics and his legacy.\n\nAjahn Maha Boowa was known for the uncompromising quality of his teaching and for an authority that needed no amplification. During Thailand's 1997 financial crisis, he launched a national gold donation campaign that gathered tens of thousands of kilograms of gold and silver — an act of both extraordinary moral credibility and practical compassion that made him a national figure in a way that few monks have ever been.\n\nToday Wat Pa Ban Tat continues as an active training monastery in the Dhammayut forest tradition, welcoming serious practitioners who come to practise in the very place where one of the twentieth century's most formidable meditators made his life.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1521,8 +1521,8 @@
     "district": "บางละมุง",
     "tradition": "ธรรมยุต สายกรรมฐาน",
     "abbot": "พระอาจารย์สุชาติ อภิชาโต (พระราชวัชรสังวรมุนี)",
-    "blurbTh": "วัดญาณสังวรารามวรมหาวิหาร ในพระบรมราชูปถัมภ์ เป็นวัดป่าสายธรรมยุตที่มีชื่อเสียงในจังหวัดชลบุรี ก่อตั้งเมื่อ พ.ศ. 2519 โดยมีสมเด็จพระญาณสังวร สมเด็จพระสังฆราช เป็นผู้อุปถัมภ์ ตั้งอยู่ห่างจากพัทยาประมาณ 20 กม. ปัจจุบันมีพระอาจารย์สุชาติ อภิชาโต เป็นพระอาจารย์อาวุโส ซึ่งเคยศึกษาปฏิบัติกับหลวงตามหาบัว วัดป่าบ้านตาด\n\nกิจกรรมและการปฏิบัติ:\n• นั่งสมาธิ / วิปัสสนา และเดินจงกรม ตามแนวทางกรรมฐาน\n• ฟังธรรมจากพระอาจารย์สุชาติ อภิชาโต\n• เปิดรับทุกคน ไม่ต้องมีพื้นฐานมาก่อน เหมาะสำหรับผู้เริ่มต้น\n• รับปฏิบัติธรรมแบบค้างคืน (โปรดติดต่อล่วงหน้า)\n• พิธีอุปสมบทและบรรพชา (บวชพระ/บวชสามเณร)\n• สวมชุดขาว (ถือศีล 8) ได้\n\nระเบียบและข้อควรรู้:\n• เปิดรับทุกคน ไม่ต้องมีพื้นฐาน เหมาะสำหรับผู้เริ่มต้น\n• ฟรี รับบริจาคตามศรัทธา\n• ติดต่อล่วงหน้าเพื่อขอพักค้างคืน โทร 081-586-0188",
-    "blurbEn": "Wat Yannasangwaram Voramahavihara is a prestigious Dhammayut Forest Tradition monastery in Chonburi Province, founded in 1976 under the patronage of Somdet Phra Nyanasamvara, the 19th Supreme Patriarch of Thailand. Located about 20 km southeast of Pattaya, the monastery spans over 360 rai of peaceful forested grounds. The senior meditation teacher is Phra Ajahn Suchart Abhichato, a direct disciple of Ajahn Maha Boowa of Wat Pa Ban Tat.\n\nActivities & Practice:\n• Sitting and walking meditation following the Kammasthana Forest Tradition\n• Dhamma talks and teachings from Phra Ajahn Suchart Abhichato\n• Open to all levels — welcoming for beginners, no prior experience required\n• Overnight retreat stays available (advance booking required)\n• Monk and novice ordination programs\n• White robe (8 precepts) stays available\n\nKey Information:\n• Welcomes all practitioners regardless of experience level\n• Free of charge; donations welcome\n• Contact the monastery in advance for retreat stays: 081-586-0188\n• Open 8:00 AM – 5:00 PM for day visitors",
+    "blurbTh": "วัดญาณสังวรารามวรมหาวิหาร ในพระบรมราชูปถัมภ์ ก่อตั้งในปี พ.ศ. 2519 ด้วยพระอุปถัมภ์ของสมเด็จพระญาณสังวร สมเด็จพระสังฆราช สกลมหาสังฆปริณายก องค์ที่ 19 — หนึ่งในบุคคลสำคัญที่สุดของพุทธศาสนาไทยในศตวรรษที่ 20 พระองค์ทรงเป็นทั้งอาจารย์วิปัสสนาชั้นนำ นักเขียนธรรมะ และผู้ที่ส่งพระธรรมทูตไปทั่วโลก การก่อตั้งวัดแห่งนี้ใกล้พัทยา จึงไม่ใช่เพียงการสร้างวัดทั่วไป แต่เป็นการสร้างสถานที่แห่งการปฏิบัติธรรมชั้นสูงในสายธรรมยุต\n\nวัดตั้งอยู่บนพื้นที่ป่าขนาดใหญ่ในเขตบางละมุง ชลบุรี มีสถาปัตยกรรมที่งดงามรวมถึงสิ่งก่อสร้างจำลองพุทธคยาจากอินเดีย สะท้อนความเชื่อมโยงกับรากเหง้าของพุทธศาสนา ผู้นำปัจจุบันคือพระอาจารย์สุชาติ อภิชาโต ซึ่งเป็นที่รู้จักในฐานะครูกรรมฐานที่เน้นการปฏิบัติอย่างตรงไปตรงมา\n\nสำหรับนักปฏิบัติทั้งชาวไทยและต่างชาติที่ต้องการสัมผัสวัดป่าชั้นนำของภาคตะวันออก วัดญาณสังวรารามให้ทั้งความงามทางสถาปัตยกรรม บรรยากาศที่สงบ และการสอนธรรมที่เข้มข้น",
+    "blurbEn": "Wat Yannasangwaram Voramahavihara was founded in 1976 under the direct patronage of Somdet Phra Nyanasamvara, who would go on to become the 19th Supreme Patriarch of Thailand — one of the most important figures in twentieth-century Thai Buddhism. The Patriarch was himself a forest tradition practitioner, a prolific author on meditation and Dhamma, and a key figure in spreading Thai Buddhism internationally. The monastery near Pattaya was established as a place of serious practice in the Dhammayut order, and it carries that intention in every aspect of its design and life.\n\nThe grounds are extensive and beautifully maintained, featuring a replica of India's Mahabodhi Temple — the site of the Buddha's enlightenment — that speaks to the monastery's sense of connection to the deepest roots of the tradition. The present abbot, Phra Ajahn Suchart Abhijato, is known for teaching practical meditation with clarity and directness. Royal patronage has given the monastery both resources and a gravity that few institutions in the region can match.\n\nFor practitioners in the Bangkok–Pattaya corridor, and for those passing through the Eastern Seaboard, Wat Yannasangwaram offers a rare combination: the beauty and prestige of a royally patronised institution, and the genuine seriousness of a living forest monastery.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1562,7 +1562,7 @@
       },
       {
         "name": "ถ่ายทอดสดออนไลน์",
-        "available": false
+        "available": true
       },
       {
         "name": "บริการสังคม",
@@ -1586,11 +1586,11 @@
       "morningChant": "05:00",
       "mealCount": "1",
       "mealType": "ฉันวันละมื้อ (แบบพระป่า)",
-      "eveningChant": "19:00"
+      "eveningChant": "19:00 (ธรรมกถา เสาร์-อาทิตย์ และวันพระ)"
     },
     "contact": {
-      "website": "http://watyanasangvararam.com/",
-      "facebook": "https://www.facebook.com/watyanchonburi/",
+      "website": "https://www.phrasuchart.com",
+      "facebook": "https://www.facebook.com/AjahnSuchartAbhijato",
       "facebookEn": "",
       "line": "",
       "phone": "081-586-0188",
@@ -1599,7 +1599,7 @@
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
     "foundedBe": "2519",
     "foundedCe": "1976",
-    "lastUpdated": "2026-03-28"
+    "lastUpdated": "2026-04-02"
   },
   "TH-CNX-002": {
     "slug": "wat-pa-daraphirom",
@@ -1610,8 +1610,8 @@
     "district": "แม่ริม",
     "tradition": "ธรรมยุต สายหลวงปู่มั่น (กรรมฐาน)",
     "abbot": "พระเทพวชิราธิบดี",
-    "blurbTh": "วัดป่าดาราภิรมย์ เป็นพระอารามหลวงชั้นตรี สายธรรมยุต ตั้งอยู่ที่อำเภอแม่ริม จังหวัดเชียงใหม่ ก่อตั้งเมื่อ พ.ศ. 2481 โดยมีความเชื่อมโยงกับหลวงปู่มั่น ภูริทัตโต ผู้ก่อตั้งสายป่ากรรมฐานในประเทศไทย วัดแห่งนี้เป็นทั้งวัดป่าที่สงบงามและสถานที่ปฏิบัติธรรมสำหรับฆราวาส\n\nกิจกรรมและการปฏิบัติ:\n• นั่งสมาธิ / วิปัสสนา ตามแนวทางสายป่ากรรมฐาน\n• รับปฏิบัติธรรมแบบค้างคืน เหมาะทั้งผู้เริ่มต้นและผู้มีประสบการณ์\n• สวดมนต์ทำวัตรเย็น เป็นที่นิยมของผู้มาเยือน\n• พิธีอุปสมบทและบรรพชา\n• สวมชุดขาว (ถือศีล 8) ได้\n• วัดตั้งอยู่ในสภาพแวดล้อมธรรมชาติที่สงบสวยงาม เหมาะแก่การพักจิต\n\nระเบียบและข้อควรรู้:\n• รับทั้งผู้เริ่มต้นและผู้มีประสบการณ์\n• ฟรี รับบริจาคตามศรัทธา\n• เปิดให้เข้าชม 08:00–17:00 น.\n• ติดต่อล่วงหน้าเพื่อขอพักค้างคืน โทร 053-862678",
-    "blurbEn": "Wat Pa Daraphirom is a first-class royal forest monastery (Phra Aram Luang) of the Dhammayut order in Mae Rim District, Chiang Mai. Established in 1938, the temple is rooted in the Thai Forest Tradition of Ajahn Mun Bhuridatta. Set in serene natural surroundings, it serves as both a forest monastery and a meditation retreat centre for laypeople.\n\nActivities & Practice:\n• Sitting and walking meditation following the Forest Tradition Kammasthana lineage\n• Overnight retreat stays available — suitable for both beginners and experienced practitioners\n• Evening chanting service (popular with visitors)\n• Monk and novice ordination programs available\n• White robe (8 precepts) stays welcomed\n• Peaceful forest environment ideal for deepening practice\n\nKey Information:\n• Welcomes both beginners and experienced practitioners\n• Free of charge; donations appreciated\n• Open 8:00 AM – 5:00 PM for day visitors\n• Contact in advance for overnight retreat stays: 053-862678",
+    "blurbTh": "วัดป่าดาราภิรมย์ ในอำเภอแม่ริม จังหวัดเชียงใหม่ สร้างขึ้นในปี พ.ศ. 2481 บนพื้นที่สุสานร้างที่หลวงปู่มั่น ภูริทัตโต เคยมาปักกลดปฏิบัติธรรม ก่อนที่เจ้าหญิงลดาคำ ณ เชียงใหม่ จะทรงบริจาคที่ดินเพื่อก่อตั้งวัดอย่างถาวรในปี พ.ศ. 2484 รากเหง้าที่ผูกพันกับหลวงปู่มั่นทำให้วัดแห่งนี้มีความหมายพิเศษในประวัติศาสตร์สายป่ากรรมฐานของภาคเหนือ\n\nวัดป่าดาราภิรมย์ได้รับการยกฐานะเป็นพระอารามหลวงชั้นตรี สายธรรมยุต สะท้อนทั้งความสำคัญทางประวัติศาสตร์และบทบาทที่ยั่งยืนในการเป็นศูนย์กลางของสายป่ากรรมฐานในเชียงใหม่ วัดตั้งอยู่ใกล้เส้นทางสู่ดอยสุเทพ ในบรรยากาศของป่าสนที่เย็นสบายและงดงาม\n\nสำหรับผู้ที่เดินทางมาเชียงใหม่และต้องการสัมผัสวัดป่าสายธรรมยุตที่มีรากเหง้าลึกซึ้ง วัดป่าดาราภิรมย์เป็นพื้นที่ศักดิ์สิทธิ์ที่ทั้งงดงามและเงียบสงบ เหมาะทั้งการแสวงบุญและการนั่งสมาธิในบรรยากาศธรรมชาติที่หาได้ยาก",
+    "blurbEn": "Wat Pa Daraphirom in Mae Rim, Chiang Mai, carries a history that reaches directly back to the origins of the modern Thai Forest Tradition. Established in 1938 on ground where Ajahn Mun Bhuridatta himself once practised — meditating in an abandoned cemetery, as forest monks often sought out death-ground for its contemplative gravity — the site was formally given as a gift by Chao Ladakam Na Chiang Mai in 1941, transforming a temporary dwelling into a permanent monastery. That connection to Ajahn Mun, the founder and shaping spirit of the whole forest movement, gives Wat Pa Daraphirom a significance that extends well beyond its size.\n\nThe monastery holds the status of Phra Aram Luang, a first-class royal monastery, in the Dhammayut order — a recognition of both its historical importance and its continuing role as a centre of forest practice in the Chiang Mai region. The grounds are set in cool pine forest near the road to Doi Suthep, offering a natural environment that feels genuinely removed from the city nearby.\n\nFor travellers to Chiang Mai who wish to encounter the Thai Forest Tradition at a site with deep historical roots — not as a museum but as a living monastery — Wat Pa Daraphirom offers both the beauty of the north and the substance of a tradition that has been practised here for nearly ninety years.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -1689,5 +1689,1429 @@
     "foundedBe": "2481",
     "foundedCe": "1938",
     "lastUpdated": "2026-03-28"
+  },
+  "TH-CCO-003": {
+    "slug": "wat-suan-santidham",
+    "heroUrl": "",
+    "nameTh": "วัดสวนสันติธรรม",
+    "nameEn": "Wat Suan Santidham",
+    "province": "ชลบุรี",
+    "district": "ศรีราชา",
+    "tradition": "เถรวาท – สายหลวงปู่ดูน์ อตุโล / หลวงปู่เทสก์ (สายพระอาจารย์มั่น)",
+    "abbot": "หลวงพ่อปราโมทย์ ปาโมชฺโช",
+    "blurbTh": "วัดสวนสันติธรรม ในเขตศรีราชา จังหวัดชลบุรี เป็นที่รู้จักในวงกว้างในฐานะสถานที่ปฏิบัติธรรมและฟังคำสอนของหลวงพ่อปราโมทย์ ปาโมชฺโช — พระกรรมฐานผู้สืบทอดจากหลวงปู่ดูน์ อตุโล สานุศิษย์โดยตรงของหลวงปู่มั่น ภูริทัตโต หลวงพ่อปราโมทย์เป็นที่รู้จักจากรูปแบบการสอนที่ตรงไปตรงมา เข้าถึงง่าย และสามารถแปลงหลักธรรมลึกซึ้งให้เป็นภาษาที่ผู้ปฏิบัติธรรมยุคใหม่เข้าใจได้ โดยไม่สูญเสียความแม่นยำของหลักการ\n\nทุกวันเสาร์และอาทิตย์ ผู้คนหลายร้อยคนเดินทางมาจากกรุงเทพฯ และเมืองใกล้เคียงเพื่อฟังธรรมและนั่งสมาธิร่วมกัน ในบรรยากาศของสวนที่ร่มรื่นและเงียบสงบ งานสอนของหลวงพ่อปราโมทย์มีผู้ติดตามทั้งทางออนไลน์และสื่อต่างๆ จำนวนมาก ทำให้วัดแห่งนี้กลายเป็นศูนย์กลางการเรียนรู้ธรรมะที่มีชีวิตชีวาและต่อเนื่อง\n\nสำหรับผู้ที่สนใจปฏิบัติธรรมในสายที่ผสานระหว่างความเข้มแข็งของป่ากรรมฐานและความเข้าถึงได้ของการสอนสมัยใหม่ วัดสวนสันติธรรมและคำสอนของหลวงพ่อปราโมทย์เป็นหนึ่งในทางเลือกที่งดงามที่สุดในภาคตะวันออกของไทย",
+    "blurbEn": "Wat Suan Santidham in Si Racha, Chonburi, is the home and teaching base of Luang Por Pramote Pamojjo — one of Thailand's most widely followed contemporary meditation teachers. His lineage runs through Luangpu Dune Atulo, a direct disciple of Ajahn Mun Bhuridatta, grounding his teaching in the same rigorous forest tradition that shaped Thai Buddhism in the twentieth century. Yet what makes Luang Por Pramote distinctive is his ability to translate that depth into language and concepts that resonate naturally with modern practitioners — engineers, students, office workers — without sacrificing precision or truth.\n\nOn weekends, hundreds of practitioners make the journey from Bangkok and surrounding cities to sit together in the quiet gardens of the monastery, listen to teachings, and practise in community. The talks are filmed and broadcast widely, and Luang Por Pramote's online audience extends across Thailand and internationally, making Wat Suan Santidham a living hub of contemporary Dhamma engagement.\n\nFor those seeking a practice home that combines the authority of the Thai Forest Tradition with the accessibility of modern teaching, Wat Suan Santidham offers one of the most vivid examples in the Eastern Seaboard region.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": true,
+      "bookingChannel": "dhamma.com",
+      "capacity": "300+"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.dhamma.com",
+      "facebook": "https://www.facebook.com/watsuansantidham",
+      "facebookEn": "",
+      "line": "",
+      "phone": "+66 96 935 6359",
+      "address": "332/1 หมู่ 6 ต.หนองขาม อ.ศรีราชา จ.ชลบุรี 20230"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-NMA-005": {
+    "slug": "wat-saeng-tham-wang-khao-khiao",
+    "heroUrl": "",
+    "nameTh": "วัดแสงธรรมวังเขาเขียว",
+    "nameEn": "Wat Saeng Tham Wang Khao Khiao",
+    "province": "นครราชสีมา",
+    "district": "วังน้ำเขียว",
+    "tradition": "ธรรมยุต – สายหลวงตามหาบัว ญาณสัมปันโน",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "วัดแสงธรรมวังเขาเขียว สร้างขึ้นในปี พ.ศ. 2554 บนเนินเขาในอำเภอวังน้ำเขียว จังหวัดนครราชสีมา ท่ามกลางธรรมชาติที่บริสุทธิ์ของเขตป่าใกล้อุทยานแห่งชาติเขาใหญ่ จุดเด่นที่สุดของวัดคือพระมหาเจดีย์ศรีแสงธรรมวิสุทธิ์มงคล เจดีย์ทรงดอกบัวสามชั้นสีขาวที่ภายในบรรจุพระบรมสารีริกธาตุและอัฐิธาตุของหลวงตามหาบัว ญาณสัมปันโน — หนึ่งในปรมาจารย์กรรมฐานสายธรรมยุตที่ยิ่งใหญ่ที่สุดของไทย และลูกศิษย์โดยตรงของหลวงปู่มั่น ภูริทัตโต\n\nเจดีย์แห่งนี้ไม่ใช่เพียงสิ่งก่อสร้างทางศาสนา แต่เป็นสถานที่ที่รักษาไว้ซึ่งความทรงจำและพลังงานทางจิตวิญญาณของพระอาจารย์ผู้ยิ่งใหญ่ ชั้นล่างของเจดีย์เปิดเป็นพื้นที่ปฏิบัติธรรม ชั้นบนเป็นพิพิธภัณฑ์เก็บสิ่งของเครื่องใช้และมรดกธรรมของหลวงตามหาบัว วัดดำเนินการโดยแม่ชีและอาสาสมัคร สะอาด เงียบสงบ และเหมาะสำหรับการนั่งสมาธิและการกราบไหว้\n\nสำหรับผู้ที่เดินทางมาวังน้ำเขียวและต้องการสักการะสถานที่ที่เกี่ยวข้องกับมรดกของหลวงตามหาบัว หรือนักปฏิบัติที่แสวงหาสถานที่สงบในป่าเพื่อนั่งสมาธิและทำสมาธิ วัดแสงธรรมวังเขาเขียวคือจุดหมายที่มีความหมายลึกซึ้ง",
+    "blurbEn": "Wat Saeng Tham Wang Khao Khiao was established in 2011 on a hillside in Wang Nam Khiao district, Nakhon Ratchasima, in the forested highlands near Khao Yai National Park. Its centrepiece is the Phra Maha Chedi Sri Saeng Tham Wisutthi Mongkol — a three-tiered white lotus-shaped stupa that enshrines both the Buddha's relics and the bone relics of Ajahn Maha Boowa Nanasampanno, one of the most formidable meditation masters the Thai Forest Tradition has produced in the modern era. Ajahn Maha Boowa, a direct disciple of Ajahn Mun, spent his life teaching with uncompromising directness; this chedi was built as a site of veneration for his memory and legacy.\n\nInside the chedi, the ground floor serves as a meditation and practice space, while the upper floors house a museum preserving Ajahn Maha Boowa's personal belongings and Dhamma materials. The temple is maintained with quiet care by resident nuns and volunteers — clean, serene, and genuinely suited to contemplation rather than religious tourism. Visitors describe it as a place where the forest setting and the gravity of what is enshrined combine to produce a particular quality of stillness.\n\nFor practitioners in the Ajahn Maha Boowa–Ajahn Mun lineage, or anyone passing through the forests of Wang Nam Khiao who wishes to sit in a place charged with serious spiritual history, Wat Saeng Tham is an unhurried and meaningful stop.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "https://www.facebook.com/p/วัดแสงธรรมวังเขาเขียว",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "26 หมู่ 19 ต.เมืองใหม่ อ.วังน้ำเขียว จ.นครราชสีมา 30370"
+    },
+    "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
+    "foundedBe": "2554",
+    "foundedCe": "2011",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-SBR-001": {
+    "slug": "ho-manasikarn",
+    "heroUrl": "",
+    "nameTh": "หอมนสิการ",
+    "nameEn": "Ho Manasikarn",
+    "province": "สระบุรี",
+    "district": "แก่งคอย",
+    "tradition": "เถรวาท – สายเตโชวิปัสสนา (อาจารย์อาจารวดี วงศ์สกุล)",
+    "abbot": "อาจารย์อาจารวดี วงศ์สกุล",
+    "blurbTh": "หอมนสิการเปิดอย่างเป็นทางการในวันที่ 30 กันยายน พ.ศ. 2565 บนเนินเขาแห่งหนึ่งในอำเภอแก่งคอย จังหวัดสระบุรี ห่างจากกรุงเทพฯ เพียงชั่วโมงครึ่ง ก่อตั้งโดยอาจารย์อาจารวดี วงศ์สกุล ผู้ก่อตั้งมูลนิธิ Knowing Buddha ผู้ที่ทุ่มเทชีวิตส่วนหนึ่งเพื่อปกป้องพระพุทธรูปจากการนำไปใช้ในเชิงพาณิชย์และไม่เหมาะสม หอมนสิการจึงเป็นพื้นที่ที่เกิดขึ้นจากความรักและความศรัทธา — สถาปัตยกรรมล้านนาประยุกต์ที่งดงาม ตั้งอยู่ท่ามกลางภูเขาหินปูนและป่าไม้ที่สงบสุข\n\nชื่อ \"มนสิการ\" มาจากภาษาบาลีที่แปลว่า \"การใส่ใจ\" หรือ \"การพิจารณาธรรม\" สะท้อนถึงจุดประสงค์หลักของสถานที่แห่งนี้ — เปิดพื้นที่ให้ผู้คนหยุดพัก ตั้งสติ และสัมผัสพุทธศาสนาในรูปแบบที่สวยงามและเข้าถึงได้ นักท่องเที่ยวและนักปฏิบัติสามารถร่วมชั้นเรียนสมาธิฟรีกับครูที่มีประสบการณ์ เยี่ยมชมถ้ำและวัดใกล้เคียงที่มีอายุกว่าพันปี และซึมซับบรรยากาศของธรรมชาติและจิตวิญญาณที่ผสมผสานกันอย่างงดงาม\n\nหอมนสิการเหมาะสำหรับทุกคนที่ต้องการวันหยุดที่มีความหมาย แวะพักระหว่างการเดินทาง หรือค้นหาสถานที่ที่ความงดงามของพุทธศิลป์และความสงบของการปฏิบัติพบกัน",
+    "blurbEn": "Ho Manasikarn opened its doors on 30 September 2022 on a hillside in Kaeng Khoi, Saraburi, about ninety minutes north of Bangkok. It was founded by Acharavadee Wongsakon, a lay Buddhist teacher and founder of the Knowing Buddha Foundation — an organisation dedicated to protecting sacred Buddha images from commercial misuse and restoring dignity to Buddhist iconography. The centre reflects her vision of a place where the beauty of Lanna-inspired architecture, the serenity of a limestone mountain setting, and genuine spiritual practice come together for visitors and practitioners alike.\n\nThe name Manasikarn comes from the Pali word for attention, consideration, or mindful reflection — a name that quietly captures what the space invites. Free guided meditation sessions, led by experienced teachers in an air-conditioned hall, welcome anyone who arrives, from curious day-trippers to serious practitioners. The surrounding area includes a cave temple more than a thousand years old, and the scenery of forested karst mountains provides a natural contemplative backdrop.\n\nFor those seeking a meaningful day out from Bangkok, or a gentle introduction to Buddhist meditation in a setting of genuine beauty, Ho Manasikarn offers something rare: spiritual substance without austerity, and accessibility without superficiality.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "manasikarn.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://manasikarn.com",
+      "facebook": "https://www.facebook.com/manasikarn.saraburi",
+      "facebookEn": "",
+      "line": "",
+      "phone": "+66 95 760 0885",
+      "address": "86/3 หมู่ 10 ต.ทองหลาง อ.แก่งคอย จ.สระบุรี"
+    },
+    "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+    "foundedBe": "2565",
+    "foundedCe": "2022",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-UBN-001": {
+    "slug": "serm-rangsri",
+    "heroUrl": "",
+    "nameTh": "สถานปฏิบัติธรรมเสริมรังษี",
+    "nameEn": "Serm Rangsri Meditation Centre",
+    "province": "ไม่ระบุ",
+    "district": "ไม่ระบุ",
+    "tradition": "เถรวาท – สายหลวงพ่อชา (วัดหนองป่าพง)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "สถานปฏิบัติธรรมเสริมรังษีเป็นสาขาหนึ่งในเครือข่ายวัดหนองป่าพงที่ก่อตั้งโดยหลวงพ่อชา สุภัทโท อาจารย์กรรมฐานผู้ยิ่งใหญ่ที่สุดคนหนึ่งในประวัติศาสตร์พุทธศาสนาไทยศตวรรษที่ 20 วัดหนองป่าพงและสาขาของวัดเป็นที่รู้จักในด้านวินัยและความเรียบง่ายในวิถีชีวิตพระป่า — ตื่นก่อนรุ่งสาง เดินบิณฑบาต ฉันอาหารในบาตร ทำงานร่วมกันด้วยสติ และนั่งสมาธิในความเงียบ วินัยเหล่านี้ไม่ใช่กฎเกณฑ์แต่เป็นเครื่องมือขัดเกลาจิตใจ\n\nสถานปฏิบัติธรรมเสริมรังษีสืบทอดวิถีและคำสอนของหลวงพ่อชา เปิดรับนักปฏิบัติธรรมฆราวาสที่ต้องการสัมผัสชีวิตและการปฏิบัติในสายป่ากรรมฐาน ด้วยบรรยากาศที่เงียบสงบและจริงใจ ห่างจากความอึกทึกครึกโครม สถานที่แห่งนี้เหมาะสำหรับผู้ที่พร้อมจะวางความสะดวกสบายชั่วคราวเพื่อการฝึกฝนที่มีความหมาย\n\nข้อมูลเพิ่มเติมเกี่ยวกับที่ตั้งและโปรแกรมของสถานปฏิบัติธรรมแห่งนี้มีจำกัด ขอแนะนำให้ติดต่อโดยตรงหรือผ่านเครือข่ายวัดหนองป่าพง",
+    "blurbEn": "Serm Rangsri Meditation Centre is part of the extended network of the Ajahn Chah lineage, rooted in Wat Nong Pah Pong — the monastery in Ubon Ratchathani from which Ajahn Chah Subhaddo sent ripples of practice and teaching across Thailand and the world. The forest monasteries of this lineage are defined not by architecture or prestige but by the quality of life lived within them: waking before dawn, walking alms round, eating from the bowl, working together with awareness, sitting in the silence of the forest. These are not rules but instruments — carefully designed conditions for the arising of genuine understanding.\n\nSerm Rangsri carries that inheritance and opens its doors to lay practitioners who wish to live within those rhythms, even briefly. The setting is quiet and sincere, far from the noise of ordinary life, suited to those ready to exchange temporary comfort for something more enduring.\n\nDetailed information about the centre's exact location and current programmes is limited; prospective visitors are encouraged to make contact directly or through the Wat Nong Pah Pong network.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": false
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "ไม่ระบุ"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-UBN-002": {
+    "slug": "wat-pah-nanachat",
+    "heroUrl": "",
+    "nameTh": "วัดป่านานาชาติ",
+    "nameEn": "Wat Pah Nanachat (International Forest Monastery)",
+    "province": "อุบลราชธานี",
+    "district": "วารินชำราบ",
+    "tradition": "เถรวาท – สายหลวงพ่อชา สาขาที่ 19 วัดหนองป่าพง",
+    "abbot": "พระอาจารย์เกวลี (อดีต: พระอาจารย์สุเมโธ ผู้ก่อตั้ง)",
+    "blurbTh": "ในปี พ.ศ. 2518 หลวงพ่อชา สุภัทโท ตัดสินใจทำสิ่งที่ไม่มีใครทำมาก่อนในพุทธศาสนาไทย — ก่อตั้งวัดที่ออกแบบมาเพื่อฝึกพระภิกษุชาวตะวันตกโดยเฉพาะ และมอบหมายให้พระอาจารย์สุเมโธ ภิกษุชาวอเมริกันผู้เป็นลูกศิษย์ใกล้ชิด เป็นเจ้าอาวาสรูปแรก วัดป่านานาชาติจึงกลายเป็นด่านหน้าของการส่งธรรมะสายป่ากรรมฐานสู่โลกตะวันตก — วัดที่ภาษาหลักคือภาษาอังกฤษ แต่วิถีชีวิตคือวิถีป่าอีสานแท้ๆ\n\nตลอดห้าสิบปีที่ผ่านมา วัดป่านานาชาติได้ให้กำเนิดพระสงฆ์ที่ไปก่อตั้งวัดในยุโรป อเมริกา และออสเตรเลียนับสิบแห่ง สิ่งที่ทำให้วัดแห่งนี้มีเอกลักษณ์คือความเคร่งครัดที่ไม่ลดหย่อน — ตีสามตื่น สวดมนต์ตีสามสิบห้า ฉันอาหารมื้อเดียว และดำรงชีวิตอยู่กับธรรมชาติป่าในอุบลราชธานีอย่างที่หลวงพ่อชาสอน เจ้าอาวาสปัจจุบันพระอาจารย์เกวลี อดีตนักฟิสิกส์ชาวเยอรมัน สานต่อประเพณีนี้มาตั้งแต่ปี พ.ศ. 2550\n\nฆราวาสที่ต้องการพำนักและปฏิบัติต้องสมัครล่วงหน้าและพร้อมรับวินัยแห่งชีวิตวัดป่าเต็มรูปแบบ อยู่ขั้นต่ำหนึ่งสัปดาห์ สูงสุดสามสิบวัน ถือศีล 8 และใช้ชีวิตร่วมกับชุมชนสงฆ์นานาชาติที่หาไม่ได้ที่ไหนอีกในโลก",
+    "blurbEn": "In 1975, Ajahn Chah did something without precedent in Thai Buddhism: he established a monastery designed specifically to train Western monks, and appointed Ajahn Sumedho — an American monk who had trained under him for nearly a decade — as its first abbot. Wat Pah Nanachat, the International Forest Monastery, became the gateway through which the Thai Forest Tradition crossed into the Western world. Its language of instruction was English, but its way of life was the uncompromising forest practice of the Ubon jungle.\n\nOver fifty years, the monastery has sent its graduates to found monasteries across Europe, America, and Australia. It is the source from which much of Western Theravada Buddhism grew. The monastery's character is defined by its rigour: rising at 3 AM, chanting at 3:15, eating once a day from the bowl, and living in the silence and simplicity that Ajahn Chah identified as the essential conditions for genuine practice. The current abbot, Ajahn Kevalī — a German monk and former physicist — has maintained this tradition since 2007.\n\nLay visitors who wish to stay and practise must apply in advance, commit to a minimum of seven days, observe eight precepts, and live fully within the monastic schedule. It is not a retreat in the ordinary sense — it is an immersion in a way of life, and for those ready for it, one of the most transformative available anywhere in the world.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "7",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "อีเมลล่วงหน้า (ดู watpahnanachat.org)",
+      "capacity": "ไม่ระบุ (จำกัด)"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "สมัครล่วงหน้า; มีสุขภาพดี; มีประกันสุขภาพ; ไม่มีประวัติเจ็บป่วยทางจิต"
+    },
+    "schedule": {
+      "wake": "03:00",
+      "morningChant": "03:15",
+      "mealCount": "1",
+      "mealType": "มังสวิรัติบางส่วน / รับบิณฑบาต",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.watpahnanachat.org",
+      "facebook": "https://www.facebook.com/watpahnanachat",
+      "facebookEn": "",
+      "line": "",
+      "phone": "045-400-015",
+      "address": "บ้านบุ่งวาย ตำบลบุ่งวาย อำเภอวารินชำราบ จังหวัดอุบลราชธานี 34310"
+    },
+    "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+    "foundedBe": "2518",
+    "foundedCe": "1975",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-NMA-006": {
+    "slug": "wat-pa-ratanawan",
+    "heroUrl": "",
+    "nameTh": "วัดป่ารัตนวัน",
+    "nameEn": "Wat Pa Ratanawan",
+    "province": "นครราชสีมา",
+    "district": "วังน้ำเขียว",
+    "tradition": "เถรวาท – สายหลวงพ่อชา (Ajahn Chah Forest Tradition)",
+    "abbot": "พระอาจารย์ญาณธัมโม (อดีต: พระอาจารย์สุเมโธ)",
+    "blurbTh": "วัดป่ารัตนวันตั้งอยู่เชิงเขาใหญ่ในอำเภอวังน้ำเขียว จังหวัดนครราชสีมา — ดินแดนป่าที่กลายเป็นที่พำนักของพระป่าสายหลวงพ่อชาหลายรูปตลอดหลายทศวรรษที่ผ่านมา ความโด่งดังของวัดแห่งนี้ผูกพันกับนามของพระอาจารย์สุเมโธ (Ajahn Sumedho) ภิกษุชาวอเมริกันผู้เป็นลูกศิษย์อาวุโสที่สุดของหลวงพ่อชา และผู้ก่อตั้งวัดอมราวตีในอังกฤษ ท่านเคยพำนักที่วัดป่ารัตนวันหลายปีก่อนจะเดินทางกลับอังกฤษในปี พ.ศ. 2563 ทิ้งไว้ซึ่งบรรยากาศของวัดที่อบอวลด้วยความจริงจังในการปฏิบัติ\n\nเจ้าอาวาสปัจจุบันคือพระอาจารย์ญาณธัมโม (Ajahn Nyanadhammo) พระภิกษุชาวออสเตรเลียผู้บวชมาตั้งแต่ปี พ.ศ. 2522 ท่านเคยเป็นเจ้าอาวาสวัดป่านานาชาติก่อนจะมารับตำแหน่งที่นี่ในปี พ.ศ. 2550 ประสบการณ์กว่าสี่สิบปีในสายหลวงพ่อชา ทั้งในไทยและออสเตรเลีย ทำให้ท่านเป็นอาจารย์ที่มีความลึกและความสม่ำเสมอในการสอน\n\nวัดป่ารัตนวันเปิดรับนักปฏิบัติทั้งชาวไทยและต่างชาติ ผู้ที่สนใจพำนักปฏิบัติสามารถติดต่อล่วงหน้าทางอีเมล พระอาจารย์ญาณธัมโมรับพบผู้มาเยือนในศาลาหลังบ่ายสองโมง สำหรับผู้ที่แสวงหาการปฏิบัติสายป่ากรรมฐานในบรรยากาศที่ทั้งเงียบสงบและเต็มไปด้วยประวัติศาสตร์ วัดแห่งนี้คือสถานที่ที่ควรค่าแก่การเดินทาง",
+    "blurbEn": "Wat Pa Ratanawan sits in the forested foothills of Khao Yai in Wang Nam Khiao, Nakhon Ratchasima — a landscape that has drawn forest monks from the Ajahn Chah lineage for decades. The monastery's name became known internationally through its association with Ajahn Sumedho, Ajahn Chah's most senior Western disciple and the founder of Amaravati Buddhist Monastery in England. Ajahn Sumedho spent a number of years in residence here before returning to England in 2020, and the quality of practice and contemplative seriousness he brought with him left a lasting mark on the place.\n\nThe current abbot, Ajahn Nyanadhammo — an Australian monk who ordained under Ajahn Chah in 1979 — arrived at Wat Pa Ratanawan in 2007, having previously served as abbot of Wat Pah Nanachat. With more than four decades of practice in the Thai Forest Tradition, his teaching carries the quiet authority of genuine long-term cultivation. He receives visitors in the Sala after 2 PM and welcomes both Thai and international practitioners.\n\nFor those seeking a forest monastery near Bangkok — one that combines the depth of the Ajahn Chah lineage with the particular gravity of a place where senior Western and Thai teachers have practised for years — Wat Pa Ratanawan is an exceptional destination. Contact is made by email in advance.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "watratanawan@gmail.com",
+      "capacity": "ไม่ระบุ (จำกัด)"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดโดยตรง"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "1",
+      "mealType": "ฉันวันละมื้อ (แบบพระป่า)",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.ratanawan.org",
+      "facebook": "https://www.facebook.com/p/วัดป่ารัตนวัน-100064717264926",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "บ้านคลองพลากัง ต.วังหมี อ.วังน้ำเขียว จ.นครราชสีมา"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-NMA-007": {
+    "slug": "thai-plum-village",
+    "heroUrl": "",
+    "nameTh": "หมู่บ้านพลัม ประเทศไทย",
+    "nameEn": "Thai Plum Village International Practice Centre",
+    "province": "นครราชสีมา",
+    "district": "ปากช่อง",
+    "tradition": "เซน/มหายาน – สายท่านติช นัท ฮันห์ (Plum Village Tradition)",
+    "abbot": "ชุมชนสงฆ์นานาชาติ (150–200 รูป จาก 20+ ประเทศ)",
+    "blurbTh": "เมื่อท่านติช นัท ฮันห์ (Thich Nhat Hanh) ตัดสินใจก่อตั้งศูนย์ปฏิบัติธรรมหมู่บ้านพลัมในประเทศไทยในปี พ.ศ. 2551 ท่านเลือกผืนป่าริมขอบเขตอุทยานแห่งชาติเขาใหญ่ในอำเภอปากช่อง จังหวัดนครราชสีมา ท่านเป็นพระเซนชาวเวียดนามผู้ก่อตั้งประเพณีพุทธศาสนาแบบ \"ปฏิบัติธรรมในชีวิตประจำวัน\" (Engaged Buddhism) ที่แผ่กว้างไปทั่วโลก คำสอนของท่านเน้นการเชื่อมพุทธธรรมเข้ากับการกิน การเดิน การหายใจ และทุกความสัมพันธ์ของชีวิต ไม่ใช่เพียงการปฏิบัติในห้องสมาธิ\n\nวันนี้หมู่บ้านพลัมประเทศไทยเป็นศูนย์ปฏิบัติธรรมที่ใหญ่ที่สุดของประเพณี Plum Village ในเอเชีย มีชุมชนพระสงฆ์และแม่ชีนานาชาติ 150–200 รูปจากกว่า 20 ประเทศ โปรแกรมหลากหลายตลอดปีครอบคลุมตั้งแต่ค่ายเยาวชน ค่ายครอบครัว ค่ายสำหรับนักธุรกิจ จนถึงโปรแกรมอาศัยอยู่ระยะยาว 3 เดือน ทุกมื้ออาหารเป็นมังสวิรัติ ทุกกิจกรรมตั้งอยู่บนหลักการของสติและความเมตตา\n\nสำหรับผู้ที่ต้องการสัมผัสชุมชนปฏิบัติธรรมนานาชาติที่มีชีวิตชีวา ท่ามกลางธรรมชาติที่งดงามและคำสอนที่เข้าถึงสายใยของชีวิตสมัยใหม่ หมู่บ้านพลัมคือประตูที่เปิดกว้างและอบอุ่นที่สุดแห่งหนึ่งในประเทศไทย",
+    "blurbEn": "When Thich Nhat Hanh — the Vietnamese Zen master, peace activist, and author of dozens of widely-read books on mindfulness — chose to establish a Plum Village practice centre in Thailand in 2008, he found his home at the edge of Khao Yai National Park in Pak Chong, Nakhon Ratchasima. His teaching, known as Engaged Buddhism, was built on a deceptively simple insight: that meditation is not something you do in a special room, but a quality of awareness you bring to walking, eating, talking, and relating — to every moment of ordinary life. It spread from his original community in France to monasteries and practice centres across five continents.\n\nThai Plum Village has grown into Asia's largest Plum Village community, home to a monastic sangha of 150 to 200 monks and nuns drawn from more than twenty countries. Its retreat programmes span the full range of modern life: youth retreats, family retreats, business practitioner retreats, healthcare retreats, and a three-month residential programme for serious lay practitioners. All meals are vegetarian, all activities are rooted in mindfulness, and the tone throughout is one of warmth, inclusivity, and the conviction that joy and practice are not opposites.\n\nFor those drawn to a non-Theravada practice path, to the Zen tradition, or simply to a community where practitioners from dozens of countries gather in a beautiful forest setting, Thai Plum Village offers one of the most vibrant and accessible practice environments in Southeast Asia.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": true
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "5",
+      "cost": "ดูเว็บไซต์ (มีทั้งแบบฟรีและมีค่าใช้จ่าย)",
+      "bookingReq": true,
+      "bookingChannel": "thaiplumvillage.org / visitus@thaiplumvillage.org",
+      "capacity": "500+"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "โปรแกรม Pre-Aspirant สำหรับผู้สนใจบวชเป็นแม่ชี"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "3",
+      "mealType": "มังสวิรัติ 100%",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.thaiplumvillage.org",
+      "facebook": "https://www.facebook.com/ThaiPlumVillage",
+      "facebookEn": "",
+      "line": "",
+      "phone": "+66 96 306 6865",
+      "address": "174, 176 บ้านสระน้ำใส หมู่ 7 ต.พญาเย็น อ.ปากช่อง จ.นครราชสีมา 30130"
+    },
+    "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
+    "foundedBe": "2551",
+    "foundedCe": "2008",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-PTN-002": {
+    "slug": "wat-thapthim-daeng",
+    "heroUrl": "",
+    "nameTh": "วัดทับทิมแดง",
+    "nameEn": "Wat Thapthim Daeng (Ruby Red Temple)",
+    "province": "ปทุมธานี",
+    "district": "คลองหลวง",
+    "tradition": "เถรวาท – สายป่ากรรมฐาน (สาขาวัดแพร่ธรรมาราม จ.แพร่)",
+    "abbot": "พระอาจารย์สมัย",
+    "blurbTh": "วัดทับทิมแดงในอำเภอคลองหลวง จังหวัดปทุมธานี เป็นสาขาวัดแพร่ธรรมาราม จังหวัดแพร่ ก่อตั้งในปี พ.ศ. 2543 นำโดยพระอาจารย์สมัย — วัดป่ากรรมฐานเงียบสงบที่ตั้งอยู่ใกล้กรุงเทพฯ ในพื้นที่คลองหลวงซึ่งยังคงรักษาร่องรอยของธรรมชาติไว้ท่ามกลางความขยายตัวของชุมชนเมือง\n\nวัดแห่งนี้เป็นพื้นที่ปฏิบัติธรรมที่สงบและจริงใจ สะอาด และเหมาะสำหรับผู้ที่ต้องการปฏิบัติธรรมโดยไม่ต้องเดินทางไกล บรรยากาศของวัดป่าและความห่างไกลจากความวุ่นวายในเมืองทำให้ที่นี่เป็นสถานที่พักจิตใจที่มีคุณค่าสำหรับชาวกรุงเทพฯ และจังหวัดใกล้เคียง\n\nข้อมูลเกี่ยวกับโปรแกรมปฏิบัติธรรมและตารางกิจกรรมมีจำกัดในช่องทางออนไลน์ ขอแนะนำให้ติดต่อวัดโดยตรงสำหรับรายละเอียดการพำนักและการปฏิบัติ",
+    "blurbEn": "Wat Thapthim Daeng — the Ruby Red Temple — sits in Khlong Luang, Pathum Thani, established in the year 2000 as a branch of Wat Phrae Dhammaram in Phrae Province, under the leadership of Phra Acharya Samai. It is a quiet forest meditation temple in the Thai Forest Tradition, located close enough to Bangkok to serve practitioners from the capital who cannot easily travel to the more distant forest monasteries of the Northeast or Central Hills.\n\nThe temple's character is defined by simplicity and sincerity — a clean, unhurried space where the rhythms of forest practice can be followed within a short distance of the city. It serves both as a place of merit-making and as a genuine space for lay practitioners who seek the quality of stillness that only a forest temple can offer in the greater Bangkok area.\n\nDetailed programme information is limited online; those interested in staying or practising are encouraged to make direct contact with the temple.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวชที่วัด — ผ่านวัดแม่"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "หมู่ 6 ต.คลองสอง อ.คลองหลวง จ.ปทุมธานี 12120"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+    "foundedBe": "2543",
+    "foundedCe": "2000",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-PRE-001": {
+    "slug": "wat-phrae-dhammaram",
+    "heroUrl": "",
+    "nameTh": "วัดแพร่ธรรมาราม",
+    "nameEn": "Wat Phrae Dhammaram",
+    "province": "แพร่",
+    "district": "เด่นชัย",
+    "tradition": "ธรรมยุต – สายป่ากรรมฐาน",
+    "abbot": "พระอาจารย์เอกราช เขมานนฺโท",
+    "blurbTh": "วัดแพร่ธรรมารามในอำเภอเด่นชัย จังหวัดแพร่ เป็นวัดป่าธรรมยุตที่ก่อตั้งในปี พ.ศ. 2526 ในดินแดนภาคเหนือที่ยังคงรักษาวัฒนธรรมป่ากรรมฐานไว้อย่างต่อเนื่อง วัดแห่งนี้มีบทบาทเฉพาะตัวในฐานะวัดแม่ของเครือข่ายสาขาประมาณ 20 แห่งที่กระจายอยู่ทั่วภาคเหนือและภาคตะวันออกเฉียงเหนือ รวมถึงวัดทับทิมแดงในจังหวัดปทุมธานี ซึ่งหมายความว่าพระสงฆ์จากสาขาเหล่านั้นทุกรูปต้องเดินทางมารับการอุปสมบทที่วัดแห่งนี้\n\nที่ตั้งของวัดใกล้สถานีรถไฟเด่นชัย — จุดยุทธศาสตร์ที่เชื่อมภาคเหนือกับส่วนอื่นของประเทศ — สะท้อนถึงการเปิดรับทั้งชาวท้องถิ่นและผู้แสวงหาธรรมจากที่ไกล วัดดำเนินชีวิตตามวิถีป่ากรรมฐานธรรมยุต ด้วยจำนวนพระสงฆ์ที่เพิ่มขึ้นในช่วงเข้าพรรษาและลดลงในฤดูกาลจาริก บ่งบอกถึงวัดที่ยังคงมีชีวิตชีวาและยึดมั่นในประเพณีที่แท้จริง\n\nสำหรับผู้ที่ต้องการสัมผัสวัดป่าธรรมยุตในภาคเหนือ หรือผู้สนใจบวชเรียนในสายนี้ วัดแพร่ธรรมารามเป็นศูนย์กลางที่มีน้ำหนักและประสบการณ์ในการบ่มเพาะชีวิตสมณะมาหลายทศวรรษ",
+    "blurbEn": "Wat Phrae Dhammaram, established in 1983 in Denchai district, Phrae Province, occupies a quiet but significant position within the Thai Forest Tradition's network in northern Thailand. It serves as the parent monastery for approximately twenty branch temples spread across the North and Northeast — including Wat Thapthim Daeng in Pathum Thani — and all monks from those branches must come here to receive full ordination. This role gives the monastery a particular gravity: it is not merely a place of practice but a generative centre from which a living tradition continues to spread.\n\nThe temple's location near Denchai Railway Station places it at a crossroads accessible from across the country — a practical detail that matters for a forest monastery that trains monks who will eventually travel to teach in distant places. Life here follows the Dhammayut forest schedule: austere, regular, and rooted in the rhythms of forest monasticism. Monk numbers swell during the Rains Retreat and thin as practitioners disperse on wandering practice.\n\nFor those seeking a genuine northern forest monastery — or those considering ordination in the Dhammayut tradition — Wat Phrae Dhammaram offers both the seriousness of an established parent temple and the quiet beauty of a Phrae forest setting.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "สาขาทุกแห่งต้องบวชที่วัดแม่"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "1",
+      "mealType": "รับบิณฑบาต (แบบพระป่า)",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://seal2thai.org/etc/watphrae/",
+      "facebook": "https://www.facebook.com/p/วัดแพร่ธรรมาราม-100082720801226",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "หมู่ 5 ต.เด่นชัย อ.เด่นชัย จ.แพร่ (ใกล้สถานีรถไฟเด่นชัย)"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "2526",
+    "foundedCe": "1983",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-PRE-002": {
+    "slug": "wat-phrae-saeng-thian",
+    "heroUrl": "",
+    "nameTh": "วัดแพร่แสงเทียน",
+    "nameEn": "Wat Phrae Saeng Thian",
+    "province": "แพร่",
+    "district": "ร้องกวาง",
+    "tradition": "เถรวาท มหานิกาย – สายหลวงปู่เทียน จิตฺตสุโภ (เจริญสติแบบเคลื่อนไหว)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "วัดแพร่แสงเทียนตั้งอยู่ในป่าห่างไกลในอำเภอร้องกวาง จังหวัดแพร่ ห่างจากตัวเมืองแพร่ประมาณ 30 กิโลเมตร เป็นวัดที่ดำเนินตามแนวทางของหลวงปู่เทียน จิตฺตสุโภ — ผู้ที่นำเสนอรูปแบบการเจริญสติที่ไม่ธรรมดา เรียกว่า \"การเจริญสติแบบเคลื่อนไหว\" หรือกายาคตาสติ เป็นวิธีที่ให้ผู้ปฏิบัติเคลื่อนไหวมือและร่างกายในแบบแผน 14 ท่า ด้วยตาเปิด ฝึกให้จิตรู้เนื้อรู้ตัวในทุกการเคลื่อนไหว แทนที่จะนั่งหลับตาอย่างเดียว\n\nคำสอนของหลวงปู่เทียนมีรากฐานจากประสบการณ์ตรง ท่านค้นพบวิธีนี้จากการปฏิบัติด้วยตัวเอง ก่อนออกสอนผู้คนจนมีสาวกทั่วประเทศ วัดแพร่แสงเทียนนำคำสอนนี้สู่พื้นที่ภาคเหนือ เป็นสถานที่ที่นักปฏิบัติสาย \"เจริญสติเคลื่อนไหว\" สามารถมาฝึกฝนอย่างสม่ำเสมอในบรรยากาศที่สงบและห่างไกลจากเมือง\n\nวัดเปิดรับนักปฏิบัติประจำทุกวันที่ 1–10 ของเดือน ผู้สนใจควรติดต่อล่วงหน้า สำหรับผู้ที่สนใจแนวทางเจริญสติแบบไม่ใช่การนั่งหลับตาทั่วไป แต่เป็นการฝึกความรู้ตัวผ่านการเคลื่อนไหว วัดแพร่แสงเทียนคือสถานที่หาได้ยากในภาคเหนือ",
+    "blurbEn": "Wat Phrae Saeng Thian sits in forest about thirty kilometres from Phrae city in Rong Kwang district — a quiet, unhurried place shaped by the moving-mindfulness teachings of Luang Por Tien Cittasubho. Luang Por Tien was a monk who arrived at his distinctive method through direct personal investigation: rather than teaching stillness through closed-eye sitting, he discovered that awareness could be cultivated through deliberate, rhythmic movement of the hands and body in a sequence of fourteen patterns, with eyes open and attention fully awake in each gesture. The approach proved remarkably accessible to lay practitioners and spread widely across Thailand.\n\nWat Phrae Saeng Thian carries that teaching into the northern hills, offering a place where practitioners of the Kaya Gata Sati style — mindfulness rooted in bodily movement — can practise consistently in a natural setting far from urban noise. Retreats are typically organised around the first ten days of the month. The temple is modest and sincerely oriented toward practice, without the infrastructure of larger retreat centres, which is part of its appeal for those who know what they are looking for.\n\nFor practitioners drawn to Luang Por Tien's tradition — or those curious about a form of mindfulness cultivation that differs substantially from conventional sitting meditation — Wat Phrae Saeng Thian represents a rare and genuine option in northern Thailand.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "https://www.facebook.com/210256095768855",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "หมู่ 11 ต.แม่ยางฮ่อ อ.ร้องกวาง จ.แพร่ 54140"
+    },
+    "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-UTD-001": {
+    "slug": "wat-uttaradit-dhammaram",
+    "heroUrl": "",
+    "nameTh": "วัดอุตรดิตถ์ธรรมาราม",
+    "nameEn": "Wat Uttaradit Dhammaram",
+    "province": "อุตรดิตถ์",
+    "district": "เมืองอุตรดิตถ์",
+    "tradition": "ธรรมยุต – สายป่ากรรมฐาน (สาขาวัดแพร่ธรรมาราม)",
+    "abbot": "หลวงพ่อกานต์ วรธัมโม",
+    "blurbTh": "วัดอุตรดิตถ์ธรรมาราม ตั้งอยู่บนเชิงเขาในเขตบ้านด่านนาขาม อำเภอเมืองอุตรดิตถ์ เป็นสาขาหนึ่งของวัดแพร่ธรรมาราม ในเครือข่ายวัดป่าธรรมยุตที่แผ่กระจายจากจังหวัดแพร่ไปทั่วภาคเหนือและภาคตะวันออกเฉียงเหนือ นำโดยหลวงพ่อกานต์ วรธัมโม วัดแห่งนี้ตั้งอยู่ในพื้นที่ป่าชายเขาที่สงบและห่างไกลจากความวุ่นวาย เหมาะสำหรับผู้ที่ต้องการปฏิบัติธรรมในบรรยากาศของป่าแท้จริง\n\nสายธรรมยุตป่ากรรมฐานที่วัดแห่งนี้สืบทอดอยู่นั้น ยึดถือความเรียบง่ายและการปฏิบัติที่จริงจังเป็นหัวใจ — ชีวิตวัดป่าที่กำหนดจังหวะโดยธรรมชาติ ไม่ใช่โดยตารางกิจกรรม วัดอุตรดิตถ์ธรรมารามจึงเหมาะสำหรับผู้ที่มองหาพื้นที่วางจิตในป่าเหนือ โดยมีครูบาอาจารย์ที่สืบทอดประเพณีมาอย่างต่อเนื่อง\n\nข้อมูลออนไลน์มีจำกัด ขอแนะนำให้ติดต่อโดยตรงหรือผ่านวัดแพร่ธรรมาราม",
+    "blurbEn": "Wat Uttaradit Dhammaram occupies a quiet stretch of mountain forest in Ban Dan Na Kham, on the outskirts of Mueang Uttaradit district — a landscape of forested hills typical of the North, shaped by the terrain that the Thai Forest Tradition's wandering monks have always gravitated toward. The monastery is a branch of Wat Phrae Dhammaram and part of the Dhammayut forest network that extends outward from Phrae Province across northern and northeastern Thailand, under the guidance of Luang Pho Kan Worathammо.\n\nThe character of life here follows the forest tradition's essential pattern: austere, regular, and attentive — a way of living in which the forest itself is the teacher and simplicity is the method. It is a place suited to those who already have some experience with forest practice and who seek a space where that practice can deepen without distraction.\n\nDetailed programme information is limited online; prospective visitors are encouraged to make contact directly or through the parent monastery at Wat Phrae Dhammaram.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": false
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "บวชผ่านวัดแพร่ธรรมาราม (วัดแม่)"
+    },
+    "schedule": {
+      "wake": "ก่อนรุ่งสาง",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "1",
+      "mealType": "รับบิณฑบาต (แบบพระป่า)",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "บ้านด่านนาขาม ต.บ้านด่านนาขาม อ.เมืองอุตรดิตถ์ จ.อุตรดิตถ์ 53000 (ทางหลวงชนบทหมายเลข 7069)"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-BKK-007": {
+    "slug": "wat-dhammamongkol",
+    "heroUrl": "",
+    "nameTh": "วัดธรรมมงคลเถาบุญนนทวิหาร",
+    "nameEn": "Wat Dhammamongkol (Thao Bun Non Vihara)",
+    "province": "กรุงเทพมหานคร",
+    "district": "พระโขนง",
+    "tradition": "ธรรมยุต – อานาปานสติ (สายพระอาจารย์มั่น / หลวงพ่อวิริยังค์ สิรินฺธโร)",
+    "abbot": "หลวงพ่อวิริยังค์ สิรินฺธโร (ผู้ก่อตั้ง, มรณภาพ พ.ศ. 2563) — เจ้าอาวาสปัจจุบันยังไม่ระบุ",
+    "blurbTh": "วัดธรรมมงคลในซอยสุขุมวิท 101 ย่านพระโขนง กรุงเทพฯ เป็นอนุสรณ์ที่ยิ่งใหญ่ของพระภิกษุผู้หนึ่งที่ชีวิตของท่านเต็มไปด้วยการอัศจรรย์ใจและความทุ่มเท — หลวงพ่อวิริยังค์ สิรินฺธโร เกิดในปี พ.ศ. 2463 ป่วยด้วยอัมพาตตั้งแต่วัยเด็ก แต่ฟื้นขึ้นมาด้วยการบนว่าจะเดินตามเส้นทางของพระพุทธเจ้า หลังจากบวชและฝึกกับพระอาจารย์มั่น ภูริทัตโต ท่านก็กลายเป็นพระธรรมทูตที่เดินทางไปทั่วโลกเพื่อนำธรรมะไปสู่ผู้คนในห้าทวีป จนกระทั่งมรณภาพในปี พ.ศ. 2563 ในวัย 100 ปี\n\nวัดที่ท่านสร้างขึ้นในปี พ.ศ. 2506 บนผืนดินชื้นแฉะชานเมืองวันนั้น วันนี้กลายเป็นศูนย์กลางการปฏิบัติธรรมขนาดใหญ่บนพื้นที่กว่า 32 ไร่ มีพระมหาเจดีย์ 9 ชั้น สูงกว่า 95 เมตร เก็บสะสมพระพุทธรูปหยกสีเขียวที่ใหญ่ที่สุดในโลก และอาคารฝึกสมาธิที่รับผู้ปฏิบัติได้หลายพันคน Willpower Institute ที่ท่านก่อตั้งสอนอานาปานสติฟรีในหลายภาษาและมีสาขาในแคนาดาและสหรัฐอเมริกา\n\nวัดธรรมมงคลใกล้สถานี BTS ปุณณวิถีเพียงสองนาที เปิดให้ผู้ปฏิบัติธรรมเข้าร่วมได้ทุกวัน โดยไม่มีค่าใช้จ่าย เป็นหนึ่งในไม่กี่วัดในกรุงเทพฯ ที่มีโปรแกรมสมาธิเป็นภาษาอังกฤษและภาษาจีนอย่างเป็นระบบ",
+    "blurbEn": "Wat Dhammamongkol on Sukhumvit Soi 101 in Bangkok's Phra Khanong district was built from a conviction and a vow. Its founder, Luang Por Viriyang Sirintharo, was struck by paralysis as a boy and recovered after promising to dedicate his life to the Buddha's path. He was eventually ordained, trained under Ajahn Mun Bhuridatta — the forest master who reshaped Thai Buddhism in the twentieth century — and then spent decades travelling the world, carrying meditation instruction to practitioners across five continents. He died in December 2020 at the age of one hundred, one of the last links to the generation that sat with Ajahn Mun.\n\nThe temple he established in 1963 on a patch of swampy Bangkok outskirt has grown into a sprawling thirty-two-rai complex, anchored by a towering nine-storey pagoda rising more than ninety-five metres and housing the world's largest green jade Buddha statue. The Willpower Institute, which Luang Por Viriyang founded within the temple, offers free daily meditation instruction in Thai, English, and Chinese — one of the few genuinely multilingual practice programmes in the city — and has extended to branches in Canada and the United States.\n\nTwo minutes' walk from BTS Punnawithi station, Wat Dhammamongkol is both a landmark of Bangkok's spiritual history and a living practice centre where anyone can arrive, sit, and begin.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "1",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "dhammamongkol.com / โทร 02-332-4145",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดโดยตรง"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.dhammamongkol.com",
+      "facebook": "https://www.facebook.com/WatDhammamongkol",
+      "facebookEn": "",
+      "line": "",
+      "phone": "02-332-4145",
+      "address": "132 ซ.ปุณณวิถี 20 สุขุมวิท 101 แขวงบางจาก เขตพระโขนง กรุงเทพฯ 10260"
+    },
+    "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
+    "foundedBe": "2506",
+    "foundedCe": "1963",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-BKK-008": {
+    "slug": "baan-jit-sabai",
+    "heroUrl": "",
+    "nameTh": "บ้านจิตสบาย",
+    "nameEn": "Baan Jit Sabai (House of Peaceful Mind)",
+    "province": "กรุงเทพมหานคร",
+    "district": "ทวีวัฒนา",
+    "tradition": "เถรวาท – สายหลวงปู่เทียน จิตฺตสุโภ (เจริญสติแบบเคลื่อนไหว / มหาสติ)",
+    "abbot": "คณะกรรมการ / ครูฝึกสมาธิหมุนเวียน",
+    "blurbTh": "บ้านจิตสบายในเขตทวีวัฒนา กรุงเทพฯ ตั้งชื่อตามสิ่งที่ตั้งใจมอบให้ผู้มาเยือน — จิตใจที่สบาย ศูนย์ปฏิบัติธรรมแห่งนี้ดำเนินในแนวทางของหลวงปู่เทียน จิตฺตสุโภ ผู้บุกเบิกรูปแบบการเจริญสติที่เรียกว่า \"มหาสติ\" หรือ \"การเจริญสติแบบเคลื่อนไหว\" — วิธีที่ให้ผู้ปฏิบัติเคลื่อนไหวมือและร่างกายอย่างมีสติ ด้วยตาเปิด เพื่อฝึกให้จิตรู้เนื้อรู้ตัวอยู่ตลอดเวลา แตกต่างจากการนั่งหลับตาแบบดั้งเดิม ความแตกต่างนี้ไม่ใช่เรื่องผิวเผิน — มันสะท้อนถึงความเข้าใจว่าสติที่แท้จริงต้องฝึกในชีวิตจริง ไม่ใช่เฉพาะในห้องปิดตา\n\nสถานที่แห่งนี้เปิดเป็นห้องสมุดธรรมะและพื้นที่ปฏิบัติสมาธิที่เข้าถึงได้สำหรับคนทั่วไปในกรุงเทพฯ มีห้องนั่งสมาธิรองรับผู้ปฏิบัติ 50 คน ห้องเดินสมาธิ และห้องสมุดที่รวบรวมหนังสือธรรมะและซีดีแจกฟรี เปิดทุกวันยกเว้นวันจันทร์ ทำให้ชาวกรุงเทพฯ ที่ต้องการมาปฏิบัติเป็นประจำสามารถเดินทางมาได้โดยไม่ต้องวางแผนมาก\n\nสำหรับผู้ที่สนใจสายหลวงปู่เทียนหรือต้องการทดลองการเจริญสติในแบบที่ไม่ใช่การนั่งหลับตาทั่วไป บ้านจิตสบายเป็นพื้นที่อบอุ่นที่ต้อนรับทุกคนด้วยใจที่เปิดกว้างและไม่มีค่าใช้จ่าย",
+    "blurbEn": "Baan Jit Sabai — the House of Peaceful Mind — is a lay meditation centre in Bangkok's Thawi Watthana district, shaped by the distinctive teaching of Luang Por Tien Cittasubho. Luang Por Tien, a monk who arrived at his method through direct personal investigation, taught that genuine mindfulness does not require closed eyes or a cushion. His Mahasati practice — a sequence of deliberate, rhythmic hand and body movements performed with eyes open and full attention awake in each gesture — offers a path to awareness that is inseparable from the movements of ordinary life. The distinction is not superficial: it reflects a conviction that true mindfulness must be cultivated in the midst of living.\n\nThe centre brings this teaching into an accessible urban space. A meditation hall seating fifty practitioners, a walking meditation room, and a library of Dhamma books and freely distributed CDs provide a quiet refuge for city practitioners. Open Tuesday through Sunday, it is designed for regular practice rather than occasional retreat — a place one can return to week after week.\n\nFor those curious about Luang Por Tien's tradition, or anyone looking for an alternative to conventional seated meditation, Baan Jit Sabai offers a warm, unhurried welcome with no entrance fee and no prior experience required.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "jitsabuy.com / Line @Baanjitsabuy / 02-448-3392",
+      "capacity": "50"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://jitsabuy.com",
+      "facebook": "https://www.facebook.com/Jitsabuy",
+      "facebookEn": "",
+      "line": "@Baanjitsabuy",
+      "phone": "02-448-3392",
+      "address": "101 ถ.สุขาภิบาลบางกระมาศ แขวงศาลาธรรมสพน์ เขตทวีวัฒนา กรุงเทพฯ 10170"
+    },
+    "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-BKK-009": {
+    "slug": "phasi-charoen-dhamma-centre",
+    "heroUrl": "",
+    "nameTh": "ศูนย์ปฏิบัติธรรมภาษีเจริญ",
+    "nameEn": "Phasi Charoen Dhamma Practice Centre",
+    "province": "กรุงเทพมหานคร",
+    "district": "ภาษีเจริญ",
+    "tradition": "เถรวาท (แนวทางสายวัดปากน้ำภาษีเจริญ)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "ศูนย์ปฏิบัติธรรมภาษีเจริญตั้งอยู่ในย่านภาษีเจริญ กรุงเทพฯ ซึ่งเป็นย่านที่มีรากเหง้าทางพุทธศาสนาอันลึกซึ้ง — เป็นที่ตั้งของวัดปากน้ำภาษีเจริญ วัดเก่าแก่ที่ก่อตั้งในปี พ.ศ. 2153 และเป็นต้นกำเนิดของการปฏิบัติสมาธิแบบธรรมกาย ศูนย์ปฏิบัติธรรมแห่งนี้สืบทอดจิตวิญญาณของการปฏิบัติในย่านประวัติศาสตร์นี้ โดยเปิดเป็นพื้นที่สำหรับฆราวาสที่ต้องการนั่งสมาธิและฟังธรรมอย่างสม่ำเสมอ\n\nกิจกรรมหลักจัดขึ้นทุกวันพฤหัสบดีในรูปแบบกลุ่มปฏิบัติธรรมสำหรับคนทำงานในเขตภาษีเจริญและพื้นที่ใกล้เคียง บรรยากาศเป็นมิตรและเข้าถึงได้ เหมาะสำหรับผู้ที่เพิ่งเริ่มต้นปฏิบัติธรรมและผู้ที่ต้องการชุมชนปฏิบัติธรรมในละแวกบ้าน\n\nข้อมูลเพิ่มเติมเกี่ยวกับที่อยู่และโปรแกรมมีจำกัด แนะนำให้ติดตามทาง Facebook: Dharmachakra7072 สำหรับข้อมูลกิจกรรมล่าสุด",
+    "blurbEn": "The Phasi Charoen Dhamma Practice Centre operates in one of Bangkok's most historically Buddhist neighbourhoods — home to Wat Paknam Phasi Charoen, a temple founded in 1610 that became the birthplace of the Dhammakaya meditation method. The centre carries forward the spirit of practice in this neighbourhood, providing a space for lay practitioners seeking a regular community of fellow meditators without the formality of a full temple setting.\n\nWeekly Thursday sessions gather practitioners from Phasi Charoen and surrounding districts for group meditation and Dhamma study — a format well-suited to working people who want a consistent practice rhythm embedded in their week. The approach is welcoming and accessible, suited to beginners and experienced meditators alike.\n\nDetailed programme information is limited; prospective visitors are encouraged to follow the centre's Facebook page (Dharmachakra7072) for current schedules and activities.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "facebook.com/Dharmachakra7072",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ทุกวันพฤหัสบดี (ไม่ระบุเวลา)"
+    },
+    "contact": {
+      "website": "",
+      "facebook": "https://www.facebook.com/Dharmachakra7072",
+      "facebookEn": "",
+      "line": "",
+      "phone": "",
+      "address": "เขตภาษีเจริญ กรุงเทพฯ (ที่อยู่เต็มยังไม่ระบุ)"
+    },
+    "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-NPT-001": {
+    "slug": "wat-nyanavesakavan",
+    "heroUrl": "",
+    "nameTh": "วัดญาณเวศกวัน",
+    "nameEn": "Wat Nyanavesakavan",
+    "province": "นครปฐม",
+    "district": "สามพราน",
+    "tradition": "เถรวาท มหานิกาย – สายพระไตรปิฎก (สมเด็จพระพุทธโฆษาจารย์ ป.อ. ปยุตฺโต)",
+    "abbot": "สมเด็จพระพุทธโฆษาจารย์ (ป.อ. ปยุตฺโต / ประยุทธ์ อารยางกูร)",
+    "blurbTh": "วัดญาณเวศกวันในอำเภอสามพราน จังหวัดนครปฐม ก่อตั้งในปี พ.ศ. 2532 เป็นที่อยู่ของสมเด็จพระพุทธโฆษาจารย์ ป.อ. ปยุตฺโต — พระภิกษุชาวไทยผู้ได้รับการยอมรับอย่างกว้างขวางว่าเป็นนักวิชาการพระพุทธศาสนาเถรวาทที่ยิ่งใหญ่ที่สุดในยุคปัจจุบัน ท่านศึกษาบาลีจนได้เปรียญธรรม 9 ประโยคตั้งแต่ยังเป็นสามเณร และใช้ชีวิตทั้งชีวิตในการเจาะลึกพระไตรปิฎกและแปลองค์ความรู้นั้นให้เข้าใจได้สำหรับคนสมัยใหม่ ผลงานหลักของท่าน \"พุทธธรรม\" ได้รับรางวัลวรรณกรรมจากมูลนิธิธนาคารกรุงเทพ และรางวัลสันติภาพจาก UNESCO ในปี พ.ศ. 2537 ท่านเขียนหนังสือและบทความมากกว่า 400 เล่ม\n\nวัดแห่งนี้ไม่ใช่เพียงที่อยู่ของพระอาจารย์ผู้ยิ่งใหญ่ แต่เป็นศูนย์กลางการศึกษาพระพุทธศาสนาที่มีชีวิตชีวา มีชั้นเรียนธรรมะทุกวันเสาร์-อาทิตย์ ระบบการเรียนออนไลน์ที่รวมถึงคอร์สภาษาอังกฤษ และทรัพยากรธรรมะที่ครอบคลุมหลายภาษา สวนของวัดสวยงาม สงบ และเดินทางสะดวกจากกรุงเทพฯ\n\nสำหรับผู้ที่ต้องการเข้าใจพระพุทธศาสนาในเชิงลึกจากรากเหง้าของพระไตรปิฎก ไม่ใช่เพียงการปฏิบัติสมาธิแต่รวมถึงความเข้าใจธรรมะอย่างแท้จริง วัดญาณเวศกวันและคำสอนของ ป.อ. ปยุตฺโต คือแหล่งปัญญาที่หาได้ยากและควรค่าแก่การศึกษา",
+    "blurbEn": "Wat Nyanavesakavan in Sam Phran, Nakhon Pathom, was established in 1989 as the home monastery of Somdet Phra Buddhaghosacariya — known internationally as P.A. Payutto — the monk widely regarded as the most significant Theravada Buddhist scholar of the contemporary era. Ordained as a novice, he passed the ninth and highest level of Pali studies before finishing school; he spent the following decades penetrating the Pali Canon and translating that depth into language accessible to modern readers. His magnum opus, Buddhadhamma, won the UNESCO Prize for Peace Education in 1994. He has written more than four hundred books. No other living monk has shaped how educated Thai Buddhists understand their own tradition more profoundly.\n\nThe monastery he calls home is shaped in his image: serious, clear, and committed to understanding over performance. Weekend Dhamma study sessions led by the deputy abbot, an active online learning platform (nyanavesk.online) including English-language programmes, and a beautifully maintained garden compound make it a genuine destination for practitioners who want more than technique — who want to understand what the practice is actually for. The temple is accessible from Bangkok and welcomes visitors from 7 AM daily.\n\nFor anyone drawn to Buddhism as an intellectual and spiritual inheritance rather than a lifestyle product, Wat Nyanavesakavan — and P.A. Payutto's teaching — is one of the most important places in Thailand.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": true,
+      "bookingChannel": "watnyanaves.net / 02-482-7365 / nyanavesk.info@gmail.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดโดยตรง"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.watnyanaves.net",
+      "facebook": "https://www.facebook.com/WatNyanaves.official",
+      "facebookEn": "",
+      "line": "",
+      "phone": "02-482-7365",
+      "address": "10 หมู่ 3 ถ.พุทธมณฑลสาย 4 ต.บางกระทึก อ.สามพราน จ.นครปฐม 73210"
+    },
+    "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
+    "foundedBe": "2532",
+    "foundedCe": "1989",
+    "lastUpdated": "2026-04-02"
+  },
+  "TH-MULTI-001": {
+    "slug": "vipassana-goenka-thailand",
+    "heroUrl": "",
+    "nameTh": "ศูนย์วิปัสสนาโคเอ็นก้า (Dhamma.org) — 10 ศูนย์ทั่วไทย",
+    "nameEn": "Vipassana Meditation Thailand (S.N. Goenka / Dhamma.org) — 10 Centres Nationwide",
+    "province": "หลายจังหวัด (ดูรายละเอียดใน notes)",
+    "district": "หลายอำเภอ",
+    "tradition": "เถรวาท – สายโคเอ็นก้า (S.N. Goenka) / วิปัสสนาแบบมหาสีตีปัฏฐาน 10 วัน",
+    "abbot": "ไม่มีเจ้าอาวาส — ดำเนินการโดยอาสาสมัคร (ครูชิดแต่งตั้งโดย S.N. Goenka)",
+    "blurbTh": "วิปัสสนาสายโคเอ็นก้า (S.N. Goenka) เป็นหนึ่งในกระแสการปฏิบัติวิปัสสนาที่แพร่กระจายไปทั่วโลกอย่างกว้างขวางที่สุดในศตวรรษที่ 21 โคเอ็นก้าเป็นนักธุรกิจชาวพม่าเชื้อสายอินเดียที่ฝึกวิปัสสนากับครูพม่าและต่อมาได้รับอนุญาตให้สอน ท่านเน้นวิธีการปฏิบัติแบบสากล ไม่ยึดติดกับนิกาย — 10 วันสงบนิ่งโดยสมบูรณ์ ตื่นตีสี่ นั่งสมาธิวันละ 10 ชั่วโมง ไม่คุย ไม่อ่าน ไม่เขียน ฝึกจิตใจให้ตั้งมั่นและสังเกตความจริงในตัวเอง ปฏิบัติตามขั้นตอน อานาปาน 3 วัน และวิปัสสนา 7 วัน ทั้งหมดฟรีโดยสิ้นเชิง ค่าที่พักและอาหารไม่มีค่าใช้จ่าย เพราะดำเนินการโดยบริจาคจากผู้ที่เคยผ่านคอร์สมาก่อน\n\nในประเทศไทย มีศูนย์ที่ได้รับการรับรองอย่างเป็นทางการ 10 แห่ง กระจายอยู่ทั่วทุกภาค ศูนย์แรกคือธรรมกมลา ในจังหวัดปราจีนบุรี ก่อตั้งในปี พ.ศ. 2535 ตามด้วยธรรมกาญจนา (กาญจนบุรี), ธรรมสุวรรณ (ขอนแก่น), ธรรมอาภา (พิษณุโลก), ธรรมธานี (กรุงเทพฯ), ธรรมสิมันตา (ลำพูน), ธรรมจันทาปภา (จันทบุรี), ธรรมโปราโณ (นครศรีธรรมราช), ธรรมปถวี (เพชรบุรี) และธรรมสุธาลยา (นครสวรรค์) ทุกศูนย์ใช้หลักสูตรและวิธีการเดียวกัน ลงทะเบียนผ่านระบบออนไลน์เดียวกันที่ thai.dhamma.org\n\nสำหรับผู้ที่สนใจคอร์ส 10 วัน ควรสมัครล่วงหน้า 2–3 เดือน เพราะที่นั่งเต็มเร็ว บางศูนย์รองรับนักปฏิบัติต่างชาติที่พูดภาษาอังกฤษ บางศูนย์รับเฉพาะผู้พูดภาษาไทย ตรวจสอบรายละเอียดของแต่ละศูนย์ก่อนสมัคร",
+    "blurbEn": "Vipassana meditation in the tradition of S.N. Goenka is among the most widely practised forms of intensive meditation in the twenty-first century world. Goenka was a Burmese-born Indian businessman who trained in Vipassana under the Burmese master Sayagyi U Ba Khin and was later authorised to teach. His method is deliberately non-sectarian and systematic: ten days of complete silence, rising at 4 AM, meditating for ten hours daily, with no reading, no writing, and no communication of any kind. The first three days develop concentration through Anapana breath awareness; the final seven apply that concentration to Vipassana — the direct observation of physical sensations as they arise and pass. The entire experience, including accommodation and vegetarian meals, is offered free of charge, funded entirely by voluntary donations from those who have completed a course.\n\nThailand has ten officially registered centres spanning every region of the country. Dhamma Kamala in Prachinburi, founded in 1992, was the first. The full network now includes: Dhamma Kancana (Kanchanaburi), Dhamma Suvanna (Khon Kaen), Dhamma Abha (Phitsanulok), Dhamma Dhani (Bangkok), Dhamma Simanta (Lamphun), Dhamma Canda Pabha (Chantaburi), Dhamma Porano (Nakhon Si Thammarat), Dhamma Pathavi (Phetchaburi), and Dhamma Sudhālaya (Nakhon Sawan). All ten use the same curriculum and the same global registration system at thai.dhamma.org.\n\nApplications should be submitted two to three months in advance as courses fill quickly. Some centres accommodate English-speaking international practitioners; others are Thai-language only — check each centre's individual page before applying.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "10",
+      "cost": "ฟรี (dana — บริจาคตามศรัทธาหลังจบคอร์ส)",
+      "bookingReq": true,
+      "bookingChannel": "ลงทะเบียนออนไลน์ที่ thai.dhamma.org / dhamma.org (สมัครล่วงหน้า 2–3 เดือน)",
+      "capacity": "ขึ้นอยู่กับศูนย์ (30–122 คน)"
+    },
+    "ordinationInfo": {
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "04:30",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ (อาหารเช้าและกลางวัน; น้ำชายามเย็น)",
+      "eveningChant": "Noble silence ตลอดคอร์ส"
+    },
+    "contact": {
+      "website": "https://thai.dhamma.org",
+      "facebook": "",
+      "facebookEn": "",
+      "line": "",
+      "phone": "094-498-8995",
+      "address": "ศูนย์หลัก: ธรรมกมลา — 200 บ้านเนินผาสุก ต.ดงขีเหล็ก อ.เมือง จ.ปราจีนบุรี 25000"
+    },
+    "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+    "foundedBe": "2535",
+    "foundedCe": "1992",
+    "lastUpdated": "2026-04-02"
   }
 }
