@@ -737,11 +737,10 @@
             </a>
           </div>
         </div>
-        <div class="sidebar-body" style="padding-top:14px;" id="sidebar-contact-rows">
-          <div class="info-row" id="sidebar-row-website" style="display:none"><div class="info-label">เว็บไซต์</div><div class="info-value" id="sidebar-website">-</div></div>
-          <div class="info-row" id="sidebar-row-facebook" style="display:none"><div class="info-label">Facebook</div><div class="info-value" id="sidebar-facebook">-</div></div>
-          <div class="info-row" id="sidebar-row-line" style="display:none"><div class="info-label">LINE Official</div><div class="info-value" id="sidebar-line">-</div></div>
-          <div class="info-row" id="sidebar-row-phone" style="display:none"><div class="info-label">โทรศัพท์</div><div class="info-value" id="sidebar-phone">-</div></div>
+        <div class="sidebar-body" style="padding-top:14px;">
+          <div class="contact-list" id="sidebar-contact-list">
+            <!-- Dynamically generated -->
+          </div>
         </div>
       </div>
 
@@ -936,23 +935,45 @@ let TEMPLES_DETAIL = {};
     document.getElementById('map-address').textContent = temple.district + ', ' + temple.province;
 
     // Update sidebar contact info
+    let sidebarContactHtml = '';
     if (temple.contact.website && temple.contact.website !== 'N/A') {
-      document.getElementById('sidebar-row-website').style.display = '';
-      document.getElementById('sidebar-website').innerHTML = '<a href="' + temple.contact.website + '" target="_blank" style="color:var(--primary);text-decoration:none;word-break:break-all">' + temple.contact.website.replace('https://', '').replace('http://', '') + '</a>';
+      sidebarContactHtml += `
+        <a href="${temple.contact.website}" target="_blank" class="contact-item">
+          <div class="contact-icon web">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
+          </div>
+          <div><div style="font-weight:600">เว็บไซต์</div><div style="font-size:11px; color:var(--muted); word-break:break-all">${temple.contact.website.replace('https://', '').replace('http://', '')}</div></div>
+        </a>`;
     }
     if (temple.contact.facebook && temple.contact.facebook !== 'N/A') {
-      document.getElementById('sidebar-row-facebook').style.display = '';
-      var fbName = temple.contact.facebook.split('/').pop() || 'Facebook';
-      document.getElementById('sidebar-facebook').innerHTML = '<a href="' + temple.contact.facebook + '" target="_blank" style="color:var(--primary);text-decoration:none">' + fbName + '</a>';
+      sidebarContactHtml += `
+        <a href="${temple.contact.facebook}" target="_blank" class="contact-item">
+          <div class="contact-icon fb">
+            <svg width="16" height="16" fill="white" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+          </div>
+          <div><div style="font-weight:600">Facebook</div><div style="font-size:11px; color:var(--muted)">${temple.contact.facebook.split('/').pop()}</div></div>
+        </a>`;
     }
     if (temple.contact.line && temple.contact.line !== 'N/A') {
-      document.getElementById('sidebar-row-line').style.display = '';
-      document.getElementById('sidebar-line').textContent = temple.contact.line;
+      const sidebarLineLink = temple.contact.line.startsWith('@') ? 'https://line.me/R/ti/p/' + temple.contact.line : temple.contact.line;
+      sidebarContactHtml += `
+        <a href="${sidebarLineLink}" target="_blank" class="contact-item">
+          <div class="contact-icon line">
+            <svg width="16" height="16" fill="white" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 5.81 2 10.5c0 4.08 3.41 7.49 8 8.32V22l2.59-2.59C17.87 18.27 22 14.87 22 10.5 22 5.81 17.52 2 12 2z"/></svg>
+          </div>
+          <div><div style="font-weight:600">LINE Official</div><div style="font-size:11px; color:var(--muted)">${temple.contact.line}</div></div>
+        </a>`;
     }
     if (temple.contact.phone && temple.contact.phone !== 'N/A') {
-      document.getElementById('sidebar-row-phone').style.display = '';
-      document.getElementById('sidebar-phone').innerHTML = '<a href="tel:' + temple.contact.phone.replace(/-/g, '') + '" style="color:var(--primary);text-decoration:none">' + temple.contact.phone + '</a>';
+      sidebarContactHtml += `
+        <a href="tel:${temple.contact.phone.replace(/-/g, '')}" class="contact-item">
+          <div class="contact-icon tel">
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          </div>
+          <div><div style="font-weight:600">โทรศัพท์</div><div style="font-size:11px; color:var(--muted)">${temple.contact.phone}</div></div>
+        </a>`;
     }
+    document.getElementById('sidebar-contact-list').innerHTML = sidebarContactHtml;
     // Update contact list
     let contactHtml = '';
     if (temple.contact.website) {
