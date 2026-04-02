@@ -737,11 +737,11 @@
             </a>
           </div>
         </div>
-        <div class="sidebar-body" style="padding-top:14px;">
-          <div class="info-row"><div class="info-label">ระยะขั้นต่ำ</div><div class="info-value" id="sidebar-min-days">-</div></div>
-          <div class="info-row"><div class="info-label">จองล่วงหน้า</div><div class="info-value" id="sidebar-booking">-</div></div>
-          <div class="info-row"><div class="info-label">อาหาร</div><div class="info-value" id="sidebar-meal">-</div></div>
-          <div class="info-row"><div class="info-label">การบวช</div><div class="info-value" id="sidebar-ordination">-</div></div>
+        <div class="sidebar-body" style="padding-top:14px;" id="sidebar-contact-rows">
+          <div class="info-row" id="sidebar-row-website" style="display:none"><div class="info-label">เว็บไซต์</div><div class="info-value" id="sidebar-website">-</div></div>
+          <div class="info-row" id="sidebar-row-facebook" style="display:none"><div class="info-label">Facebook</div><div class="info-value" id="sidebar-facebook">-</div></div>
+          <div class="info-row" id="sidebar-row-line" style="display:none"><div class="info-label">LINE Official</div><div class="info-value" id="sidebar-line">-</div></div>
+          <div class="info-row" id="sidebar-row-phone" style="display:none"><div class="info-label">โทรศัพท์</div><div class="info-value" id="sidebar-phone">-</div></div>
         </div>
       </div>
 
@@ -935,11 +935,24 @@ let TEMPLES_DETAIL = {};
     document.getElementById('map-link').href = 'https://maps.google.com/?q=' + mapQuery;
     document.getElementById('map-address').textContent = temple.district + ', ' + temple.province;
 
-    // Update sidebar retreat info
-    document.getElementById('sidebar-min-days').textContent = temple.retreatInfo.minDays === 'N/A' ? 'ไม่ระบุ' : temple.retreatInfo.minDays + ' วัน';
-    document.getElementById('sidebar-booking').innerHTML = temple.retreatInfo.bookingReq ? '✅ จำเป็น' : '❌ ไม่ต้องจอง';
-    document.getElementById('sidebar-meal').textContent = temple.schedule.mealType || '-';
-    document.getElementById('sidebar-ordination').textContent = temple.ordinationInfo.minDays === 'N/A' ? 'ไม่มีโครงการ' : temple.ordinationInfo.minDays + ' วัน';
+    // Update sidebar contact info
+    if (temple.contact.website && temple.contact.website !== 'N/A') {
+      document.getElementById('sidebar-row-website').style.display = '';
+      document.getElementById('sidebar-website').innerHTML = '<a href="' + temple.contact.website + '" target="_blank" style="color:var(--primary);text-decoration:none;word-break:break-all">' + temple.contact.website.replace('https://', '').replace('http://', '') + '</a>';
+    }
+    if (temple.contact.facebook && temple.contact.facebook !== 'N/A') {
+      document.getElementById('sidebar-row-facebook').style.display = '';
+      var fbName = temple.contact.facebook.split('/').pop() || 'Facebook';
+      document.getElementById('sidebar-facebook').innerHTML = '<a href="' + temple.contact.facebook + '" target="_blank" style="color:var(--primary);text-decoration:none">' + fbName + '</a>';
+    }
+    if (temple.contact.line && temple.contact.line !== 'N/A') {
+      document.getElementById('sidebar-row-line').style.display = '';
+      document.getElementById('sidebar-line').textContent = temple.contact.line;
+    }
+    if (temple.contact.phone && temple.contact.phone !== 'N/A') {
+      document.getElementById('sidebar-row-phone').style.display = '';
+      document.getElementById('sidebar-phone').innerHTML = '<a href="tel:' + temple.contact.phone.replace(/-/g, '') + '" style="color:var(--primary);text-decoration:none">' + temple.contact.phone + '</a>';
+    }
     // Update contact list
     let contactHtml = '';
     if (temple.contact.website) {
