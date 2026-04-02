@@ -422,20 +422,6 @@
     .sidebar-label { color: var(--muted); }
     .sidebar-value { font-weight: 600; color: var(--foreground); text-align: right; max-width: 60%; }
 
-    .map-placeholder {
-      background: linear-gradient(135deg, var(--border), var(--border-light));
-      height: 160px;
-      display: flex; align-items: center; justify-content: center;
-      flex-direction: column; gap: 8px;
-      color: var(--muted); font-size: 13px;
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
-      cursor: pointer;
-      transition: all 0.2s;
-      text-decoration: none;
-    }
-    .map-placeholder:hover { background: linear-gradient(135deg, #C4B5A0, #B5A68F); }
-
     .contact-list { display: flex; flex-direction: column; gap: 10px; padding: 4px 0; }
     .contact-item {
       display: flex; align-items: center; gap: 10px;
@@ -744,23 +730,6 @@
         </div>
       </div>
 
-      <!-- MAP -->
-      <a href="#" target="_blank" class="map-placeholder" id="map-link">
-        <svg width="28" height="28" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
-        <span id="map-text">ดูแผนที่ใน Google Maps</span>
-        <span style="font-size:11px; opacity:0.7" id="map-address">ที่อยู่</span>
-      </a>
-
-      <!-- CONTACT -->
-      <div class="sidebar-card" style="margin-top:20px">
-        <div style="padding:18px 22px 6px; font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:var(--primary)">ติดต่อ</div>
-        <div class="sidebar-body" style="padding-top:8px">
-          <div class="contact-list" id="contact-list">
-            <!-- Dynamically generated -->
-          </div>
-        </div>
-      </div>
-
       <!-- NOTE -->
       <div style="padding:14px 16px; background:var(--surface-alt); border:1px solid var(--border); border-radius:var(--radius-md); font-size:12px; color:var(--muted); line-height:1.6; margin-top:4px;">
         <strong style="color:var(--foreground)">หมายเหตุ:</strong> ข้อมูลอาจเปลี่ยนแปลง กรุณาตรวจสอบรายละเอียดและตารางคอร์สล่าสุดจากช่องทางทางการก่อนเดินทาง
@@ -929,10 +898,7 @@ let TEMPLES_DETAIL = {};
     // Update transport info
     document.getElementById('detail-transport').textContent = 'โปรดตรวจสอบจากเว็บไซต์ของสถานปฏิบัติธรรม';
 
-    // Update map link
     const mapQuery = encodeURIComponent(temple.nameTh + ' ' + temple.province);
-    document.getElementById('map-link').href = 'https://maps.google.com/?q=' + mapQuery;
-    document.getElementById('map-address').textContent = temple.district + ', ' + temple.province;
 
     // Update sidebar contact info
     let sidebarContactHtml = '';
@@ -988,62 +954,6 @@ let TEMPLES_DETAIL = {};
         </a>
       </div>`;
     document.getElementById('sidebar-contact-list').innerHTML = sidebarContactHtml;
-    // Update contact list
-    let contactHtml = '';
-    if (temple.contact.website) {
-      contactHtml += `
-        <a href="${temple.contact.website}" target="_blank" class="contact-item">
-          <div class="contact-icon web">
-            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><circle cx="12" cy="12" r="10"/><path stroke-linecap="round" stroke-linejoin="round" d="M2 12h20M12 2a15.3 15.3 0 014 10 15.3 15.3 0 01-4 10 15.3 15.3 0 01-4-10 15.3 15.3 0 014-10z"/></svg>
-          </div>
-          <div>
-            <div style="font-weight:600; font-size:13px">เว็บไซต์</div>
-            <div style="font-size:11px; color:var(--muted)">${temple.contact.website.replace('https://', '').replace('http://', '')}</div>
-          </div>
-        </a>
-      `;
-    }
-    if (temple.contact.facebook) {
-      contactHtml += `
-        <a href="${temple.contact.facebook}" target="_blank" class="contact-item">
-          <div class="contact-icon fb">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </div>
-          <div>
-            <div style="font-weight:600; font-size:13px">Facebook</div>
-            <div style="font-size:11px; color:var(--muted)">${temple.contact.facebook.split('/').pop()}</div>
-          </div>
-        </a>
-      `;
-    }
-    if (temple.contact.line) {
-      const lineLink = temple.contact.line.startsWith('@') ? 'https://line.me/R/ti/p/' + temple.contact.line : temple.contact.line;
-      contactHtml += `
-        <a href="${lineLink}" target="_blank" class="contact-item">
-          <div class="contact-icon line">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="white"><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
-          </div>
-          <div>
-            <div style="font-weight:600; font-size:13px">LINE Official</div>
-            <div style="font-size:11px; color:var(--muted)">${temple.contact.line}</div>
-          </div>
-        </a>
-      `;
-    }
-    if (temple.contact.phone) {
-      contactHtml += `
-        <a href="tel:${temple.contact.phone.replace(/-/g, '')}" class="contact-item">
-          <div class="contact-icon tel">
-            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-          </div>
-          <div>
-            <div style="font-weight:600; font-size:13px">โทรศัพท์</div>
-            <div style="font-size:11px; color:var(--muted)">${temple.contact.phone}</div>
-          </div>
-        </a>
-      `;
-    }
-    document.getElementById('contact-list').innerHTML = contactHtml;
 
     // Update callout
     const calloutTexts = {
