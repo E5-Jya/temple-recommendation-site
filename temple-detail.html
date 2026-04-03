@@ -392,7 +392,7 @@
     .info-value a:hover { text-decoration: underline; }
 
     /* ── SIDEBAR ── */
-    .sidebar { position: sticky; top: 80px; align-self: flex-start; }
+    .sidebar { position: sticky; top: 80px; align-self: flex-start; max-height: calc(100vh - 100px); overflow-y: auto; }
     .sidebar-card {
       background: var(--white);
       border: 1px solid var(--border);
@@ -486,7 +486,7 @@
         padding: 24px 0 60px;
         gap: 24px;
       }
-      .sidebar { position: static; align-self: auto; }
+      .sidebar { position: static; align-self: auto; max-height: none; overflow-y: visible; }
       .container { padding: 0 20px; }
       .hero-content { padding: 28px 20px 40px; }
       .breadcrumb { padding: 16px 20px 0; }
