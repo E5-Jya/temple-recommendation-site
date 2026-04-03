@@ -110,9 +110,9 @@
     "selected_hero": "hero",
     "photos": {
       "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-dhammamongkol/thumbnail.jpg",
-      "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEF28hrB6kaopcEPTCo1NSEl36n2Fy3z0gHe9xbOLyxFnHWJ5KcbQz8E7E2u-ktlqSkyMkYSH-6qlUDvL9gM2cZnJTkqCp73DwsSizTOOweByPdG3XEIXh9SsDi7Gr-sryXlO4JAUQ0y5h71PpdpV39BUAHM4JkGZhvIc2q0idh4tZhIC-iWcySODtZckBqr55pFtPEvugcNjpwkY6W3fYcsUEkqyncUKZAA7ecElB3_lade9ptCHQ5N8wAACd5Gqj5w82WyCJLyh4zof8-FE_2z6KlvGFyQRNWo_cClSjS6pnzJ3_D9Y6uIWWniawwnzp8pWhXsYEqnAdz9cCYQ4HpXPmqljZsa1vD7Q2YCw49qJFsNL1NS_AFFZIVVDiVS-EvMlJ_e2R5XijeuLSdu7Ye_1ifAPdKlSF-7H934ejipXg&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_2": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGIgnqg29CCC-Ff2Y5VlW-oUvF4UkdKLbpcoqgsLy_SGuW8SCWKykl561abC0gQiIsLj5ZVakjQTrOU4bKpq73TysgrCthyG8bzR0RWgsnft6dJnQwoBLSpytcZBDgk2CuDNop20P0ohZUx_U2i5FQ1F0B44pcoXGNA4__2ZuRMkuHiV2M71qVjdE-634eLvK7GGmvZeCtnaPUVko71y3FiQZXnsx5dYPGLJ19b62qz4EcQnSoI_K_A02l3qQzo7VqZ7lFWHCOQO-aMxFldM29YJjmL74Wjd2-wMdeceFIIyMZHT4ElDmCEmzRNw05K15nPMZEvc1kgBPP2ZG2F_y1jkZkMM1rb6xk1Ki9cjSDiPuyS_9Bl5RiTRhr0_sJw8JtGh44Gi6q0Y7SMKg_o5_V-a-7-mYCBUFyPU7ivCQZrAg&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_3": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEEguquRlGrPt9UAQPjJLAuV6I6aUxPX0OCezT1TMSwqERpp7jqV3B5_r7hiErpsyMFCeIier6uR_fehh8mzoCtXEPto1AFJ3K6Op3IeGwaOsolpF2UZJuXOcjDWRXo7DM4NwZhi7ADqygwlspuU6erf94R-CoGJaf3i3fYfDE1qM8R7Z3kywWg3SmiLGaFHDqzjLPexN7gE1jH2aD6ip0STmwuUn3Wx5CROBdGdrLoDFCxAmFtJ-5u1G5-84IT2MaNtsx2jEzxC16vByfcUV83PaTKI_lBWL5AML_VFtiTvq-qiIPAMzYnren6GY1N4zhpfYSJyWxnPVqm1HXxt3IEEwxV8mvCoxULgoSOTQwrX9YcnJ6JEeRqv1cILnRskKZDxrGjkmc77N5yd57uWh8chrTyN87TrACJmXNrSXyZrIw&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho"
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-dhammamongkol/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-dhammamongkol/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-dhammamongkol/gallery_3.jpg"
     }
   },
   {
@@ -125,9 +125,9 @@
     "selected_hero": "hero",
     "photos": {
       "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-jit-sabai/thumbnail.jpg",
-      "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEExlHiTKvw0L3meiTY6ce3BhOUajREoZ3WHuDUZAZzllnZazSnPe5v-Mx5tK9WSqDPk1WL2Rx9i6_gEU1LC50OXl5wFcWWSkv8ERTIbOGnXL9jT-waRejrT1Ufr-YTmjg_TLk9lhry2DxRU3eou0K1T6TsU7L-C42wt6N6NfJKGqGWhQS2TpXlOhLN-HrZsm2lKYPXVxSMSRUf8EQU54sa934t3ts7B2_1j7WxJaiGcccJfQRF9ybTaGkblZFY6pGn0SXOz4d1zVTAAZx4Wvd8WFzLHruF87eqB5N8EAEcTAA&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_2": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEE3WFDg6SFHnF28MnCwf93zKKl_uqFmyB5eLQlZ86255Apff-iH42dn7CS_qs1YEJhYACh9Lo9uVrAGBovYGH78AdqzthBG8BNyzaw3BSdqZPRrfqOclbP0hw0k_XVO-MNILIzqJJUlv3bMWfOj2UuEAeM3m63Zb234YEjRWrEE7Uy06vQk50ejjOTHbCiacVt3m6cmrfppqzc7V7nNr9DYVeGeidk0LCqFu8MMsWEsY6yABP4Y6gEE4DgO0xPa8XrXiyXK8GELLpHes6d3Le2jSH2r7MBZQMnaLmCZWP2VMw&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_3": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEGFtUqT1JQif8z_OY7DJng33mWqHPr7_xBEccFmixDZZ6yxC_IjRCpj4dwPsU_C5IPdG9vy0oykXxIxNUpuJiqTVYWxpmdmcGIi50HRdpRyH7wpy4GIw_UBNN4D4yULL_wEd_cqkdGb8gmu_IRwrJoBqk8VC3ieOXd1JbOJhJsvMiQ8hJZIclnhUCpUc9inhZXrMYTc_EVM7C3j--_LtMLv1Hvrx7VnJ0AiFP9iGjo1jPJSI71TM8DvSbmqgdlx7NhvJWDKkMlVU0X6oMTdaeZgSeyl8vyPNqSq6WE3KcJ7miVacqYZm4pNeyaQUksTvWJ61rfTkiVZ60NaVf-u97c8NmWBJHJiyZTz3Ytmtw-SL4WgystsqFYM8BopCA_uum8IRbYExQZFKjYsGWx2a3-UE2LuvWtaPP-cy8lpm2Q&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho"
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-jit-sabai/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-jit-sabai/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-jit-sabai/gallery_3.jpg"
     }
   },
   {
@@ -140,9 +140,9 @@
     "selected_hero": "hero",
     "photos": {
       "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/phasi-charoen-dhamma-centre/thumbnail.jpg",
-      "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHSCHgwCQy3Fecx_ZjahaBu8AqAiCyVH0cNfT9DMYwKT9dtBfZAZ_T0sxBozob1jvbaQkTYMDdcKSC9x3FOLagJfc3NNkvQdrsv8e6Mbt24TMEJoUUEDMEgMwkRloF6BvIX_3E_LAmaFPLIWtcQwdn0AifGPlBvTE3sluBm9QNayBIk0bYisGMDRP6g_Cp14NCji6d3rHjIUKgMDuMWlmNokF7nzBEuN-2bkrG0h2JaHP8_eiEaz7n35zJP48oJvTMJzHoVFBCTrH0I2WTfyrpktCs-ZFa9NHXe-Cu0ZvzRpg&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_2": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHPpXIUL3uam1cEp66sU43z1ch8JN8jH6sdTZxjqg0m2TPWHXMjO7UAZMj4xDqhdH5QLqUU9Nf8IKmDBy7DPExL6m5b_xCsDIzg7nscsH_4rD6qD1wS10jv5orQLW3Yxqf_ZO7KJ-9VEvNYrMuczylwG8ykLwYIf9L9mOT4VPcEvIG5o7nhszxc18ijlKL84cB24niDv6F22ellY0xxTVr90mtYqfocyZnwlq7VEOLbaNrettmuB8gDNktkNa8ZLng8cnZHJKdQEbx1Smjlu1aF_JJViYpbPEhmQ4TqTYrvUA&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_3": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFX8M-7ve2piyE8X9cSpGE8wUrnNdLXg3pQ3Uz7vjFdGq2p6u7zhzEBnXCuX-zlQohupD85fACqmxNFtraso_S_UT0M73CPkLTeKWDk1t1Zzbs7PapP120VqxNMocGHpnLYNEoZcSTZuU5CUQMxTxEEVs25eOhUhYtPbultaJxCg2fqM1N0yNYpb0Bb4T8k3mK2IJqWtBF03iE-YqJ0ofmqr5hikMChgJ_jYBnxNcIfhxqeX7Ajqrl0w4fN_U-Y8zHlutubLtfZ0LoMxDNjjlYPqGWLA6gD8eqfrXCxTMWxOw&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho"
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/phasi-charoen-dhamma-centre/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/phasi-charoen-dhamma-centre/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/phasi-charoen-dhamma-centre/gallery_3.jpg"
     }
   },
   {

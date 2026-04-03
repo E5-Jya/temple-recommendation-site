@@ -60,16 +60,22 @@ def save_manifest(manifest_dict):
 
 
 def has_uploaded_photos(entry):
-    """Check if a manifest entry already has Supabase public URLs (not Google API URLs)."""
+    """Check if a manifest entry already has real uploaded photos in Supabase.
+    Returns True only if thumbnail AND hero both have Supabase URLs,
+    AND no photos still point to Google API (meaning upload actually ran)."""
     photos = entry.get("photos", {})
     if not photos:
         return False
-    # Check if at least thumbnail and hero point to Supabase storage
+    # Both thumbnail and hero must exist with Supabase URLs
     for key in ["thumbnail", "hero"]:
         url = photos.get(key, "")
-        if url and SUPABASE_PUBLIC_BASE in url:
-            return True
-    return False
+        if not url or SUPABASE_PUBLIC_BASE not in url:
+            return False
+    # None of the photos should still be Google API URLs
+    for url in photos.values():
+        if "maps.googleapis.com" in url:
+            return False
+    return True
 
 
 def ensure_bucket_exists():
