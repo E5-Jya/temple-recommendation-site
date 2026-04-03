@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Temple Photo Review</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: 'Segoe UI', sans-serif; background: #f5f5f5; padding: 24px; }
+  h1 { text-align: center; margin-bottom: 8px; color: #2d3436; }
+  .subtitle { text-align: center; color: #888; margin-bottom: 32px; font-size: 14px; }
+  .temple-card {
+    background: #fff; border-radius: 12px; padding: 24px; margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+  .temple-header {
+    display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+    border-bottom: 1px solid #eee; padding-bottom: 12px;
+  }
+  .temple-id {
+    background: #4A7C59; color: #fff; padding: 4px 10px; border-radius: 6px;
+    font-size: 12px; font-weight: 600;
+  }
+  .temple-name { font-size: 18px; font-weight: 600; color: #2d3436; }
+  .photo-grid {
+    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+  }
+  .photo-item {
+    position: relative; cursor: pointer; border-radius: 8px; overflow: hidden;
+    border: 3px solid transparent; transition: all 0.2s;
+  }
+  .photo-item:hover { border-color: #A8D5BA; transform: scale(1.02); }
+  .photo-item.selected { border-color: #4A7C59; box-shadow: 0 0 0 2px #4A7C59; }
+  .photo-item img {
+    width: 100%; height: 180px; object-fit: cover; display: block;
+  }
+  .photo-label {
+    position: absolute; bottom: 0; left: 0; right: 0;
+    background: linear-gradient(transparent, rgba(0,0,0,0.7));
+    color: #fff; padding: 8px 10px 6px; font-size: 12px; font-weight: 600;
+  }
+  .photo-item.selected .photo-label { background: linear-gradient(transparent, rgba(74,124,89,0.9)); }
+  .selected-badge {
+    position: absolute; top: 8px; right: 8px;
+    background: #4A7C59; color: #fff; border-radius: 50%;
+    width: 28px; height: 28px; display: none;
+    align-items: center; justify-content: center; font-size: 16px;
+  }
+  .photo-item.selected .selected-badge { display: flex; }
+  .export-bar {
+    position: fixed; bottom: 0; left: 0; right: 0;
+    background: #fff; border-top: 1px solid #ddd;
+    padding: 16px 24px; display: flex; align-items: center;
+    justify-content: space-between; z-index: 100;
+    box-shadow: 0 -4px 12px rgba(0,0,0,0.1);
+  }
+  .export-btn {
+    background: #4A7C59; color: #fff; border: none; padding: 12px 32px;
+    border-radius: 8px; font-size: 15px; font-weight: 600; cursor: pointer;
+  }
+  .export-btn:hover { background: #3A6C49; }
+  .export-info { color: #666; font-size: 14px; }
+  .output-box {
+    display: none; background: #1e1e1e; color: #d4d4d4; padding: 16px;
+    border-radius: 8px; margin-top: 16px; font-family: monospace; font-size: 13px;
+    white-space: pre-wrap; max-height: 400px; overflow-y: auto;
+  }
+  .output-box.visible { display: block; }
+  .copy-btn {
+    background: #D4A847; color: #fff; border: none; padding: 8px 20px;
+    border-radius: 6px; font-size: 13px; cursor: pointer; margin-left: 12px;
+  }
+  body { padding-bottom: 80px; }
+  @media (max-width: 768px) {
+    .photo-grid { grid-template-columns: repeat(2, 1fr); }
+    .photo-item img { height: 140px; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Temple Photo Review</h1>
+<p class="subtitle">Click the photo you want as the main image (hero + thumbnail) for each temple. Then click "Export Selections" at the bottom.</p>
+
+<div id="temples-container"></div>
+
+<div id="output-section" style="margin-bottom: 80px;">
+  <div id="output-box" class="output-box"></div>
+</div>
+
+<div class="export-bar">
+  <span class="export-info" id="status-text">Click a photo for each temple to select it as the main image</span>
+  <div>
+    <button class="copy-btn" id="copy-btn" style="display:none" onclick="copyOutput()">Copy to clipboard</button>
+    <button class="export-btn" onclick="exportSelections()">Export Selections</button>
+  </div>
+</div>
+
+<script>
+let MANIFEST = [];
+const BASE = "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos";
+const PHOTO_KEYS = ["hero", "gallery_2", "gallery_3"];
+const selections = {};
+
+// Load manifest from photo_manifest.json
+fetch('photo_manifest.json')
+  .then(r => r.json())
+  .then(data => {
+    MANIFEST = data;
+    MANIFEST.forEach(t => {
+      selections[t.temple_id] = t.selected_hero || "hero";
+    });
+    document.querySelector('.subtitle').textContent =
+      `${MANIFEST.length} temples loaded from photo_manifest.json. Click the photo you want as the main image for each temple.`;
+    render();
+    updateStatus();
+  })
+  .catch(err => {
+    document.getElementById('temples-container').innerHTML =
+      `<div style="text-align:center;padding:60px;color:#c00">Failed to load photo_manifest.json: ${err.message}</div>`;
+  });
+
+function buildUrl(slug, key) {
+  if (key === "hero") return `${BASE}/${slug}/hero.jpg`;
+  return `${BASE}/${slug}/${key}.jpg`;
+}
+
+function render() {
+  const container = document.getElementById('temples-container');
+  container.innerHTML = '';
+
+  MANIFEST.forEach(temple => {
+    const card = document.createElement('div');
+    card.className = 'temple-card';
+    card.innerHTML = `
+      <div class="temple-header">
+        <span class="temple-id">${temple.temple_id}</span>
+        <span class="temple-name">${temple.name_en}</span>
+      </div>
+      <div class="photo-grid" id="grid-${temple.temple_id}"></div>
+    `;
+    container.appendChild(card);
+
+    const grid = card.querySelector('.photo-grid');
+    PHOTO_KEYS.forEach((key, idx) => {
+      const url = buildUrl(temple.slug, key);
+      const label = key === "hero" ? "Photo 1 (current hero)" : `Photo ${idx + 1}`;
+      const isSelected = selections[temple.temple_id] === key;
+      const item = document.createElement('div');
+      item.className = 'photo-item' + (isSelected ? ' selected' : '');
+      item.innerHTML = `
+        <img src="${url}" alt="${label}" loading="lazy" onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22180%22><rect fill=%22%23ddd%22 width=%22300%22 height=%22180%22/><text x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 fill=%22%23999%22 font-size=%2214%22>No image</text></svg>'">
+        <div class="photo-label">${label}</div>
+        <div class="selected-badge">✓</div>
+      `;
+      item.onclick = () => {
+        selections[temple.temple_id] = key;
+        // Update visual selection
+        grid.querySelectorAll('.photo-item').forEach(el => el.classList.remove('selected'));
+        item.classList.add('selected');
+        updateStatus();
+      };
+      grid.appendChild(item);
+    });
+  });
+}
+
+function updateStatus() {
+  const changed = Object.entries(selections).filter(([id, key]) => key !== "hero").length;
+  document.getElementById('status-text').textContent =
+    changed === 0
+      ? 'All temples using Photo 1 (default). Click a different photo to change.'
+      : `${changed} temple(s) changed from default. Click "Export Selections" when done.`;
+}
+
+function exportSelections() {
+  // Build the override map — only include non-default selections
+  const overrides = {};
+  Object.entries(selections).forEach(([templeId, photoKey]) => {
+    if (photoKey !== "hero") {
+      overrides[templeId] = photoKey;
+    }
+  });
+
+  const output = {
+    instructions: "Paste this to Nattawat's Cowork or Claude Code to update photo_manifest.json",
+    default_photo: "hero (Photo 1)",
+    overrides: overrides,
+    summary: `${Object.keys(overrides).length} temple(s) changed from default`
+  };
+
+  // Also build a simple text version for pasting
+  let text = "PHOTO SELECTIONS:\n\n";
+  MANIFEST.forEach(t => {
+    const sel = selections[t.temple_id];
+    const changed = sel !== "hero" ? " ← CHANGED" : "";
+    text += `${t.temple_id} (${t.name_en}): use ${sel}${changed}\n`;
+  });
+
+  if (Object.keys(overrides).length > 0) {
+    text += "\n\nTEMPLES TO UPDATE (copy this to Claude Code / Cowork):\n";
+    text += "For these temples, swap the hero image with the selected gallery photo in Supabase Storage:\n\n";
+    Object.entries(overrides).forEach(([templeId, photoKey]) => {
+      const temple = MANIFEST.find(t => t.temple_id === templeId);
+      text += `${templeId}: replace hero.jpg with ${photoKey}.jpg (slug: ${temple.slug})\n`;
+    });
+  } else {
+    text += "\nAll temples using default Photo 1 — no changes needed.";
+  }
+
+  const box = document.getElementById('output-box');
+  box.textContent = text;
+  box.classList.add('visible');
+  document.getElementById('copy-btn').style.display = 'inline-block';
+}
+
+function copyOutput() {
+  const text = document.getElementById('output-box').textContent;
+  navigator.clipboard.writeText(text).then(() => {
+    const btn = document.getElementById('copy-btn');
+    btn.textContent = 'Copied!';
+    setTimeout(() => { btn.textContent = 'Copy to clipboard'; }, 2000);
+  });
+}
+
+</script>
+</body>
+</html>
