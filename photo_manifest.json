@@ -155,9 +155,9 @@
     "selected_hero": "hero",
     "photos": {
       "thumbnail": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pathum-wanaram/thumbnail.jpg",
-      "hero": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHibWk5u5ChrPPGZnnPYh-s4XMrQp4dxXxfuvyH7h72oF51N3Lfo5Z5tl0nXleTY8yRIzvtjzHA4GS1jmD8_PPOh6eAUkMyEuYO8a_z2JZqpnp9nyGPHZzou7uiaWzUodaxZ-H7FIvrYmFn-C56OTf21VJocBy9F3gQNW_tWrkSnDfGXV7pJ6ZAXscSXt9Ff7d_A-clCK2SzN2oNZ8IC7CMk81vgmO8cbpuRoHMLdLEbXv5v79DmBWwuy7XXIXYH9ICWRZtBFlTGhVPfPn9dFhe0T-IWQ0_-EZ43hRsAUHGcBUSolZ9JQ9rNdHrB61B66L3CTZLJsgtMGFW24zSM-F2GhsEHzq4yOhjayuPFYVTkrUoRtd3GkfM5QgTAeZmmH9MpNWMGxO9P7y6WALi_8UxyTmwUCmotZsBToRNzFPe4g&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_2": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEHPqDEhRyz9WklZqgIPT62SntjrpSR_Nxe_iu9MZnG5KRtQferGhEF-gg9Onv41lX9wYzZnw5zhZtHL7Zx3IVGsPv2VR4oe-vaWb0tuzTjUHKSxmDnKgCuzNNYShcqVTr9ib-aunJ8TajBqWinnyY-l6aHpLZi6iJmU7Ox0d9N8IzDzLVkq89AucixNJ349X-_AZfPVxJ-I3K3I1ISwvRHsMoJJn2z2EQU08CzPu-bItVZLWMb60THKs6YrSu0676yhtkd1ZidAwsyNzf5KKuejowhKiptJbhZvWdwfOrcfo3qz4ktuS5wWt4IsoyfinrkY1Tuz6BLPQVAz6vp8AfVaoyjsFHO0BE-1Ew-wF2KjOlgvillDD1k6QOLDzprGdMhtZpvXzlZgD5q0lJVcsL5e4ioro0FQUkVGt68z9Lh9Gw&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho",
-      "gallery_3": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=800&photo_reference=AU_ZVEFqhBOw76C-CHlT_bVahRFb7DNCGtPZZwxeVq7oVwDAfIXZGLMyPKeWAy747JCu0YY41TdPPyxXB4yzfDG9x5vNlSjc_bBu-kC32BpJA0SJXRPW02JhuvN-lmBI-oxDSmeXqmyIC8xQRxZF0MnT-SsginzFlBgKPgWzDH4kOCEuT0pu6PegJwetZadOKH_HBF2IPsGlnnWyombIz2B17yTGy8w30y00wtiPT_Ekity3g3Q0Yw_lk6_vMSwcULL0AgZL8hycCoDhrh92lpTQqgk1zOGaVNB6mB0muH1iex-2cAruN4Qjz8DQIahE5VOt_RdFYOjghMagLPmaT3LQtbbY9qtRCrDr4cb5nSMAw6-VWY49u-XjvX6EBOyW3plNxM_opGrQ31Lc2rY2JkCORr6p-_6PK_5Dx9YAek0SRS0&key=AIzaSyBjFQd4hGvDOUVdQCl-VQLWZ0VT45edmho"
+      "hero": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pathum-wanaram/hero.jpg",
+      "gallery_2": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pathum-wanaram/gallery_2.jpg",
+      "gallery_3": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pathum-wanaram/gallery_3.jpg"
     }
   },
   {

@@ -95,28 +95,59 @@ def get_place_details(place_id):
     return data.get("result"), "OK", ""
 
 
-def build_photo_url(photo_reference, max_width=800):
-    """Build a Google Places photo URL from a photo reference."""
-    return (
+SUPABASE_STORAGE_BASE = "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos"
+
+# Photo sizes: key -> (max_width, filename)
+PHOTO_SIZES = {
+    "thumbnail": (400, "thumbnail.jpg"),
+    "hero": (1600, "hero.jpg"),
+    "gallery": (1200, None),  # gallery_2.jpg, gallery_3.jpg etc.
+}
+
+
+def download_photo(photo_reference, max_width=800):
+    """Download a photo from Google Places API, return bytes."""
+    url = (
         f"{PLACE_PHOTO_URL}"
         f"?maxwidth={max_width}"
         f"&photo_reference={photo_reference}"
         f"&key={GOOGLE_API_KEY}"
     )
+    resp = requests.get(url, timeout=30)
+    resp.raise_for_status()
+    if resp.headers.get("content-type", "").startswith("image"):
+        return resp.content
+    return None
 
 
-def upload_to_supabase(temple_id, photo_data):
-    """Update temple photo data in Supabase."""
+def upload_to_supabase_storage(slug, filename, image_bytes):
+    """Upload image bytes to Supabase Storage bucket 'temple-photos'.
+    Returns the public URL on success, None on failure."""
+    storage_path = f"{slug}/{filename}"
+    upload_url = f"{SUPABASE_URL}/storage/v1/object/temple-photos/{storage_path}"
     headers = {
         "apikey": SUPABASE_SERVICE_KEY,
         "Authorization": f"Bearer {SUPABASE_SERVICE_KEY}",
-        "Content-Type": "application/json",
-        "Prefer": "return=minimal",
+        "Content-Type": "image/jpeg",
+        "x-upsert": "true",  # overwrite if exists
     }
-    url = f"{SUPABASE_URL}/rest/v1/temples?temple_id=eq.{temple_id}"
-    payload = {"photo_urls": json.dumps(photo_data)}
-    resp = requests.patch(url, headers=headers, json=payload, timeout=15)
-    return resp.status_code in (200, 204)
+    resp = requests.post(upload_url, headers=headers, data=image_bytes, timeout=30)
+    if resp.status_code in (200, 201):
+        return f"{SUPABASE_STORAGE_BASE}/{storage_path}"
+    else:
+        print(f"    ! Upload failed for {storage_path}: {resp.status_code} {resp.text[:200]}")
+        return None
+
+
+def validate_manifest_urls(entry):
+    """Safety check: ensure no Google API URLs (with exposed keys) in manifest.
+    Returns True if all URLs are clean Supabase URLs."""
+    photos = entry.get("photos", {})
+    for key, url in photos.items():
+        if "googleapis.com" in url or "key=" in url:
+            print(f"  WARNING: {key} still has a Google API URL — skipping manifest save for this temple")
+            return False
+    return True
 
 
 def main():
@@ -241,27 +272,53 @@ def main():
             not_found_count += 1
             continue
 
-        photo_count = min(len(photos), args.max_photos)
-        photo_data = []
-        for j, photo in enumerate(photos[:photo_count]):
-            ref = photo.get("photo_reference")
-            width = photo.get("width", 0)
-            height = photo.get("height", 0)
-            attribs = photo.get("html_attributions", [])
-            photo_url = build_photo_url(ref)
-            photo_data.append({
-                "photo_reference": ref,
-                "width": width,
-                "height": height,
-                "url": photo_url,
-                "attributions": attribs,
-            })
+        print(f"  Rating: {rating} ({total_ratings} reviews), {len(photos)} photos available")
 
-        print(f"  OK {photo_count} photo(s) found (of {len(photos)} total) | rating: {rating} ({total_ratings} reviews)")
-        for j, p in enumerate(photo_data):
-            print(f"    Photo {j+1}: {p['width']}x{p['height']}")
+        # Take up to max_photos photo references
+        selected_refs = [p["photo_reference"] for p in photos[:args.max_photos]]
 
-        found += 1
+        # Download and upload each photo
+        photo_urls = {}
+        all_uploaded = True
+
+        for idx, ref in enumerate(selected_refs):
+            if idx == 0:
+                # First photo -> thumbnail + hero
+                for size_key, max_w in [("thumbnail", 400), ("hero", 1600)]:
+                    print(f"  Downloading {size_key} ({max_w}px)...")
+                    img_bytes = download_photo(ref, max_width=max_w)
+                    if not img_bytes:
+                        print(f"    ! Failed to download {size_key}")
+                        all_uploaded = False
+                        continue
+                    supabase_url = upload_to_supabase_storage(slug, f"{size_key}.jpg", img_bytes)
+                    if supabase_url:
+                        photo_urls[size_key] = supabase_url
+                        print(f"    Uploaded {size_key}")
+                    else:
+                        all_uploaded = False
+            else:
+                # Additional photos -> gallery_2, gallery_3, etc.
+                gallery_key = f"gallery_{idx + 1}"
+                print(f"  Downloading {gallery_key} (1200px)...")
+                img_bytes = download_photo(ref, max_width=1200)
+                if not img_bytes:
+                    print(f"    ! Failed to download {gallery_key}")
+                    all_uploaded = False
+                    continue
+                supabase_url = upload_to_supabase_storage(slug, f"{gallery_key}.jpg", img_bytes)
+                if supabase_url:
+                    photo_urls[gallery_key] = supabase_url
+                    print(f"    Uploaded {gallery_key}")
+                else:
+                    all_uploaded = False
+
+            time.sleep(0.3)  # rate limit
+
+        if not photo_urls:
+            print("  ! No photos could be uploaded")
+            errors += 1
+            continue
 
         # Build manifest entry
         entry = {
@@ -271,52 +328,32 @@ def main():
             "place_id": place_id,
             "rating": rating,
             "total_ratings": total_ratings,
-            "selected_hero": "hero",
-            "photos": {
-                "thumbnail": f"https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/{slug}/thumbnail.jpg",
-                "hero": f"https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/{slug}/hero.jpg",
-            },
+            "photos": photo_urls,
         }
-        # Add gallery photos
-        for j, p in enumerate(photo_data):
-            key = "hero" if j == 0 else f"gallery_{j+1}"
-            entry["photos"][key] = p["url"]
 
-        # Preserve selected_hero if re-processing an existing temple
+        # Preserve existing selected_hero if re-processing
         if temple_id in manifest and "selected_hero" in manifest[temple_id]:
             entry["selected_hero"] = manifest[temple_id]["selected_hero"]
 
+        # SAFETY: never save Google API URLs to manifest
+        if not validate_manifest_urls(entry):
+            print(f"  BLOCKED: refusing to save Google API URLs for {temple_id}")
+            errors += 1
+            continue
+
         manifest[temple_id] = entry
+        found += 1
 
-        if args.upload:
-            ok = upload_to_supabase(temple_id, photo_data)
-            print(f"    Upload: {'OK success' if ok else 'X failed'}")
+        # Save manifest after each successful temple (in case of crash)
+        save_manifest(manifest)
 
-        # Respect API rate limits
-        time.sleep(0.2)
+        if not all_uploaded:
+            print(f"  Partial upload for {temple_id} — some photos may be missing")
 
-    # Summary
+    # Final summary
     print("\n" + "=" * 70)
-    print("SUMMARY")
-    print(f"  Temples processed: {len(temples)}")
-    print(f"  With photos:       {found}")
-    print(f"  No photos:         {not_found_count}")
-    print(f"  No place ID:       {no_place_id}")
-    print(f"  Errors:            {errors}")
-    print(f"  Total in manifest: {len(manifest)}")
-    print("=" * 70)
-
-    # Save updated manifest
-    save_manifest(manifest)
-
-    # Also save raw lookup results for backwards compatibility
-    output_file = os.path.join(SCRIPT_DIR, "temple_photos_lookup.json")
-    lookup_results = []
-    for entry in manifest.values():
-        lookup_results.append(entry)
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(lookup_results, f, ensure_ascii=False, indent=2)
-    print(f"Lookup results also saved to {output_file}")
+    print(f"DONE: {found} temples processed, {not_found_count} not found, {errors} errors")
+    print(f"Manifest: {MANIFEST_PATH} ({len(manifest)} total temples)")
 
 
 if __name__ == "__main__":
