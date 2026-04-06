@@ -3,7 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title id="page-title">สถานปฏิบัติธรรม — ฐานข้อมูลสถานปฏิบัติธรรมไทย</title>
+  <title id="page-title">สถานปฏิบัติธรรม — รายละเอียด | พักใจ</title>
+  <meta name="description" content="ดูรายละเอียดสถานปฏิบัติธรรม กิจกรรม ตารางประจำวัน ข้อมูลการเดินทาง และวิธีสมัคร" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="th_TH" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "พักใจ",
+    "alternateName": ["Phak Jai", "สืบธรรม"],
+    "url": "https://gorgeous-axolotl-2a03fd.netlify.app",
+    "description": "ฐานข้อมูลสถานปฏิบัติธรรมไทย เชื่อมคนรุ่นใหม่กับการปฏิบัติธรรม Non-Profit",
+    "foundingDate": "2025",
+    "areaServed": "TH",
+    "nonprofitStatus": "Nonprofit"
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
   <style>
@@ -780,7 +796,8 @@ let TEMPLES_DETAIL = {};
     }
 
     // Update hero section
-    document.getElementById('page-title').textContent = temple.nameTh + ' — ฐานข้อมูลสถานปฏิบัติธรรมไทย';
+    document.title = temple.nameTh + ' — สถานปฏิบัติธรรม ' + temple.province + ' | พักใจ';
+    document.querySelector('meta[name="description"]').setAttribute('content', temple.nameTh + ' สถานปฏิบัติธรรม ใน' + temple.province + ' ดูรายละเอียด กิจกรรม ตารางประจำวัน ข้อมูลติดต่อ');
     document.getElementById('hero-id').textContent = templeId;
     document.getElementById('hero-name-th').textContent = temple.nameTh;
     document.getElementById('hero-name-en').textContent = temple.nameEn;
