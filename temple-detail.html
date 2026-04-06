@@ -983,6 +983,41 @@ let TEMPLES_DETAIL = {};
       document.getElementById('btn-facebook').href = temple.contact.facebook;
       document.getElementById('btn-facebook').style.display = 'inline-flex';
     }
+
+    // Add Place schema
+    const placeSchema = {
+      "@context": "https://schema.org",
+      "@type": "Place",
+      "name": temple.nameTh,
+      "description": temple.blurbTh ? temple.blurbTh.substring(0, 200) : '',
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": temple.district || '',
+        "addressRegion": temple.province || '',
+        "addressCountry": "TH"
+      },
+      "isAccessibleForFree": true,
+      "additionalType": "MeditationCenter"
+    };
+    const schemaScript = document.createElement('script');
+    schemaScript.type = 'application/ld+json';
+    schemaScript.textContent = JSON.stringify(placeSchema);
+    document.head.appendChild(schemaScript);
+
+    // Add BreadcrumbList schema
+    const breadcrumbSchema = {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://gorgeous-axolotl-2a03fd.netlify.app" },
+        { "@type": "ListItem", "position": 2, "name": "ค้นหาสถานที่", "item": "https://gorgeous-axolotl-2a03fd.netlify.app/temple-directory.html" },
+        { "@type": "ListItem", "position": 3, "name": temple.nameTh, "item": window.location.href }
+      ]
+    };
+    const breadcrumbScript = document.createElement('script');
+    breadcrumbScript.type = 'application/ld+json';
+    breadcrumbScript.textContent = JSON.stringify(breadcrumbSchema);
+    document.head.appendChild(breadcrumbScript);
   }
 
   // Active nav tab on scroll
