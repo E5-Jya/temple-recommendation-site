@@ -1,0 +1,4 @@
+/temple-directory.html              /                          301
+/temple-recommendation.html         /recommendation.html       301
+/temple-detail.html                 /detail.html               301
+/temple-detail.html?id=:id          /detail.html?id=:id        301

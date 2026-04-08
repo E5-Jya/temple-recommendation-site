@@ -2,10 +2,11 @@
 
 ## Overview
 A Thai temple/meditation center recommendation website with 3 main pages:
-- **temple-directory.html** — Browse & search all temples (landing page)
-- **temple-recommendation.html** — Quiz-based recommendation engine
-- **temple-detail.html** — Dynamic detail page (reads `?id=TH-XXX-001` from URL)
-- **index.html** — Redirects to temple-directory.html
+- **index.html** — Browse & search all temples (homepage / directory)
+- **recommendation.html** — Quiz-based recommendation engine
+- **detail.html** — Dynamic detail page (reads `?id=TH-XXX-001` from URL)
+- **_redirects** — Netlify 301s from old `temple-*.html` URLs to new paths
+- **index-old.html** — Backup of pre-restructure index stub
 - **supabase-config.js** — Shared auth, database, and UI helpers
 
 ## Tech Stack

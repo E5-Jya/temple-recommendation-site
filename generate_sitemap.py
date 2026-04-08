@@ -5,13 +5,12 @@ import json
 from datetime import date
 from pathlib import Path
 
-BASE_URL = "https://gorgeous-axolotl-2a03fd.netlify.app"
+BASE_URL = "https://pakjai.co"
 TODAY = date.today().isoformat()
 
 STATIC_PAGES = [
     ("", "weekly", "1.0"),
-    ("temple-directory.html", "weekly", "0.9"),
-    ("temple-recommendation.html", "monthly", "0.8"),
+    ("recommendation.html", "monthly", "0.8"),
 ]
 
 def main():
@@ -36,7 +35,7 @@ def main():
     for temple in temples:
         temple_id = temple["id"]
         lines.append(f"  <url>")
-        lines.append(f"    <loc>{BASE_URL}/temple-detail.html?id={temple_id}</loc>")
+        lines.append(f"    <loc>{BASE_URL}/detail.html?id={temple_id}</loc>")
         lines.append(f"    <lastmod>{TODAY}</lastmod>")
         lines.append(f"    <changefreq>monthly</changefreq>")
         lines.append(f"    <priority>0.7</priority>")
@@ -47,7 +46,7 @@ def main():
 
     sitemap_path = script_dir / "sitemap.xml"
     sitemap_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Generated {sitemap_path} with {3 + len(temples)} URLs")
+    print(f"Generated {sitemap_path} with {2 + len(temples)} URLs")
 
 if __name__ == "__main__":
     main()

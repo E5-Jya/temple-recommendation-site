@@ -156,10 +156,11 @@ Dashboard → Settings → Database → Backups (Supabase auto-backs up daily on
 
 ```
 Netlify/
-├── index.html                  ← Redirects to directory
-├── temple-directory.html       ← Browse all temples (landing page)
-├── temple-recommendation.html  ← Quiz engine
-├── temple-detail.html          ← Dynamic detail (reads ?id= param)
+├── index.html                  ← Browse all temples (homepage / directory)
+├── recommendation.html         ← Quiz engine
+├── detail.html                 ← Dynamic detail (reads ?id= param)
+├── _redirects                  ← Netlify 301s from old URLs
+├── index-old.html              ← Backup of pre-restructure index stub
 ├── supabase-config.js          ← Auth + DB helpers (shared)
 ├── .claude/
 │   └── project-instructions.md ← Claude Code reads this automatically

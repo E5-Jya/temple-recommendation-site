@@ -28,7 +28,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://gorgeous-axolotl-2a03fd.netlify.app" },
-      { "@type": "ListItem", "position": 2, "name": "แนะนำสำหรับคุณ", "item": "https://gorgeous-axolotl-2a03fd.netlify.app/temple-recommendation.html" }
+      { "@type": "ListItem", "position": 2, "name": "แนะนำสำหรับคุณ", "item": "https://gorgeous-axolotl-2a03fd.netlify.app/recommendation.html" }
     ]
   }
   </script>
@@ -376,8 +376,8 @@
       <span class="nav-logo-text">พักใจ</span>
     </a>
     <div class="nav-links">
-      <a class="nav-link" href="temple-directory.html">ค้นหาสถานที่</a>
-      <a class="nav-link" href="temple-recommendation.html">แนะนำสำหรับคุณ</a>
+      <a class="nav-link" href="/">ค้นหาสถานที่</a>
+      <a class="nav-link active" href="recommendation.html">แนะนำสำหรับคุณ</a>
       <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ</button>
     </div>
   </div>
@@ -424,7 +424,7 @@
 </div>
 
 <footer class="page-footer">
-  <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · <a href="temple-directory.html">ดูทั้งหมด →</a></p>
+  <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · <a href="/">ดูทั้งหมด →</a></p>
 </footer>
 
 <script src="temple-data.js"></script>
@@ -684,7 +684,7 @@ function showResults() {
 
     <div class="restart-wrap">
       <p style="font-size:13px; color:var(--muted); margin-bottom:12px">ต้องการดูสถานที่ทั้งหมดหรือค้นหาเพิ่มเติม?</p>
-      <a href="temple-directory.html" style="display:inline-block; margin-right:12px; padding:10px 24px; border-radius:var(--radius-sm); background:var(--primary); color:white; text-decoration:none; font-size:13px; font-weight:600;">ดูทุกสถานที่</a>
+      <a href="/" style="display:inline-block; margin-right:12px; padding:10px 24px; border-radius:var(--radius-sm); background:var(--primary); color:white; text-decoration:none; font-size:13px; font-weight:600;">ดูทุกสถานที่</a>
       <button class="btn-restart" onclick="restartQuiz()">ทำแบบทดสอบใหม่</button>
     </div>
 

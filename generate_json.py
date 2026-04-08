@@ -266,7 +266,7 @@ def main():
             "costClass": "chip-cost" if is_free else "chip-cost-paid",
             "chips": build_chips(row),
             "gradient": get_gradient(tid),
-            "link": "temple-detail.html?id=%s" % tid,
+            "link": "detail.html?id=%s" % tid,
         })
 
         # ── RECOMMENDATION ──
@@ -278,7 +278,7 @@ def main():
             "district": safe(row.get("district_th", "")),
             "scores": build_scores(row),
             "whys": build_whys(row),
-            "link": "temple-detail.html?id=%s" % tid,
+            "link": "detail.html?id=%s" % tid,
         })
 
         # ── DETAIL ──

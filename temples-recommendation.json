@@ -26,7 +26,7 @@
       "รับบวชพระ/สามเณร",
       "ถ่ายทอดสดออนไลน์"
     ],
-    "link": "temple-detail.html?id=TH-NMA-001"
+    "link": "detail.html?id=TH-NMA-001"
   },
   {
     "id": "TH-BKK-001",
@@ -53,7 +53,7 @@
       "ถ่ายทอดสดออนไลน์",
       "เดินทางสะดวก ในกรุงเทพฯ"
     ],
-    "link": "temple-detail.html?id=TH-BKK-001"
+    "link": "detail.html?id=TH-BKK-001"
   },
   {
     "id": "TH-BKK-002",
@@ -78,7 +78,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 0.5 วัน",
       "เดินทางสะดวก ในกรุงเทพฯ"
     ],
-    "link": "temple-detail.html?id=TH-BKK-002"
+    "link": "detail.html?id=TH-BKK-002"
   },
   {
     "id": "TH-BKK-003",
@@ -106,7 +106,7 @@
       "เดินทางสะดวก ในกรุงเทพฯ",
       "เปิดรับสตรี/แม่ชี"
     ],
-    "link": "temple-detail.html?id=TH-BKK-003"
+    "link": "detail.html?id=TH-BKK-003"
   },
   {
     "id": "TH-BKK-004",
@@ -134,7 +134,7 @@
       "ถ่ายทอดสดออนไลน์",
       "เดินทางสะดวก ในกรุงเทพฯ"
     ],
-    "link": "temple-detail.html?id=TH-BKK-004"
+    "link": "detail.html?id=TH-BKK-004"
   },
   {
     "id": "TH-BKK-005",
@@ -161,7 +161,7 @@
       "เดินทางสะดวก ในกรุงเทพฯ",
       "เปิดรับสตรี/แม่ชี"
     ],
-    "link": "temple-detail.html?id=TH-BKK-005"
+    "link": "detail.html?id=TH-BKK-005"
   },
   {
     "id": "TH-BKK-006",
@@ -188,7 +188,7 @@
       "เดินทางสะดวก ในกรุงเทพฯ",
       "เปิดรับสตรี/แม่ชี"
     ],
-    "link": "temple-detail.html?id=TH-BKK-006"
+    "link": "detail.html?id=TH-BKK-006"
   },
   {
     "id": "TH-NMA-002",
@@ -215,7 +215,7 @@
       "ถ่ายทอดสดออนไลน์",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-NMA-002"
+    "link": "detail.html?id=TH-NMA-002"
   },
   {
     "id": "TH-CNX-001",
@@ -244,7 +244,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-CNX-001"
+    "link": "detail.html?id=TH-CNX-001"
   },
   {
     "id": "TH-NMA-003",
@@ -270,7 +270,7 @@
       "ถ่ายทอดสดออนไลน์",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-NMA-003"
+    "link": "detail.html?id=TH-NMA-003"
   },
   {
     "id": "TH-AYT-001",
@@ -299,7 +299,7 @@
       "ถ่ายทอดสดออนไลน์",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-AYT-001"
+    "link": "detail.html?id=TH-AYT-001"
   },
   {
     "id": "TH-CCO-001",
@@ -327,7 +327,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-CCO-001"
+    "link": "detail.html?id=TH-CCO-001"
   },
   {
     "id": "TH-RYG-001",
@@ -355,7 +355,7 @@
       "รับบวชพระ/สามเณร",
       "ถ่ายทอดสดออนไลน์"
     ],
-    "link": "temple-detail.html?id=TH-RYG-001"
+    "link": "detail.html?id=TH-RYG-001"
   },
   {
     "id": "TH-PTN-001",
@@ -383,7 +383,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-PTN-001"
+    "link": "detail.html?id=TH-PTN-001"
   },
   {
     "id": "TH-CYP-001",
@@ -411,7 +411,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-CYP-001"
+    "link": "detail.html?id=TH-CYP-001"
   },
   {
     "id": "TH-NMA-004",
@@ -438,7 +438,7 @@
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
       "เปิดรับสตรี/แม่ชี"
     ],
-    "link": "temple-detail.html?id=TH-NMA-004"
+    "link": "detail.html?id=TH-NMA-004"
   },
   {
     "id": "TH-UDN-001",
@@ -465,7 +465,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-UDN-001"
+    "link": "detail.html?id=TH-UDN-001"
   },
   {
     "id": "TH-CCO-002",
@@ -494,7 +494,7 @@
       "ถ่ายทอดสดออนไลน์",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-CCO-002"
+    "link": "detail.html?id=TH-CCO-002"
   },
   {
     "id": "TH-CNX-002",
@@ -523,7 +523,7 @@
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
       "เปิดรับสตรี/แม่ชี"
     ],
-    "link": "temple-detail.html?id=TH-CNX-002"
+    "link": "detail.html?id=TH-CNX-002"
   },
   {
     "id": "TH-CCO-003",
@@ -550,7 +550,7 @@
       "ถ่ายทอดสดออนไลน์",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-CCO-003"
+    "link": "detail.html?id=TH-CCO-003"
   },
   {
     "id": "TH-NMA-005",
@@ -576,7 +576,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-NMA-005"
+    "link": "detail.html?id=TH-NMA-005"
   },
   {
     "id": "TH-SBR-001",
@@ -602,7 +602,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-SBR-001"
+    "link": "detail.html?id=TH-SBR-001"
   },
   {
     "id": "TH-UBN-001",
@@ -628,7 +628,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-UBN-001"
+    "link": "detail.html?id=TH-UBN-001"
   },
   {
     "id": "TH-UBN-002",
@@ -656,7 +656,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-UBN-002"
+    "link": "detail.html?id=TH-UBN-002"
   },
   {
     "id": "TH-NMA-006",
@@ -684,7 +684,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-NMA-006"
+    "link": "detail.html?id=TH-NMA-006"
   },
   {
     "id": "TH-NMA-007",
@@ -712,7 +712,7 @@
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
       "เปิดรับสตรี/แม่ชี"
     ],
-    "link": "temple-detail.html?id=TH-NMA-007"
+    "link": "detail.html?id=TH-NMA-007"
   },
   {
     "id": "TH-PTN-002",
@@ -738,7 +738,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-PTN-002"
+    "link": "detail.html?id=TH-PTN-002"
   },
   {
     "id": "TH-PRE-001",
@@ -766,7 +766,7 @@
       "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-PRE-001"
+    "link": "detail.html?id=TH-PRE-001"
   },
   {
     "id": "TH-PRE-002",
@@ -792,7 +792,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-PRE-002"
+    "link": "detail.html?id=TH-PRE-002"
   },
   {
     "id": "TH-UTD-001",
@@ -818,7 +818,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-UTD-001"
+    "link": "detail.html?id=TH-UTD-001"
   },
   {
     "id": "TH-BKK-007",
@@ -846,7 +846,7 @@
       "รับบวชพระ/สามเณร",
       "เดินทางสะดวก ในกรุงเทพฯ"
     ],
-    "link": "temple-detail.html?id=TH-BKK-007"
+    "link": "detail.html?id=TH-BKK-007"
   },
   {
     "id": "TH-BKK-008",
@@ -872,7 +872,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "เดินทางสะดวก ในกรุงเทพฯ"
     ],
-    "link": "temple-detail.html?id=TH-BKK-008"
+    "link": "detail.html?id=TH-BKK-008"
   },
   {
     "id": "TH-BKK-009",
@@ -898,7 +898,7 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
       "เดินทางสะดวก ในกรุงเทพฯ"
     ],
-    "link": "temple-detail.html?id=TH-BKK-009"
+    "link": "detail.html?id=TH-BKK-009"
   },
   {
     "id": "TH-NPT-001",
@@ -926,7 +926,7 @@
       "รับบวชพระ/สามเณร",
       "ถ่ายทอดสดออนไลน์"
     ],
-    "link": "temple-detail.html?id=TH-NPT-001"
+    "link": "detail.html?id=TH-NPT-001"
   },
   {
     "id": "TH-MULTI-001",
@@ -950,6 +950,6 @@
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 10 วัน",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
-    "link": "temple-detail.html?id=TH-MULTI-001"
+    "link": "detail.html?id=TH-MULTI-001"
   }
 ]

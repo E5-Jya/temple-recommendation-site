@@ -35,7 +35,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
-    "link": "temple-detail.html?id=TH-NMA-001"
+    "link": "detail.html?id=TH-NMA-001"
   },
   {
     "id": "TH-BKK-001",
@@ -69,7 +69,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
-    "link": "temple-detail.html?id=TH-BKK-001"
+    "link": "detail.html?id=TH-BKK-001"
   },
   {
     "id": "TH-BKK-002",
@@ -101,7 +101,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
-    "link": "temple-detail.html?id=TH-BKK-002"
+    "link": "detail.html?id=TH-BKK-002"
   },
   {
     "id": "TH-BKK-003",
@@ -135,7 +135,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
-    "link": "temple-detail.html?id=TH-BKK-003"
+    "link": "detail.html?id=TH-BKK-003"
   },
   {
     "id": "TH-BKK-004",
@@ -173,7 +173,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
-    "link": "temple-detail.html?id=TH-BKK-004"
+    "link": "detail.html?id=TH-BKK-004"
   },
   {
     "id": "TH-BKK-005",
@@ -209,7 +209,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
-    "link": "temple-detail.html?id=TH-BKK-005"
+    "link": "detail.html?id=TH-BKK-005"
   },
   {
     "id": "TH-BKK-006",
@@ -245,7 +245,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
-    "link": "temple-detail.html?id=TH-BKK-006"
+    "link": "detail.html?id=TH-BKK-006"
   },
   {
     "id": "TH-NMA-002",
@@ -280,7 +280,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
-    "link": "temple-detail.html?id=TH-NMA-002"
+    "link": "detail.html?id=TH-NMA-002"
   },
   {
     "id": "TH-CNX-001",
@@ -316,7 +316,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
-    "link": "temple-detail.html?id=TH-CNX-001"
+    "link": "detail.html?id=TH-CNX-001"
   },
   {
     "id": "TH-NMA-003",
@@ -351,7 +351,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
-    "link": "temple-detail.html?id=TH-NMA-003"
+    "link": "detail.html?id=TH-NMA-003"
   },
   {
     "id": "TH-AYT-001",
@@ -389,7 +389,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
-    "link": "temple-detail.html?id=TH-AYT-001"
+    "link": "detail.html?id=TH-AYT-001"
   },
   {
     "id": "TH-CCO-001",
@@ -424,7 +424,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
-    "link": "temple-detail.html?id=TH-CCO-001"
+    "link": "detail.html?id=TH-CCO-001"
   },
   {
     "id": "TH-RYG-001",
@@ -461,7 +461,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
-    "link": "temple-detail.html?id=TH-RYG-001"
+    "link": "detail.html?id=TH-RYG-001"
   },
   {
     "id": "TH-PTN-001",
@@ -496,7 +496,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
-    "link": "temple-detail.html?id=TH-PTN-001"
+    "link": "detail.html?id=TH-PTN-001"
   },
   {
     "id": "TH-CYP-001",
@@ -531,7 +531,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
-    "link": "temple-detail.html?id=TH-CYP-001"
+    "link": "detail.html?id=TH-CYP-001"
   },
   {
     "id": "TH-NMA-004",
@@ -565,7 +565,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
-    "link": "temple-detail.html?id=TH-NMA-004"
+    "link": "detail.html?id=TH-NMA-004"
   },
   {
     "id": "TH-UDN-001",
@@ -600,7 +600,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
-    "link": "temple-detail.html?id=TH-UDN-001"
+    "link": "detail.html?id=TH-UDN-001"
   },
   {
     "id": "TH-CCO-002",
@@ -639,7 +639,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
-    "link": "temple-detail.html?id=TH-CCO-002"
+    "link": "detail.html?id=TH-CCO-002"
   },
   {
     "id": "TH-CNX-002",
@@ -676,7 +676,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
-    "link": "temple-detail.html?id=TH-CNX-002"
+    "link": "detail.html?id=TH-CNX-002"
   },
   {
     "id": "TH-CCO-003",
@@ -710,7 +710,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
-    "link": "temple-detail.html?id=TH-CCO-003"
+    "link": "detail.html?id=TH-CCO-003"
   },
   {
     "id": "TH-NMA-005",
@@ -742,7 +742,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
-    "link": "temple-detail.html?id=TH-NMA-005"
+    "link": "detail.html?id=TH-NMA-005"
   },
   {
     "id": "TH-SBR-001",
@@ -774,7 +774,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
-    "link": "temple-detail.html?id=TH-SBR-001"
+    "link": "detail.html?id=TH-SBR-001"
   },
   {
     "id": "TH-UBN-001",
@@ -806,7 +806,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
-    "link": "temple-detail.html?id=TH-UBN-001"
+    "link": "detail.html?id=TH-UBN-001"
   },
   {
     "id": "TH-UBN-002",
@@ -841,7 +841,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
-    "link": "temple-detail.html?id=TH-UBN-002"
+    "link": "detail.html?id=TH-UBN-002"
   },
   {
     "id": "TH-NMA-006",
@@ -876,7 +876,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
-    "link": "temple-detail.html?id=TH-NMA-006"
+    "link": "detail.html?id=TH-NMA-006"
   },
   {
     "id": "TH-NMA-007",
@@ -911,7 +911,7 @@
       "ผู้หญิง/แม่ชี"
     ],
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
-    "link": "temple-detail.html?id=TH-NMA-007"
+    "link": "detail.html?id=TH-NMA-007"
   },
   {
     "id": "TH-PTN-002",
@@ -944,7 +944,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
-    "link": "temple-detail.html?id=TH-PTN-002"
+    "link": "detail.html?id=TH-PTN-002"
   },
   {
     "id": "TH-PRE-001",
@@ -979,7 +979,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
-    "link": "temple-detail.html?id=TH-PRE-001"
+    "link": "detail.html?id=TH-PRE-001"
   },
   {
     "id": "TH-PRE-002",
@@ -1011,7 +1011,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
-    "link": "temple-detail.html?id=TH-PRE-002"
+    "link": "detail.html?id=TH-PRE-002"
   },
   {
     "id": "TH-UTD-001",
@@ -1044,7 +1044,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
-    "link": "temple-detail.html?id=TH-UTD-001"
+    "link": "detail.html?id=TH-UTD-001"
   },
   {
     "id": "TH-BKK-007",
@@ -1078,7 +1078,7 @@
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
-    "link": "temple-detail.html?id=TH-BKK-007"
+    "link": "detail.html?id=TH-BKK-007"
   },
   {
     "id": "TH-BKK-008",
@@ -1110,7 +1110,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
-    "link": "temple-detail.html?id=TH-BKK-008"
+    "link": "detail.html?id=TH-BKK-008"
   },
   {
     "id": "TH-BKK-009",
@@ -1142,7 +1142,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
-    "link": "temple-detail.html?id=TH-BKK-009"
+    "link": "detail.html?id=TH-BKK-009"
   },
   {
     "id": "TH-NPT-001",
@@ -1178,7 +1178,7 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
-    "link": "temple-detail.html?id=TH-NPT-001"
+    "link": "detail.html?id=TH-NPT-001"
   },
   {
     "id": "TH-MULTI-001",
@@ -1210,6 +1210,6 @@
       "เถรวาท"
     ],
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
-    "link": "temple-detail.html?id=TH-MULTI-001"
+    "link": "detail.html?id=TH-MULTI-001"
   }
 ]

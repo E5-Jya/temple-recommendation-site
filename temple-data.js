@@ -113,7 +113,7 @@ function toDirectoryFormat(row) {
     costClass: isFree ? 'chip-cost' : 'chip-cost-paid',
     chips: chips,
     gradient: _gradient(row.temple_id),
-    link: 'temple-detail.html?id=' + row.temple_id,
+    link: 'detail.html?id=' + row.temple_id,
   };
 }
 
@@ -163,7 +163,7 @@ function toRecommendationFormat(row) {
     district: _s(row.district_th),
     scores: scores,
     whys: whys.slice(0, 4),
-    link: 'temple-detail.html?id=' + row.temple_id,
+    link: 'detail.html?id=' + row.temple_id,
   };
 }
 

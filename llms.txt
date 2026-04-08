@@ -6,8 +6,8 @@
 พักใจ is a curated directory of 35+ meditation centers across Thailand. All listings are free, verified by real practitioners, and designed to help young people discover mental wellness through Buddhist meditation practice.
 
 ## Key Pages
-- [Temple Directory](https://gorgeous-axolotl-2a03fd.netlify.app/temple-directory.html): Browse all meditation centers with filters
-- [Recommendation Quiz](https://gorgeous-axolotl-2a03fd.netlify.app/temple-recommendation.html): 5-question quiz to find the right center
+- [Temple Directory](https://pakjai.co/): Browse all meditation centers with filters
+- [Recommendation Quiz](https://pakjai.co/recommendation.html): 5-question quiz to find the right center
 
 ## Content Topics
 - Thai meditation centers and retreat information

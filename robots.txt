@@ -16,4 +16,4 @@ Allow: /
 User-agent: Bingbot
 Allow: /
 
-Sitemap: https://gorgeous-axolotl-2a03fd.netlify.app/sitemap.xml
+Sitemap: https://pakjai.co/sitemap.xml
