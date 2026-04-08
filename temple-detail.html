@@ -483,6 +483,24 @@
       color: var(--muted);
     }
 
+    /* ── FAQ ACCORDION ── */
+    .faq-item { border-bottom: 1px solid var(--border-light); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-question {
+      width: 100%; background: none; border: none; cursor: pointer;
+      display: flex; align-items: center; justify-content: space-between; gap: 12px;
+      padding: 16px 20px; font-family: var(--font-family); font-size: var(--font-size-base);
+      font-weight: var(--font-weight-semibold); color: var(--foreground); text-align: left;
+    }
+    .faq-question:hover { background: var(--surface-alt); }
+    .faq-arrow { flex-shrink: 0; transition: transform 0.2s; font-size: 12px; color: var(--muted); }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+    .faq-answer {
+      display: none; padding: 0 20px 16px;
+      font-size: var(--font-size-sm); color: var(--muted); line-height: 1.7;
+    }
+    .faq-item.open .faq-answer { display: block; }
+
     /* ── FOOTER ── */
     .page-footer {
       background: var(--foreground);
@@ -722,6 +740,12 @@
         </div>
       </div>
 
+
+      <!-- FAQ -->
+      <div id="faq" class="section" style="display:none">
+        <h2 class="section-title">คำถามที่พบบ่อย</h2>
+        <div class="card" id="faq-list"></div>
+      </div>
 
     </main>
 
@@ -1018,6 +1042,61 @@ let TEMPLES_DETAIL = {};
     breadcrumbScript.type = 'application/ld+json';
     breadcrumbScript.textContent = JSON.stringify(breadcrumbSchema);
     document.head.appendChild(breadcrumbScript);
+
+    // Build FAQ items from temple data
+    const hasLayRetreat = temple.activities.some(a => a.name === 'คอร์สปฏิบัติ' && a.available);
+    const hasBeginner = temple.activities.some(a => a.available) && (temple.retreatInfo.minDays === 'N/A' || parseInt(temple.retreatInfo.minDays) <= 3);
+    const isFree = temple.retreatInfo.cost === 'free' || temple.retreatInfo.cost === 'ฟรี' || (temple.retreatInfo.cost && temple.retreatInfo.cost.toLowerCase().indexOf('free') >= 0) || temple.retreatInfo.cost === 'N/A';
+
+    const faqItems = [
+      {
+        question: temple.nameTh + ' เหมาะกับมือใหม่ไหม?',
+        answer: hasBeginner
+          ? temple.nameTh + ' เหมาะสำหรับผู้เริ่มต้น มีกิจกรรมปฏิบัติธรรมที่รองรับทุกระดับ' + (temple.retreatInfo.minDays !== 'N/A' ? ' โดยเริ่มต้นขั้นต่ำ ' + temple.retreatInfo.minDays + ' วัน' : '') + ' สามารถติดต่อสอบถามรายละเอียดเพิ่มเติมได้โดยตรง'
+          : 'แนะนำให้ติดต่อ' + temple.nameTh + 'โดยตรง เพื่อสอบถามความเหมาะสมสำหรับผู้เริ่มต้น เนื่องจากคอร์สอาจต้องการประสบการณ์ปฏิบัติธรรมมาก่อน'
+      },
+      {
+        question: temple.nameTh + ' ฟรีไหม?',
+        answer: isFree
+          ? temple.nameTh + ' เปิดรับผู้ปฏิบัติธรรมโดยไม่เสียค่าใช้จ่าย เป็นไปตามหลักพุทธศาสนาที่ให้ธรรมะเป็นทาน ผู้เข้าร่วมสามารถบริจาคตามศรัทธา'
+          : 'กรุณาตรวจสอบค่าใช้จ่ายกับ' + temple.nameTh + 'โดยตรง เนื่องจากอาจมีค่าใช้จ่ายสำหรับบางโครงการ'
+      },
+      {
+        question: temple.nameTh + ' ค้างคืนได้ไหม?',
+        answer: hasLayRetreat
+          ? 'ได้ ' + temple.nameTh + ' มีโครงการปฏิบัติธรรมแบบค้างคืน' + (temple.retreatInfo.minDays !== 'N/A' ? ' ขั้นต่ำ ' + temple.retreatInfo.minDays + ' วัน' : '') + (temple.retreatInfo.bookingReq ? ' ต้องสมัครล่วงหน้าผ่าน' + temple.retreatInfo.bookingChannel : ' ไม่ต้องจองล่วงหน้า')
+          : temple.nameTh + ' อาจไม่มีโครงการค้างคืนสำหรับฆราวาสในปัจจุบัน กรุณาติดต่อสอบถามโดยตรง'
+      }
+    ];
+
+    // Render FAQ accordion
+    let faqHtml = '';
+    faqItems.forEach(function(item, i) {
+      faqHtml += '<div class="faq-item">' +
+        '<button class="faq-question" onclick="this.parentElement.classList.toggle(\'open\')">' +
+        '<span>' + item.question + '</span><span class="faq-arrow">▼</span></button>' +
+        '<div class="faq-answer">' + item.answer + '</div></div>';
+    });
+    document.getElementById('faq-list').innerHTML = faqHtml;
+    document.getElementById('faq').style.display = '';
+
+    // Add FAQPage schema
+    const faqSchema = {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": faqItems.map(item => ({
+        "@type": "Question",
+        "name": item.question,
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": item.answer
+        }
+      }))
+    };
+    const faqSchemaScript = document.createElement('script');
+    faqSchemaScript.type = 'application/ld+json';
+    faqSchemaScript.textContent = JSON.stringify(faqSchema);
+    document.head.appendChild(faqSchemaScript);
   }
 
   // Active nav tab on scroll
