@@ -239,12 +239,6 @@
       color: var(--primary);
       border-bottom-color: var(--primary);
     }
-    .actions-right {
-      margin-left: auto;
-      display: flex; align-items: center; gap: 12px;
-      padding: 0 0 0 20px;
-      flex-shrink: 0;
-    }
     .btn {
       display: inline-flex; align-items: center; gap: 6px;
       padding: 8px 18px; border-radius: 8px;
@@ -516,7 +510,6 @@
       .breadcrumb { padding: 16px 20px 0; }
       .actions-bar { padding: 0 8px; }
       .nav-tab { padding: 14px 14px; font-size: 13px; }
-      .actions-right { display: none; }
       .hero { min-height: 400px; }
     }
 
@@ -605,12 +598,6 @@
   <a href="#retreat"   class="nav-tab">คอร์สปฏิบัติ</a>
   <a href="#schedule"  class="nav-tab">ตารางประจำวัน</a>
   <a href="#contact"   class="nav-tab">ติดต่อ</a>
-  <div class="actions-right">
-    <a href="#" target="_blank" class="btn btn-outline" id="btn-facebook" style="display:none">
-      <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-      Facebook
-    </a>
-  </div>
 </nav>
 
 <!-- MAIN LAYOUT -->
@@ -983,12 +970,6 @@ let TEMPLES_DETAIL = {};
       'TH-NMA-001': 'วัดป่าสายธรรมยุตกลางธรรมชาติ เปิดรับการปฏิบัติธรรมฟรีทุกกิจกรรม',
     };
     document.getElementById('callout-body').textContent = calloutTexts[templeId] || 'สถานปฏิบัติธรรมแห่งนี้มีความเชี่ยวชาญและประสบการณ์ยาวนาน';
-
-    // Update Facebook button
-    if (temple.contact.facebook) {
-      document.getElementById('btn-facebook').href = temple.contact.facebook;
-      document.getElementById('btn-facebook').style.display = 'inline-flex';
-    }
 
     // Add Place schema
     const placeSchema = {
