@@ -605,32 +605,6 @@
     "link": "detail.html?id=TH-SBR-001"
   },
   {
-    "id": "TH-UBN-001",
-    "nameTh": "สถานปฏิบัติธรรมเสริมรังษี",
-    "nameEn": "Serm Rangsri Meditation Centre",
-    "province": "ไม่ระบุ",
-    "district": "ไม่ระบุ",
-    "scores": {
-      "location_upcountry": 3,
-      "location_any": 2,
-      "duration_halfday": 3,
-      "duration_weekend": 3,
-      "duration_week": 3,
-      "budget_free": 3,
-      "budget_any": 2,
-      "activity_meditation": 3,
-      "activity_dhamma_talk": 3,
-      "activity_nature": 2,
-      "profile_beginner": 3
-    },
-    "whys": [
-      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
-      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
-      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
-    ],
-    "link": "detail.html?id=TH-UBN-001"
-  },
-  {
     "id": "TH-UBN-002",
     "nameTh": "วัดป่านานาชาติ",
     "nameEn": "Wat Pah Nanachat (International Forest Monastery)",
@@ -951,5 +925,332 @@
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "detail.html?id=TH-MULTI-001"
+  },
+  {
+    "id": "TH-BKK-010",
+    "nameTh": "วัดปทุมวนาราม ราชวรวิหาร",
+    "nameEn": "Wat Pathum Wanaram Ratchaworawihan",
+    "province": "กรุงเทพมหานคร",
+    "district": "ปทุมวัน",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "detail.html?id=TH-BKK-010"
+  },
+  {
+    "id": "TH-STN-001",
+    "nameTh": "สวนโมกข์นานาชาติ (International Dharma Hermitage)",
+    "nameEn": "Suan Mokkh International Dharma Hermitage",
+    "province": "สุราษฎร์ธานี",
+    "district": "ไชยา",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 10 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "detail.html?id=TH-STN-001"
+  },
+  {
+    "id": "TH-CNX-003",
+    "nameTh": "วัดอุโมงค์สวนพุทธธรรม",
+    "nameEn": "Wat Umong Suan Phutthatham",
+    "province": "เชียงใหม่",
+    "district": "เมืองเชียงใหม่",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 3,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-CNX-003"
+  },
+  {
+    "id": "TH-CNX-004",
+    "nameTh": "วัดอรัญญวิเวก (บ้านปง)",
+    "nameEn": "Wat Aranyawiwek (Ban Pong)",
+    "province": "เชียงใหม่",
+    "district": "แม่แตง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-CNX-004"
+  },
+  {
+    "id": "TH-CNX-005",
+    "nameTh": "วัดป่าหมู่ใหม่",
+    "nameEn": "Wat Pa Mu Mai",
+    "province": "เชียงใหม่",
+    "district": "แม่แตง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-CNX-005"
+  },
+  {
+    "id": "TH-CNX-006",
+    "nameTh": "วัดป่าศาลาปางสัก (วัดล้านนาญาณสัมปันโน)",
+    "nameEn": "Wat Pa Sala Pang Sak (Wat Lanna Yanasampanno)",
+    "province": "เชียงใหม่",
+    "district": "ดอยสะเก็ด",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-CNX-006"
+  },
+  {
+    "id": "TH-CNX-007",
+    "nameTh": "วัดถ้ำผาปล่อง",
+    "nameEn": "Wat Tham Pha Plong",
+    "province": "เชียงใหม่",
+    "district": "เชียงดาว",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-CNX-007"
+  },
+  {
+    "id": "TH-STN-002",
+    "nameTh": "ทีปภาวัน ธรรมสถาน (Dipabhavan)",
+    "nameEn": "Dipabhavan Meditation Center",
+    "province": "สุราษฎร์ธานี",
+    "district": "เกาะสมุย",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "detail.html?id=TH-STN-002"
+  },
+  {
+    "id": "TH-CNX-009",
+    "nameTh": "ป่าแป๋ เมดิเตชั่น รีทรีต (Pa Pae)",
+    "nameEn": "Pa Pae Meditation Retreat",
+    "province": "เชียงใหม่",
+    "district": "แม่แตง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "รับบวชพระ/สามเณร",
+      "ถ่ายทอดสดออนไลน์",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-CNX-009"
+  },
+  {
+    "id": "TH-MHS-001",
+    "nameTh": "ศูนย์ปฏิบัติธรรมนานาชาติปาย (PIMC)",
+    "nameEn": "Pai International Meditation Centre (PIMC)",
+    "province": "แม่ฮ่องสอน",
+    "district": "ปาย",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-MHS-001"
+  },
+  {
+    "id": "TH-ATG-001",
+    "nameTh": "ศูนย์ปฏิบัติธรรมนานาชาติอ่างทอง (Pa-Auk Tawya)",
+    "nameEn": "Angthong International Meditation Center (Pa-Auk Tawya branch)",
+    "province": "อ่างทอง",
+    "district": "เมืองอ่างทอง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 15 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "detail.html?id=TH-ATG-001"
+  },
+  {
+    "id": "TH-PLK-001",
+    "nameTh": "ธรรมตโปทา (ศูนย์วิปัสสนาโคเอ็นก้า สาขาพิษณุโลก)",
+    "nameEn": "Dhamma Tapoda Vipassana Meditation Center",
+    "province": "พิษณุโลก",
+    "district": "วังทอง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 2,
+      "profile_intermediate": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 10 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-PLK-001"
   }
 ]

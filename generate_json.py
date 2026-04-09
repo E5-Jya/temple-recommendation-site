@@ -328,6 +328,7 @@ def main():
             "foundedBe": safe(row.get("founded_be", ""), "-"),
             "foundedCe": safe(row.get("founded_ce", ""), "-"),
             "lastUpdated": safe(row.get("last_updated", ""), "-"),
+            "highlight": safe(row.get("highlight_th", "")),
         }
 
     out_dir = SCRIPT_DIR

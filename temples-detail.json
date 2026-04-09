@@ -1,7 +1,7 @@
 {
   "TH-NMA-001": {
     "slug": "watpah-subthawee",
-    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/watpah-subthawee/gallery_2.jpg",
+    "heroUrl": "",
     "nameTh": "วัดป่าทรัพย์ทวีธรรมาราม",
     "nameEn": "Wat Pah Subthawee Dhammaram",
     "province": "นครราชสีมา",
@@ -86,7 +86,8 @@
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
     "foundedBe": "2559",
     "foundedCe": "2016",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-03-16",
+    "highlight": "วัดป่าสายธรรมยุต เคร่งครัด อาหารมังสวิรัติ 100% บรรยากาศป่าเขาใหญ่"
   },
   "TH-BKK-001": {
     "slug": "suan-mokkh-bangkok",
@@ -175,7 +176,8 @@
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
     "foundedBe": "2552",
     "foundedCe": "2009",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-04-03",
+    "highlight": "โอเอซิสธรรมะกลางเมือง สืบสานคำสอนพุทธทาสภิกขุ เหมาะคนเมือง"
   },
   "TH-BKK-002": {
     "slug": "baan-aree-foundation",
@@ -264,7 +266,8 @@
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
     "foundedBe": "~2540s",
     "foundedCe": "~late 1990s",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-04-03",
+    "highlight": "ศูนย์เจริญสติแบบเคลื่อนไหว (หลวงพ่อเทียน) กลางกรุงเทพฯ ฟรี"
   },
   "TH-BKK-003": {
     "slug": "wat-mahadhatu-vipassana",
@@ -353,7 +356,8 @@
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
     "foundedBe": "2497",
     "foundedCe": "1954",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-04-03",
+    "highlight": "Walk-in ได้ทุกวัน ใจกลางกรุงเทพฯ ไม่ต้องจอง สะดวกสุดในรายการนี้"
   },
   "TH-BKK-004": {
     "slug": "ybat-young-buddhist-association",
@@ -442,7 +446,8 @@
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
     "foundedBe": "2493",
     "foundedCe": "1950",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-04-03",
+    "highlight": "สมาคมพุทธในพระบรมราชูปถัมภ์ คอร์สหลากหลาย โครงสร้างชัดเจน น่าเชื่อถือสูง"
   },
   "TH-BKK-005": {
     "slug": "suan-usom",
@@ -531,7 +536,8 @@
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
     "foundedBe": "2530",
     "foundedCe": "1987",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-04-03",
+    "highlight": "สถานปฏิบัติธรรมสำหรับผู้หญิงโดยเฉพาะ สายพุทธทาส ฟรี"
   },
   "TH-BKK-006": {
     "slug": "sathira-dhammasathan",
@@ -620,7 +626,8 @@
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
     "foundedBe": "2534",
     "foundedCe": "1991",
-    "lastUpdated": "2026-03-16"
+    "lastUpdated": "2026-03-16",
+    "highlight": "ศูนย์ปฏิบัติธรรมอบอุ่น เน้นอานาปานสติ บรรยากาศเป็นมิตร เหมาะผู้หญิง"
   },
   "TH-NMA-002": {
     "slug": "baan-rai-tor-see-baan-boon",
@@ -709,7 +716,8 @@
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
     "foundedBe": "~2545",
     "foundedCe": "~2002",
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-04-03",
+    "highlight": "สถานพำนักสงฆ์ป่าของพระอาจารย์ชยสาโร บรรยากาศสาย Ajahn Chah แท้"
   },
   "TH-CNX-001": {
     "slug": "wat-phra-that-si-chom-thong",
@@ -798,7 +806,8 @@
     "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
     "foundedBe": "~1993",
     "foundedCe": "~1450 (วัด) / 1992 (ศูนย์วิปัสสนา)",
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-23",
+    "highlight": "ศูนย์วิปัสสนาสายหลวงพ่อทอง โครงสร้างชัดเจน เหมาะผู้เริ่มต้นสุด"
   },
   "TH-NMA-003": {
     "slug": "panjakiri-dhamma-center",
@@ -887,7 +896,8 @@
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
     "foundedBe": "~2555",
     "foundedCe": "~2012",
-    "lastUpdated": "2026-03-23"
+    "lastUpdated": "2026-03-23",
+    "highlight": "สถานปฏิบัติธรรมป่าของหลวงตาณรงค์ศักดิ์ ใกล้เขาใหญ่ เฉพาะผู้ปฏิบัติจริงจัง"
   },
   "TH-AYT-001": {
     "slug": "wat-maheyong-vipassana",
@@ -976,7 +986,8 @@
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
     "foundedBe": "1981",
     "foundedCe": "1438 (วัด) / ศูนย์วิปัสสนา ~2540s",
-    "lastUpdated": "2026-03-27"
+    "lastUpdated": "2026-03-27",
+    "highlight": "วัดป่าสายหลวงพ่อชา บรรยากาศสงบ เหมาะทั้งผู้เริ่มต้นและขั้นกลาง ไม่เคร่งเกินไป"
   },
   "TH-CCO-001": {
     "slug": "wat-boonyawad",
@@ -1065,7 +1076,8 @@
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
     "foundedBe": "2535",
     "foundedCe": "1992",
-    "lastUpdated": "2026-03-27"
+    "lastUpdated": "2026-04-03",
+    "highlight": "วัดป่าสายหลวงปู่ชา พื้นที่ 400 ไร่ สงบลึก ใกล้ชลบุรี"
   },
   "TH-RYG-001": {
     "slug": "wat-marp-jan",
@@ -1154,7 +1166,8 @@
     "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
     "foundedBe": "2524",
     "foundedCe": "1981",
-    "lastUpdated": "2026-03-27"
+    "lastUpdated": "2026-03-27",
+    "highlight": "วัดป่าสายหลวงปู่ชา บนเขายายดา 1,000 ไร่ เหมาะผู้ปฏิบัติมาแล้ว"
   },
   "TH-PTN-001": {
     "slug": "wat-pa-chittaphavan",
@@ -1243,7 +1256,8 @@
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
     "foundedBe": "2540",
     "foundedCe": "1997",
-    "lastUpdated": "2026-03-27"
+    "lastUpdated": "2026-03-27",
+    "highlight": "วัดป่าสายหลวงปู่ชา สาขาที่ 44 วัดหนองป่าพง ใกล้กรุงเทพฯ เหมาะผู้เริ่มต้นที่ต้องการวัดป่าสายเถรวาทเคร่ง"
   },
   "TH-CYP-001": {
     "slug": "wat-pa-sukhato-satipatthana",
@@ -1332,7 +1346,8 @@
     "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
     "foundedBe": "2526",
     "foundedCe": "1983",
-    "lastUpdated": "2026-03-27"
+    "lastUpdated": "2026-03-27",
+    "highlight": "สายอาจารย์ชา บรรยากาศป่าแท้ เงียบสงบลึก เหมาะสำหรับผู้ต้องการปฏิบัติจริงจัง"
   },
   "TH-NMA-004": {
     "slug": "ashram-mata-foundation",
@@ -1421,7 +1436,8 @@
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-03-27"
+    "lastUpdated": "2026-03-27",
+    "highlight": "สถานปฏิบัติธรรมสำหรับผู้หญิงโดยเฉพาะ ป่า 26 ไร่ ปากช่องคีรี โคราช มี 5 โซนตั้งแต่ผู้เริ่มต้นถึงป่าลึก"
   },
   "TH-UDN-001": {
     "slug": "wat-pa-ban-tat",
@@ -1510,7 +1526,8 @@
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
     "foundedBe": "2498",
     "foundedCe": "1955",
-    "lastUpdated": "2026-03-28"
+    "lastUpdated": "2026-03-28",
+    "highlight": "วัดของหลวงตามหาบัว ญาณสัมปันโน อุดรธานี ศูนย์กลางสายหลวงตา มีพิพิธภัณฑ์ธรรมเจดีย์"
   },
   "TH-CCO-002": {
     "slug": "wat-yannasangwaram",
@@ -1599,7 +1616,8 @@
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
     "foundedBe": "2519",
     "foundedCe": "1976",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดพระราชทาน บรรยากาศยิ่งใหญ่สงบ มีคอร์สปฏิบัติธรรมชัดเจน"
   },
   "TH-CNX-002": {
     "slug": "wat-pa-daraphirom",
@@ -1688,11 +1706,12 @@
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
     "foundedBe": "2481",
     "foundedCe": "1938",
-    "lastUpdated": "2026-03-28"
+    "lastUpdated": "2026-03-28",
+    "highlight": "พระอารามหลวง แม่ริม เชียงใหม่ สถาปัตยกรรมล้านนางดงาม สายหลวงปู่มั่น มีโปรแกรมปฏิบัติธรรม"
   },
   "TH-CCO-003": {
     "slug": "wat-suan-santidham",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-suan-santidham/hero.jpg",
     "nameTh": "วัดสวนสันติธรรม",
     "nameEn": "Wat Suan Santidham",
     "province": "ชลบุรี",
@@ -1777,11 +1796,12 @@
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดหลวงพ่อปราโมทย์ ปาโมชฺโช ศรีราชา ชลบุรี ศูนย์กลางแนวสติปัฏฐาน ยอดนิยมสูง"
   },
   "TH-NMA-005": {
     "slug": "wat-saeng-tham-wang-khao-khiao",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-saeng-tham-wang-khao-khiao/hero.jpg",
     "nameTh": "วัดแสงธรรมวังเขาเขียว",
     "nameEn": "Wat Saeng Tham Wang Khao Khiao",
     "province": "นครราชสีมา",
@@ -1866,11 +1886,12 @@
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
     "foundedBe": "2554",
     "foundedCe": "2011",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดป่าสายหลวงตามหาบัว วังน้ำเขียว โคราช เคร่งครัด ฉันมื้อเดียว ไม่มีไฟฟ้า ไม่ใช้มือถือ"
   },
   "TH-SBR-001": {
     "slug": "ho-manasikarn",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/ho-manasikarn/hero.jpg",
     "nameTh": "หอมนสิการ",
     "nameEn": "Ho Manasikarn",
     "province": "สระบุรี",
@@ -1955,100 +1976,12 @@
     "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
     "foundedBe": "2565",
     "foundedCe": "2022",
-    "lastUpdated": "2026-04-02"
-  },
-  "TH-UBN-001": {
-    "slug": "serm-rangsri",
-    "heroUrl": "",
-    "nameTh": "สถานปฏิบัติธรรมเสริมรังษี",
-    "nameEn": "Serm Rangsri Meditation Centre",
-    "province": "ไม่ระบุ",
-    "district": "ไม่ระบุ",
-    "tradition": "เถรวาท – สายหลวงพ่อชา (วัดหนองป่าพง)",
-    "abbot": "ไม่ระบุ",
-    "blurbTh": "สถานปฏิบัติธรรมเสริมรังษีเป็นสาขาหนึ่งในเครือข่ายวัดหนองป่าพงที่ก่อตั้งโดยหลวงพ่อชา สุภัทโท อาจารย์กรรมฐานผู้ยิ่งใหญ่ที่สุดคนหนึ่งในประวัติศาสตร์พุทธศาสนาไทยศตวรรษที่ 20 วัดหนองป่าพงและสาขาของวัดเป็นที่รู้จักในด้านวินัยและความเรียบง่ายในวิถีชีวิตพระป่า — ตื่นก่อนรุ่งสาง เดินบิณฑบาต ฉันอาหารในบาตร ทำงานร่วมกันด้วยสติ และนั่งสมาธิในความเงียบ วินัยเหล่านี้ไม่ใช่กฎเกณฑ์แต่เป็นเครื่องมือขัดเกลาจิตใจ\n\nสถานปฏิบัติธรรมเสริมรังษีสืบทอดวิถีและคำสอนของหลวงพ่อชา เปิดรับนักปฏิบัติธรรมฆราวาสที่ต้องการสัมผัสชีวิตและการปฏิบัติในสายป่ากรรมฐาน ด้วยบรรยากาศที่เงียบสงบและจริงใจ ห่างจากความอึกทึกครึกโครม สถานที่แห่งนี้เหมาะสำหรับผู้ที่พร้อมจะวางความสะดวกสบายชั่วคราวเพื่อการฝึกฝนที่มีความหมาย\n\nข้อมูลเพิ่มเติมเกี่ยวกับที่ตั้งและโปรแกรมของสถานปฏิบัติธรรมแห่งนี้มีจำกัด ขอแนะนำให้ติดต่อโดยตรงหรือผ่านเครือข่ายวัดหนองป่าพง",
-    "blurbEn": "Serm Rangsri Meditation Centre is part of the extended network of the Ajahn Chah lineage, rooted in Wat Nong Pah Pong — the monastery in Ubon Ratchathani from which Ajahn Chah Subhaddo sent ripples of practice and teaching across Thailand and the world. The forest monasteries of this lineage are defined not by architecture or prestige but by the quality of life lived within them: waking before dawn, walking alms round, eating from the bowl, working together with awareness, sitting in the silence of the forest. These are not rules but instruments — carefully designed conditions for the arising of genuine understanding.\n\nSerm Rangsri carries that inheritance and opens its doors to lay practitioners who wish to live within those rhythms, even briefly. The setting is quiet and sincere, far from the noise of ordinary life, suited to those ready to exchange temporary comfort for something more enduring.\n\nDetailed information about the centre's exact location and current programmes is limited; prospective visitors are encouraged to make contact directly or through the Wat Nong Pah Pong network.",
-    "activities": [
-      {
-        "name": "นั่งสมาธิประจำวัน",
-        "available": true
-      },
-      {
-        "name": "บรรยายธรรม",
-        "available": true
-      },
-      {
-        "name": "คอร์สปฏิบัติ",
-        "available": true
-      },
-      {
-        "name": "บวชพระ",
-        "available": false
-      },
-      {
-        "name": "บวชสามเณร",
-        "available": false
-      },
-      {
-        "name": "บวชชีพราหมณ์",
-        "available": false
-      },
-      {
-        "name": "โครงการแม่ชี",
-        "available": false
-      },
-      {
-        "name": "ทอดกฐิน",
-        "available": true
-      },
-      {
-        "name": "กิจกรรมพิเศษ",
-        "available": false
-      },
-      {
-        "name": "ถ่ายทอดสดออนไลน์",
-        "available": false
-      },
-      {
-        "name": "บริการสังคม",
-        "available": false
-      }
-    ],
-    "retreatInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ฟรี",
-      "bookingReq": true,
-      "bookingChannel": "ติดต่อโดยตรง",
-      "capacity": "ไม่ระบุ"
-    },
-    "ordinationInfo": {
-      "minDays": "N/A",
-      "cost": "N/A",
-      "prerequisite": "ไม่รับบวช"
-    },
-    "schedule": {
-      "wake": "ก่อนรุ่งสาง",
-      "morningChant": "ไม่ระบุ",
-      "mealCount": "ไม่ระบุ",
-      "mealType": "ไม่ระบุ",
-      "eveningChant": "ไม่ระบุ"
-    },
-    "contact": {
-      "website": "",
-      "facebook": "",
-      "facebookEn": "",
-      "line": "",
-      "phone": "",
-      "address": "ไม่ระบุ"
-    },
-    "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
-    "foundedBe": "ไม่ระบุ",
-    "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "ศูนย์ปฏิบัติธรรมและธรรมะแกลลอรี่ แก่งคอย สระบุรี ท่ามกลางหุบเขา ประดิษฐานพระบรมสารีริกธาตุ 18 พระองค์"
   },
   "TH-UBN-002": {
     "slug": "wat-pah-nanachat",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pah-nanachat/hero.jpg",
     "nameTh": "วัดป่านานาชาติ",
     "nameEn": "Wat Pah Nanachat (International Forest Monastery)",
     "province": "อุบลราชธานี",
@@ -2133,11 +2066,12 @@
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
     "foundedBe": "2518",
     "foundedCe": "1975",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดนานาชาติสายหลวงพ่อชา มีพระต่างชาติสอน รองรับทั้งไทยและต่างประเทศดีเยี่ยม"
   },
   "TH-NMA-006": {
     "slug": "wat-pa-ratanawan",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pa-ratanawan/hero.jpg",
     "nameTh": "วัดป่ารัตนวัน",
     "nameEn": "Wat Pa Ratanawan",
     "province": "นครราชสีมา",
@@ -2222,11 +2156,12 @@
     "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดป่าสายหลวงปู่ชา วังน้ำเขียว โคราช เจ้าอาวาสชาวต่างชาติ (พระอาจารย์สุเมโธ) เงียบสงบสะอาดมาก"
   },
   "TH-NMA-007": {
     "slug": "thai-plum-village",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/thai-plum-village/hero.jpg",
     "nameTh": "หมู่บ้านพลัม ประเทศไทย",
     "nameEn": "Thai Plum Village International Practice Centre",
     "province": "นครราชสีมา",
@@ -2311,11 +2246,12 @@
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
     "foundedBe": "2551",
     "foundedCe": "2008",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "ศูนย์นานาชาติสาย Thich Nhat Hanh บรรยากาศอบอุ่น ไม่เคร่งเกินไป เหมาะทุกคน"
   },
   "TH-PTN-002": {
     "slug": "wat-thapthim-daeng",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-thapthim-daeng/hero.jpg",
     "nameTh": "วัดทับทิมแดง",
     "nameEn": "Wat Thapthim Daeng (Ruby Red Temple)",
     "province": "ปทุมธานี",
@@ -2400,11 +2336,12 @@
     "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
     "foundedBe": "2543",
     "foundedCe": "2000",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดป่ากรรมฐานสายหลวงปู่มั่น สาขาวัดแพร่ธรรมาราม ปทุมธานี รับเฉพาะอาหารมังสวิรัติ เงียบสงบมาก"
   },
   "TH-PRE-001": {
     "slug": "wat-phrae-dhammaram",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-phrae-dhammaram/hero.jpg",
     "nameTh": "วัดแพร่ธรรมาราม",
     "nameEn": "Wat Phrae Dhammaram",
     "province": "แพร่",
@@ -2489,11 +2426,12 @@
     "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
     "foundedBe": "2526",
     "foundedCe": "1983",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดป่ากรรมฐานสายธรรมยุต เด่นชัย แพร่ เคร่งครัด ร่มรื่น ใกล้สถานีรถไฟ เดินทางสะดวก"
   },
   "TH-PRE-002": {
     "slug": "wat-phrae-saeng-thian",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-phrae-saeng-thian/hero.jpg",
     "nameTh": "วัดแพร่แสงเทียน",
     "nameEn": "Wat Phrae Saeng Thian",
     "province": "แพร่",
@@ -2578,11 +2516,12 @@
     "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดป่าสายเจริญสติแบบเคลื่อนไหว (หลวงพ่อเทียน) ร้องกวาง แพร่ ปฏิบัติเข้มข้น 12 ชม./วัน อบรมทุกเดือน"
   },
   "TH-UTD-001": {
     "slug": "wat-uttaradit-dhammaram",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-uttaradit-dhammaram/hero.jpg",
     "nameTh": "วัดอุตรดิตถ์ธรรมาราม",
     "nameEn": "Wat Uttaradit Dhammaram",
     "province": "อุตรดิตถ์",
@@ -2667,11 +2606,12 @@
     "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดป่ากรรมฐานสายหลวงปู่มั่น สาขาวัดแพร่ธรรมาราม ท่ามกลางป่าเขา เงียบสงบ เหมาะปฏิบัติธรรม"
   },
   "TH-BKK-007": {
     "slug": "wat-dhammamongkol",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-dhammamongkol/hero.jpg",
     "nameTh": "วัดธรรมมงคลเถาบุญนนทวิหาร",
     "nameEn": "Wat Dhammamongkol (Thao Bun Non Vihara)",
     "province": "กรุงเทพมหานคร",
@@ -2756,11 +2696,12 @@
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
     "foundedBe": "2506",
     "foundedCe": "1963",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดกลางเมืองที่มีคอร์สวิปัสสนาสม่ำเสมอ เดินทางง่าย เหมาะคนเมือง"
   },
   "TH-BKK-008": {
     "slug": "baan-jit-sabai",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/baan-jit-sabai/hero.jpg",
     "nameTh": "บ้านจิตสบาย",
     "nameEn": "Baan Jit Sabai (House of Peaceful Mind)",
     "province": "กรุงเทพมหานคร",
@@ -2845,11 +2786,12 @@
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "ศูนย์เรียนรู้สติและธรรมะสายหลวงพ่อปราโมทย์ ย่านทวีวัฒนา กรุงเทพฯ เปิดทุกวันฟรี ไม่ค้างคืน"
   },
   "TH-BKK-009": {
     "slug": "phasi-charoen-dhamma-centre",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/phasi-charoen-dhamma-centre/hero.jpg",
     "nameTh": "ศูนย์ปฏิบัติธรรมภาษีเจริญ",
     "nameEn": "Phasi Charoen Dhamma Practice Centre",
     "province": "กรุงเทพมหานคร",
@@ -2934,11 +2876,12 @@
     "gradient": "linear-gradient(135deg, #2A2A3A, #4A4A5C)",
     "foundedBe": "ไม่ระบุ",
     "foundedCe": "ไม่ระบุ",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "ศูนย์ปฏิบัติธรรมแนวยุวพุทธิกสมาคม ย่านภาษีเจริญ กรุงเทพฯ เปิดทุกวันพฤหัสบดี ไม่ค้างคืน"
   },
   "TH-NPT-001": {
     "slug": "wat-nyanavesakavan",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-nyanavesakavan/hero.jpg",
     "nameTh": "วัดญาณเวศกวัน",
     "nameEn": "Wat Nyanavesakavan",
     "province": "นครปฐม",
@@ -3023,11 +2966,12 @@
     "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
     "foundedBe": "2532",
     "foundedCe": "1989",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "วัดของสมเด็จพระพุทธโฆษาจารย์ (ป.อ.ปยุตฺโต) สามพราน นครปฐม เน้นการศึกษาธรรม มีโปรแกรมภาวนา"
   },
   "TH-MULTI-001": {
     "slug": "vipassana-goenka-thailand",
-    "heroUrl": "",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/vipassana-goenka-thailand/hero.jpg",
     "nameTh": "ศูนย์วิปัสสนาโคเอ็นก้า (Dhamma.org) — 10 ศูนย์ทั่วไทย",
     "nameEn": "Vipassana Meditation Thailand (S.N. Goenka / Dhamma.org) — 10 Centres Nationwide",
     "province": "หลายจังหวัด (ดูรายละเอียดใน notes)",
@@ -3112,6 +3056,1087 @@
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
     "foundedBe": "2535",
     "foundedCe": "1992",
-    "lastUpdated": "2026-04-02"
+    "lastUpdated": "2026-04-02",
+    "highlight": "ศูนย์วิปัสสนาสายอาจารย์โกเอ็นก้า (อูบาขิ่น) มี 14 ศูนย์ทั่วไทย คอร์ส 10 วัน ฟรี ไม่มีค่าใช้จ่าย"
+  },
+  "TH-BKK-010": {
+    "slug": "wat-pathum-wanaram",
+    "heroUrl": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pathum-wanaram/hero.jpg",
+    "nameTh": "วัดปทุมวนาราม ราชวรวิหาร",
+    "nameEn": "Wat Pathum Wanaram Ratchaworawihan",
+    "province": "กรุงเทพมหานคร",
+    "district": "ปทุมวัน",
+    "tradition": "ธรรมยุต",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "วัดปทุมวนารามตั้งอยู่ใจกลางย่านช้อปปิ้งที่พลุกพล่านที่สุดของกรุงเทพฯ ทว่าเมื่อก้าวข้ามประตูเข้ามา โลกภายนอกก็เงียบลงอย่างน่าประหลาดใจ วัดแห่งนี้สร้างขึ้นในสมัยรัชกาลที่ 4 เมื่อปี พ.ศ. 2400 ในฐานะวัดประจำพระราชวังสระปทุม และยังคงเป็นพระอารามหลวงชั้น 3 ในสังกัดคณะสงฆ์ธรรมยุต สิ่งที่ทำให้วัดแห่งนี้พิเศษคือ 'ป่าในเมือง' ที่ต้นไม้ใหญ่ทอดร่มเงาปกคลุมทางเดินเหมือนเดินอยู่ในวัดป่า แม้จะมีห้างสรรพสินค้าล้อมรอบอยู่ทุกด้าน\n\nวัดปทุมวนารามเป็นพื้นที่กลางสำหรับผู้อยู่ในเมืองที่ต้องการหยุดพักและกลับมาสัมผัสตัวเอง ทุกวันมีการสวดมนตร์เย็นและเปิดให้นั่งสมาธิโดยไม่ต้องจองล่วงหน้า บรรยากาศอันสงบเงียบของวัดเป็นพยานให้เห็นว่าพื้นที่ทางจิตวิญญาณสามารถดำรงอยู่ได้แม้ในใจกลางความวุ่นวายของมหานคร",
+    "blurbEn": "Wat Pathum Wanaram sits in the heart of Bangkok's busiest shopping district, yet the moment you step through its gates, the city falls away. Built in 1857 by King Rama IV as a temple for the Sa Pathum Palace, this third-class royal monastery of the Dhammayut order is best known for its extraordinary urban forest — towering trees forming a canopy over the walkways that makes you forget you're surrounded by shopping malls on all sides.\n\nFor Bangkok residents seeking a moment to pause and return to themselves, Wat Pathum Wanaram offers an accessible refuge. Evening chanting is held daily and the grounds are open for meditation without advance booking. It stands as quiet proof that sacred space can hold its ground even at the center of a city that never stops moving.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "Free",
+      "bookingReq": false,
+      "bookingChannel": "ไม่ระบุ",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "17:00"
+    },
+    "contact": {
+      "website": "ไม่ระบุ",
+      "facebook": "https://www.facebook.com/pathumwanaram/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "ไม่ระบุ",
+      "address": "ถนนพระรามที่ 1 แขวงปทุมวัน เขตปทุมวัน กรุงเทพมหานคร 10330"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "2400",
+    "foundedCe": "1857",
+    "lastUpdated": "2026-04-03",
+    "highlight": "วัดในใจกลางกรุงเทพฯ (สยาม) มีคอร์สปฏิบัติธรรมบวชเนกขัมมะจารี 3-7 วัน ฟรี เหมาะผู้เริ่มต้น"
+  },
+  "TH-STN-001": {
+    "slug": "suan-mokkh-idh",
+    "heroUrl": "",
+    "nameTh": "สวนโมกข์นานาชาติ (International Dharma Hermitage)",
+    "nameEn": "Suan Mokkh International Dharma Hermitage",
+    "province": "สุราษฎร์ธานี",
+    "district": "ไชยา",
+    "tradition": "เถรวาท (สายพุทธทาส อินทปัญโญ)",
+    "abbot": "พระอาจารย์โพธิ์ (สืบสายพุทธทาส อินทปัญโญ)",
+    "blurbTh": "สวนโมกข์นานาชาติ (International Dharma Hermitage) ตั้งอยู่ห่างจากวัดสวนโมกขพลารามไปทางทิศตะวันออกเพียง 1.5 กม. ริมทางหลวงหมายเลข 41 ในอำเภอไชยา สุราษฎร์ธานี สถานที่แห่งนี้ก่อตั้งขึ้นในปี 2529 เพื่อรับชาวต่างชาติที่ต้องการปฏิบัติธรรมภายใต้แนวทางของท่านพุทธทาสภิกขุ — คอร์สเดียว ระยะเวลา 10 วัน ในความสงบสนิทที่ไม่มีข้อยกเว้น\n\nไม่มีการจองล่วงหน้า — ผู้ปฏิบัติต้องมาลงทะเบียนด้วยตนเองก่อนบ่าย 3 โมงของวันที่ 31 ทุกเดือน ตื่นตี 4 นั่งสมาธิ เดินจงกรม รับประทานอาหารมังสวิรัติ 2 มื้อ และรักษาความเงียบอย่างเคร่งครัด ไม่มีโทรศัพท์ ไม่มีการเขียน ไม่มีการพูดคุย นี่คือการหยุดอย่างแท้จริง สำหรับผู้ที่พร้อมจะลองปล่อยวางทุกอย่างเป็นเวลา 10 วัน",
+    "blurbEn": "Suan Mokkh International Dharma Hermitage sits 1.5 km east of the main Suan Mokkh monastery in Chaiya, Surat Thani — built in 1986 specifically to bring Buddhadasa Bhikkhu's teachings to international practitioners. There is one offering here: a 10-day silent retreat, running monthly, no exceptions.\n\nThere is no advance booking. Participants arrive in person before 3 PM on the last day of each month and register first-come, first-served. The retreat begins at 4 AM the next morning. Noble silence is total — no phones, no writing, no conversation. Two vegetarian meals a day. Walking meditation, sitting practice, yoga at dawn. Around 20% of participants leave before the end. For those who stay, it is often described as one of the most clarifying experiences of their lives.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "10",
+      "cost": "2,000 บาท (รวมที่พักและอาหาร)",
+      "bookingReq": true,
+      "bookingChannel": "Walk-in เท่านั้น — ลงทะเบียนหน้างานก่อน 15:00 น. วันที่ 31 ของเดือน (ไม่รับจองล่วงหน้า)",
+      "capacity": "80–200 คนต่อคอร์ส"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "04:30",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ/วีแกน",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.suanmokkh-idh.org",
+      "facebook": "https://www.facebook.com/suamokkhidh/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "+66 81 079 0295",
+      "address": "68 ต.ไชยา อ.ไชยา จ.สุราษฎร์ธานี 84110"
+    },
+    "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+    "foundedBe": "2529",
+    "foundedCe": "1986",
+    "lastUpdated": "2026-04-08",
+    "highlight": "สายพุทธทาสภิกขุ ไชยา สุราษฎร์ธานี คอร์ส 10 วันทุกต้นเดือน อานาปานสติ รับนานาชาติ นอนไม้หมอนไม้"
+  },
+  "TH-CNX-003": {
+    "slug": "wat-umong",
+    "heroUrl": "",
+    "nameTh": "วัดอุโมงค์สวนพุทธธรรม",
+    "nameEn": "Wat Umong Suan Phutthatham",
+    "province": "เชียงใหม่",
+    "district": "เมืองเชียงใหม่",
+    "tradition": "เถรวาท (ป่า – สายพุทธทาส)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "วัดอุโมงค์สวนพุทธธรรมเป็นหนึ่งในวัดที่เก่าแก่ที่สุดของเชียงใหม่ สร้างขึ้นในยุคอาณาจักรล้านนาเมื่อประมาณ 700 ปีก่อน เชิงดอยสุเทพ เอกลักษณ์ที่ทำให้วัดแห่งนี้ต่างจากวัดป่าทั่วไปคืออุโมงค์อิฐโบราณที่ขุดฝังอยู่ใต้เจดีย์ ปัจจุบันยังคงใช้เป็นสถานที่นั่งสมาธิ ล้อมรอบด้วยป่าเก่าแก่และทางเดินจงกรมยาวหลายกิโลเมตร\n\nวัดอุโมงค์ขึ้นชื่อเรื่องบรรยากาศผ่อนคลายและเปิดรับผู้มาใหม่โดยไม่มีกฎเกณฑ์เข้มงวดมากนัก มีคอร์สพักค้างคืนราคาย่อมเยา ทุกวันอาทิตย์มีธรรมบรรยายภาษาอังกฤษ และยังมี Monk Chat สำหรับพูดคุยกับพระภิกษุในวันจันทร์ พุธ และศุกร์ตอนเย็น เป็นจุดเริ่มต้นที่เหมาะสำหรับผู้ที่ต้องการสัมผัสชีวิตวัดป่าในแบบที่ยังเชื่อมต่อกับโลกภายนอกได้บ้าง",
+    "blurbEn": "Wat Umong Suan Phutthatham is one of Chiang Mai's oldest temples, built around 1357 CE at the foot of Doi Suthep by King Ku Na of the Lanna Kingdom. Its defining feature is a network of ancient brick tunnels carved beneath the main chedi — spaces that have been used for meditation for centuries and still are today, cool and dim and remarkably still despite the forest paths and visitors above.\n\nFor beginners, Wat Umong offers one of the gentlest entry points into meditation retreat life in northern Thailand. Stays are flexible from 3 nights, cost is minimal, and the schedule is structured but not severe. English Dhamma talks run every Sunday afternoon, and Monk Chat sessions on Monday, Wednesday, and Friday evenings make the practice feel human and approachable. The forest paths alone — stretching through towering trees with handwritten Dhamma signs nailed to trunks — are worth the visit.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "220 บาท/คืน + 90 บาท (ผ้า/หมอน)",
+      "bookingReq": true,
+      "bookingChannel": "โทรศัพท์ 053-810-965 / อีเมล umongmedcenter@yahoo.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "04:30",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "17:00"
+    },
+    "contact": {
+      "website": "https://www.watumong.org",
+      "facebook": "https://www.facebook.com/WatumongOffice",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "053-810-965",
+      "address": "135 หมู่ 10 ต.สุเทพ อ.เมืองเชียงใหม่ จ.เชียงใหม่ 50200"
+    },
+    "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+    "foundedBe": "~1900",
+    "foundedCe": "~1357",
+    "lastUpdated": "2026-04-08",
+    "highlight": "วัดโบราณ 700 ปี ใจกลางเชียงใหม่ สำนักปฏิบัติธรรมเน้นธรรมล้วน ค้างคืนได้ วันละ 250 บาท"
+  },
+  "TH-CNX-004": {
+    "slug": "wat-aranyawiwek-ban-pong",
+    "heroUrl": "",
+    "nameTh": "วัดอรัญญวิเวก (บ้านปง)",
+    "nameEn": "Wat Aranyawiwek (Ban Pong)",
+    "province": "เชียงใหม่",
+    "district": "แม่แตง",
+    "tradition": "ธรรมยุต (สายพระอาจารย์เปลี่ยน ปัญญาปทีโป)",
+    "abbot": "หลวงปู่เปลี่ยน ปัญญาปทีโป (มรณภาพ 2561)",
+    "blurbTh": "วัดอรัญญวิเวก หรือ 'วัดบ้านปง' ตั้งอยู่บนเนินเขาเล็กๆ กลางป่าใหญ่ในอำเภอแม่แตง เชียงใหม่ ก่อตั้งในปี 2525 โดยหลวงปู่เปลี่ยน ปัญญาปทีโป ศิษย์สายธรรมยุตที่โด่งดังด้านความเคร่งครัดและความสันโดษ ท่านใช้ชีวิตในวัดแห่งนี้มาตลอดกว่า 30 ปีจนมรณภาพในปี 2561 ทิ้งไว้ซึ่งร่มเงาของป่าและบรรยากาศสงบที่ท่านรักษาไว้\n\nวัดแห่งนี้ยังคงรักษาวิถีของวัดป่าแท้ — ตื่นเช้า เดินจงกรมในป่า ฉันอาหารมื้อเดียวหรือสองมื้อ และปฏิบัติสมาธิอย่างสม่ำเสมอ สำหรับผู้ที่สนใจสัมผัสชีวิตในวัดป่าสายธรรมยุตของภาคเหนือ วัดอรัญญวิเวกเป็นหนึ่งในสถานที่ที่หาได้ยากขึ้นทุกวัน",
+    "blurbEn": "Wat Aranyawiwek, known locally as Wat Ban Pong, sits on a low forested hill in Mae Taeng district, Chiang Mai, established in 1982 by Luang Pu Plien Pannyapatipo — a Dhammayut forest monk known for his strictness, solitude, and depth of practice. He lived and taught here for over three decades until his passing in 2018, leaving behind the forest he preserved and a lineage of students carrying his approach forward.\n\nThe temple maintains the character of an authentic northern Thai forest monastery: early rising, walking meditation on forest paths, two simple vegetarian meals, and a schedule built around practice rather than visitors. For those drawn to the Dhammayut forest tradition of the north, Wat Aranyawiwek remains one of the few places where that world is still intact.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "Facebook / ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:30",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "http://www.panyapatipo.com",
+      "facebook": "https://www.facebook.com/wataranyawiwake/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "ไม่ระบุ",
+      "address": "149 หมู่ 7 บ้านปง ต.อินทขิล อ.แม่แตง จ.เชียงใหม่ 50150"
+    },
+    "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
+    "foundedBe": "2525",
+    "foundedCe": "1982",
+    "lastUpdated": "2026-04-08",
+    "highlight": "วัดป่าสายหลวงปู่ชอบ สงบลึก เน้นกรรมฐาน ต้องติดต่อล่วงหน้า"
+  },
+  "TH-CNX-005": {
+    "slug": "wat-pa-mu-mai",
+    "heroUrl": "",
+    "nameTh": "วัดป่าหมู่ใหม่",
+    "nameEn": "Wat Pa Mu Mai",
+    "province": "เชียงใหม่",
+    "district": "แม่แตง",
+    "tradition": "ธรรมยุต (สายหลวงปู่มั่น ภูริทัตโต)",
+    "abbot": "หลวงพ่อประสิทธิ์ ปุญญมากโร (มรณภาพ 2559)",
+    "blurbTh": "วัดป่าหมู่ใหม่ซ่อนตัวอยู่ด้านหลังสำนักชลประทานแม่แตง ในอำเภอแม่แตง เชียงใหม่ ห่างจากถนนใหญ่เพียง 1.5 กม. แต่รู้สึกไกลกว่านั้นมาก วัดแห่งนี้ดำเนินตามวิถีวัดป่าแท้สายหลวงปู่มั่น ไม่มีไฟฟ้า ไม่มีสิ่งอำนวยความสะดวกสมัยใหม่ มีเพียงป่าเก่าแก่ ต้นไม้ใหญ่ที่หลวงพ่อประสิทธิ์ปลูกดูแลด้วยมือตลอดชีพของท่าน\n\nหลวงพ่อประสิทธิ์ ปุญญมากโร มรณภาพในปี 2559 แต่วัดยังคงเปิดรับผู้ที่ต้องการสัมผัสชีวิตแบบพระป่าแท้ๆ ในภาคเหนือ เหมาะสำหรับผู้ที่พร้อมวางความสะดวกสบายและเข้ามาอยู่กับความเงียบและป่าอย่างเต็มตัว",
+    "blurbEn": "Wat Pa Mu Mai hides behind the Mae Taeng Irrigation Office in Mae Taeng district, Chiang Mai — 1.5 km off the main road, but feeling far more remote. The monastery holds to the authentic forest tradition of Ajahn Mun's lineage: no electricity, no modern amenities, just old-growth forest and the large trees that Luang Por Prasit Punyamakro planted and tended throughout his life.\n\nLuang Por Prasit passed away in 2016, but the temple continues for those willing to step fully into the simplicity of northern Thai forest monastic life. This is not a retreat centre with programmes and schedules — it is a working forest monastery where the practice is the life itself.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "Facebook / ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://watpamumaichiangmai.tripod.com/",
+      "facebook": "https://www.facebook.com/269088006524404",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "ไม่ระบุ",
+      "address": "หมู่ 2 บ้านหัวผา ต.แม่แตง อ.แม่แตง จ.เชียงใหม่ (ด้านหลังสำนักชลประทานแม่แตง ~1.5 กม.)"
+    },
+    "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-08",
+    "highlight": "วัดป่าสายพระอาจารย์ประสิทธิ์ บรรยากาศสงบงดงาม เน้นปฏิบัติจริง"
+  },
+  "TH-CNX-006": {
+    "slug": "wat-pa-sala-pang-sak",
+    "heroUrl": "",
+    "nameTh": "วัดป่าศาลาปางสัก (วัดล้านนาญาณสัมปันโน)",
+    "nameEn": "Wat Pa Sala Pang Sak (Wat Lanna Yanasampanno)",
+    "province": "เชียงใหม่",
+    "district": "ดอยสะเก็ด",
+    "tradition": "ธรรมยุต (สายหลวงตามหาบัว ญาณสัมปันโน)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "วัดป่าศาลาปางสักหรือวัดล้านนาญาณสัมปันโน ตั้งอยู่ในอำเภอดอยสะเก็ด เชียงใหม่ เป็นวัดป่าสายหลวงตามหาบัว ญาณสัมปันโน — ปรมาจารย์กรรมฐานสายธรรมยุตแห่งภาคอีสาน ซึ่งมีศิษย์กระจายอยู่ทั่วประเทศ ชื่อของวัดสะท้อนทั้งลักษณะที่ตั้ง (ศาลาปางสัก) และสายธรรมที่สืบทอด (ญาณสัมปันโน)\n\nข้อมูลสาธารณะเกี่ยวกับตารางการปฏิบัติมีน้อย แต่ในฐานะวัดป่าสายหลวงตา วัดแห่งนี้ย่อมดำเนินตามวิถีที่คุ้นเคย — เช้ามืดตื่นเร็ว ฉันอาหารก่อนเที่ยง และปฏิบัติสมาธิเป็นหัวใจของชีวิตประจำวัน สำหรับผู้ที่ต้องการสัมผัสสายปฏิบัติของหลวงตามหาบัวในภาคเหนือ วัดแห่งนี้คือทางเลือกที่น่าสนใจ",
+    "blurbEn": "Wat Pa Sala Pang Sak, also known as Wat Lanna Yanasampanno, is a forest monastery in Doi Saket district, Chiang Mai, affiliated with the lineage of Luang Ta Maha Bua Yanasampanno — one of the most revered Dhammayut forest masters of the 20th century, whose students spread across Thailand and beyond. The dual name reflects both its location (Sala Pang Sak) and its spiritual inheritance (Yanasampanno).\n\nPublic information about the temple's retreat schedule is limited, but as a forest monastery in Luang Ta's tradition, the daily rhythm follows the familiar pattern: early rising, one or two meals before noon, and meditation as the organizing principle of every day. For practitioners drawn to this particular lineage who are based in or visiting Chiang Mai, it offers a northern outpost of a practice tradition rooted deeply in the northeast.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "Facebook / ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "ไม่ระบุ",
+      "facebook": "https://www.facebook.com/watpasalapangsak/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "ไม่ระบุ",
+      "address": "ต.เชิงดอย อ.ดอยสะเก็ด จ.เชียงใหม่ 50220"
+    },
+    "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-08",
+    "highlight": "วัดป่าสายหลวงตามหาบัว ดอยสะเก็ต เชียงใหม่ เน้นพุทโธภาวนา เงียบสงบ ท่ามกลางดอยเชียงใหม่"
+  },
+  "TH-CNX-007": {
+    "slug": "wat-tham-pha-plong",
+    "heroUrl": "",
+    "nameTh": "วัดถ้ำผาปล่อง",
+    "nameEn": "Wat Tham Pha Plong",
+    "province": "เชียงใหม่",
+    "district": "เชียงดาว",
+    "tradition": "ธรรมยุต (สายหลวงปู่สิม พุทธาจาโร / สายหลวงปู่มั่น ภูริทัตโต)",
+    "abbot": "หลวงปู่สิม พุทธาจาโร (ก่อตั้ง; มรณภาพ 2535)",
+    "blurbTh": "วัดถ้ำผาปล่องตั้งอยู่ในอำเภอเชียงดาว เชียงใหม่ บนระดับความสูงประมาณ 1,200 เมตรจากน้ำทะเล เข้าถึงได้โดยขึ้นบันได 510 ขั้นที่ประดับด้วยพญานาคขนาดใหญ่สองข้างทาง ก่อตั้งในปี 2510 โดยหลวงปู่สิม พุทธาจาโร ศิษย์รุ่นสำคัญของหลวงปู่มั่น ภูริทัตโต ผู้ค้นพบถ้ำธรรมชาตินี้ว่าเหมาะสำหรับการนั่งสมาธิในความสงบลึก\n\nวัดแห่งนี้เป็นทั้งสถานที่แสวงบุญและศูนย์ปฏิบัติธรรม ภายในถ้ำมีพระพุทธรูปและสถูปบรรจุอัฐิธาตุของหลวงปู่สิม บรรยากาศภายในถ้ำเย็น สงบ และเงียบอย่างที่หาได้ยาก รับผู้ปฏิบัติได้สูงสุดราว 200 คน มีพระภิกษุและภิกษุณีพร้อมดูแล",
+    "blurbEn": "Wat Tham Pha Plong sits in Chiang Dao district, Chiang Mai, at roughly 1,200 metres elevation — reached by climbing 510 steps flanked by large naga serpent statues through dense mountain forest. It was founded in 1967 by Luang Pu Sim Buddhacaro, a principal disciple of Ajahn Mun Bhuridatta, who discovered this natural cave and recognized it as an ideal place for deep meditation in solitude.\n\nThe temple functions as both pilgrimage site and meditation retreat. Inside the cave, which stays cool and remarkably quiet even when hundreds of visitors arrive, are Buddha images and a stupa enshrining Luang Pu Sim's relics. The mountain setting, the cave's silence, and the living legacy of one of Thailand's great 20th-century forest masters make Wat Tham Pha Plong one of the most striking meditation destinations in the north.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": true
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง โทร 053-455-100",
+      "capacity": "200"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "ไม่ระบุ",
+      "facebook": "https://www.facebook.com/luangpoosim/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "053-455-100",
+      "address": "139 หมู่ 5 อ.เชียงดาว จ.เชียงใหม่ 50170 (ห่างจากถ้ำเชียงดาว ~2-3 กม.)"
+    },
+    "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
+    "foundedBe": "2510",
+    "foundedCe": "1967",
+    "lastUpdated": "2026-04-08",
+    "highlight": "วัดถ้ำในหุบเขาเชียงดาว บรรยากาศธรรมชาติสุดๆ เหมาะผู้ต้องการความสงบลึก"
+  },
+  "TH-STN-002": {
+    "slug": "dipabhavan-koh-samui",
+    "heroUrl": "",
+    "nameTh": "ทีปภาวัน ธรรมสถาน (Dipabhavan)",
+    "nameEn": "Dipabhavan Meditation Center",
+    "province": "สุราษฎร์ธานี",
+    "district": "เกาะสมุย",
+    "tradition": "เถรวาท (สายพุทธทาส / สวนโมกข์)",
+    "abbot": "พระอาจารย์โพ (เจ้าอาวาสวัดสวนโมกขพลาราม)",
+    "blurbTh": "ทีปภาวัน ธรรมสถาน ตั้งอยู่บนเนินเขาทางตะวันออกเฉียงใต้ของเกาะสมุย จังหวัดสุราษฎร์ธานี มองเห็นทะเลและป่ามะพร้าวกึ่งป่าธรรมชาติ เปิดดำเนินการตั้งแต่ปี 2548 ในสายปฏิบัติของพุทธทาสภิกขุและวัดสวนโมกข์ มีคอร์สปฏิบัติธรรม 3 วัน 7 วัน ทั้งแบบผู้เริ่มต้น (อาณาปานสติ) และแบบก้าวหน้า (วิปัสสนา) โดยตลอดคอร์สรักษาความสงบเงียบอย่างเคร่งครัด\n\nบรรยากาศของทีปภาวันแตกต่างจากศูนย์ปฏิบัติธรรมทั่วไป — การผสมระหว่างความสวยงามของธรรมชาติเกาะสมุยกับวิถีชีวิตที่เรียบง่ายและจงใจ ทำให้ที่นี่เหมาะสำหรับทั้งชาวไทยและต่างชาติที่ต้องการหยุดพักและปฏิบัติอย่างจริงจังในสภาพแวดล้อมที่สวยงาม",
+    "blurbEn": "Dipabhavan Meditation Center sits on a hillside in the southeast of Koh Samui, Surat Thani, with views over the sea and forest — an unlikely pairing of tropical island beauty and serious meditation practice. Founded in 2005 in the lineage of Buddhadasa Bhikkhu and Wat Suan Mokkh, it offers 3-day and 7-day courses in both Anapanasati (beginner) and Vipassana (advanced), with noble silence observed throughout.\n\nThe setting is distinctive: simple private rooms (no air conditioning, no sockets), vegetarian meals in silence, and a daily rhythm starting at 4 AM — all within reach of one of Thailand's most visited islands. For practitioners who find themselves in Samui and want to go deeper, or for those specifically seeking a Suan Mokkh-style retreat with a view of the Gulf of Thailand, Dipabhavan offers something genuinely rare.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "อีเมล booking@dipabhavan.org / dipabhavan.eng@gmail.com (จองล่วงหน้าได้ 4 เดือน)",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "04:30",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ (ไม่มีเนื้อสัตว์และปลา)",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.dipabhavan.org",
+      "facebook": "https://www.facebook.com/DipabhavanRetreat",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "096-993-6955",
+      "address": "438/130 หมู่ 1 ต.มะเร็ต อ.เกาะสมุย จ.สุราษฎร์ธานี 84310"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A3A, #2D5C5C)",
+    "foundedBe": "2548",
+    "foundedCe": "2005",
+    "lastUpdated": "2026-04-08",
+    "highlight": "ศูนย์ปฏิบัติธรรมริมทะเล 7 วันฟรี วิวสวย เหมาะผู้เริ่มต้นชาวต่างชาติ"
+  },
+  "TH-CNX-009": {
+    "slug": "pa-pae-meditation-retreat",
+    "heroUrl": "",
+    "nameTh": "ป่าแป๋ เมดิเตชั่น รีทรีต (Pa Pae)",
+    "nameEn": "Pa Pae Meditation Retreat",
+    "province": "เชียงใหม่",
+    "district": "แม่แตง",
+    "tradition": "เถรวาท – วิปัสสนา (พระสงฆ์นานาชาติ)",
+    "abbot": "พระปวิทัย (เจ้าอาวาส), พระนิค (ครูสอนภาษาอังกฤษ)",
+    "blurbTh": "ป่าแป๋ เมดิเตชั่น รีทรีต ตั้งอยู่กลางป่าเขาในอำเภอแม่แตง เชียงใหม่ ระหว่างทางเชียงใหม่และปาย ห่างจากตัวเมืองราว 90 กม. ด้วยทีมพระสงฆ์นานาชาติที่สอนเป็นภาษาอังกฤษนำโดยพระนิค ผู้อดีตนักจิตบำบัด ทำให้ป่าแป๋เป็นหนึ่งในไม่กี่แห่งในไทยที่ชาวต่างชาติสามารถเรียนรู้วิปัสสนาได้อย่างลึกซึ้งโดยไม่มีอุปสรรคด้านภาษา\n\nสไตล์ของป่าแป๋คือความสมดุลระหว่างวินัยและความผ่อนคลาย — มีน้ำพุร้อนธรรมชาติ เส้นทางเดินป่า และคอร์สบวชพระระยะสั้น ควบคู่กับการนั่งสมาธิจริงจัง เหมาะสำหรับผู้เริ่มต้นที่ต้องการสัมผัสชีวิตในวัดแบบสบายๆ ก่อนจะก้าวไปสู่การปฏิบัติที่เข้มข้นขึ้น",
+    "blurbEn": "Pa Pae Meditation Retreat sits in mountain forest in Mae Taeng district, Chiang Mai, roughly 90 km from the city on the road between Chiang Mai and Pai. What makes it distinctive is its team of international monks who teach in English — led by Ven. Nick Keomahavong, a former psychotherapist turned monk — making deep Vipassana instruction genuinely accessible to non-Thai speakers.\n\nThe approach balances structure with accessibility: four meditation sessions daily, Dhamma talks, interviews with teachers, plus a natural hot spring pool, forest walks, and optional yoga. A monthly short-term ordination program is available for men. For beginners wanting a real encounter with forest monastery life that doesn't feel intimidating, Pa Pae is one of the most thoughtfully designed entry points in northern Thailand.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": true
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "แนะนำ 500 บาท/วัน (3 คืน = 1,500 บาท)",
+      "bookingReq": true,
+      "bookingChannel": "เว็บ papaemeditation.org / อีเมล reservations@iretreat.co",
+      "capacity": "50"
+    },
+    "ordinationInfo": {
+      "minDays": "15",
+      "cost": "ฟรี",
+      "prerequisite": "สมัครก่อนวันที่ 7 ของเดือน บวชวันที่ 15"
+    },
+    "schedule": {
+      "wake": "05:30",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.papaemeditation.org",
+      "facebook": "https://www.facebook.com/PaPaeMeditationRetreat",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "+66 81 764 2417",
+      "address": "บ้านปางมะกลาย ป่าแป๋ อ.แม่แตง จ.เชียงใหม่ 50150 (ห่างเชียงใหม่ ~90 กม.)"
+    },
+    "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-08",
+    "highlight": "ศูนย์ป่าเล็กอบอุ่น รีวิว 4.8 ดาว เหมาะผู้เริ่มต้นชาวต่างชาติในเชียงใหม่"
+  },
+  "TH-MHS-001": {
+    "slug": "pimc-pai",
+    "heroUrl": "",
+    "nameTh": "ศูนย์ปฏิบัติธรรมนานาชาติปาย (PIMC)",
+    "nameEn": "Pai International Meditation Centre (PIMC)",
+    "province": "แม่ฮ่องสอน",
+    "district": "ปาย",
+    "tradition": "เถรวาท – สมาธิแนวธรรมกาย (สายหลวงพ่อสดจันทสโร)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "ศูนย์ปฏิบัติธรรมนานาชาติปาย (PIMC) ตั้งอยู่ในอำเภอปาย จังหวัดแม่ฮ่องสอน ห่างจากตัวเมืองแม่ฮ่องสอน 111 กม. ท่ามกลางธรรมชาติขุนเขาภาคเหนือ รับนักปฏิบัติจาก 68 สัญชาติ เน้นการสอนเป็นภาษาอังกฤษโดยพระสงฆ์ไทย ในแนวทางสมาธิที่สืบสายจากหลวงพ่อสดจันทสโร ผู้ก่อตั้งแนวธรรมกาย — เน้นการเข้าถึงสมาธิผ่านความสบายและความสงบของจิต\n\nที่พักเป็นกระท่อมส่วนตัวพร้อมแอร์และห้องน้ำ รับผู้ปฏิบัติได้ครั้งละ 25 คน มีบ่อน้ำพุร้อนธรรมชาติและเส้นทางเดินสำหรับใคร่ครวญ คอร์สหลักคือ 7 วัน สอนโดยพระสงฆ์ที่พูดภาษาอังกฤษได้คล่อง",
+    "blurbEn": "Pai International Meditation Centre (PIMC) sits in Pai district, Mae Hong Son, 111 km from Mae Hong Son town, deep in northern Thai mountain country. Having welcomed practitioners from 68 nationalities, it's built specifically for English-speaking international visitors — teaching meditation in the Dhammakaya lineage of Luang Pu Sodh Candasaro, an approach that emphasizes ease, stillness, and returning the mind to its natural home.\n\nAccommodations are private air-conditioned cottages with bathrooms, capacity is deliberately small at 25 people, and a natural hot spring pool is on site. The core offering is a 7-day retreat, with 3-day and 1-day options also available. For practitioners wanting a comfortable, international-standard retreat experience in a genuinely remote mountain setting, PIMC Pai is a distinctive choice.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "7",
+      "cost": "ไม่ระบุ (ติดต่อโดยตรง)",
+      "bookingReq": true,
+      "bookingChannel": "เว็บ paimeditationcenter.org/booking",
+      "capacity": "25"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "3",
+      "mealType": "ทั้งมังสวิรัติและเนื้อสัตว์ (ผักจากสวนออร์แกนิก)",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.paimeditationcenter.org",
+      "facebook": "https://www.facebook.com/paimeditationcenter/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "+66 91 119 1892",
+      "address": "175 หมู่ 2 ถ.บ้านปองร้อน ต.แม่ฮี้ อ.ปาย จ.แม่ฮ่องสอน 58130"
+    },
+    "gradient": "linear-gradient(135deg, #1A3A2A, #2D5C3E)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-08",
+    "highlight": "ศูนย์ปฏิบัติธรรมในปาย บรรยากาศผ่อนคลาย เหมาะผู้ต้องการเริ่มต้นแบบสบายๆ"
+  },
+  "TH-ATG-001": {
+    "slug": "pa-auk-angthong",
+    "heroUrl": "",
+    "nameTh": "ศูนย์ปฏิบัติธรรมนานาชาติอ่างทอง (Pa-Auk Tawya)",
+    "nameEn": "Angthong International Meditation Center (Pa-Auk Tawya branch)",
+    "province": "อ่างทอง",
+    "district": "เมืองอ่างทอง",
+    "tradition": "เถรวาท – สมถะ-วิปัสสนา (สายพระอาจารย์ปอออกตอยา / Pa-Auk Sayadaw)",
+    "abbot": "พระอาจารย์ปอออกตอยา อูอะจิน่า (ผู้อำนวยการจิตวิญญาณ)",
+    "blurbTh": "ศูนย์ปฏิบัติธรรมนานาชาติอ่างทองก่อตั้งในปี 2556 โดยมูลนิธิ On the Path of The Buddha เพื่อนำแนวทางการปฏิบัติของวัดป่าอ้อกตอยา (Pa-Auk Tawya) จากเมียนมาร์มาสู่ประเทศไทย ภายใต้การนำทางจิตวิญญาณของพระอาจารย์ปอออกตอยา อูอะจิน่า หนึ่งในปรมาจารย์สมถะวิปัสสนาที่โด่งดังที่สุดในโลกยุคปัจจุบัน\n\nแนวทางปฏิบัติที่นี่ยึดหลัก วิสุทธิมรรค — พัฒนาสมาธิระดับฌานก่อน (สมถะ) จากนั้นจึงใช้สมาธิเป็นฐานพิจารณาวิปัสสนา กระบวนการนี้ต้องใช้เวลาอย่างน้อย 15 วัน มีการสัมภาษณ์ความคืบหน้ากับครูผู้สอน รับเฉพาะผู้ที่ถือศีล 8 และรักษาความเงียบสนิทตลอดการปฏิบัติ ฟรีทุกอย่าง รวมที่พักและอาหาร",
+    "blurbEn": "The Angthong International Meditation Center was established in 2013 by the On the Path of the Buddha Foundation to bring the practice tradition of Pa-Auk Tawya monastery from Myanmar to Thailand, under the spiritual direction of Pa-Auk Tawya Sayadaw U Acina — one of the most renowned living masters of samatha-vipassana meditation worldwide.\n\nThe method follows the Visuddhimagga (Path of Purification): developing jhāna concentration through samatha first, then using that stillness as a platform for vipassana insight into impermanence, suffering, and non-self. Retreats are minimum 15 days, require observance of at least 8 precepts, noble silence throughout, and individual progress interviews with teachers. All costs — accommodation and two daily meals — are covered. Spaces are limited and allocated based on qualifications.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": true
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "15",
+      "cost": "ฟรี (รวมที่พักและอาหาร 2 มื้อ)",
+      "bookingReq": true,
+      "bookingChannel": "ฟอร์มสมัครออนไลน์ที่ paaukthailand.org / อีเมล paauktawyathailand@gmail.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.paaukthailand.org",
+      "facebook": "https://www.facebook.com/kumarabhivamsa.fb/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "+66 65 562 6765",
+      "address": "65/6 หมู่ 7 ต.จำปาหล่อ อ.เมืองอ่างทอง จ.อ่างทอง 14000"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "2556",
+    "foundedCe": "2013",
+    "lastUpdated": "2026-04-08",
+    "highlight": "ศูนย์สมาธิเข้มข้นสายพระอาจารย์ Pa-Auk เหมาะผู้ต้องการปฏิบัติสมาธิขั้นลึก"
+  },
+  "TH-PLK-001": {
+    "slug": "dhamma-tapoda",
+    "heroUrl": "",
+    "nameTh": "ธรรมตโปทา (ศูนย์วิปัสสนาโคเอ็นก้า สาขาพิษณุโลก)",
+    "nameEn": "Dhamma Tapoda Vipassana Meditation Center",
+    "province": "พิษณุโลก",
+    "district": "วังทอง",
+    "tradition": "เถรวาท – วิปัสสนา (สาย S.N. Goenka / U Ba Khin)",
+    "abbot": "ไม่ระบุ (บริหารโดยมูลนิธิธรรมตโปทา)",
+    "blurbTh": "ธรรมตโปทาตั้งอยู่บนที่ราบสูงในอำเภอวังทอง จังหวัดพิษณุโลก บนพื้นที่ 15 ไร่ที่มีภูเขาล้อมรอบสามด้าน เป็นหนึ่งในศูนย์วิปัสสนาสายโคเอ็นก้าที่ขยายเพิ่มจากเครือข่าย 10 ศูนย์เดิม ดำเนินตามรูปแบบมาตรฐาน 10 วันของสาย U Ba Khin — ตื่นตี 4 นั่งสมาธิวันละ 10 ชั่วโมง รักษาความเงียบสนิทตลอด 9 วันแรก ฟรีทุกอย่าง\n\nธรรมตโปทาเหมาะสำหรับผู้ที่ต้องการทดลองแนววิปัสสนา Body Scanning ของโคเอ็นก้าในสภาพแวดล้อมที่เงียบสงบห่างไกลจากเมือง บรรยากาศที่ราบสูงพิษณุโลกให้ความรู้สึกสงัดและสงบเป็นพิเศษ",
+    "blurbEn": "Dhamma Tapoda sits on a highland plateau in Wang Thong district, Phitsanulok, on 15 rai of land with mountain ranges on three sides — an addition to the Goenka network of centres in Thailand, following the same standard 10-day format: 4 AM wake, ten hours of meditation daily, noble silence for the first nine days, everything free.\n\nThe method is the Goenka body-scanning Vipassana: begin with Anapana (breath awareness) for the first three days to sharpen concentration, then shift to systematic scanning of bodily sensations to develop equanimity and insight. The highland setting of Phitsanulok gives Dhamma Tapoda a particular stillness — far from urban noise, surrounded by mountains, built for the kind of internal work that requires complete external quiet.",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": false
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "10",
+      "cost": "ฟรี (บริจาคจากผู้สำเร็จคอร์สเท่านั้น)",
+      "bookingReq": true,
+      "bookingChannel": "ลงทะเบียนออนไลน์ที่ tapoda.dhamma.org / thai.dhamma.org",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "04:30",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ (อาหารเช้า + กลางวัน; ผู้ใหม่ได้ผลไม้ 17:00; ผู้เก่าได้ชาเท่านั้น)",
+      "eveningChant": "21:00"
+    },
+    "contact": {
+      "website": "https://tapoda.dhamma.org",
+      "facebook": "ไม่ระบุ",
+      "facebookEn": "ไม่ระบุ",
+      "line": "@Dhammatapoda",
+      "phone": "065-575-0604",
+      "address": "บ้านท่าช้างใต้ อ.วังทอง จ.พิษณุโลก (บนที่ราบสูงมีภูเขาล้อมรอบ 3 ด้าน 15 ไร่)"
+    },
+    "gradient": "linear-gradient(135deg, #2A3A1A, #4A5C2D)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-08",
+    "highlight": "คอร์ส 10 วันฟรีท่ามกลางธรรมชาติเขาใหญ่ เข้มข้นแต่ประทับใจไม่รู้ลืม"
   }
 }

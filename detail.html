@@ -965,11 +965,7 @@ let TEMPLES_DETAIL = {};
     document.getElementById('sidebar-contact-list').innerHTML = sidebarContactHtml;
 
     // Update callout
-    const calloutTexts = {
-      'TH-BKK-006': 'เสถียรธรรมสถานเปิดคอร์สทุกสัปดาห์ตลอดปี ไม่มีปิดเทอม และรองรับทั้งผู้เริ่มต้นจนถึงผู้ปฏิบัติขั้นสูง',
-      'TH-NMA-001': 'วัดป่าสายธรรมยุตกลางธรรมชาติ เปิดรับการปฏิบัติธรรมฟรีทุกกิจกรรม',
-    };
-    document.getElementById('callout-body').textContent = calloutTexts[templeId] || 'สถานปฏิบัติธรรมแห่งนี้มีความเชี่ยวชาญและประสบการณ์ยาวนาน';
+    document.getElementById('callout-body').textContent = temple.highlight || 'สถานปฏิบัติธรรมแห่งนี้มีความเชี่ยวชาญและประสบการณ์ยาวนาน';
 
     // Add Place schema
     const placeSchema = {
