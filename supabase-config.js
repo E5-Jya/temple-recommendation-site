@@ -341,33 +341,98 @@ async function handleGoogleLogin() {
 }
 
 // ── Topbar user state ────────────────────────────────────────
+// Operates on #authBtn (in .nav-links, far right of top nav on every page).
+// Replaces it with either a login button or an avatar+dropdown based on
+// auth state. Keeps the same id so subsequent renders find it again.
 
 function updateTopbarAuth(user) {
-  // Remove existing user menu
-  document.querySelectorAll('.user-menu').forEach(el => el.remove());
-  document.querySelectorAll('.topbar-login').forEach(el => el.remove());
+  injectNavAuthStyles();
+  const existing = document.getElementById('authBtn');
+  if (!existing) return;
+  const parent = existing.parentElement;
 
-  const topbar = document.querySelector('.topbar') || document.querySelector('.actions-bar');
-  if (!topbar) return;
-
+  let replacement;
   if (user) {
     const initial = (user.email || 'U')[0].toUpperCase();
-    const menu = document.createElement('div');
-    menu.className = 'user-menu';
-    menu.innerHTML = `
-      <div class="user-avatar">${initial}</div>
-      <span class="user-email">${user.email}</span>
-      <button class="btn-logout" onclick="handleLogout()">ออกจากระบบ</button>
+    replacement = document.createElement('div');
+    replacement.id = 'authBtn';
+    replacement.className = 'nav-user';
+    replacement.innerHTML = `
+      <button type="button" class="nav-user-avatar" title="${user.email}" aria-label="${user.email}">${initial}</button>
+      <div class="nav-user-dropdown">
+        <div class="nav-user-email">${user.email}</div>
+        <button type="button" class="nav-user-logout">ออกจากระบบ</button>
+      </div>
     `;
-    topbar.appendChild(menu);
+    replacement.querySelector('.nav-user-avatar').addEventListener('click', (e) => {
+      e.stopPropagation();
+      replacement.classList.toggle('open');
+    });
+    replacement.querySelector('.nav-user-logout').addEventListener('click', handleLogout);
   } else {
-    const loginBtn = document.createElement('button');
-    loginBtn.className = 'btn-logout topbar-login';
-    loginBtn.textContent = 'เข้าสู่ระบบ';
-    loginBtn.style.marginLeft = 'auto';
-    loginBtn.onclick = () => openAuthModal('login');
-    topbar.appendChild(loginBtn);
+    replacement = document.createElement('button');
+    replacement.id = 'authBtn';
+    replacement.type = 'button';
+    replacement.className = 'nav-btn';
+    replacement.textContent = 'เข้าสู่ระบบ';
+    replacement.addEventListener('click', () => openAuthModal('login'));
   }
+
+  parent.replaceChild(replacement, existing);
+}
+
+function injectNavAuthStyles() {
+  if (document.getElementById('navAuthStyles')) return;
+  const style = document.createElement('style');
+  style.id = 'navAuthStyles';
+  style.textContent = `
+    .nav-user { position: relative; display: inline-block; }
+    .nav-user-avatar {
+      width: 36px; height: 36px; border-radius: 50%;
+      border: 1.5px solid rgba(255,255,255,0.45);
+      background: rgba(255,255,255,0.1); color: #fff;
+      font-size: 14px; font-weight: 700; font-family: inherit;
+      cursor: pointer; padding: 0;
+      display: inline-flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .nav-user-avatar:hover { background: rgba(255,255,255,0.2); }
+    .nav-user-dropdown {
+      display: none;
+      position: absolute; top: calc(100% + 8px); right: 0;
+      min-width: 220px;
+      background: var(--surface, #fff);
+      border-radius: var(--radius-sm, 8px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+      padding: 12px;
+      z-index: 1000;
+    }
+    .nav-user.open .nav-user-dropdown { display: block; }
+    .nav-user-email {
+      font-size: 12px; color: var(--muted, #7A7670);
+      padding: 4px 8px 8px;
+      border-bottom: 1px solid var(--border, #D1CCC4);
+      margin-bottom: 8px;
+      word-break: break-all;
+    }
+    .nav-user-logout {
+      width: 100%; padding: 8px 12px;
+      border: none; background: transparent;
+      color: var(--foreground, #2D3436);
+      font-size: 13px; font-weight: 500; font-family: inherit;
+      text-align: left; cursor: pointer; border-radius: 4px;
+      transition: background 0.2s;
+    }
+    .nav-user-logout:hover { background: var(--surface-alt, #F0EDE6); }
+  `;
+  document.head.appendChild(style);
+
+  // Close dropdown when clicking outside
+  document.addEventListener('click', (e) => {
+    document.querySelectorAll('.nav-user.open').forEach(el => {
+      if (!el.contains(e.target)) el.classList.remove('open');
+    });
+  });
 }
 
 async function handleLogout() {
