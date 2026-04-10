@@ -4138,5 +4138,635 @@
     "foundedCe": "ไม่ระบุ",
     "lastUpdated": "2026-04-08",
     "highlight": "คอร์ส 10 วันฟรีท่ามกลางธรรมชาติเขาใหญ่ เข้มข้นแต่ประทับใจไม่รู้ลืม"
+  },
+  "TH-UTI-001": {
+    "slug": "wat-tha-sung",
+    "heroUrl": "",
+    "nameTh": "วัดจันทาราม (ท่าซุง)",
+    "nameEn": "Wat Chantharam (Wat Tha Sung)",
+    "province": "อุทัยธานี",
+    "district": "เมืองอุทัยธานี",
+    "tradition": "เถรวาท – สมาธิ-ฌาน (สายหลวงพ่อฤาษีลิงดำ)",
+    "abbot": "หลวงพ่อฤาษีลิงดำ (มรณภาพ 2535)",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "โทรศัพท์ / เว็บ watthasung.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.watthasung.com",
+      "facebook": "https://www.facebook.com/watthasung.official",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "056-502-506",
+      "address": "หมู่ 2 ต.น้ำซึม อ.เมืองอุทัยธานี จ.อุทัยธานี 61000"
+    },
+    "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
+    "foundedBe": "2471",
+    "foundedCe": "1928",
+    "lastUpdated": "2026-04-09",
+    "highlight": "วัดอุทัยธานี สายมโนมยิทธิ-กสิณ คลังธรรมะโสตทัศนูปกรณ์ขนาดใหญ่"
+  },
+  "TH-SBU-001": {
+    "slug": "wat-amphawan-singburi",
+    "heroUrl": "",
+    "nameTh": "วัดอัมพวัน",
+    "nameEn": "Wat Amphawan",
+    "province": "สิงห์บุรี",
+    "district": "พรหมบุรี",
+    "tradition": "เถรวาท – สติปัฏฐาน 4 (สายหลวงพ่อจรัญ ทิตฺธัมโม)",
+    "abbot": "หลวงพ่อจรัญ ทิตฺธัมโม (มรณภาพ 2559)",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": true,
+      "bookingChannel": "เว็บ amphawan.net (รับเฉพาะคนไทย)",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.amphawan.net",
+      "facebook": "https://www.facebook.com/amphawantemple",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "036-510-598",
+      "address": "53 หมู่ 4 ถ.เอเชีย ต.พรหมบุรี อ.พรหมบุรี จ.สิงห์บุรี 16160"
+    },
+    "gradient": "linear-gradient(135deg, #2A1A3A, #4A2D5C)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-09",
+    "highlight": "วัดหลวงพ่อจรัญ ปฏิบัติสติปัฏฐาน 4 เข้มข้น ชื่อดังทั่วประเทศ"
+  },
+  "TH-SNK-001": {
+    "slug": "wat-pa-nak-nimit",
+    "heroUrl": "",
+    "nameTh": "วัดป่านาคนิมิตต์",
+    "nameEn": "Wat Pa Nak Nimit",
+    "province": "สกลนคร",
+    "district": "โคกศรีสุพรรณ",
+    "tradition": "ธรรมยุต (สายหลวงปู่มั่น ภูริทัตโต)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี (บริจาคตามศรัทธา)",
+      "bookingReq": true,
+      "bookingChannel": "ติดต่อวัดโดยตรง",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "ไม่ระบุ",
+      "facebook": "ไม่ระบุ",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "ไม่ระบุ",
+      "address": "ต.ตองโขบ อ.โคกศรีสุพรรณ จ.สกลนคร 47280"
+    },
+    "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
+    "foundedBe": "ไม่ระบุ",
+    "foundedCe": "ไม่ระบุ",
+    "lastUpdated": "2026-04-09",
+    "highlight": "วัดป่าสายหลวงปู่มั่น โคกศรีสุพรรณ สกลนคร กำลังสร้างพระมหาธาตุเจดีย์"
+  },
+  "TH-MHS-002": {
+    "slug": "wat-pa-tam-wua",
+    "heroUrl": "",
+    "nameTh": "วัดป่าถ้ำวัวสุญญตาราม",
+    "nameEn": "Wat Pa Tam Wua Forest Monastery",
+    "province": "แม่ฮ่องสอน",
+    "district": "เมืองแม่ฮ่องสอน",
+    "tradition": "เถรวาท – วิปัสสนา (สายหลวงพ่อสายหยุด ปัญญาธโร)",
+    "abbot": "พระครูวิมลภาวนานุสาสน์ (หลวงพ่อสายหยุด ปัญญาธโร)",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": false
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": true
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": false
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "3",
+      "cost": "ฟรี (รวมที่พักและอาหาร)",
+      "bookingReq": false,
+      "bookingChannel": "Walk-in ได้ทุกวัน มาก่อน 16:00",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ/วีแกน (ฉันก่อนเที่ยง)",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.wattamwua.com",
+      "facebook": "https://www.facebook.com/watpatamwuaofficial",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "+66 81 031 3326",
+      "address": "บ้านแม่สุยะ ต.ห้วยผา อ.เมือง จ.แม่ฮ่องสอน 58000 (ห่างจากเมืองแม่ฮ่องสอน ~35 กม.)"
+    },
+    "gradient": "linear-gradient(135deg, #3A1A2A, #5C2D4A)",
+    "foundedBe": "2540",
+    "foundedCe": "1997",
+    "lastUpdated": "2026-04-09",
+    "highlight": "ศูนย์วิปัสสนานานาชาติ 140 ชาติ ฟรี มีชั้นเรียนทุกวัน"
+  },
+  "TH-BKK-011": {
+    "slug": "wat-phra-ram-9",
+    "heroUrl": "",
+    "nameTh": "วัดพระราม ๙ กาญจนาภิเษก",
+    "nameEn": "Wat Phra Ram 9 Kanchanaphisek",
+    "province": "กรุงเทพมหานคร",
+    "district": "ห้วยขวาง",
+    "tradition": "ธรรมยุต (วัดพระราชทาน รัชกาลที่ 9)",
+    "abbot": "ไม่ระบุ",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "ไม่ระบุ",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.rama9temple.org",
+      "facebook": "https://www.facebook.com/p/วัดพระราม-๙-กาญจนาภิเษก-100064712885283/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "02-318-5925",
+      "address": "999 ซ.พระราม 9 กาญจนาภิเษก 19 ถ.พระราม 9 แขวงบางกะปิ เขตห้วยขวาง กรุงเทพฯ 10320"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A4A, #2C4A80)",
+    "foundedBe": "2538",
+    "foundedCe": "1995",
+    "lastUpdated": "2026-04-09",
+    "highlight": "วัดประจำรัชกาลที่ ๙ ห้วยขวาง เรียบง่าย ไม่มีเครื่องรางสอนธรรม"
+  },
+  "TH-SPK-001": {
+    "slug": "wat-chak-daeng",
+    "heroUrl": "",
+    "nameTh": "วัดจากแดง",
+    "nameEn": "Wat Chak Daeng",
+    "province": "สมุทรปราการ",
+    "district": "พระประแดง",
+    "tradition": "มหานิกาย",
+    "abbot": "พระมหาประนอม ธัมมาลังกาโร",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": false
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": true
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": true
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "ไม่ระบุ",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "ไม่ระบุ",
+      "morningChant": "ไม่ระบุ",
+      "mealCount": "ไม่ระบุ",
+      "mealType": "ไม่ระบุ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "https://www.watchakdaeng.com",
+      "facebook": "https://www.facebook.com/WatChakdaengOfficial/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "ไม่ระบุ",
+      "address": "16 หมู่ 6 ถ.เพชรหึง ต.ทรงคนอง อ.พระประแดง จ.สมุทรปราการ 10130"
+    },
+    "gradient": "linear-gradient(135deg, #1A2A2A, #2D4A4A)",
+    "foundedBe": "2325",
+    "foundedCe": "1782",
+    "lastUpdated": "2026-04-09",
+    "highlight": "วัดอธิรรม-สิ่งแวดล้อม แปลงขยะพลาสติกเป็นจีวร เรียนธรรมทุกพฤหัสฯ"
+  },
+  "TH-NTB-002": {
+    "slug": "wat-sanam-nai",
+    "heroUrl": "",
+    "nameTh": "วัดสนามใน",
+    "nameEn": "Wat Sanam Nai",
+    "province": "นนทบุรี",
+    "district": "บางกรวย",
+    "tradition": "มหานิกาย – มหาสติ/เจริญสติแบบเคลื่อนไหว (สายหลวงพ่อเทียน จิตฺตสุโภ)",
+    "abbot": "ก่อตั้งโดยหลวงพ่อเทียน จิตฺตสุโภ (2454–2531)",
+    "blurbTh": "",
+    "blurbEn": "",
+    "activities": [
+      {
+        "name": "นั่งสมาธิประจำวัน",
+        "available": true
+      },
+      {
+        "name": "บรรยายธรรม",
+        "available": true
+      },
+      {
+        "name": "คอร์สปฏิบัติ",
+        "available": true
+      },
+      {
+        "name": "บวชพระ",
+        "available": true
+      },
+      {
+        "name": "บวชสามเณร",
+        "available": false
+      },
+      {
+        "name": "บวชชีพราหมณ์",
+        "available": false
+      },
+      {
+        "name": "โครงการแม่ชี",
+        "available": false
+      },
+      {
+        "name": "ทอดกฐิน",
+        "available": true
+      },
+      {
+        "name": "กิจกรรมพิเศษ",
+        "available": true
+      },
+      {
+        "name": "ถ่ายทอดสดออนไลน์",
+        "available": false
+      },
+      {
+        "name": "บริการสังคม",
+        "available": false
+      }
+    ],
+    "retreatInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ฟรี",
+      "bookingReq": false,
+      "bookingChannel": "Walk-in / โทร 02-009-4853 / อีเมล info.watsanamnai@gmail.com",
+      "capacity": "ไม่ระบุ"
+    },
+    "ordinationInfo": {
+      "minDays": "ไม่ระบุ",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "ไม่ระบุ"
+    },
+    "schedule": {
+      "wake": "04:00",
+      "morningChant": "05:15",
+      "mealCount": "2",
+      "mealType": "มังสวิรัติ",
+      "eveningChant": "ไม่ระบุ"
+    },
+    "contact": {
+      "website": "http://www.watsanamnai.info",
+      "facebook": "https://www.facebook.com/Sanamnai/",
+      "facebookEn": "ไม่ระบุ",
+      "line": "ไม่ระบุ",
+      "phone": "02-009-4853",
+      "address": "27 หมู่ 4 ต.วัดชลอ อ.บางกรวย จ.นนทบุรี 11130"
+    },
+    "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
+    "foundedBe": "2519",
+    "foundedCe": "1976",
+    "lastUpdated": "2026-04-09",
+    "highlight": "สายหลวงพ่อเทียน เจริญสติแบบเคลื่อนไหว เปิดทุกวัน ฟรี"
   }
 }

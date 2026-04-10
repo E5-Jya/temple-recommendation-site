@@ -1252,5 +1252,201 @@
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "detail.html?id=TH-PLK-001"
+  },
+  {
+    "id": "TH-UTI-001",
+    "nameTh": "วัดจันทาราม (ท่าซุง)",
+    "nameEn": "Wat Chantharam (Wat Tha Sung)",
+    "province": "อุทัยธานี",
+    "district": "เมืองอุทัยธานี",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-UTI-001"
+  },
+  {
+    "id": "TH-SBU-001",
+    "nameTh": "วัดอัมพวัน",
+    "nameEn": "Wat Amphawan",
+    "province": "สิงห์บุรี",
+    "district": "พรหมบุรี",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-SBU-001"
+  },
+  {
+    "id": "TH-SNK-001",
+    "nameTh": "วัดป่านาคนิมิตต์",
+    "nameEn": "Wat Pa Nak Nimit",
+    "province": "สกลนคร",
+    "district": "โคกศรีสุพรรณ",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-SNK-001"
+  },
+  {
+    "id": "TH-MHS-002",
+    "nameTh": "วัดป่าถ้ำวัวสุญญตาราม",
+    "nameEn": "Wat Pa Tam Wua Forest Monastery",
+    "province": "แม่ฮ่องสอน",
+    "district": "เมืองแม่ฮ่องสอน",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "duration_long": 3,
+      "budget_mid": 2,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3,
+      "profile_women": 3
+    },
+    "whys": [
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 3 วัน",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง",
+      "เปิดรับสตรี/แม่ชี"
+    ],
+    "link": "detail.html?id=TH-MHS-002"
+  },
+  {
+    "id": "TH-BKK-011",
+    "nameTh": "วัดพระราม ๙ กาญจนาภิเษก",
+    "nameEn": "Wat Phra Ram 9 Kanchanaphisek",
+    "province": "กรุงเทพมหานคร",
+    "district": "ห้วยขวาง",
+    "scores": {
+      "location_bkk": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "profile_beginner": 3,
+      "profile_family": 2
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "เดินทางสะดวก ในกรุงเทพฯ"
+    ],
+    "link": "detail.html?id=TH-BKK-011"
+  },
+  {
+    "id": "TH-SPK-001",
+    "nameTh": "วัดจากแดง",
+    "nameEn": "Wat Chak Daeng",
+    "province": "สมุทรปราการ",
+    "district": "พระประแดง",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-SPK-001"
+  },
+  {
+    "id": "TH-NTB-002",
+    "nameTh": "วัดสนามใน",
+    "nameEn": "Wat Sanam Nai",
+    "province": "นนทบุรี",
+    "district": "บางกรวย",
+    "scores": {
+      "location_upcountry": 3,
+      "location_any": 2,
+      "duration_halfday": 3,
+      "duration_weekend": 3,
+      "duration_week": 3,
+      "budget_free": 3,
+      "budget_any": 2,
+      "activity_meditation": 3,
+      "activity_dhamma_talk": 3,
+      "activity_ordain": 3,
+      "activity_nature": 2,
+      "profile_beginner": 3
+    },
+    "whys": [
+      "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
+      "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
+      "รับบวชพระ/สามเณร",
+      "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
+    ],
+    "link": "detail.html?id=TH-NTB-002"
   }
 ]
