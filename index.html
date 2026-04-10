@@ -32,7 +32,7 @@
     ]
   }
   </script>
-  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&family=Noto+Serif+Thai:wght@700&display=swap" rel="stylesheet">
   <style>
     :root {
       --background: #F7F5F0;
@@ -181,27 +181,21 @@
       line-height: 1.7; margin-bottom: 32px; max-width: 460px;
       animation: fadeIn 0.8s ease-out 0.15s both;
     }
-    .hero-stats-badge {
+    .hero-stats {
       display: inline-flex; align-items: center; gap: 24px;
-      padding: 14px 28px; border-radius: 16px;
-      background: rgba(255,255,255,0.1);
-      backdrop-filter: blur(20px);
-      border: 1px solid rgba(255,255,255,0.12);
-      margin-bottom: 32px;
+      margin-bottom: 24px; padding: 14px 0 14px 18px;
+      border-left: 2px solid rgba(255,255,255,0.2);
       animation: fadeIn 0.8s ease-out both;
     }
-    .hero-stats-badge .stat-item {
-      display: flex; flex-direction: column; align-items: center; gap: 2px;
+    .hero-stats .stat-unit {
+      display: flex; flex-direction: column; gap: 2px;
     }
-    .hero-stats-badge .stat-item .num {
-      font-family: 'Prompt', sans-serif;
-      font-size: 22px; font-weight: 700; color: #fff;
+    .hero-stats .stat-unit .num {
+      font-family: 'Noto Serif Thai', serif;
+      font-size: 24px; font-weight: 700; color: #fff; line-height: 1;
     }
-    .hero-stats-badge .stat-item .lbl {
-      font-size: 11px; color: rgba(255,255,255,0.55); font-weight: 400; white-space: nowrap;
-    }
-    .hero-stats-badge .divider {
-      width: 1px; height: 32px; background: rgba(255,255,255,0.15);
+    .hero-stats .stat-unit .lbl {
+      font-size: 12px; color: rgba(255,255,255,0.45); font-weight: 400;
     }
     .hero-search-wrap {
       width: 100%; max-width: 540px;
@@ -426,14 +420,14 @@
       .nav-links .nav-link { display: none; }
       .hero-content { padding: 100px 24px 60px; }
       .hero-left { max-width: 100%; }
-      .hero-stats-badge { gap: 16px; padding: 12px 20px; }
-      .hero-stats-badge .stat-item .num { font-size: 18px; }
+      .hero-stats { gap: 18px; padding-left: 14px; }
+      .hero-stats .stat-unit .num { font-size: 20px; }
       .hero h1 { font-size: 32px; }
     }
     @media (max-width: 480px) {
       .search-input { font-size: 15px; padding: 14px 50px 14px 16px; }
       .results-header { flex-direction: column; align-items: flex-start; gap: 10px; }
-      .hero-stats-badge { flex-wrap: wrap; gap: 12px; }
+      .hero-stats { gap: 18px; padding-left: 14px; }
     }
 
     /* HIGHLIGHT on search */
@@ -563,12 +557,15 @@
 
   <div class="hero-content">
     <div class="hero-left">
-      <div class="hero-stats-badge">
-        <div class="stat-item"><span class="num" id="countTotal">19</span><span class="lbl">สถานปฏิบัติธรรม</span></div>
-        <div class="divider"></div>
-        <div class="stat-item"><span class="num">23</span><span class="lbl">จังหวัด</span></div>
-        <div class="divider"></div>
-        <div class="stat-item"><span class="num" id="countFree">0</span><span class="lbl">ฟรีทุกกิจกรรม</span></div>
+      <div class="hero-stats">
+        <div class="stat-unit">
+          <span class="num">50+</span>
+          <span class="lbl">สถานที่ทั่วไทย</span>
+        </div>
+        <div class="stat-unit">
+          <span class="num">23</span>
+          <span class="lbl">จังหวัดทั่วประเทศ</span>
+        </div>
       </div>
 
       <h1>หาที่พักใจ</h1>
@@ -818,8 +815,6 @@ fetchTemples()
   .then(function(rows) {
     TEMPLES = rows.map(toDirectoryFormat);
     renderCards();
-    document.getElementById('countTotal').textContent = TEMPLES.length;
-    document.getElementById('countFree').textContent = TEMPLES.filter(function(t){ return t.isFree; }).length;
   })
   .catch(function(err) {
     console.error('Failed to load temple data:', err);
