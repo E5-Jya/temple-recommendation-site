@@ -16,6 +16,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3,
       "profile_women": 3
@@ -125,6 +126,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "profile_beginner": 3,
       "profile_women": 3
     },
@@ -233,6 +235,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 2,
       "profile_intermediate": 3,
@@ -263,7 +266,8 @@
       "activity_dhamma_talk": 3,
       "activity_nature": 3,
       "profile_beginner": 2,
-      "profile_intermediate": 3
+      "profile_intermediate": 3,
+      "profile_serious": 3
     },
     "whys": [
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน",
@@ -289,6 +293,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3,
       "profile_women": 3
@@ -318,6 +323,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3
     },
@@ -346,6 +352,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3
     },
@@ -374,6 +381,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3
     },
@@ -401,9 +409,11 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 2,
-      "profile_intermediate": 3
+      "profile_intermediate": 3,
+      "profile_serious": 3
     },
     "whys": [
       "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
@@ -457,6 +467,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3
     },
@@ -484,6 +495,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3,
       "profile_women": 3
@@ -513,6 +525,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3,
       "profile_women": 3
@@ -620,9 +633,11 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 2,
-      "profile_intermediate": 3
+      "profile_intermediate": 3,
+      "profile_serious": 3
     },
     "whys": [
       "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
@@ -649,6 +664,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3
     },
@@ -731,6 +747,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3
     },
@@ -811,6 +828,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "profile_beginner": 3,
       "profile_family": 2
     },
@@ -891,6 +909,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
@@ -918,7 +937,8 @@
       "activity_dhamma_talk": 3,
       "activity_nature": 2,
       "profile_beginner": 2,
-      "profile_intermediate": 3
+      "profile_intermediate": 3,
+      "profile_serious": 3
     },
     "whys": [
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 10 วัน",
@@ -943,6 +963,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "profile_beginner": 3,
       "profile_family": 2
     },
@@ -971,6 +992,7 @@
       "activity_nature": 2,
       "profile_beginner": 2,
       "profile_intermediate": 3,
+      "profile_serious": 3,
       "profile_women": 3
     },
     "whys": [
@@ -997,6 +1019,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 3,
       "profile_beginner": 3,
       "profile_women": 3
@@ -1026,6 +1049,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
@@ -1053,14 +1077,12 @@
       "budget_any": 2,
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
-      "activity_ordain": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
     "whys": [
       "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
-      "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "detail.html?id=TH-CNX-005"
@@ -1081,14 +1103,12 @@
       "budget_any": 2,
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
-      "activity_ordain": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
     "whys": [
       "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
-      "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "detail.html?id=TH-CNX-006"
@@ -1110,6 +1130,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3,
       "profile_women": 3
@@ -1167,6 +1188,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
@@ -1195,7 +1217,8 @@
       "activity_dhamma_talk": 3,
       "activity_nature": 2,
       "profile_beginner": 2,
-      "profile_intermediate": 3
+      "profile_intermediate": 3,
+      "profile_serious": 3
     },
     "whys": [
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 7 วัน",
@@ -1220,6 +1243,7 @@
       "activity_nature": 2,
       "profile_beginner": 2,
       "profile_intermediate": 3,
+      "profile_serious": 3,
       "profile_women": 3
     },
     "whys": [
@@ -1245,7 +1269,8 @@
       "activity_dhamma_talk": 3,
       "activity_nature": 2,
       "profile_beginner": 2,
-      "profile_intermediate": 3
+      "profile_intermediate": 3,
+      "profile_serious": 3
     },
     "whys": [
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ 10 วัน",
@@ -1270,6 +1295,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
@@ -1298,6 +1324,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3,
       "profile_women": 3
@@ -1326,14 +1353,12 @@
       "budget_any": 2,
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
-      "activity_ordain": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
     "whys": [
       "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
-      "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "detail.html?id=TH-SNK-001"
@@ -1382,6 +1407,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "profile_beginner": 3,
       "profile_family": 2
     },
@@ -1410,6 +1436,7 @@
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
       "activity_ordain": 3,
+      "activity_ordain_monk": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
@@ -1437,14 +1464,12 @@
       "budget_any": 2,
       "activity_meditation": 3,
       "activity_dhamma_talk": 3,
-      "activity_ordain": 3,
       "activity_nature": 2,
       "profile_beginner": 3
     },
     "whys": [
       "ฟรีทุกกิจกรรม บริจาคตามศรัทธา",
       "เปิดรับผู้ปฏิบัติธรรม ขั้นต่ำ ไม่ระบุ วัน",
-      "รับบวชพระ/สามเณร",
       "สงบ ไกลเมือง เหมาะปฏิบัติจริงจัง"
     ],
     "link": "detail.html?id=TH-NTB-002"

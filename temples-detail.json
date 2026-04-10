@@ -1236,7 +1236,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ฟรี",
-      "prerequisite": "ตามมาตรฐานสายป่าหลวงพ่อชา"
+      "prerequisite": "ติดต่อวัดโดยตรง; ตามมาตรฐานสายหลวงพ่อชา"
     },
     "schedule": {
       "wake": "ก่อนรุ่งสาง",
@@ -1289,7 +1289,7 @@
       },
       {
         "name": "บวชสามเณร",
-        "available": false
+        "available": true
       },
       {
         "name": "บวชชีพราหมณ์",
@@ -1324,9 +1324,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
+      "minDays": "15",
       "cost": "ฟรี",
-      "prerequisite": "ติดต่อวัดล่วงหน้า"
+      "prerequisite": "กรอกแบบฟอร์มสมัคร; สำเนาบัตรประชาชน + ทะเบียนบ้าน; บวชที่วัดภูเขาทอง; ติดต่อ Line 090-281-1213"
     },
     "schedule": {
       "wake": "ก่อนรุ่งสาง",
@@ -2046,7 +2046,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ฟรี",
-      "prerequisite": "สมัครล่วงหน้า; มีสุขภาพดี; มีประกันสุขภาพ; ไม่มีประวัติเจ็บป่วยทางจิต"
+      "prerequisite": "อยู่เป็นฆราวาส 1 เดือนขึ้นไปก่อน; ผ่านขั้นตอน anagarika 6 เดือน; อยู่เป็นสามเณรอย่างน้อย 1 ปีก่อนบวชพระ; สุขภาพดี; มีประกันสุขภาพ; ไม่มีประวัติเจ็บป่วยทางจิต"
     },
     "schedule": {
       "wake": "03:00",
@@ -2136,7 +2136,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ฟรี",
-      "prerequisite": "ติดต่อวัดโดยตรง"
+      "prerequisite": "ต้องผ่านการฝึกพื้นฐานในวัดสาขามาก่อนหลายปี; ติดต่อวัดโดยตรง"
     },
     "schedule": {
       "wake": "ก่อนรุ่งสาง",
@@ -2406,7 +2406,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ฟรี",
-      "prerequisite": "สาขาทุกแห่งต้องบวชที่วัดแม่"
+      "prerequisite": "ติดต่อวัดโดยตรง; เป็นวัดแม่สำหรับสาขาในเครือ"
     },
     "schedule": {
       "wake": "ก่อนรุ่งสาง",
@@ -2674,9 +2674,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
+      "minDays": "30",
       "cost": "ฟรี",
-      "prerequisite": "ติดต่อวัดโดยตรง"
+      "prerequisite": "ติดต่อวัดโดยตรง; มีโปรแกรมบวชหมู่ประจำปี"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -2944,9 +2944,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ฟรี",
-      "prerequisite": "ติดต่อวัดโดยตรง"
+      "minDays": "30",
+      "cost": "ไม่ระบุ",
+      "prerequisite": "มีพิธีบวช 4 ครั้งต่อปี; บวชนอกพรรษา 30 วัน / ในพรรษา 120 วัน; ติดต่อวัดโดยตรง"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -3124,9 +3124,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "minDays": "3",
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดโดยตรง; มีโปรแกรมบวชชั่วคราว (ศีล 10) และบวชพระ"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -3304,9 +3304,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "minDays": "30",
+      "cost": "ฟรี",
+      "prerequisite": "ฝึกปฏิบัติ 30 วันขึ้นไปก่อนบวช; สัมภาษณ์กับเจ้าอาวาส"
     },
     "schedule": {
       "wake": "04:00",
@@ -3396,7 +3396,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "prerequisite": "ติดต่อวัดโดยตรง"
     },
     "schedule": {
       "wake": "04:30",
@@ -3445,7 +3445,7 @@
       },
       {
         "name": "บวชพระ",
-        "available": true
+        "available": false
       },
       {
         "name": "บวชสามเณร",
@@ -3486,7 +3486,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "prerequisite": "ติดต่อวัดโดยตรง"
     },
     "schedule": {
       "wake": "04:00",
@@ -3535,7 +3535,7 @@
       },
       {
         "name": "บวชพระ",
-        "available": true
+        "available": false
       },
       {
         "name": "บวชสามเณร",
@@ -3576,7 +3576,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "prerequisite": "ติดต่อวัดโดยตรง"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -3629,7 +3629,7 @@
       },
       {
         "name": "บวชสามเณร",
-        "available": false
+        "available": true
       },
       {
         "name": "บวชชีพราหมณ์",
@@ -3666,7 +3666,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "prerequisite": "ติดต่อวัดโดยตรง; สายหลวงปู่สิม พุทฺธาจาโร"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -4148,8 +4148,8 @@
     "district": "เมืองอุทัยธานี",
     "tradition": "เถรวาท – สมาธิ-ฌาน (สายหลวงพ่อฤาษีลิงดำ)",
     "abbot": "หลวงพ่อฤาษีลิงดำ (มรณภาพ 2535)",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดจันทาราม (ท่าซุง) เป็นวัดที่โด่งดังในสายการปฏิบัติมโนมยิทธิและการเจริญกสิณของหลวงพ่อฤๅษีลิงดำ ซึ่งสอนให้ผู้ปฏิบัติพัฒนาสมาธิขั้นสูงและฤทธิ์ทางจิต วัดยังเป็นแหล่งรวมคลังธรรมะโสตทัศนูปกรณ์ขนาดใหญ่ ทั้งหนังสือ เทปบันทึกเสียง และสื่อธรรมะที่หลวงพ่อถ่ายทอดไว้",
+    "blurbEn": "Wat Chantharam (Wat Tha Sung) is renowned for the Manomayiddhi and kasina meditation tradition of the late Luang Por Ruesi Ling Dam, who taught advanced jhana and psychic development. The temple maintains one of Thailand's largest dharma media archives, preserving the master's extensive audio, video, and written teachings.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4204,9 +4204,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "minDays": "15",
+      "cost": "ฟรี",
+      "prerequisite": "มีอุปสมบทหมู่ประจำปี; ที่พักฟรีสูงสุด 7 วัน; ติดต่อ 056-502-655"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -4238,8 +4238,8 @@
     "district": "พรหมบุรี",
     "tradition": "เถรวาท – สติปัฏฐาน 4 (สายหลวงพ่อจรัญ ทิตฺธัมโม)",
     "abbot": "หลวงพ่อจรัญ ทิตฺธัมโม (มรณภาพ 2559)",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดอัมพวันในสิงห์บุรีเป็นศูนย์กลางการปฏิบัติสติปัฏฐาน ๔ ที่มีชื่อเสียงระดับประเทศ ภายใต้การนำของหลวงพ่อจรัญ ติตฺถทัสสี ซึ่งเน้นการปฏิบัติวิปัสสนาอย่างเข้มข้นควบคู่กับการทำความดีและสร้างบุญ วัดจัดคอร์สปฏิบัติธรรมอย่างต่อเนื่องตลอดปี ดึงดูดผู้ปฏิบัติจากทั่วประเทศ",
+    "blurbEn": "Wat Amphawan in Sing Buri is a nationally renowned center for intensive Satipatthana (Four Foundations of Mindfulness) practice under the late Luang Por Jaran Thittathammo. The temple runs continuous retreat programs throughout the year, attracting thousands of practitioners seeking serious vipassana training rooted in merit-making and ethical discipline.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4294,9 +4294,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "minDays": "3",
+      "cost": "ฟรี",
+      "prerequisite": "ลงทะเบียนล่วงหน้า; มีโปรแกรม 3 วันและ 7 วัน; ที่พัก/อาหาร/จีวรจัดให้ฟรี; ส่วนใหญ่สำหรับคนไทย"
     },
     "schedule": {
       "wake": "04:00",
@@ -4328,8 +4328,8 @@
     "district": "โคกศรีสุพรรณ",
     "tradition": "ธรรมยุต (สายหลวงปู่มั่น ภูริทัตโต)",
     "abbot": "ไม่ระบุ",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดป่านาคนิมิตต์เป็นวัดป่าในสายปฏิปทาหลวงปู่มั่น ภูริทัตโต ตั้งอยู่ท่ามกลางธรรมชาติเงียบสงบในเขตโคกศรีสุพรรณ จังหวัดสกลนคร ปัจจุบันอยู่ในระหว่างก่อสร้างพระมหาธาตุเจดีย์ขนาดใหญ่ พร้อมเปิดรับผู้ปฏิบัติธรรมที่ต้องการฝึกในสภาพแวดล้อมวัดป่าอย่างแท้จริง",
+    "blurbEn": "Wat Pa Nak Nimit is a forest monastery in the Luang Pu Mun Bhuridatto tradition, situated in the quiet natural surroundings of Kok Si Suphan, Sakon Nakhon. The monastery is currently building a large stupa complex and welcomes practitioners seeking authentic forest tradition meditation in the northeastern Thai highlands.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4345,7 +4345,7 @@
       },
       {
         "name": "บวชพระ",
-        "available": true
+        "available": false
       },
       {
         "name": "บวชสามเณร",
@@ -4385,8 +4385,8 @@
     },
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดโดยตรง; สายหลวงปู่มั่น ภูริทัตโต"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -4418,8 +4418,8 @@
     "district": "เมืองแม่ฮ่องสอน",
     "tradition": "เถรวาท – วิปัสสนา (สายหลวงพ่อสายหยุด ปัญญาธโร)",
     "abbot": "พระครูวิมลภาวนานุสาสน์ (หลวงพ่อสายหยุด ปัญญาธโร)",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดป่าถ้ำวัวสุญญตารามเป็นศูนย์วิปัสสนานานาชาติในแม่ฮ่องสอน เปิดรับผู้ปฏิบัติจากกว่า ๑๔๐ ประเทศทั่วโลกโดยไม่มีค่าใช้จ่าย มีชั้นเรียนทั้งภาษาไทยและภาษาอังกฤษทุกวัน ท่ามกลางบรรยากาศป่าเขาอันเงียบสงบ เหมาะสำหรับทั้งผู้เริ่มต้นและผู้ปฏิบัติขั้นสูง",
+    "blurbEn": "Wat Pa Tam Wua Sunyataram is an international vipassana forest monastery in Mae Hong Son, welcoming practitioners from 140+ countries entirely free of charge. Daily meditation classes in Thai and English are offered year-round in a peaceful mountain forest setting, making it one of Thailand's most accessible destinations for serious practice.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4508,8 +4508,8 @@
     "district": "ห้วยขวาง",
     "tradition": "ธรรมยุต (วัดพระราชทาน รัชกาลที่ 9)",
     "abbot": "ไม่ระบุ",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดพระราม ๙ กาญจนาภิเษกสร้างขึ้นเพื่อเฉลิมพระเกียรติในหลวงรัชกาลที่ ๙ โดยยึดหลักความเรียบง่ายและพอเพียงตามพระราชดำริ ไม่มีวัตถุมงคลหรือเครื่องรางจำหน่าย เน้นส่งเสริมการปฏิบัติธรรมและเผยแผ่หลักธรรมคำสอนของพระพุทธศาสนาแก่ชุมชนในเขตห้วยขวาง",
+    "blurbEn": "Wat Phra Ram IX was built to honour King Rama IX, embodying his principles of simplicity and sufficiency economy. The temple is notably free of amulets and sacred objects for sale, focusing instead on dharma practice and community education in the Huai Khwang district of Bangkok.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4565,8 +4565,8 @@
     },
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "cost": "ฟรี",
+      "prerequisite": "ติดต่อวัดโดยตรง; เน้นความเรียบง่ายตามหลักพอเพียง"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -4598,8 +4598,8 @@
     "district": "พระประแดง",
     "tradition": "มหานิกาย",
     "abbot": "พระมหาประนอม ธัมมาลังกาโร",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดจากแดงในพระประแดงเป็นที่รู้จักในฐานะ 'วัดอธิรรม-สิ่งแวดล้อม' ที่บุกเบิกการแปลงขยะพลาสติกเป็นผ้าจีวรพระสงฆ์ สร้างแรงบันดาลใจด้านธรรมะและสิ่งแวดล้อมไปทั่วโลก นอกจากนี้ยังจัดชั้นเรียนธรรมะฟรีทุกวันพฤหัสบดีสำหรับประชาชนทั่วไป",
+    "blurbEn": "Wat Chak Daeng in Phra Pradaeng is an internationally recognized eco-dharma temple that pioneered the recycling of plastic bottles into monks' robes, inspiring environmental awareness through Buddhist practice. The temple offers free Thursday Dhamma classes open to all and continues to expand its green initiatives.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4619,7 +4619,7 @@
       },
       {
         "name": "บวชสามเณร",
-        "available": true
+        "available": false
       },
       {
         "name": "บวชชีพราหมณ์",
@@ -4656,7 +4656,7 @@
     "ordinationInfo": {
       "minDays": "ไม่ระบุ",
       "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "prerequisite": "ติดต่อวัดโดยตรง; ไม่มีข้อมูลโปรแกรมบวชสาธารณะ"
     },
     "schedule": {
       "wake": "ไม่ระบุ",
@@ -4688,8 +4688,8 @@
     "district": "บางกรวย",
     "tradition": "มหานิกาย – มหาสติ/เจริญสติแบบเคลื่อนไหว (สายหลวงพ่อเทียน จิตฺตสุโภ)",
     "abbot": "ก่อตั้งโดยหลวงพ่อเทียน จิตฺตสุโภ (2454–2531)",
-    "blurbTh": "",
-    "blurbEn": "",
+    "blurbTh": "วัดสนามในในบางกรวยเป็นศูนย์ปฏิบัติธรรมในสายหลวงพ่อเทียน จิตตสุโภ เน้นการเจริญสติแบบเคลื่อนไหวโดยใช้การยกมือสลับจังหวะเป็นฐานของการรู้กาย-รู้ใจ เปิดรับผู้ปฏิบัติทุกวันโดยไม่มีค่าใช้จ่าย เหมาะสำหรับผู้ที่ต้องการลองแนวทางสติที่แตกต่างจากการนั่งสมาธิทั่วไป",
+    "blurbEn": "Wat Sanamnai in Bang Kruai is a practice center in the lineage of Luang Por Tien Siripanyo, specialising in his distinctive dynamic hand-movement meditation method for developing mindfulness and insight. The temple is open daily at no cost and welcomes practitioners seeking an alternative to conventional seated meditation.",
     "activities": [
       {
         "name": "นั่งสมาธิประจำวัน",
@@ -4705,7 +4705,7 @@
       },
       {
         "name": "บวชพระ",
-        "available": true
+        "available": false
       },
       {
         "name": "บวชสามเณร",
@@ -4744,9 +4744,9 @@
       "capacity": "ไม่ระบุ"
     },
     "ordinationInfo": {
-      "minDays": "ไม่ระบุ",
-      "cost": "ไม่ระบุ",
-      "prerequisite": "ไม่ระบุ"
+      "minDays": "N/A",
+      "cost": "N/A",
+      "prerequisite": "ไม่รับบวช; เน้นการปฏิบัติสติแบบเคลื่อนไหวเท่านั้น"
     },
     "schedule": {
       "wake": "04:00",

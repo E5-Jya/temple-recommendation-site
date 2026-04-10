@@ -149,6 +149,7 @@ def build_scores(row):
         scores["activity_dhamma_talk"] = 3
     if yn(row.get("act_monk_ordination", "")):
         scores["activity_ordain"] = 3
+        scores["activity_ordain_monk"] = 3
     if not is_bkk:
         trad_en = safe(row.get("tradition_en", "")).lower()
         scores["activity_nature"] = 3 if "forest" in trad_en else 2
@@ -157,6 +158,9 @@ def build_scores(row):
     if min_days >= 5:
         scores["profile_intermediate"] = 3
         scores["profile_beginner"] = 2
+    if min_days >= 7:
+        scores["profile_serious"] = 3
+        scores["profile_intermediate"] = scores.get("profile_intermediate", 0) or 3
     if yn(row.get("act_white_robe", "")) or yn(row.get("act_nun_program", "")):
         scores["profile_women"] = 3
     if is_bkk and min_days <= 1:

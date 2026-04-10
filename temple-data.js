@@ -138,11 +138,12 @@ function toRecommendationFormat(row) {
 
   if (_yn(row.act_daily_meditation)) scores.activity_meditation = 3;
   if (_yn(row.act_dhamma_talk)) scores.activity_dhamma_talk = 3;
-  if (_yn(row.act_monk_ordination)) scores.activity_ordain = 3;
+  if (_yn(row.act_monk_ordination)) { scores.activity_ordain = 3; scores.activity_ordain_monk = 3; }
   if (!isBKK) scores.activity_nature = (_s(row.tradition_en).toLowerCase().indexOf('forest') >= 0) ? 3 : 2;
 
   scores.profile_beginner = 3;
   if (minDays >= 5) { scores.profile_intermediate = 3; scores.profile_beginner = 2; }
+  if (minDays >= 7) { scores.profile_serious = 3; scores.profile_intermediate = scores.profile_intermediate || 3; }
   if (_yn(row.act_white_robe) || _yn(row.act_nun_program)) scores.profile_women = 3;
   if (isBKK && minDays <= 1) scores.profile_family = 2;
 

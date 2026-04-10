@@ -1334,11 +1334,10 @@
     "cost": "free",
     "tags": [
       "upcountry",
-      "retreat",
-      "ordain"
+      "retreat"
     ],
     "actRetreats": true,
-    "actOrdain": true,
+    "actOrdain": false,
     "actOnline": false,
     "actWomen": false,
     "isFree": true,
@@ -1349,7 +1348,6 @@
     "costClass": "chip-cost",
     "chips": [
       "คอร์สปฏิบัติ",
-      "บวชพระ",
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
@@ -1368,11 +1366,10 @@
     "cost": "free",
     "tags": [
       "upcountry",
-      "retreat",
-      "ordain"
+      "retreat"
     ],
     "actRetreats": true,
-    "actOrdain": true,
+    "actOrdain": false,
     "actOnline": false,
     "actWomen": false,
     "isFree": true,
@@ -1383,7 +1380,6 @@
     "costClass": "chip-cost",
     "chips": [
       "คอร์สปฏิบัติ",
-      "บวชพระ",
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #3A2A1A, #5C4A2D)",
@@ -1616,7 +1612,7 @@
     "isFree": true,
     "isBKK": false,
     "abbotTh": "หลวงพ่อฤาษีลิงดำ (มรณภาพ 2535)",
-    "blurb": "",
+    "blurb": "วัดจันทาราม (ท่าซุง) เป็นวัดที่โด่งดังในสายการปฏิบัติมโนมยิทธิและการเจริญกสิณของหลวงพ่อฤๅษีลิงดำ ซึ่งสอนให้ผู้ปฏิบัติพัฒนาสมาธิขั้นสูงและฤทธิ์ทางจิต วัดยังเป็นแหล่งรวมคลังธรรมะโสตทัศนูปกรณ์ขนาดใหญ่...",
     "costLabel": "ฟรี",
     "costClass": "chip-cost",
     "chips": [
@@ -1651,7 +1647,7 @@
     "isFree": true,
     "isBKK": false,
     "abbotTh": "หลวงพ่อจรัญ ทิตฺธัมโม (มรณภาพ 2559)",
-    "blurb": "",
+    "blurb": "วัดอัมพวันในสิงห์บุรีเป็นศูนย์กลางการปฏิบัติสติปัฏฐาน ๔ ที่มีชื่อเสียงระดับประเทศ ภายใต้การนำของหลวงพ่อจรัญ ติตฺถทัสสี ซึ่งเน้นการปฏิบัติวิปัสสนาอย่างเข้มข้นควบคู่กับการทำความดีและสร้างบุญ...",
     "costLabel": "ฟรี",
     "costClass": "chip-cost",
     "chips": [
@@ -1676,22 +1672,20 @@
     "cost": "free",
     "tags": [
       "upcountry",
-      "retreat",
-      "ordain"
+      "retreat"
     ],
     "actRetreats": true,
-    "actOrdain": true,
+    "actOrdain": false,
     "actOnline": false,
     "actWomen": false,
     "isFree": true,
     "isBKK": false,
     "abbotTh": "ไม่ระบุ",
-    "blurb": "",
+    "blurb": "วัดป่านาคนิมิตต์เป็นวัดป่าในสายปฏิปทาหลวงปู่มั่น ภูริทัตโต ตั้งอยู่ท่ามกลางธรรมชาติเงียบสงบในเขตโคกศรีสุพรรณ จังหวัดสกลนคร ปัจจุบันอยู่ในระหว่างก่อสร้างพระมหาธาตุเจดีย์ขนาดใหญ่...",
     "costLabel": "ฟรี",
     "costClass": "chip-cost",
     "chips": [
       "คอร์สปฏิบัติ",
-      "บวชพระ",
       "ธรรมยุต"
     ],
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
@@ -1721,7 +1715,7 @@
     "isFree": false,
     "isBKK": false,
     "abbotTh": "พระครูวิมลภาวนานุสาสน์ (หลวงพ่อสายหยุด ปัญญาธโร)",
-    "blurb": "",
+    "blurb": "วัดป่าถ้ำวัวสุญญตารามเป็นศูนย์วิปัสสนานานาชาติในแม่ฮ่องสอน เปิดรับผู้ปฏิบัติจากกว่า ๑๔๐ ประเทศทั่วโลกโดยไม่มีค่าใช้จ่าย มีชั้นเรียนทั้งภาษาไทยและภาษาอังกฤษทุกวัน ท่ามกลางบรรยากาศป่าเขาอันเงียบสงบ...",
     "costLabel": "ฟรี (รวมที่พักและอาหาร)",
     "costClass": "chip-cost-paid",
     "chips": [
@@ -1755,7 +1749,7 @@
     "isFree": true,
     "isBKK": true,
     "abbotTh": "ไม่ระบุ",
-    "blurb": "",
+    "blurb": "วัดพระราม ๙ กาญจนาภิเษกสร้างขึ้นเพื่อเฉลิมพระเกียรติในหลวงรัชกาลที่ ๙ โดยยึดหลักความเรียบง่ายและพอเพียงตามพระราชดำริ ไม่มีวัตถุมงคลหรือเครื่องรางจำหน่าย...",
     "costLabel": "ฟรี",
     "costClass": "chip-cost",
     "chips": [
@@ -1788,7 +1782,7 @@
     "isFree": true,
     "isBKK": false,
     "abbotTh": "พระมหาประนอม ธัมมาลังกาโร",
-    "blurb": "",
+    "blurb": "วัดจากแดงในพระประแดงเป็นที่รู้จักในฐานะ 'วัดอธิรรม-สิ่งแวดล้อม' ที่บุกเบิกการแปลงขยะพลาสติกเป็นผ้าจีวรพระสงฆ์ สร้างแรงบันดาลใจด้านธรรมะและสิ่งแวดล้อมไปทั่วโลก...",
     "costLabel": "ฟรี",
     "costClass": "chip-cost",
     "chips": [
@@ -1810,22 +1804,20 @@
     "cost": "free",
     "tags": [
       "upcountry",
-      "retreat",
-      "ordain"
+      "retreat"
     ],
     "actRetreats": true,
-    "actOrdain": true,
+    "actOrdain": false,
     "actOnline": false,
     "actWomen": false,
     "isFree": true,
     "isBKK": false,
     "abbotTh": "ก่อตั้งโดยหลวงพ่อเทียน จิตฺตสุโภ (2454–2531)",
-    "blurb": "",
+    "blurb": "วัดสนามในในบางกรวยเป็นศูนย์ปฏิบัติธรรมในสายหลวงพ่อเทียน จิตตสุโภ เน้นการเจริญสติแบบเคลื่อนไหวโดยใช้การยกมือสลับจังหวะเป็นฐานของการรู้กาย-รู้ใจ เปิดรับผู้ปฏิบัติทุกวันโดยไม่มีค่าใช้จ่าย...",
     "costLabel": "ฟรี",
     "costClass": "chip-cost",
     "chips": [
-      "คอร์สปฏิบัติ",
-      "บวชพระ"
+      "คอร์สปฏิบัติ"
     ],
     "gradient": "linear-gradient(135deg, #0B3D2E, #1A6644)",
     "link": "detail.html?id=TH-NTB-002"
