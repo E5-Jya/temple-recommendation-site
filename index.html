@@ -284,146 +284,111 @@
     }
     .results-count { font-size: 14px; color: var(--muted); }
     .results-count strong { color: var(--foreground); font-weight: 700; }
-    .view-toggle {
-      display: flex; gap: 4px;
-      background: rgba(0,0,0,0.04); border-radius: 10px; padding: 3px;
-    }
+    .view-toggle { display: flex; gap: 4px; }
     .view-btn {
-      width: 36px; height: 36px; border: none;
-      background: transparent; border-radius: 8px;
+      width: 34px; height: 34px; border: 1.5px solid var(--border);
+      background: var(--surface); border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      cursor: pointer; color: #bbb; transition: all 0.2s;
+      cursor: pointer; color: var(--muted); transition: all 0.2s;
     }
-    .view-btn.active {
-      background: #fff; color: var(--foreground);
-      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
-    }
+    .view-btn.active { background: var(--primary); border-color: var(--primary); color: var(--surface); }
 
-    /* ━━━ CARDS GRID ━━━ */
+    /* TEMPLE CARDS GRID */
     .cards-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 24px;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 20px;
     }
-    .cards-grid.hidden { display: none; }
 
-    .place-card {
+    .temple-card {
       background: var(--surface);
-      border-radius: 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
       overflow: hidden;
-      border: 1px solid rgba(0,0,0,0.04);
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      animation: fadeIn 0.5s ease-out both;
+      box-shadow: var(--shadow-md);
+      transition: all 0.25s;
       cursor: pointer;
       text-decoration: none;
-      color: inherit;
       display: flex;
       flex-direction: column;
+      color: inherit;
     }
-    .place-card:nth-child(2) { animation-delay: 0.05s; }
-    .place-card:nth-child(3) { animation-delay: 0.1s; }
-    .place-card:nth-child(4) { animation-delay: 0.15s; }
-    .place-card:nth-child(5) { animation-delay: 0.2s; }
-    .place-card:nth-child(6) { animation-delay: 0.25s; }
-    .place-card:hover {
+    .temple-card:hover {
       transform: translateY(-4px);
-      box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--primary);
     }
 
-    .card-img {
-      position: relative; height: 200px; overflow: hidden;
+    .card-header {
+      height: 180px;
+      display: flex; align-items: flex-end; padding: 16px;
+      position: relative; overflow: hidden;
     }
-    .card-img img {
-      width: 100%; height: 100%; object-fit: cover;
-      transition: transform 0.4s;
+    .card-header-bg {
+      position: absolute; inset: 0; overflow: hidden;
     }
-    .place-card:hover .card-img img { transform: scale(1.04); }
-
-    .card-type-badge {
-      position: absolute; top: 12px; left: 12px;
-      padding: 5px 12px; border-radius: 100px;
-      font-size: 11px; font-weight: 600;
-      backdrop-filter: blur(12px);
-      background: rgba(255,255,255,0.85);
+    .card-header-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(45,52,54,0.85) 0%, rgba(45,52,54,0.2) 60%, transparent 100%);
     }
-    .badge-temple { color: #8B6914; }
-    .badge-center { color: #4A5D4C; }
-    .badge-foundation { color: #6B4C8A; }
-
-    .card-location {
-      position: absolute; bottom: 12px; right: 12px;
-      display: inline-flex; align-items: center; gap: 4px;
-      padding: 5px 12px; border-radius: 100px;
-      background: rgba(0,0,0,0.5); backdrop-filter: blur(8px);
-      font-size: 11px; color: rgba(255,255,255,0.9); font-weight: 400;
+    .card-id {
+      position: relative; z-index: 1;
+      font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+      color: var(--secondary-light);
+      background: rgba(0,0,0,0.4); padding: 3px 8px; border-radius: 12px;
+    }
+    .card-province {
+      position: absolute; right: 14px; bottom: 14px; z-index: 1;
+      font-size: 11px; color: rgba(255,255,255,0.7);
+      display: flex; align-items: center; gap: 4px;
     }
 
-    .card-body { padding: 18px 20px 20px; flex: 1; display: flex; flex-direction: column; }
-    .card-name-th {
-      font-size: 17px; font-weight: 700; color: var(--foreground);
-      line-height: 1.35; margin-bottom: 2px;
-      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-    }
+    .card-body { padding: 18px 20px; overflow: hidden; flex: 1; display: flex; flex-direction: column; }
+    .card-name-th { font-size: 17px; font-weight: 700; color: var(--foreground); margin-bottom: 3px; line-height: 1.3; }
     .card-name-en {
-      font-size: 12px; color: #bbb; font-weight: 400;
-      font-style: italic; margin-bottom: 12px;
+      font-family: 'Prompt', sans-serif;
+      font-style: italic; font-size: 13px; color: var(--muted); margin-bottom: 12px;
     }
-    .card-desc {
-      font-size: 13px; color: #888; font-weight: 400; line-height: 1.6;
-      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-      margin-bottom: 14px; flex: 1;
+    .card-tradition {
+      font-size: 12px; color: var(--foreground);
+      background: var(--surface-alt); border: 1px solid var(--border);
+      display: inline-block; padding: 3px 10px; border-radius: 10px;
+      margin-bottom: 14px;
     }
-    .card-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-top: auto; }
-    .card-tag {
-      display: inline-flex; align-items: center; gap: 4px;
-      padding: 4px 10px; border-radius: 6px;
-      background: var(--surface-alt, #F0EDE6);
-      font-size: 11px; color: #888; font-weight: 500;
+    .card-blurb {
+      font-size: 13px; color: var(--foreground); line-height: 1.6;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden;
+      margin-bottom: 16px;
+      flex: 1;
     }
-    .card-tag svg { flex-shrink: 0; }
+    .card-chips {
+      display: flex; flex-wrap: wrap; gap: 6px;
+      overflow: hidden; max-height: 58px;
+      margin-top: auto;
+    }
+    .chip {
+      font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 8px;
+    }
+    .chip-y { background: #EFF8F2; color: var(--primary); border: 1px solid var(--secondary); }
+    .chip-green { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+    .chip-cost { background: #EFF8F2; color: var(--primary); border: 1px solid var(--secondary); }
+    .chip-cost-paid { background: #FFF8EC; color: var(--accent-dark); border: 1px solid var(--accent-light); }
 
-    /* ━━━ LIST VIEW ━━━ */
-    .cards-list { display: none; flex-direction: column; gap: 12px; }
-    .cards-list.active { display: flex; }
-
-    .list-card {
-      display: grid; grid-template-columns: 180px 1fr;
-      background: var(--surface); border-radius: 14px; overflow: hidden;
-      border: 1px solid rgba(0,0,0,0.04);
-      transition: all 0.25s; cursor: pointer;
-      animation: fadeIn 0.4s ease-out both;
-      text-decoration: none; color: inherit;
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 20px;
+      border-top: 1px solid var(--border);
+      background: var(--surface-alt);
     }
-    .list-card:hover {
-      transform: translateX(4px);
-      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    .card-location { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 4px; }
+    .card-arrow {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: var(--primary); color: var(--surface);
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
     }
-    .list-card-img { height: 100%; min-height: 140px; overflow: hidden; }
-    .list-card-img img { width: 100%; height: 100%; object-fit: cover; }
-    .list-card-body {
-      padding: 20px 24px;
-      display: flex; flex-direction: column; justify-content: center;
-    }
-    .list-card-top {
-      display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
-    }
-    .list-type-badge {
-      padding: 3px 10px; border-radius: 100px;
-      font-size: 11px; font-weight: 600;
-      backdrop-filter: blur(12px);
-      background: rgba(255,255,255,0.85);
-    }
-    .list-location {
-      font-size: 12px; color: #bbb; font-weight: 400;
-      display: flex; align-items: center; gap: 3px;
-    }
-    .list-card-name { font-size: 18px; font-weight: 700; color: var(--foreground); margin-bottom: 6px; }
-    .list-card-desc {
-      font-size: 13px; color: #888; line-height: 1.6;
-      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
-      margin-bottom: 10px;
-    }
-    .list-card-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .temple-card:hover .card-arrow { background: var(--primary-dark); }
 
     /* NO RESULTS */
     .no-results {
@@ -451,18 +416,13 @@
     @media (max-width: 900px) {
       .filter-bar { padding: 12px 16px; }
       .main-wrap { padding: 24px 16px 60px; }
-      .cards-grid { grid-template-columns: repeat(2, 1fr); }
+      .cards-grid { grid-template-columns: 1fr; }
       .nav-links .nav-link { display: none; }
-      .list-card { grid-template-columns: 140px 1fr; }
       .hero-content { padding: 100px 24px 60px; }
       .hero-left { max-width: 100%; }
       .hero-stats { gap: 18px; padding-left: 14px; }
       .hero-stats .stat-unit .num { font-size: 20px; }
       .hero h1 { font-size: 32px; }
-    }
-    @media (max-width: 640px) {
-      .cards-grid { grid-template-columns: 1fr; }
-      .list-card { grid-template-columns: 120px 1fr; }
     }
     @media (max-width: 480px) {
       .search-input { font-size: 15px; padding: 14px 50px 14px 16px; }
@@ -703,17 +663,16 @@
   <div class="results-header">
     <div class="results-count">แสดง <strong id="resultsNum">7</strong> สถานที่</div>
     <div class="view-toggle">
-      <button class="view-btn active" id="gridBtn" onclick="setView('grid')" title="Grid">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+      <button class="view-btn active" onclick="setView('grid',this)" title="Grid">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="6" height="6" rx="1"/><rect x="10" y="0" width="6" height="6" rx="1"/><rect x="0" y="10" width="6" height="6" rx="1"/><rect x="10" y="10" width="6" height="6" rx="1"/></svg>
       </button>
-      <button class="view-btn" id="listBtn" onclick="setView('list')" title="List">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+      <button class="view-btn" onclick="setView('list',this)" title="List">
+        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="16" height="3" rx="1"/><rect x="0" y="6" width="16" height="3" rx="1"/><rect x="0" y="12" width="16" height="3" rx="1"/></svg>
       </button>
     </div>
   </div>
 
   <div class="cards-grid" id="cardsGrid"></div>
-  <div class="cards-list" id="listView"></div>
   <div class="no-results" id="noResults">
     <div class="no-results-icon">
       <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
@@ -774,115 +733,61 @@ function getFiltered() {
   return list;
 }
 
-function fmtLocation(t) {
-  var prov = (t.province || '').replace('กรุงเทพมหานคร', 'กรุงเทพ');
-  if (t.district) return t.district + ' - ' + prov;
-  return prov;
-}
-
-function typeBadge(placeType) {
-  if (!placeType) return { label: '', cls: 'badge-temple' };
-  if (placeType.indexOf('มูลนิธิ') >= 0 || placeType.indexOf('สมาคม') >= 0) return { label: placeType, cls: 'badge-foundation' };
-  if (placeType.indexOf('ศูนย์') >= 0 || placeType.indexOf('สถาน') >= 0) return { label: placeType, cls: 'badge-center' };
-  return { label: placeType, cls: 'badge-temple' };
-}
-
-function cardTags(t) {
-  var tags = [];
-  if (t.isFree) tags.push('ฟรี');
-  if (t.actRetreats) tags.push('มีคอร์ส');
-  if (t.actOrdain) tags.push('บวชได้');
-  if (t.actOnline) tags.push('ออนไลน์');
-  if (t.actWomen) tags.push('ผู้หญิง');
-  return tags;
-}
-
 function renderCards() {
   const q = document.getElementById('searchInput').value.trim().toLowerCase();
   const list = getFiltered();
   const grid = document.getElementById('cardsGrid');
-  const listView = document.getElementById('listView');
   const noRes = document.getElementById('noResults');
   document.getElementById('resultsNum').textContent = list.length;
 
   if (list.length === 0) {
     grid.innerHTML = '';
-    listView.innerHTML = '';
     noRes.style.display = 'block';
     return;
   }
   noRes.style.display = 'none';
 
-  const imgBase = 'https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/';
-
-  // Grid view
-  grid.innerHTML = list.map(t => {
-    const badge = typeBadge(t.placeType);
-    const loc = fmtLocation(t);
-    const imgSrc = t.thumbnailUrl || (imgBase + t.slug + '/thumbnail.jpg');
-    const tags = cardTags(t);
-    return `
-    <a href="${t.link}" class="place-card" data-id="${t.id}">
-      <div class="card-img" style="background:${t.gradient}">
-        <img src="${imgSrc}" alt="${t.nameEn}" onerror="this.style.display='none'">
-        ${badge.label ? `<div class="card-type-badge ${badge.cls}">${badge.label}</div>` : ''}
-        <div class="card-location">
-          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
-          ${loc}
+  grid.innerHTML = list.map(t => `
+    <a href="${t.link}" class="temple-card" data-id="${t.id}">
+      <div class="card-header" style="">
+        <div class="card-header-bg" style="background:${t.gradient}"><img src="${t.thumbnailUrl || ('https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + t.slug + '/thumbnail.jpg')}" alt="${t.nameEn}" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'"></div>
+        <div class="card-header-overlay"></div>
+        <div class="card-province">
+          <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          ${t.district}
         </div>
       </div>
       <div class="card-body">
         <div class="card-name-th">${highlight(t.nameTh, q)}</div>
         <div class="card-name-en">${highlight(t.nameEn, q)}</div>
-        <div class="card-desc">${highlight(t.blurb, q)}</div>
-        <div class="card-tags">
-          ${tags.map(tag => `<span class="card-tag">${tag}</span>`).join('')}
+        <div class="card-blurb">${highlight(t.blurb, q)}</div>
+        <div class="card-chips">
+          ${t.placeType ? `<span class="chip chip-green">${t.placeType}</span>` : ''}
+          ${t.chips.filter(c => !["ฟรี","ธรรมยุต","เถรวาท"].includes(c)).map(c => `<span class="chip chip-y">${c}</span>`).join('')}
         </div>
       </div>
-    </a>`;
-  }).join('');
-
-  // List view
-  listView.innerHTML = list.map(t => {
-    const badge = typeBadge(t.placeType);
-    const loc = fmtLocation(t);
-    const imgSrc = t.thumbnailUrl || (imgBase + t.slug + '/thumbnail.jpg');
-    const tags = cardTags(t);
-    return `
-    <a href="${t.link}" class="list-card" data-id="${t.id}">
-      <div class="list-card-img" style="background:${t.gradient}">
-        <img src="${imgSrc}" alt="${t.nameEn}" onerror="this.style.display='none'">
-      </div>
-      <div class="list-card-body">
-        <div class="list-card-top">
-          ${badge.label ? `<span class="list-type-badge ${badge.cls}">${badge.label}</span>` : ''}
-          <span class="list-location">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
-            ${loc}
-          </span>
+      <div class="card-footer">
+        <div class="card-location">
+          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+          ${t.district}, ${t.province}
         </div>
-        <div class="list-card-name">${highlight(t.nameTh, q)}</div>
-        <div class="list-card-desc">${highlight(t.blurb, q)}</div>
-        <div class="list-card-tags">
-          ${tags.map(tag => `<span class="card-tag">${tag}</span>`).join('')}
+        <div class="card-arrow">
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
         </div>
       </div>
-    </a>`;
-  }).join('');
+    </a>
+  `).join('');
 }
 
-function setView(v) {
+function setView(v, btn) {
   currentView = v;
+  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
   const grid = document.getElementById('cardsGrid');
-  const listView = document.getElementById('listView');
-  document.getElementById('gridBtn').classList.toggle('active', v === 'grid');
-  document.getElementById('listBtn').classList.toggle('active', v === 'list');
   if (v === 'list') {
-    grid.classList.add('hidden');
-    listView.classList.add('active');
+    grid.style.gridTemplateColumns = '1fr';
   } else {
-    grid.classList.remove('hidden');
-    listView.classList.remove('active');
+    grid.style.gridTemplateColumns = '';
   }
 }
 
