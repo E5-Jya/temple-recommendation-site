@@ -630,16 +630,15 @@
 <div class="filter-section">
   <div class="filter-bar">
     <span class="filter-label">กรอง:</span>
-    <button class="filter-chip active" data-filter="all">ทั้งหมด</button>
+    <button class="filter-chip active" data-group="location" data-filter="all">ทั้งหมด</button>
+    <button class="filter-chip" data-group="location" data-filter="bkk">ในกรุงเทพ</button>
+    <button class="filter-chip" data-group="location" data-filter="upcountry">จังหวัดอื่นๆ</button>
     <div class="filter-sep"></div>
-    <button class="filter-chip" data-filter="bkk">กรุงเทพฯ</button>
-    <button class="filter-chip" data-filter="upcountry">ต่างจังหวัด</button>
+    <button class="filter-chip" data-group="style" data-filter="day">ไม่ค้างคืน</button>
+    <button class="filter-chip" data-group="style" data-filter="stay">ค้างคืน</button>
     <div class="filter-sep"></div>
-    <button class="filter-chip" data-filter="free">ฟรี</button>
-    <button class="filter-chip" data-filter="retreat">มีคอร์สค้างคืน</button>
-    <button class="filter-chip" data-filter="ordain">บวชได้</button>
-    <button class="filter-chip" data-filter="online">ออนไลน์</button>
-    <button class="filter-chip" data-filter="women">เน้นสตรี</button>
+    <button class="filter-chip" data-group="type" data-filter="temple">วัด</button>
+    <button class="filter-chip" data-group="type" data-filter="non-temple">สถานที่ปฏิบัติธรรม และอื่นๆ</button>
     <select class="sort-select" id="sortSelect" onchange="renderCards()">
       <option value="default">เรียงตาม: ค่าเริ่มต้น</option>
       <option value="alpha">ชื่อ ก–ฮ</option>
@@ -682,7 +681,9 @@
 <script>
 let TEMPLES = [];
 
-let currentFilter = 'all';
+let filterLocation = 'all';
+let filterStyle = null;
+let filterType = null;
 let currentView = 'grid';
 
 function escapeHTML(str) {
@@ -701,14 +702,15 @@ function getFiltered() {
   const sort = document.getElementById('sortSelect').value;
 
   let list = TEMPLES.filter(t => {
-    // Filter
-    if (currentFilter === 'bkk' && !t.isBKK) return false;
-    if (currentFilter === 'upcountry' && t.isBKK) return false;
-    if (currentFilter === 'free' && !t.isFree) return false;
-    if (currentFilter === 'retreat' && !t.actRetreats) return false;
-    if (currentFilter === 'ordain' && !t.actOrdain) return false;
-    if (currentFilter === 'online' && !t.actOnline) return false;
-    if (currentFilter === 'women' && !t.actWomen) return false;
+    // Location filter (radio)
+    if (filterLocation === 'bkk' && !t.isBKK) return false;
+    if (filterLocation === 'upcountry' && t.isBKK) return false;
+    // Style filter (toggle)
+    if (filterStyle === 'stay' && !t.actRetreats) return false;
+    if (filterStyle === 'day' && t.actRetreats) return false;
+    // Type filter (toggle)
+    if (filterType === 'temple' && t.placeType !== 'วัด') return false;
+    if (filterType === 'non-temple' && t.placeType === 'วัด') return false;
     // Search
     if (q) {
       const haystack = (t.nameTh + t.nameEn + t.province + t.district + t.tradition + t.blurb).toLowerCase();
@@ -786,9 +788,35 @@ function setView(v, btn) {
 // Filter chips
 document.querySelectorAll('.filter-chip').forEach(chip => {
   chip.addEventListener('click', function() {
-    document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
-    this.classList.add('active');
-    currentFilter = this.dataset.filter;
+    const group = this.dataset.group;
+    const value = this.dataset.filter;
+
+    if (group === 'location') {
+      // Radio: one active at a time in location group
+      document.querySelectorAll('.filter-chip[data-group="location"]').forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      filterLocation = value;
+    } else if (group === 'style') {
+      // Toggle: click again to deactivate
+      if (this.classList.contains('active')) {
+        this.classList.remove('active');
+        filterStyle = null;
+      } else {
+        document.querySelectorAll('.filter-chip[data-group="style"]').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        filterStyle = value;
+      }
+    } else if (group === 'type') {
+      // Toggle: click again to deactivate
+      if (this.classList.contains('active')) {
+        this.classList.remove('active');
+        filterType = null;
+      } else {
+        document.querySelectorAll('.filter-chip[data-group="type"]').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        filterType = value;
+      }
+    }
     renderCards();
   });
 });
