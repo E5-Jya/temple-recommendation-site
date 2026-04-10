@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>แนะนำสถานปฏิบัติธรรมสำหรับคุณ — ตอบ 5 คำถาม | พักใจ</title>
-  <meta name="description" content="ไม่รู้จะเริ่มปฏิบัติธรรมที่ไหน? ตอบคำถาม 5 ข้อ แล้วเราจะแนะนำสถานที่ที่เหมาะกับไลฟ์สไตล์คุณ ไม่ว่าจะเป็นมือใหม่หรือเคยปฏิบัติมาแล้ว" />
+  <title>แนะนำสถานปฏิบัติธรรมสำหรับคุณ — ตอบ 4 คำถาม | พักใจ</title>
+  <meta name="description" content="ไม่รู้จะเริ่มปฏิบัติธรรมที่ไหน? ตอบคำถาม 4 ข้อ แล้วเราจะแนะนำสถานที่ที่เหมาะกับไลฟ์สไตล์คุณ ไม่ว่าจะเป็นมือใหม่หรือเคยปฏิบัติมาแล้ว" />
   <meta property="og:title" content="แนะนำสถานปฏิบัติธรรมสำหรับคุณ | พักใจ" />
-  <meta property="og:description" content="ตอบคำถาม 5 ข้อ แล้วเราจะแนะนำสถานที่ปฏิบัติธรรมที่เหมาะกับคุณ" />
+  <meta property="og:description" content="ตอบคำถาม 4 ข้อ แล้วเราจะแนะนำสถานที่ปฏิบัติธรรมที่เหมาะกับคุณ" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="th_TH" />
   <script type="application/ld+json">
@@ -381,7 +381,7 @@
     <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 000 20 14.5 14.5 0 000-20M2 12h20"/></svg>
   </div>
   <h1>สถานที่เหมาะกับคุณ</h1>
-  <p>ตอบคำถาม 5 ข้อ แล้วเราจะแนะนำสถานปฏิบัติธรรมที่ตรงกับความต้องการของคุณ</p>
+  <p>ตอบคำถาม 4 ข้อ แล้วเราจะแนะนำสถานปฏิบัติธรรมที่ตรงกับความต้องการของคุณ</p>
 </section>
 
 <!-- QUIZ -->
@@ -447,17 +447,17 @@ const ICONS = {
 
 const QUESTIONS = [
   {
-    text: "คุณอยู่ที่ไหน หรือเดินทางได้ไกลแค่ไหน?",
-    sub: "เพื่อแนะนำสถานที่ที่เข้าถึงได้สะดวก",
+    text: "สถานที่ที่ต้องการไป?",
+    sub: "",
     options: [
       { icon: "city", label: "กรุงเทพฯ และปริมณฑล", sub: "ต้องการสถานที่ในเมือง เดินทางสะดวก", value: "bkk" },
-      { icon: "car", label: "ไปต่างจังหวัดได้", sub: "พร้อมเดินทาง ขับรถหรือนั่งรถไปได้", value: "upcountry" },
-      { icon: "globe", label: "ไม่ยึดติดสถานที่", sub: "เน้นที่คุณภาพของสถานที่มากกว่าระยะทาง", value: "any" }
+      { icon: "car", label: "ต่างจังหวัด", sub: "พร้อมเดินทาง ขับรถหรือนั่งรถไปได้", value: "upcountry" },
+      { icon: "globe", label: "ที่ไหนก็ได้", sub: "เน้นที่คุณภาพของสถานที่มากกว่าระยะทาง", value: "any" }
     ],
     key: "location"
   },
   {
-    text: "คุณมีเวลาปฏิบัติธรรมนานแค่ไหน?",
+    text: "คุณมีเวลานานแค่ไหน?",
     sub: "ช่วยให้เราแนะนำคอร์สที่เหมาะสม",
     options: [
       { icon: "clock", label: "ไม่กี่ชั่วโมง", sub: "เย็นวันธรรมดา หรือครึ่งวันเสาร์-อาทิตย์", value: "halfday" },
@@ -468,35 +468,24 @@ const QUESTIONS = [
     key: "duration"
   },
   {
-    text: "งบประมาณของคุณเป็นอย่างไร?",
-    sub: "",
-    options: [
-      { icon: "gift", label: "ต้องการฟรีเท่านั้น", sub: "บริจาคตามศรัทธา ไม่มีค่าใช้จ่ายหลัก", value: "free" },
-      { icon: "heart", label: "ได้ถ้าราคาสมเหตุสมผล", sub: "ยินดีจ่ายค่าที่พัก-อาหาร ราคาไม่แพง", value: "budget" },
-      { icon: "coins", label: "งบปานกลาง (1,000–5,000 ฿)", sub: "คอร์สปกติ รวมที่พักและอาหาร", value: "mid" },
-      { icon: "sparkle", label: "ยืดหยุ่นได้", sub: "ราคาไม่ใช่ปัจจัยหลัก เน้นคุณภาพ", value: "any" }
-    ],
-    key: "budget"
-  },
-  {
     text: "คุณสนใจกิจกรรมใดเป็นพิเศษ?",
     sub: "เลือกที่ตรงใจคุณมากที่สุด",
     options: [
-      { icon: "lotus", label: "นั่งสมาธิ / เดินจงกรม", sub: "ปฏิบัติวิปัสสนาอย่างจริงจัง", value: "meditation" },
+      { icon: "lotus", label: "คอร์สนั่งสมาธิ / เดินจงกรม", sub: "ปฏิบัติวิปัสสนาอย่างจริงจัง", value: "meditation" },
       { icon: "book", label: "ฟังบรรยายธรรม", sub: "เรียนรู้หลักธรรม ฟังธรรมบรรยาย", value: "dhamma_talk" },
+      { icon: "robe", label: "บวชพระ", sub: "สนใจประสบการณ์บวชเป็นพระภิกษุ", value: "ordain_monk" },
       { icon: "robe", label: "บวชชีพราหมณ์ / แม่ชี", sub: "สนใจประสบการณ์บวช", value: "ordain" },
-      { icon: "leaf", label: "ปฏิบัติท่ามกลางธรรมชาติ", sub: "วัดป่า สวน บรรยากาศสงบ", value: "nature" }
+      { icon: "leaf", label: "ปฏิบัติเองในที่สงบ", sub: "วัดป่า สวน บรรยากาศสงบ", value: "nature" }
     ],
     key: "activity"
   },
   {
-    text: "คุณเป็นใคร? (เพื่อแนะนำให้ตรงขึ้น)",
+    text: "ประสบการณ์",
     sub: "",
     options: [
       { icon: "sprout", label: "ผู้เริ่มต้น", sub: "เพิ่งสนใจ ไม่มีประสบการณ์มาก", value: "beginner" },
       { icon: "compass", label: "มีประสบการณ์บ้าง", sub: "เคยปฏิบัติมาแล้ว ต้องการเจาะลึก", value: "intermediate" },
-      { icon: "flower", label: "สตรี หรือต้องการสถานที่สำหรับสตรี", sub: "เน้นบรรยากาศและโปรแกรมสำหรับสตรี", value: "women" },
-      { icon: "users", label: "มาพร้อมครอบครัว / เด็ก", sub: "มีกิจกรรมครอบครัวและค่ายเยาวชน", value: "family" }
+      { icon: "flower", label: "ต้องการศึกษาอย่างจริงจัง", sub: "ปฏิบัติธรรมแบบเข้มข้น ระยะยาว", value: "serious" }
     ],
     key: "profile"
   }
@@ -592,17 +581,15 @@ function scoreTemple(t) {
   const dur = answers.duration;
   score += t.scores[`duration_${dur}`] || 0;
 
-  const bud = answers.budget;
-  if (bud === 'free') score += t.scores['budget_free'] || 0;
-  else if (bud === 'budget') score += (t.scores['budget_free'] || 0) + (t.scores['budget_budget'] || 0);
-  else if (bud === 'mid') score += (t.scores['budget_mid'] || 0) + (t.scores['budget_budget'] || 0);
-  else score += (t.scores['budget_any'] || 1) + (t.scores['budget_mid'] || 0);
-
   const act = answers.activity;
   score += t.scores[`activity_${act}`] || 0;
 
   const pro = answers.profile;
-  score += t.scores[`profile_${pro}`] || 0;
+  if (pro === 'serious') {
+    score += t.scores['profile_serious'] || t.scores['profile_intermediate'] || 0;
+  } else {
+    score += t.scores[`profile_${pro}`] || 0;
+  }
 
   return score;
 }
@@ -611,8 +598,7 @@ function getProfileLabel() {
   const map = {
     beginner: "ผู้เริ่มต้นสนใจธรรมะ",
     intermediate: "ผู้ปฏิบัติมีประสบการณ์",
-    women: "ผู้หญิงที่ต้องการสถานที่พิเศษ",
-    family: "ครอบครัวที่ต้องการปฏิบัติร่วมกัน"
+    serious: "ผู้ต้องการศึกษาอย่างจริงจัง"
   };
   return map[answers.profile] || "ผู้ปฏิบัติธรรม";
 }

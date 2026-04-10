@@ -7,7 +7,7 @@
 
 ## Key Pages
 - [Temple Directory](https://pakjai.co/): Browse all meditation centers with filters
-- [Recommendation Quiz](https://pakjai.co/recommendation.html): 5-question quiz to find the right center
+- [Recommendation Quiz](https://pakjai.co/recommendation.html): 4-question quiz to find the right center
 
 ## Content Topics
 - Thai meditation centers and retreat information
