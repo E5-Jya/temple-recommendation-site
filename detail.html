@@ -26,32 +26,24 @@
     :root {
   --background: #F7F5F0;
   --foreground: #2D3436;
-  --primary: #4A7C59;
-  --primary-light: #5A8C69;
-  --primary-dark: #3A6C49;
-  --secondary: #A8D5BA;
-  --secondary-light: #C4E8D1;
-  --secondary-dark: #8AC4A3;
+  --primary: #697662;
+  --primary-dark: #586452;
+  --primary-tint: #F0F2EE;
   --accent: #D4A847;
   --accent-light: #E0BE6E;
   --accent-dark: #B8902E;
-  --tertiary: #B8A9C9;
-  --tertiary-light: #D0C5DC;
-  --tertiary-dark: #9F8DB6;
-  --warning: #C4836A;
-  --warning-light: #D9A08B;
-  --warning-dark: #A96B52;
+  --accent-tint: #FFF8EC;
   --surface: #FFFFFF;
   --surface-alt: #F0EDE6;
   --card: #FFFFFF;
-  --card-hover: #EFF8F2;
+  --card-hover: #F0F2EE;
   --border: #D1CCC4;
   --border-light: #E5E0D8;
   --muted: #7A7670;
   --muted-light: #A09B94;
-  --gradient-primary: linear-gradient(135deg, #4A7C59 0%, #A8D5BA 60%, #D4A847 100%);
-  --gradient-surface: linear-gradient(180deg, #F7F5F0 0%, #EFF8F2 100%);
-  --gradient-header: linear-gradient(135deg, #3A6C49 0%, #4A7C59 100%);
+  --gradient-primary: linear-gradient(135deg, #586452 0%, #697662 100%);
+  --gradient-surface: linear-gradient(180deg, #F7F5F0 0%, #F0F2EE 100%);
+  --gradient-header: linear-gradient(135deg, #586452 0%, #697662 100%);
   --shadow-sm: 0 1px 3px rgba(45, 52, 54, 0.08);
   --shadow-md: 0 4px 12px rgba(45, 52, 54, 0.10);
   --shadow-lg: 0 8px 24px rgba(45, 52, 54, 0.12);
@@ -82,7 +74,7 @@
   --radius: 12px;
   --shadow: 0 4px 12px rgba(45, 52, 54, 0.10);
   --shadow-lg: 0 8px 24px rgba(45, 52, 54, 0.12);
-  --hero-gradient: linear-gradient(135deg, #2D3436 0%, #3A6C49 40%, #4A7C59 70%, #2D3436 100%);
+  --hero-gradient: linear-gradient(135deg, #2D3436 0%, #586452 40%, #697662 70%, #2D3436 100%);
 }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -341,7 +333,7 @@
       font-size: 13px; font-weight: 500;
     }
     .activity-chip.yes {
-      background: #EFF8F2;
+      background: #F0F2EE;
       border: 1px solid var(--secondary);
       color: var(--primary);
     }
@@ -447,7 +439,7 @@
 
     /* ── HIGHLIGHT CALLOUT ── */
     .callout {
-      background: linear-gradient(135deg, #EFF8F2, #E0F0E3);
+      background: linear-gradient(135deg, #F0F2EE, #E8EAE4);
       border: 1px solid var(--secondary);
       border-left: 4px solid var(--primary);
       border-radius: 0 var(--radius) var(--radius) 0;
@@ -726,7 +718,7 @@
 
       <!-- HIGHLIGHTS -->
       <div class="sidebar-card">
-        <div style="background:linear-gradient(135deg, #3A6C49 0%, #4A7C59 100%); padding:28px 24px; border-radius:var(--radius) var(--radius) 0 0;">
+        <div style="background:linear-gradient(135deg, #586452 0%, #697662 100%); padding:28px 24px; border-radius:var(--radius) var(--radius) 0 0;">
           <div style="font-size:11px; font-weight:700; letter-spacing:2px; text-transform:uppercase; color:rgba(255,255,255,0.7); margin-bottom:8px;">
             <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M9 21h6M12 3a6 6 0 00-4 10.5V17h8v-3.5A6 6 0 0012 3z"/></svg>
             จุดเด่น

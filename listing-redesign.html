@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ค้นหาสถานที่ — สืบธรรม</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Noto+Serif+Thai:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --green-dark: #586452;
+      --green-mid: #4A5D4C;
+      --green-olive: #6B7256;
+      --bg: #F8F7F4;
+      --text: #1C1C1C;
+      --border: #E8E6E1;
+      --card-bg: #fff;
+    }
+
+    body {
+      font-family: 'Sarabun', 'Noto Sans Thai', -apple-system, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ━━━ NAV ━━━ */
+    .nav {
+      background: #fff;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .nav-logo {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none; color: inherit;
+    }
+    .nav-logo-text {
+      font-family: 'Noto Serif Thai', serif;
+      font-size: 22px; font-weight: 700; letter-spacing: -0.5px;
+    }
+    .nav-right {
+      display: flex; align-items: center; gap: 20px;
+    }
+    .nav-link {
+      color: #666; text-decoration: none;
+      font-size: 14px; font-weight: 500;
+      transition: color 0.2s;
+    }
+    .nav-link:hover { color: var(--text); }
+
+    /* ━━━ FILTER BAR ━━━ */
+    .filter-bar-wrap {
+      background: #fff;
+      border-bottom: 1px solid rgba(0,0,0,0.06);
+      padding: 16px 0;
+      position: sticky;
+      top: 57px;
+      z-index: 90;
+    }
+    .filter-bar {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      display: flex; align-items: center; gap: 12px;
+    }
+
+    /* Segmented filter buttons */
+    .filter-seg {
+      position: relative;
+    }
+    .filter-seg-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 20px;
+      border-radius: 100px;
+      border: 1.5px solid var(--border);
+      background: #fff;
+      font-size: 14px; font-weight: 500;
+      color: var(--text);
+      cursor: pointer;
+      font-family: inherit;
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+    .filter-seg-btn:hover { border-color: #ccc; background: #FAFAF7; }
+    .filter-seg-btn.active {
+      border-color: var(--green-mid);
+      background: rgba(74, 93, 76, 0.06);
+      color: var(--green-dark);
+    }
+    .filter-seg-btn .chevron {
+      transition: transform 0.2s;
+    }
+    .filter-seg-btn.open .chevron {
+      transform: rotate(180deg);
+    }
+
+    /* Dropdown */
+    .filter-dropdown {
+      position: absolute;
+      top: calc(100% + 8px);
+      left: 0;
+      min-width: 260px;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+      border: 1px solid rgba(0,0,0,0.06);
+      padding: 8px;
+      opacity: 0;
+      pointer-events: none;
+      transform: translateY(-4px);
+      transition: all 0.2s;
+      z-index: 200;
+    }
+    .filter-dropdown.open {
+      opacity: 1;
+      pointer-events: auto;
+      transform: translateY(0);
+    }
+    .filter-option {
+      display: flex; align-items: center; gap: 12px;
+      padding: 12px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background 0.15s;
+    }
+    .filter-option:hover { background: rgba(74, 93, 76, 0.04); }
+    .filter-option.selected { background: rgba(74, 93, 76, 0.07); }
+    .filter-option.selected .fo-check { opacity: 1; }
+    .fo-icon {
+      width: 36px; height: 36px; border-radius: 10px;
+      background: var(--bg);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+    .fo-text { flex: 1; }
+    .fo-title { font-size: 14px; font-weight: 600; color: var(--text); }
+    .fo-desc { font-size: 12px; color: #999; font-weight: 400; }
+    .fo-check {
+      width: 20px; height: 20px; border-radius: 50%;
+      background: var(--green-mid);
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; transition: opacity 0.2s;
+      flex-shrink: 0;
+    }
+
+    /* Filter active tags */
+    .filter-tags {
+      display: flex; gap: 8px; align-items: center;
+      margin-left: 4px;
+    }
+    .filter-tag {
+      display: inline-flex; align-items: center; gap: 5px;
+      padding: 5px 12px;
+      border-radius: 100px;
+      background: rgba(74, 93, 76, 0.08);
+      font-size: 12px; font-weight: 500;
+      color: var(--green-dark);
+    }
+    .filter-tag-x {
+      width: 14px; height: 14px;
+      cursor: pointer;
+      opacity: 0.5;
+      transition: opacity 0.2s;
+    }
+    .filter-tag-x:hover { opacity: 1; }
+
+    .filter-reset {
+      margin-left: auto;
+      font-size: 13px;
+      color: #bbb;
+      cursor: pointer;
+      text-decoration: none;
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+    .filter-reset:hover { color: #888; }
+
+    /* ━━━ CONTENT AREA ━━━ */
+    .content {
+      max-width: 1200px; margin: 0 auto;
+      padding: 32px 32px 80px;
+    }
+
+    .content-header {
+      display: flex; align-items: baseline; justify-content: space-between;
+      margin-bottom: 28px;
+    }
+    .content-meta {
+      font-size: 14px; color: #999; font-weight: 400;
+    }
+    .content-meta strong {
+      color: var(--text); font-weight: 700;
+    }
+    .content-updated {
+      font-size: 12px; color: #ccc;
+    }
+
+    /* View toggle */
+    .view-toggle {
+      display: flex; gap: 4px;
+      background: rgba(0,0,0,0.04);
+      border-radius: 10px;
+      padding: 3px;
+    }
+    .view-btn {
+      width: 36px; height: 36px;
+      border: none;
+      background: transparent;
+      border-radius: 8px;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      color: #bbb;
+      transition: all 0.2s;
+    }
+    .view-btn.active {
+      background: #fff;
+      color: var(--text);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+    }
+
+    /* ━━━ CARDS GRID ━━━ */
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+
+    .place-card {
+      background: var(--card-bg);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.04);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      animation: fadeIn 0.5s ease-out both;
+      cursor: pointer;
+    }
+    .place-card:nth-child(2) { animation-delay: 0.05s; }
+    .place-card:nth-child(3) { animation-delay: 0.1s; }
+    .place-card:nth-child(4) { animation-delay: 0.15s; }
+    .place-card:nth-child(5) { animation-delay: 0.2s; }
+    .place-card:nth-child(6) { animation-delay: 0.25s; }
+    .place-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.08);
+    }
+
+    /* Card image */
+    .card-img {
+      position: relative;
+      height: 200px;
+      overflow: hidden;
+    }
+    .card-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s;
+    }
+    .place-card:hover .card-img img {
+      transform: scale(1.04);
+    }
+
+    /* Top-left badge: วัด / ศูนย์ */
+    .card-type-badge {
+      position: absolute; top: 12px; left: 12px;
+      padding: 5px 12px;
+      border-radius: 100px;
+      font-size: 11px; font-weight: 600;
+      backdrop-filter: blur(12px);
+    }
+    .badge-temple {
+      background: rgba(255,255,255,0.85);
+      color: #8B6914;
+    }
+    .badge-center {
+      background: rgba(255,255,255,0.85);
+      color: var(--green-mid);
+    }
+
+    /* Bottom location pill */
+    .card-location {
+      position: absolute; bottom: 12px; right: 12px;
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 5px 12px;
+      border-radius: 100px;
+      background: rgba(0,0,0,0.5);
+      backdrop-filter: blur(8px);
+      font-size: 11px; color: rgba(255,255,255,0.9);
+      font-weight: 400;
+    }
+
+    /* Card body */
+    .card-body {
+      padding: 18px 20px 20px;
+    }
+    .card-name-th {
+      font-size: 17px; font-weight: 700; color: var(--text);
+      line-height: 1.35; margin-bottom: 2px;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+    }
+    .card-name-en {
+      font-size: 12px; color: #bbb; font-weight: 400;
+      font-style: italic;
+      margin-bottom: 12px;
+    }
+    .card-desc {
+      font-size: 13px; color: #888; font-weight: 400;
+      line-height: 1.6;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      margin-bottom: 14px;
+    }
+
+    /* Quick info tags */
+    .card-tags {
+      display: flex; flex-wrap: wrap; gap: 6px;
+    }
+    .card-tag {
+      display: inline-flex; align-items: center; gap: 4px;
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: var(--bg);
+      font-size: 11px; color: #888; font-weight: 500;
+    }
+    .card-tag svg { flex-shrink: 0; }
+
+    /* ━━━ LIST VIEW ━━━ */
+    .cards-list {
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .cards-list.active { display: flex; }
+    .cards-grid.hidden { display: none; }
+
+    .list-card {
+      display: grid;
+      grid-template-columns: 180px 1fr;
+      background: var(--card-bg);
+      border-radius: 14px;
+      overflow: hidden;
+      border: 1px solid rgba(0,0,0,0.04);
+      transition: all 0.25s;
+      cursor: pointer;
+      animation: fadeIn 0.4s ease-out both;
+    }
+    .list-card:hover {
+      transform: translateX(4px);
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
+    }
+    .list-card-img {
+      height: 100%;
+      min-height: 140px;
+    }
+    .list-card-img img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+    .list-card-body {
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .list-card-top {
+      display: flex; align-items: center; gap: 8px;
+      margin-bottom: 6px;
+    }
+    .list-type-badge {
+      padding: 3px 10px;
+      border-radius: 100px;
+      font-size: 11px; font-weight: 600;
+    }
+    .list-location {
+      font-size: 12px; color: #bbb; font-weight: 400;
+      display: flex; align-items: center; gap: 3px;
+    }
+    .list-card-name {
+      font-size: 18px; font-weight: 700; color: var(--text);
+      margin-bottom: 6px;
+    }
+    .list-card-desc {
+      font-size: 13px; color: #888; line-height: 1.6;
+      display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden;
+      margin-bottom: 10px;
+    }
+    .list-card-tags {
+      display: flex; flex-wrap: wrap; gap: 6px;
+    }
+
+    /* ━━━ RESPONSIVE ━━━ */
+    @media (max-width: 900px) {
+      .cards-grid { grid-template-columns: repeat(2, 1fr); }
+      .filter-bar { flex-wrap: wrap; }
+    }
+    @media (max-width: 640px) {
+      .cards-grid { grid-template-columns: 1fr; }
+      .content { padding: 24px 16px 60px; }
+      .filter-bar { padding: 0 16px; }
+      .nav-inner { padding: 0 16px; }
+      .list-card { grid-template-columns: 120px 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ━━━ NAV ━━━ -->
+  <nav class="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="index.html">
+        <svg width="24" height="24" viewBox="0 0 64 64" fill="none">
+          <path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#4A5D4C" opacity="0.9"/>
+          <path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#4A5D4C" opacity="0.6"/>
+          <path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#4A5D4C" opacity="0.6"/>
+        </svg>
+        <span class="nav-logo-text">สืบธรรม</span>
+      </a>
+      <div class="nav-right">
+        <a href="#" class="nav-link">แนะนำสถานที่</a>
+        <a href="#" class="nav-link">เกี่ยวกับเรา</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ━━━ FILTER BAR ━━━ -->
+  <div class="filter-bar-wrap">
+    <div class="filter-bar">
+
+      <!-- Filter 1: Location -->
+      <div class="filter-seg" id="seg-location">
+        <button class="filter-seg-btn" onclick="toggleDropdown('location')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span id="loc-label">ทำเล</span>
+          <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="filter-dropdown" id="dd-location">
+          <div class="filter-option selected" data-value="all" onclick="selectFilter('location', this)">
+            <div class="fo-icon">🗺️</div>
+            <div class="fo-text"><div class="fo-title">ทั้งหมด</div><div class="fo-desc">ดูทุกจังหวัด</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+          <div class="filter-option" data-value="bkk" onclick="selectFilter('location', this)">
+            <div class="fo-icon">🏙️</div>
+            <div class="fo-text"><div class="fo-title">ในกรุงเทพฯ</div><div class="fo-desc">ไปเช้าเย็นกลับ ไม่ต้องเดินทางไกล</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+          <div class="filter-option" data-value="other" onclick="selectFilter('location', this)">
+            <div class="fo-icon">🌿</div>
+            <div class="fo-text"><div class="fo-title">จังหวัดอื่นๆ</div><div class="fo-desc">หลีกหนีเมือง ไปพักกายพักใจ</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter 2: Duration -->
+      <div class="filter-seg" id="seg-duration">
+        <button class="filter-seg-btn" onclick="toggleDropdown('duration')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <span id="dur-label">รูปแบบ</span>
+          <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="filter-dropdown" id="dd-duration">
+          <div class="filter-option selected" data-value="all" onclick="selectFilter('duration', this)">
+            <div class="fo-icon">✨</div>
+            <div class="fo-text"><div class="fo-title">ทั้งหมด</div><div class="fo-desc">ไม่จำกัดรูปแบบ</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+          <div class="filter-option" data-value="day" onclick="selectFilter('duration', this)">
+            <div class="fo-icon">☀️</div>
+            <div class="fo-text"><div class="fo-title">ไปทำกิจกรรม</div><div class="fo-desc">ไม่ค้างคืน เหมาะกับคนเริ่มต้น</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+          <div class="filter-option" data-value="stay" onclick="selectFilter('duration', this)">
+            <div class="fo-icon">🌙</div>
+            <div class="fo-text"><div class="fo-title">ค้างคืนปฏิบัติธรรม</div><div class="fo-desc">พักค้าง ปฏิบัติแบบเต็มคอร์ส</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Filter 3: Type -->
+      <div class="filter-seg" id="seg-type">
+        <button class="filter-seg-btn" onclick="toggleDropdown('type')">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><path d="M9 22V12h6v10"/></svg>
+          <span id="type-label">ประเภท</span>
+          <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </button>
+        <div class="filter-dropdown" id="dd-type">
+          <div class="filter-option selected" data-value="all" onclick="selectFilter('type', this)">
+            <div class="fo-icon">✨</div>
+            <div class="fo-text"><div class="fo-title">ทุกประเภท</div><div class="fo-desc">วัดและศูนย์ปฏิบัติธรรม</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+          <div class="filter-option" data-value="temple" onclick="selectFilter('type', this)">
+            <div class="fo-icon">🛕</div>
+            <div class="fo-text"><div class="fo-title">วัด</div><div class="fo-desc">วิถีดั้งเดิม ใกล้ชิดพระอาจารย์</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+          <div class="filter-option" data-value="center" onclick="selectFilter('type', this)">
+            <div class="fo-icon">🏡</div>
+            <div class="fo-text"><div class="fo-title">ศูนย์ปฏิบัติธรรม</div><div class="fo-desc">สถานที่เฉพาะทาง บรรยากาศสบาย</div></div>
+            <div class="fo-check"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"><path d="M20 6 9 17l-5-5"/></svg></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-tags" id="filterTags"></div>
+
+      <a class="filter-reset" id="filterReset" onclick="resetAll()" style="display:none">ล้างทั้งหมด</a>
+
+    </div>
+  </div>
+
+  <!-- ━━━ CONTENT ━━━ -->
+  <div class="content">
+
+    <div class="content-header">
+      <div>
+        <div class="content-meta">แสดง <strong id="resultCount">54</strong> สถานที่</div>
+        <div class="content-updated">อัปเดตล่าสุด: เมษายน 2026</div>
+      </div>
+      <div class="view-toggle">
+        <button class="view-btn active" id="gridBtn" onclick="setView('grid')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+        </button>
+        <button class="view-btn" id="listBtn" onclick="setView('list')">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- ━━━ GRID VIEW ━━━ -->
+    <div class="cards-grid" id="gridView">
+
+      <div class="place-card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?w=600&q=75" alt="">
+          <div class="card-type-badge badge-temple">วัด</div>
+          <div class="card-location">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+            เกาะสมุย
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-name-th">ทีปภาวัน ธรรมสถาน</div>
+          <div class="card-name-en">Dipabhavan Meditation Center</div>
+          <div class="card-desc">ตั้งอยู่บนเนินเขาทางตะวันออกเฉียงใต้ของเกาะสมุย มองเห็นทะเลและป่ามะพร้าว เปิดดำเนินการตั้งแต่ปี 2548</div>
+          <div class="card-tags">
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              ค้างคืน
+            </span>
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12h5l2-9 4 18 2-9h7"/></svg>
+              วิปัสสนา
+            </span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=75" alt="">
+          <div class="card-type-badge badge-center">ศูนย์</div>
+          <div class="card-location">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+            วังทอง
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-name-th">ธรรมตโปทา ศูนย์วิปัสสนาสากล</div>
+          <div class="card-name-en">Dhamma Tapoda Vipassana Center</div>
+          <div class="card-desc">ตั้งอยู่บนที่ราบสูงในอำเภอวังทอง จังหวัดพิษณุโลก บนพื้นที่ 15 ไร่ที่มีภูเขาล้อมรอบสามด้าน</div>
+          <div class="card-tags">
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              ค้างคืน
+            </span>
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12h5l2-9 4 18 2-9h7"/></svg>
+              โกเอ็นก้า
+            </span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=75" alt="">
+          <div class="card-type-badge badge-center">ศูนย์</div>
+          <div class="card-location">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+            แม่แตง
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-name-th">ป่าแป๋ เมดิเตชั่น รีทรีต</div>
+          <div class="card-name-en">Pa Pae Meditation Retreat</div>
+          <div class="card-desc">ตั้งอยู่กลางป่าเขาในอำเภอแม่แตง เชียงใหม่ ด้วยทีมพระสงฆ์นานาชาติที่สอนเป็นภาษาอังกฤษ</div>
+          <div class="card-tags">
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              ค้างคืน
+            </span>
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12h5l2-9 4 18 2-9h7"/></svg>
+              วิปัสสนา
+            </span>
+            <span class="card-tag">EN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=75" alt="">
+          <div class="card-type-badge badge-temple">วัด</div>
+          <div class="card-location">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+            กรุงเทพฯ
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-name-th">วัดมหาธาตุยุวราชรังสฤษฎิ์</div>
+          <div class="card-name-en">Wat Mahathat Yuwaratrangsarit</div>
+          <div class="card-desc">วัดเก่าแก่ใจกลางกรุงเทพฯ ใกล้สนามหลวง มีหลักสูตรวิปัสสนาสำหรับชาวไทยและชาวต่างชาติ</div>
+          <div class="card-tags">
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              กิจกรรม
+            </span>
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12h5l2-9 4 18 2-9h7"/></svg>
+              วิปัสสนา
+            </span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1518241353330-0f7941c2d9b5?w=600&q=75" alt="">
+          <div class="card-type-badge badge-temple">วัด</div>
+          <div class="card-location">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+            ไชยา
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-name-th">สวนโมกขพลาราม</div>
+          <div class="card-name-en">Suan Mokkh</div>
+          <div class="card-desc">สวนธรรมของท่านพุทธทาสภิกขุ จัดคอร์สปฏิบัติธรรม 10 วัน สำหรับชาวต่างชาติทุกต้นเดือน</div>
+          <div class="card-tags">
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              ค้างคืน
+            </span>
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 12h5l2-9 4 18 2-9h7"/></svg>
+              อานาปานสติ
+            </span>
+            <span class="card-tag">EN</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="place-card">
+        <div class="card-img">
+          <img src="https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?w=600&q=75" alt="">
+          <div class="card-type-badge badge-center">ศูนย์</div>
+          <div class="card-location">
+            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+            กรุงเทพฯ
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="card-name-th">ยุวพุทธิกสมาคมแห่งประเทศไทย</div>
+          <div class="card-name-en">Young Buddhists Association</div>
+          <div class="card-desc">จัดคอร์สปฏิบัติธรรมหลากหลายแนว ทั้งวิปัสสนาและสมถะ มีทั้งคอร์สสั้นและยาว</div>
+          <div class="card-tags">
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              ค้างคืน
+            </span>
+            <span class="card-tag">
+              <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+              กิจกรรม
+            </span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ━━━ LIST VIEW ━━━ -->
+    <div class="cards-list" id="listView">
+
+      <div class="list-card">
+        <div class="list-card-img">
+          <img src="https://images.unsplash.com/photo-1545389336-cf090694435e?w=400&q=75" alt="">
+        </div>
+        <div class="list-card-body">
+          <div class="list-card-top">
+            <span class="list-type-badge badge-temple">วัด</span>
+            <span class="list-location">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+              เกาะสมุย
+            </span>
+          </div>
+          <div class="list-card-name">ทีปภาวัน ธรรมสถาน (Dipabhavan)</div>
+          <div class="list-card-desc">ตั้งอยู่บนเนินเขาทางตะวันออกเฉียงใต้ของเกาะสมุย มองเห็นทะเลและป่ามะพร้าว เปิดดำเนินการตั้งแต่ปี 2548</div>
+          <div class="list-card-tags">
+            <span class="card-tag">ค้างคืน</span>
+            <span class="card-tag">วิปัสสนา</span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-card">
+        <div class="list-card-img">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=400&q=75" alt="">
+        </div>
+        <div class="list-card-body">
+          <div class="list-card-top">
+            <span class="list-type-badge badge-center">ศูนย์</span>
+            <span class="list-location">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+              วังทอง
+            </span>
+          </div>
+          <div class="list-card-name">ธรรมตโปทา ศูนย์วิปัสสนาสากล</div>
+          <div class="list-card-desc">ตั้งอยู่บนที่ราบสูงในอำเภอวังทอง จังหวัดพิษณุโลก บนพื้นที่ 15 ไร่ที่มีภูเขาล้อมรอบสามด้าน</div>
+          <div class="list-card-tags">
+            <span class="card-tag">ค้างคืน</span>
+            <span class="card-tag">โกเอ็นก้า</span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="list-card">
+        <div class="list-card-img">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=75" alt="">
+        </div>
+        <div class="list-card-body">
+          <div class="list-card-top">
+            <span class="list-type-badge badge-temple">วัด</span>
+            <span class="list-location">
+              <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 10c0 7-8 12-8 12s-8-5-8-12a8 8 0 0 1 16 0Z"/></svg>
+              กรุงเทพฯ
+            </span>
+          </div>
+          <div class="list-card-name">วัดมหาธาตุยุวราชรังสฤษฎิ์</div>
+          <div class="list-card-desc">วัดเก่าแก่ใจกลางกรุงเทพฯ ใกล้สนามหลวง มีหลักสูตรวิปัสสนาสำหรับชาวไทยและชาวต่างชาติ</div>
+          <div class="list-card-tags">
+            <span class="card-tag">กิจกรรม</span>
+            <span class="card-tag">วิปัสสนา</span>
+            <span class="card-tag">ฟรี</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script>
+    let openDropdown = null;
+    const filters = { location: 'all', duration: 'all', type: 'all' };
+    const labels = {
+      location: { all: 'ทำเล', bkk: 'กรุงเทพฯ', other: 'จังหวัดอื่นๆ' },
+      duration: { all: 'รูปแบบ', day: 'ทำกิจกรรม', stay: 'ค้างคืน' },
+      type: { all: 'ประเภท', temple: 'วัด', center: 'ศูนย์ปฏิบัติธรรม' }
+    };
+
+    function toggleDropdown(name) {
+      const dd = document.getElementById('dd-' + name);
+      const btn = document.querySelector(`#seg-${name} .filter-seg-btn`);
+      if (openDropdown && openDropdown !== name) {
+        closeDropdown(openDropdown);
+      }
+      if (dd.classList.contains('open')) {
+        closeDropdown(name);
+      } else {
+        dd.classList.add('open');
+        btn.classList.add('open');
+        openDropdown = name;
+      }
+    }
+
+    function closeDropdown(name) {
+      const dd = document.getElementById('dd-' + name);
+      const btn = document.querySelector(`#seg-${name} .filter-seg-btn`);
+      dd.classList.remove('open');
+      btn.classList.remove('open');
+      if (openDropdown === name) openDropdown = null;
+    }
+
+    function selectFilter(group, el) {
+      const dd = document.getElementById('dd-' + group);
+      dd.querySelectorAll('.filter-option').forEach(o => o.classList.remove('selected'));
+      el.classList.add('selected');
+      filters[group] = el.dataset.value;
+
+      // Update button label
+      const labelEl = document.getElementById(
+        group === 'location' ? 'loc-label' :
+        group === 'duration' ? 'dur-label' : 'type-label'
+      );
+      labelEl.textContent = labels[group][filters[group]];
+
+      // Toggle active state on button
+      const btn = document.querySelector(`#seg-${group} .filter-seg-btn`);
+      if (filters[group] !== 'all') {
+        btn.classList.add('active');
+      } else {
+        btn.classList.remove('active');
+      }
+
+      closeDropdown(group);
+      updateTags();
+      updateCount();
+    }
+
+    function updateTags() {
+      const container = document.getElementById('filterTags');
+      const reset = document.getElementById('filterReset');
+      container.innerHTML = '';
+      let hasActive = false;
+
+      Object.entries(filters).forEach(([group, val]) => {
+        if (val !== 'all') {
+          hasActive = true;
+          const tag = document.createElement('span');
+          tag.className = 'filter-tag';
+          tag.innerHTML = `${labels[group][val]} <svg class="filter-tag-x" onclick="clearFilter('${group}')" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>`;
+          container.appendChild(tag);
+        }
+      });
+
+      reset.style.display = hasActive ? 'inline' : 'none';
+    }
+
+    function clearFilter(group) {
+      filters[group] = 'all';
+      const dd = document.getElementById('dd-' + group);
+      dd.querySelectorAll('.filter-option').forEach(o => {
+        o.classList.toggle('selected', o.dataset.value === 'all');
+      });
+      const btn = document.querySelector(`#seg-${group} .filter-seg-btn`);
+      btn.classList.remove('active');
+      const labelEl = document.getElementById(
+        group === 'location' ? 'loc-label' :
+        group === 'duration' ? 'dur-label' : 'type-label'
+      );
+      labelEl.textContent = labels[group].all;
+      updateTags();
+      updateCount();
+    }
+
+    function resetAll() {
+      ['location', 'duration', 'type'].forEach(clearFilter);
+    }
+
+    function updateCount() {
+      let count = 54;
+      if (filters.location === 'bkk') count = 11;
+      else if (filters.location === 'other') count = 43;
+      if (filters.duration === 'day') count = Math.max(3, Math.round(count * 0.5));
+      else if (filters.duration === 'stay') count = Math.max(3, Math.round(count * 0.7));
+      if (filters.type === 'temple') count = Math.max(2, Math.round(count * 0.65));
+      else if (filters.type === 'center') count = Math.max(2, Math.round(count * 0.35));
+      document.getElementById('resultCount').textContent = count;
+    }
+
+    function setView(view) {
+      const grid = document.getElementById('gridView');
+      const list = document.getElementById('listView');
+      const gridBtn = document.getElementById('gridBtn');
+      const listBtn = document.getElementById('listBtn');
+
+      if (view === 'grid') {
+        grid.classList.remove('hidden');
+        list.classList.remove('active');
+        gridBtn.classList.add('active');
+        listBtn.classList.remove('active');
+      } else {
+        grid.classList.add('hidden');
+        list.classList.add('active');
+        gridBtn.classList.remove('active');
+        listBtn.classList.add('active');
+      }
+    }
+
+    // Close dropdown on click outside
+    document.addEventListener('click', (e) => {
+      if (openDropdown && !e.target.closest('.filter-seg')) {
+        closeDropdown(openDropdown);
+      }
+    });
+  </script>
+
+</body>
+</html>
