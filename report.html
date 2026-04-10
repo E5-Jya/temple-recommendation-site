@@ -174,6 +174,41 @@
       padding-left: 48px;
     }
 
+    /* Autocomplete */
+    .ac-wrap { position: relative; }
+    .ac-dropdown {
+      display: none; position: absolute; top: 100%; left: 0; right: 0;
+      margin-top: 4px; max-height: 250px; overflow-y: auto;
+      background: #fff; border: 1.5px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+    .ac-dropdown.open { display: block; }
+    .ac-item {
+      padding: 12px 18px; cursor: pointer;
+      transition: background 0.15s;
+      border-bottom: 1px solid rgba(0,0,0,0.04);
+    }
+    .ac-item:last-child { border-bottom: none; }
+    .ac-item:hover, .ac-item.active { background: #F0F2EE; }
+    .ac-item-name { font-size: 15px; font-weight: 600; color: var(--text); }
+    .ac-item-en { font-size: 12px; color: #999; font-style: italic; }
+    .ac-item-loc { font-size: 12px; color: #bbb; margin-top: 2px; }
+    .ac-empty {
+      padding: 16px 18px; font-size: 14px; color: #999; text-align: center;
+    }
+    .form-input.valid {
+      border-color: #697662;
+      background: #FBFCFB;
+    }
+    .form-input.invalid {
+      border-color: #D85454;
+    }
+    .field-error {
+      font-size: 13px; color: #D85454; margin-top: 6px; display: none;
+    }
+
     /* Submit */
     .form-actions {
       display: flex; gap: 12px; justify-content: flex-end;
@@ -290,14 +325,20 @@
 
       <form id="editForm" onsubmit="handleSubmit(event)">
 
-        <!-- สถานที่ -->
+        <!-- สถานที่ (autocomplete) -->
         <div class="form-group">
           <label class="form-label" for="placeName">ชื่อสถานที่ที่ต้องการแก้ไข <span class="required">*</span></label>
-          <div class="search-input-wrap">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-            <input type="text" id="placeName" class="form-input" placeholder="เช่น วัดป่าสุคะโต, สวนโมกขพลาราม" required>
+          <div class="ac-wrap">
+            <div class="search-input-wrap">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+              <input type="text" id="placeName" class="form-input" placeholder="พิมพ์ชื่อวัดหรือสถานปฏิบัติธรรม..." autocomplete="off">
+            </div>
+            <div class="ac-dropdown" id="acDropdown"></div>
           </div>
-          <p class="form-hint">พิมพ์ชื่อวัดหรือสถานปฏิบัติธรรมที่คุณพบข้อมูลไม่ถูกต้อง</p>
+          <input type="hidden" id="templeId" name="templeId">
+          <input type="hidden" id="templeName" name="templeName">
+          <p class="field-error" id="placeError">กรุณาเลือกสถานที่จากรายการ</p>
+          <p class="form-hint">พิมพ์แล้วเลือกจากรายการสถานที่ในระบบ</p>
         </div>
 
         <!-- ประเภทการแก้ไข -->
@@ -357,14 +398,121 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="supabase-config.js"></script>
   <script>
+    let temples = [];
+    let acIndex = -1;
+
+    // Load temple list
+    fetch('temples-directory.json')
+      .then(r => r.json())
+      .then(data => { temples = data; });
+
+    const input = document.getElementById('placeName');
+    const dropdown = document.getElementById('acDropdown');
+    const hiddenId = document.getElementById('templeId');
+    const hiddenName = document.getElementById('templeName');
+    const placeError = document.getElementById('placeError');
+
+    function fmtLoc(t) {
+      var p = (t.province || '').replace('กรุงเทพมหานคร', 'กรุงเทพ');
+      return t.district ? t.district + ' - ' + p : p;
+    }
+
+    function renderSuggestions(q) {
+      if (!q) { dropdown.classList.remove('open'); return; }
+      const lower = q.toLowerCase();
+      const matches = temples.filter(t =>
+        (t.nameTh || '').toLowerCase().includes(lower) ||
+        (t.nameEn || '').toLowerCase().includes(lower)
+      ).slice(0, 10);
+
+      if (matches.length === 0) {
+        dropdown.innerHTML = '<div class="ac-empty">ไม่พบสถานที่ที่ค้นหา</div>';
+      } else {
+        dropdown.innerHTML = matches.map((t, i) => `
+          <div class="ac-item" data-idx="${i}" data-id="${t.id}" data-name="${t.nameTh}">
+            <div class="ac-item-name">${t.nameTh}</div>
+            <div class="ac-item-en">${t.nameEn || ''}</div>
+            <div class="ac-item-loc">${fmtLoc(t)}</div>
+          </div>
+        `).join('');
+      }
+      acIndex = -1;
+      dropdown.classList.add('open');
+    }
+
+    function selectTemple(id, name) {
+      input.value = name;
+      hiddenId.value = id;
+      hiddenName.value = name;
+      input.classList.remove('invalid');
+      input.classList.add('valid');
+      placeError.style.display = 'none';
+      dropdown.classList.remove('open');
+    }
+
+    function clearSelection() {
+      hiddenId.value = '';
+      hiddenName.value = '';
+      input.classList.remove('valid');
+      placeError.style.display = 'none';
+    }
+
+    input.addEventListener('input', function() {
+      clearSelection();
+      renderSuggestions(this.value.trim());
+    });
+
+    dropdown.addEventListener('click', function(e) {
+      const item = e.target.closest('.ac-item');
+      if (item) selectTemple(item.dataset.id, item.dataset.name);
+    });
+
+    input.addEventListener('keydown', function(e) {
+      const items = dropdown.querySelectorAll('.ac-item');
+      if (!items.length || !dropdown.classList.contains('open')) return;
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        acIndex = Math.min(acIndex + 1, items.length - 1);
+        items.forEach((el, i) => el.classList.toggle('active', i === acIndex));
+        items[acIndex].scrollIntoView({ block: 'nearest' });
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        acIndex = Math.max(acIndex - 1, 0);
+        items.forEach((el, i) => el.classList.toggle('active', i === acIndex));
+        items[acIndex].scrollIntoView({ block: 'nearest' });
+      } else if (e.key === 'Enter') {
+        e.preventDefault();
+        if (acIndex >= 0 && items[acIndex]) {
+          selectTemple(items[acIndex].dataset.id, items[acIndex].dataset.name);
+        }
+      } else if (e.key === 'Escape') {
+        dropdown.classList.remove('open');
+      }
+    });
+
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.ac-wrap')) dropdown.classList.remove('open');
+    });
+
+    // Submit
     async function handleSubmit(e) {
       e.preventDefault();
+
+      if (!hiddenId.value) {
+        input.classList.add('invalid');
+        placeError.style.display = 'block';
+        input.focus();
+        return;
+      }
+
       const btn = document.querySelector('.btn-primary');
       btn.disabled = true;
       btn.innerHTML = 'กำลังส่ง...';
 
       const { error } = await _supabase.from('report_edits').insert({
-        place_name: document.getElementById('placeName').value,
+        temple_id: hiddenId.value,
+        place_name: hiddenName.value,
         edit_type: document.getElementById('editType').value,
         description: document.getElementById('description').value,
         reference: document.getElementById('reference').value || null,
