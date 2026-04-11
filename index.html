@@ -288,15 +288,6 @@
     }
     .results-count { font-size: 14px; color: var(--muted); }
     .results-count strong { color: var(--foreground); font-weight: 700; }
-    .view-toggle { display: flex; gap: 4px; }
-    .view-btn {
-      width: 34px; height: 34px; border: 1.5px solid var(--border);
-      background: var(--surface); border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-      cursor: pointer; color: var(--muted); transition: all 0.2s;
-    }
-    .view-btn.active { background: var(--primary); border-color: var(--primary); color: var(--surface); }
-
     /* TEMPLE CARDS GRID */
     .cards-grid {
       display: grid;
@@ -665,14 +656,6 @@
   <div style="font-size: 12px; color: var(--muted); margin-bottom: 8px;">อัปเดตล่าสุด: เมษายน 2026</div>
   <div class="results-header">
     <div class="results-count">แสดง <strong id="resultsNum">7</strong> สถานที่</div>
-    <div class="view-toggle">
-      <button class="view-btn active" onclick="setView('grid',this)" title="Grid">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="6" height="6" rx="1"/><rect x="10" y="0" width="6" height="6" rx="1"/><rect x="0" y="10" width="6" height="6" rx="1"/><rect x="10" y="10" width="6" height="6" rx="1"/></svg>
-      </button>
-      <button class="view-btn" onclick="setView('list',this)" title="List">
-        <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor"><rect x="0" y="0" width="16" height="3" rx="1"/><rect x="0" y="6" width="16" height="3" rx="1"/><rect x="0" y="12" width="16" height="3" rx="1"/></svg>
-      </button>
-    </div>
   </div>
 
   <div class="cards-grid" id="cardsGrid"></div>
@@ -696,8 +679,6 @@ let TEMPLES = [];
 let filterLocation = 'all';
 let filterStyle = null;
 let filterType = null;
-let currentView = 'grid';
-
 function escapeHTML(str) {
   return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -783,18 +764,6 @@ function renderCards() {
       </div>
     </a>
   `).join('');
-}
-
-function setView(v, btn) {
-  currentView = v;
-  document.querySelectorAll('.view-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  const grid = document.getElementById('cardsGrid');
-  if (v === 'list') {
-    grid.style.gridTemplateColumns = '1fr';
-  } else {
-    grid.style.gridTemplateColumns = '';
-  }
 }
 
 // Filter chips
