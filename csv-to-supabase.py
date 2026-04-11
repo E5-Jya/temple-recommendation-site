@@ -45,7 +45,8 @@ CSV_COLUMNS = [
     "ord_min_days", "ord_cost", "ord_prerequisite",
     "sched_wake_time", "sched_morning_chant", "sched_meal_count",
     "sched_meal_type", "sched_evening_chant",
-    "blurb_th", "blurb_en", "last_updated", "data_sources", "notes",
+    "blurb_th", "blurb_en", "highlight_th", "highlight_en",
+    "last_updated", "data_sources", "notes",
     "gmaps_place_id",
 ]
 

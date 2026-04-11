@@ -232,5 +232,6 @@ function toDetailFormat(row) {
     foundedBe: _s(row.founded_be, '-'),
     foundedCe: _s(row.founded_ce, '-'),
     lastUpdated: _s(row.last_updated, '-'),
+    highlight: _s(row.highlight_th),
   };
 }
