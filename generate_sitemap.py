@@ -13,6 +13,10 @@ STATIC_PAGES = [
     ("recommendation.html", "monthly", "0.8"),
     ("report.html", "monthly", "0.4"),
     ("recommend.html", "monthly", "0.4"),
+    ("articles/", "weekly", "0.7"),
+    ("articles/sathan-thi-phak-phon-chai-nai-krungthep.html", "monthly", "0.6"),
+    ("articles/7-meditation-places-for-beginners.html", "monthly", "0.6"),
+    ("articles/5-meditation-places-for-foreign-friends.html", "monthly", "0.6"),
 ]
 
 def main():
@@ -48,7 +52,7 @@ def main():
 
     sitemap_path = script_dir / "sitemap.xml"
     sitemap_path.write_text("\n".join(lines), encoding="utf-8")
-    print(f"Generated {sitemap_path} with {2 + len(temples)} URLs")
+    print(f"Generated {sitemap_path} with {len(STATIC_PAGES) + len(temples)} URLs")
 
 if __name__ == "__main__":
     main()
