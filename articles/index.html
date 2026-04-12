@@ -202,7 +202,7 @@
 <nav class="nav">
   <div class="nav-inner">
     <a class="nav-logo" href="/">
-      <img src="/logo-nav.png" alt="พักใจ" width="32" height="32" style="border-radius: 4px;">
+      <svg width="24" height="24" viewBox="0 0 64 64" fill="none"><path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/><path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/><path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/></svg>
       <span class="nav-logo-text">พักใจ</span>
     </a>
     <div class="nav-links">
@@ -243,7 +243,45 @@
       </div>
     </a>
 
-    <!-- More articles will be added here -->
+    <!-- Article 2 -->
+    <a class="article-card" href="/articles/7-meditation-places-for-beginners.html">
+      <img class="article-card-img" id="article-img-2" src="" alt="7 สถานที่ปฏิบัติธรรมสำหรับผู้เริ่มต้น">
+      <div class="article-card-body">
+        <div class="article-card-tag">สำหรับผู้เริ่มต้น</div>
+        <div class="article-card-title">7 สถานที่ปฏิบัติธรรมสำหรับผู้เริ่มต้น</div>
+        <div class="article-card-desc">คัดมาเพื่อคนที่ยังไม่เคยลอง — ไม่ต้องมีพื้นฐาน ไม่ต้องรู้ว่าตัวเองชอบแบบไหน แค่กล้าเริ่มก็พอ</div>
+        <div class="article-card-meta">
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+            เมษายน 2569
+          </span>
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+            อ่าน 10 นาที
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Article 3 -->
+    <a class="article-card" href="/articles/5-meditation-places-for-foreign-friends.html">
+      <img class="article-card-img" id="article-img-3" src="" alt="5 สถานที่ปฏิบัติธรรมสำหรับเพื่อนต่างชาติ">
+      <div class="article-card-body">
+        <div class="article-card-tag">For Foreign Friends</div>
+        <div class="article-card-title">5 สถานที่ปฏิบัติธรรมสำหรับเพื่อนต่างชาติ</div>
+        <div class="article-card-desc">ถ้าคุณมีเพื่อนต่างชาติที่อยากลองปฏิบัติธรรมในไทย — 5 สถานที่ที่พร้อมต้อนรับทุกคน สอนเป็นภาษาอังกฤษ บรรยากาศอบอุ่น</div>
+        <div class="article-card-meta">
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+            เมษายน 2569
+          </span>
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+            อ่าน 6 นาที
+          </span>
+        </div>
+      </div>
+    </a>
 
   </div>
 </section>
@@ -254,15 +292,24 @@
   <div class="footer-text">อยากช่วยทุกคนตามหาความสงบ ในโลกที่เร่งรีบ เราเป็นโครงการ Non-profit ที่รวบรวมสถานที่ปฏิบัติธรรมและสถานที่สงบ ที่ผ่านการรับรองจากผู้ที่ไปจริง เพื่อให้มั่นใจว่าทุกที่ที่แนะนำมีคุณภาพ</div>
 </footer>
 
-<!-- LOAD COVER IMAGE -->
+<!-- LOAD COVER IMAGES -->
 <script>
-const img = document.getElementById('article-img-1');
 const PHOTO_BASE = 'https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos';
-img.src = PHOTO_BASE + '/suan-mokkh-bangkok/gallery_3.jpg';
-img.onerror = function() {
-  this.src = PHOTO_BASE + '/suan-mokkh-bangkok/hero.jpg';
-  this.onerror = function() { this.style.display = 'none'; };
-};
+const covers = [
+  { id: 'article-img-1', slug: 'suan-mokkh-bangkok', file: 'gallery_3.jpg' },
+  { id: 'article-img-2', slug: 'wat-mahadhatu-vipassana', file: 'hero.jpg' },
+  { id: 'article-img-3', slug: 'wat-pah-nanachat', file: 'hero.jpg' },
+];
+covers.forEach(c => {
+  const img = document.getElementById(c.id);
+  if (img) {
+    img.src = PHOTO_BASE + '/' + c.slug + '/' + c.file;
+    img.onerror = function() {
+      this.src = PHOTO_BASE + '/' + c.slug + '/thumbnail.jpg';
+      this.onerror = function() { this.style.display = 'none'; };
+    };
+  }
+});
 </script>
 
 </body>
