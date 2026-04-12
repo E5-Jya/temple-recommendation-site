@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Green Options — สืบธรรม</title>
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Sarabun', sans-serif;
+      background: #F7F5F0;
+      color: #2D3436;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .page { max-width: 1000px; margin: 0 auto; padding: 56px 32px 80px; }
+    h1 { font-family: 'Prompt', sans-serif; font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+    .sub { font-size: 15px; color: #7A7670; font-weight: 300; margin-bottom: 48px; line-height: 1.6; }
+
+    .section-label {
+      font-size: 11px; font-weight: 700; color: #A09B94;
+      text-transform: uppercase; letter-spacing: 2px;
+      margin-bottom: 20px; padding-bottom: 12px;
+      border-bottom: 1px solid #E5E0D8;
+    }
+
+    /* ━━━ CURRENT ━━━ */
+    .current-strip {
+      display: flex; align-items: center; gap: 16px;
+      padding: 20px 24px;
+      background: #fff;
+      border: 1px solid #E5E0D8;
+      border-radius: 14px;
+      margin-bottom: 48px;
+    }
+    .current-swatch {
+      width: 56px; height: 56px; border-radius: 12px; flex-shrink: 0;
+    }
+    .current-info h3 { font-size: 16px; font-weight: 700; }
+    .current-info p { font-size: 13px; color: #A09B94; }
+    .current-tag {
+      margin-left: auto;
+      font-size: 11px; font-weight: 600;
+      padding: 4px 12px; border-radius: 100px;
+      background: #FFF3F3; color: #C0392B;
+    }
+
+    /* ━━━ OPTIONS GRID ━━━ */
+    .options { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-bottom: 48px; }
+
+    .option-card {
+      border-radius: 16px;
+      overflow: hidden;
+      border: 2px solid #E5E0D8;
+      background: #fff;
+      transition: all 0.3s;
+    }
+    .option-card:hover {
+      border-color: #bbb;
+      transform: translateY(-3px);
+      box-shadow: 0 8px 28px rgba(0,0,0,0.08);
+    }
+
+    /* Mini hero preview */
+    .option-hero {
+      position: relative; height: 160px; overflow: hidden;
+      background-size: cover; background-position: center;
+      background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800&q=60');
+    }
+    .option-hero-overlay {
+      position: absolute; inset: 0;
+    }
+    .option-hero-content {
+      position: relative; z-index: 1;
+      padding: 24px 20px;
+      display: flex; flex-direction: column; justify-content: flex-end;
+      height: 100%;
+    }
+    .option-hero-stat {
+      display: inline-flex; align-items: center; gap: 14px;
+      padding: 8px 0 8px 12px;
+      border-left: 2px solid rgba(255,255,255,0.25);
+      margin-bottom: 8px;
+    }
+    .option-hero-stat .n { font-family: 'Prompt', sans-serif; font-size: 16px; font-weight: 700; color: #fff; }
+    .option-hero-stat .l { font-size: 10px; color: rgba(255,255,255,0.5); }
+    .option-hero h3 {
+      font-family: 'Prompt', sans-serif;
+      font-size: 26px; font-weight: 700; color: #fff;
+    }
+
+    /* Mini card preview */
+    .option-card-preview {
+      padding: 16px;
+      display: flex; gap: 10px;
+    }
+    .mini-card {
+      flex: 1;
+      border-radius: 10px;
+      border: 1px solid #E5E0D8;
+      overflow: hidden;
+    }
+    .mini-card-img {
+      height: 48px; background: #ddd;
+      display: flex; align-items: center; justify-content: flex-end; padding: 4px 6px;
+    }
+    .mini-badge {
+      font-size: 8px; font-weight: 700;
+      padding: 2px 6px; border-radius: 100px;
+      background: rgba(255,255,255,0.85);
+    }
+    .mini-card-body { padding: 8px 8px 6px; }
+    .mini-card-name { font-size: 11px; font-weight: 700; margin-bottom: 4px; }
+    .mini-card-chips { display: flex; gap: 3px; }
+    .mini-chip {
+      font-size: 8px; font-weight: 600;
+      padding: 2px 6px; border-radius: 4px;
+    }
+
+    /* Mini filter bar */
+    .mini-filter {
+      padding: 10px 16px;
+      border-bottom: 1px solid #F0EDE6;
+      display: flex; gap: 6px; align-items: center;
+    }
+    .mini-filter-chip {
+      font-size: 10px; font-weight: 500;
+      padding: 4px 10px; border-radius: 100px;
+      border: 1px solid #E5E0D8;
+      background: #fff;
+    }
+    .mini-filter-chip.active {
+      color: #fff;
+    }
+
+    /* Option label */
+    .option-label {
+      padding: 16px 18px;
+      border-top: 1px solid #F0EDE6;
+      display: flex; align-items: flex-start; gap: 12px;
+    }
+    .option-swatch-col {
+      display: flex; flex-direction: column; gap: 4px;
+      flex-shrink: 0;
+    }
+    .option-swatch {
+      width: 28px; height: 28px; border-radius: 8px;
+      border: 1px solid rgba(0,0,0,0.06);
+    }
+    .option-meta { flex: 1; }
+    .option-name { font-size: 15px; font-weight: 700; margin-bottom: 2px; }
+    .option-desc { font-size: 12px; color: #7A7670; line-height: 1.5; }
+    .option-hex { font-size: 11px; color: #A09B94; font-family: monospace; margin-top: 4px; }
+
+    /* Personality tag */
+    .personality {
+      display: inline-block;
+      font-size: 10px; font-weight: 600;
+      padding: 3px 10px; border-radius: 100px;
+      margin-top: 6px;
+    }
+
+    @media (max-width: 700px) {
+      .options { grid-template-columns: 1fr; }
+      .page { padding: 40px 16px 60px; }
+    }
+  </style>
+</head>
+<body>
+<div class="page">
+
+  <h1>หาสีเขียวที่ "สงบ" กว่าเดิม</h1>
+  <p class="sub">สีปัจจุบัน #4A7C59 ให้ความรู้สึก "productive" มากกว่า "calm" — ลองดู 4 ทางเลือกที่ muted และนิ่งกว่า แต่ละแบบจะแสดงตัวอย่างจริงบน hero, filter, และ card</p>
+
+  <!-- ━━━ CURRENT ━━━ -->
+  <div class="section-label">สีปัจจุบัน</div>
+  <div class="current-strip">
+    <div class="current-swatch" style="background:#4A7C59"></div>
+    <div class="current-info">
+      <h3>Forest Green #4A7C59</h3>
+      <p>Saturated, assertive — ดูแข็งแรงเกินไปสำหรับ meditation</p>
+    </div>
+    <div class="current-tag">Too Vivid</div>
+  </div>
+
+  <!-- ━━━ OPTIONS ━━━ -->
+  <div class="section-label">4 ทางเลือกใหม่</div>
+  <div class="options">
+
+    <!-- OPTION A: Sage -->
+    <div class="option-card">
+      <div class="option-hero">
+        <div class="option-hero-overlay" style="background: linear-gradient(135deg, rgba(124,140,120,0.65) 0%, rgba(140,155,135,0.35) 50%, rgba(100,115,100,0.5) 100%);"></div>
+        <div class="option-hero-content">
+          <div class="option-hero-stat">
+            <div><div class="n">50+</div><div class="l">สถานที่ทั่วไทย</div></div>
+          </div>
+          <h3>หาที่พักใจ</h3>
+        </div>
+      </div>
+      <div class="mini-filter">
+        <span class="mini-filter-chip active" style="background:#7C8C78; border-color:#7C8C78;">ทั้งหมด</span>
+        <span class="mini-filter-chip">กรุงเทพฯ</span>
+        <span class="mini-filter-chip">จังหวัดอื่นๆ</span>
+      </div>
+      <div class="option-card-preview">
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #7C8C78, #9CAF88);">
+            <span class="mini-badge" style="color:#7C6B2A;">วัด</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">ทีปภาวัน ธรรมสถาน</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#EFF3ED; color:#7C8C78;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#EFF3ED; color:#7C8C78;">ฟรี</span>
+            </div>
+          </div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #7C8C78, #9CAF88);">
+            <span class="mini-badge" style="color:#7C8C78;">ศูนย์</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">สวนโมกขพลาราม</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#EFF3ED; color:#7C8C78;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#FFF8EC; color:#B8902E;">มีค่าใช้จ่าย</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="option-label">
+        <div class="option-swatch-col">
+          <div class="option-swatch" style="background:#7C8C78"></div>
+          <div class="option-swatch" style="background:#6B7A67"></div>
+          <div class="option-swatch" style="background:#EFF3ED"></div>
+        </div>
+        <div class="option-meta">
+          <div class="option-name">A — Sage Mist</div>
+          <div class="option-desc">Grey-green อมเทาอ่อนๆ เหมือนหมอกยามเช้าในสวนป่า นิ่ง สุภาพ ไม่โดดเด่น — ให้เนื้อหาเป็นพระเอก</div>
+          <div class="option-hex">#7C8C78 / #6B7A67 / #EFF3ED</div>
+          <span class="personality" style="background:#EFF3ED; color:#6B7A67;">Quiet & Grounded</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION B: Eucalyptus -->
+    <div class="option-card">
+      <div class="option-hero">
+        <div class="option-hero-overlay" style="background: linear-gradient(135deg, rgba(100,130,120,0.6) 0%, rgba(120,150,140,0.35) 50%, rgba(80,110,100,0.5) 100%);"></div>
+        <div class="option-hero-content">
+          <div class="option-hero-stat">
+            <div><div class="n">50+</div><div class="l">สถานที่ทั่วไทย</div></div>
+          </div>
+          <h3>หาที่พักใจ</h3>
+        </div>
+      </div>
+      <div class="mini-filter">
+        <span class="mini-filter-chip active" style="background:#6B9A8A; border-color:#6B9A8A;">ทั้งหมด</span>
+        <span class="mini-filter-chip">กรุงเทพฯ</span>
+        <span class="mini-filter-chip">จังหวัดอื่นๆ</span>
+      </div>
+      <div class="option-card-preview">
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #5A8A7A, #6B9A8A);">
+            <span class="mini-badge" style="color:#7C6B2A;">วัด</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">ทีปภาวัน ธรรมสถาน</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#EEF5F2; color:#6B9A8A;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#EEF5F2; color:#6B9A8A;">ฟรี</span>
+            </div>
+          </div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #5A8A7A, #6B9A8A);">
+            <span class="mini-badge" style="color:#6B9A8A;">ศูนย์</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">สวนโมกขพลาราม</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#EEF5F2; color:#6B9A8A;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#FFF8EC; color:#B8902E;">มีค่าใช้จ่าย</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="option-label">
+        <div class="option-swatch-col">
+          <div class="option-swatch" style="background:#6B9A8A"></div>
+          <div class="option-swatch" style="background:#5A8A7A"></div>
+          <div class="option-swatch" style="background:#EEF5F2"></div>
+        </div>
+        <div class="option-meta">
+          <div class="option-name">B — Eucalyptus</div>
+          <div class="option-desc">Green อมฟ้าเล็กน้อย เหมือนใบยูคาลิปตัส ให้ความรู้สึกสดชื่นแต่สงบ มีความ spa / wellness ที่ชัดเจน</div>
+          <div class="option-hex">#6B9A8A / #5A8A7A / #EEF5F2</div>
+          <span class="personality" style="background:#EEF5F2; color:#5A8A7A;">Fresh & Serene</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION C: Deep Moss -->
+    <div class="option-card">
+      <div class="option-hero">
+        <div class="option-hero-overlay" style="background: linear-gradient(135deg, rgba(88,100,82,0.65) 0%, rgba(105,118,98,0.35) 50%, rgba(70,82,66,0.55) 100%);"></div>
+        <div class="option-hero-content">
+          <div class="option-hero-stat">
+            <div><div class="n">50+</div><div class="l">สถานที่ทั่วไทย</div></div>
+          </div>
+          <h3>หาที่พักใจ</h3>
+        </div>
+      </div>
+      <div class="mini-filter">
+        <span class="mini-filter-chip active" style="background:#697662; border-color:#697662;">ทั้งหมด</span>
+        <span class="mini-filter-chip">กรุงเทพฯ</span>
+        <span class="mini-filter-chip">จังหวัดอื่นๆ</span>
+      </div>
+      <div class="option-card-preview">
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #586452, #697662);">
+            <span class="mini-badge" style="color:#7C6B2A;">วัด</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">ทีปภาวัน ธรรมสถาน</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#F0F2EE; color:#697662;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#F0F2EE; color:#697662;">ฟรี</span>
+            </div>
+          </div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #586452, #697662);">
+            <span class="mini-badge" style="color:#697662;">ศูนย์</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">สวนโมกขพลาราม</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#F0F2EE; color:#697662;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#FFF8EC; color:#B8902E;">มีค่าใช้จ่าย</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="option-label">
+        <div class="option-swatch-col">
+          <div class="option-swatch" style="background:#697662"></div>
+          <div class="option-swatch" style="background:#586452"></div>
+          <div class="option-swatch" style="background:#F0F2EE"></div>
+        </div>
+        <div class="option-meta">
+          <div class="option-name">C — Deep Moss</div>
+          <div class="option-desc">มืดกว่า A อมโทนดินและมอส เหมือนนั่งอยู่ในป่าลึก ให้ความรู้สึก mature, earthy, ดั้งเดิม เหมาะกับ "วัดป่า"</div>
+          <div class="option-hex">#697662 / #586452 / #F0F2EE</div>
+          <span class="personality" style="background:#F0F2EE; color:#586452;">Earthy & Timeless</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- OPTION D: Dusty Teal -->
+    <div class="option-card">
+      <div class="option-hero">
+        <div class="option-hero-overlay" style="background: linear-gradient(135deg, rgba(90,120,115,0.6) 0%, rgba(110,140,135,0.35) 50%, rgba(75,105,100,0.5) 100%);"></div>
+        <div class="option-hero-content">
+          <div class="option-hero-stat">
+            <div><div class="n">50+</div><div class="l">สถานที่ทั่วไทย</div></div>
+          </div>
+          <h3>หาที่พักใจ</h3>
+        </div>
+      </div>
+      <div class="mini-filter">
+        <span class="mini-filter-chip active" style="background:#5E8E85; border-color:#5E8E85;">ทั้งหมด</span>
+        <span class="mini-filter-chip">กรุงเทพฯ</span>
+        <span class="mini-filter-chip">จังหวัดอื่นๆ</span>
+      </div>
+      <div class="option-card-preview">
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #4E7E75, #5E8E85);">
+            <span class="mini-badge" style="color:#7C6B2A;">วัด</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">ทีปภาวัน ธรรมสถาน</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#ECF3F1; color:#5E8E85;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#ECF3F1; color:#5E8E85;">ฟรี</span>
+            </div>
+          </div>
+        </div>
+        <div class="mini-card">
+          <div class="mini-card-img" style="background:linear-gradient(135deg, #4E7E75, #5E8E85);">
+            <span class="mini-badge" style="color:#5E8E85;">ศูนย์</span>
+          </div>
+          <div class="mini-card-body">
+            <div class="mini-card-name">สวนโมกขพลาราม</div>
+            <div class="mini-card-chips">
+              <span class="mini-chip" style="background:#ECF3F1; color:#5E8E85;">ค้างคืน</span>
+              <span class="mini-chip" style="background:#FFF8EC; color:#B8902E;">มีค่าใช้จ่าย</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="option-label">
+        <div class="option-swatch-col">
+          <div class="option-swatch" style="background:#5E8E85"></div>
+          <div class="option-swatch" style="background:#4E7E75"></div>
+          <div class="option-swatch" style="background:#ECF3F1"></div>
+        </div>
+        <div class="option-meta">
+          <div class="option-name">D — Dusty Teal</div>
+          <div class="option-desc">Green-blue อมฟ้าแบบ Calm app มีความ modern, approachable ให้ความรู้สึก "breathe" ดึงดูดคนรุ่นใหม่ได้ดี</div>
+          <div class="option-hex">#5E8E85 / #4E7E75 / #ECF3F1</div>
+          <span class="personality" style="background:#ECF3F1; color:#4E7E75;">Modern & Breathable</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ━━━ QUICK REFERENCE ━━━ -->
+  <div class="section-label">เปรียบเทียบเร็ว</div>
+  <div style="display:flex; gap:2px; border-radius:14px; overflow:hidden; margin-bottom:16px; height:64px;">
+    <div style="flex:1; background:#4A7C59; display:flex; align-items:center; justify-content:center;">
+      <span style="font-size:11px; font-weight:600; color:#fff; opacity:0.8;">Current</span>
+    </div>
+    <div style="flex:1; background:#7C8C78; display:flex; align-items:center; justify-content:center;">
+      <span style="font-size:11px; font-weight:600; color:#fff; opacity:0.8;">A Sage</span>
+    </div>
+    <div style="flex:1; background:#6B9A8A; display:flex; align-items:center; justify-content:center;">
+      <span style="font-size:11px; font-weight:600; color:#fff; opacity:0.8;">B Eucalyptus</span>
+    </div>
+    <div style="flex:1; background:#697662; display:flex; align-items:center; justify-content:center;">
+      <span style="font-size:11px; font-weight:600; color:#fff; opacity:0.8;">C Moss</span>
+    </div>
+    <div style="flex:1; background:#5E8E85; display:flex; align-items:center; justify-content:center;">
+      <span style="font-size:11px; font-weight:600; color:#fff; opacity:0.8;">D Teal</span>
+    </div>
+  </div>
+  <p style="font-size:12px; color:#A09B94; text-align:center;">ทุกสีผ่าน WCAG AA contrast ratio บน white background</p>
+
+</div>
+</body>
+</html>

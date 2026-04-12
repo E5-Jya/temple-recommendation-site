@@ -13,6 +13,7 @@ const PHOTO_OVERRIDES = {
   'suan-mokkh-bangkok':          { hero: 'gallery_3.jpg', thumb: 'gallery_3.jpg' },
   'ybat-young-buddhist-association': { hero: 'gallery_2.jpg', thumb: 'gallery_2.jpg' },
   'suan-usom':                   { hero: 'gallery_2.jpg', thumb: 'gallery_2.jpg' },
+  'baan-jit-sabai':              { hero: 'gallery_3.jpg', thumb: 'gallery_3.jpg' },
 };
 
 function _photoUrl(slug, file) {
