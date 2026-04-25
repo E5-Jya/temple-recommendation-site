@@ -10,13 +10,13 @@ TODAY = date.today().isoformat()
 
 STATIC_PAGES = [
     ("", "weekly", "1.0"),
-    ("recommendation.html", "monthly", "0.8"),
-    ("report.html", "monthly", "0.4"),
-    ("recommend.html", "monthly", "0.4"),
+    ("recommendation", "monthly", "0.8"),
+    ("report", "monthly", "0.4"),
+    ("recommend", "monthly", "0.4"),
     ("articles/", "weekly", "0.7"),
-    ("articles/sathan-thi-phak-phon-chai-nai-krungthep.html", "monthly", "0.6"),
-    ("articles/7-meditation-places-for-beginners.html", "monthly", "0.6"),
-    ("articles/5-meditation-places-for-foreign-friends.html", "monthly", "0.6"),
+    ("articles/sathan-thi-phak-phon-chai-nai-krungthep", "monthly", "0.6"),
+    ("articles/7-meditation-places-for-beginners", "monthly", "0.6"),
+    ("articles/5-meditation-places-for-foreign-friends", "monthly", "0.6"),
 ]
 
 def main():
@@ -41,7 +41,7 @@ def main():
     for temple in temples:
         temple_id = temple["id"]
         lines.append(f"  <url>")
-        lines.append(f"    <loc>{BASE_URL}/detail.html?id={temple_id}</loc>")
+        lines.append(f"    <loc>{BASE_URL}/detail?id={temple_id}</loc>")
         lines.append(f"    <lastmod>{TODAY}</lastmod>")
         lines.append(f"    <changefreq>monthly</changefreq>")
         lines.append(f"    <priority>0.7</priority>")

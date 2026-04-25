@@ -14,11 +14,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title id="page-title">สถานปฏิบัติธรรม — รายละเอียด | พักใจ</title>
-  <meta name="description" content="ดูรายละเอียดสถานปฏิบัติธรรม กิจกรรมฝึกสมาธิ วิปัสสนา เจริญสติ ตารางปฏิบัติธรรม วิธีสมัคร เหมาะทั้งมือใหม่และผู้ปฏิบัติต่อเนื่อง">
-  <meta name="keywords" content="สถานปฏิบัติธรรม, รายละเอียดวัด, กิจกรรมปฏิบัติธรรม, วิปัสสนา, คอร์สสมาธิ, ตารางปฏิบัติธรรม, ฝึกนั่งสมาธิ, เจริญสติ, สมาธิเบื้องต้น, ฮีลใจ, วัดเงียบสงบ, ปฏิบัติธรรม 1 วัน, วัดที่รับคนทั่วไป, พักใจ">
+  <meta name="description" content="ดูรายละเอียดสถานที่ปฏิบัติธรรม กิจกรรมฝึกสมาธิ วิปัสสนา เจริญสติ ตารางปฏิบัติธรรม ค่าใช้จ่าย วิธีสมัคร เหมาะทั้งมือใหม่และผู้ปฏิบัติต่อเนื่อง">
+  <meta name="keywords" content="สถานที่ปฏิบัติธรรม, รายละเอียดวัด, กิจกรรมปฏิบัติธรรม, วิปัสสนา, คอร์สสมาธิ, ตารางปฏิบัติธรรม, ปฏิบัติธรรมฟรี, ฝึกนั่งสมาธิ, เจริญสติ, สมาธิเบื้องต้น, ฮีลใจ, คลายเครียด, ปฏิบัติธรรม 1 วัน, วัดที่รับคนทั่วไป, meditation retreat Thailand, พักใจ">
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="th_TH" />
-  <link rel="canonical" href="https://pakjai.co/detail.html">
+  <meta property="og:site_name" content="พักใจ" />
+  <meta property="og:title" content="สถานปฏิบัติธรรม — รายละเอียด | พักใจ" />
+  <meta property="og:description" content="ดูรายละเอียดสถานที่ปฏิบัติธรรม กิจกรรมฝึกสมาธิ วิปัสสนา เจริญสติ ตารางปฏิบัติธรรม" />
+  <meta property="og:url" content="https://pakjai.co/detail" />
+  <meta property="og:image" content="https://pakjai.co/logo.png" />
+  <link rel="canonical" href="https://pakjai.co/detail">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -795,8 +800,18 @@ let TEMPLES_DETAIL = {};
     }
 
     // Update hero section
-    document.title = temple.nameTh + ' — สถานปฏิบัติธรรม ' + temple.province + ' | พักใจ';
-    document.querySelector('meta[name="description"]').setAttribute('content', temple.nameTh + ' สถานปฏิบัติธรรม ใน' + temple.province + ' ดูรายละเอียด กิจกรรม คอร์สปฏิบัติ ข้อมูลติดต่อ');
+    document.title = temple.nameTh + ' — สถานที่ปฏิบัติธรรม ' + temple.province + ' | พักใจ';
+    var templeDesc = temple.nameTh + ' สถานที่ปฏิบัติธรรม ใน' + temple.province + ' ดูรายละเอียด กิจกรรม คอร์สปฏิบัติ ข้อมูลติดต่อ';
+    document.querySelector('meta[name="description"]').setAttribute('content', templeDesc);
+    // Fix #1: Dynamic canonical with query param
+    document.querySelector('link[rel="canonical"]').setAttribute('href', 'https://pakjai.co/detail?id=' + templeId);
+    // Fix #2: Dynamic OG tags for social sharing
+    document.querySelector('meta[property="og:title"]').setAttribute('content', temple.nameTh + ' — สถานที่ปฏิบัติธรรม ' + temple.province + ' | พักใจ');
+    document.querySelector('meta[property="og:description"]').setAttribute('content', templeDesc);
+    document.querySelector('meta[property="og:url"]').setAttribute('content', 'https://pakjai.co/detail?id=' + templeId);
+    // Fix #3: Dynamic OG image — use temple hero photo
+    var ogImage = temple.heroUrl || (temple.slug ? 'https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + temple.slug + '/hero.jpg' : 'https://pakjai.co/logo.png');
+    document.querySelector('meta[property="og:image"]').setAttribute('content', ogImage);
     document.getElementById('hero-name-th').textContent = temple.nameTh;
     document.getElementById('hero-name-en').textContent = temple.nameEn;
     document.getElementById('hero-location').textContent = temple.district + ', ' + temple.province;
