@@ -13,15 +13,16 @@
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>บทความแนะนำ — พักใจ</title>
-  <meta name="description" content="บทความแนะนำสถานที่ปฏิบัติธรรม สถานที่สงบ ฮีลใจ คลายเครียด สำหรับคนรุ่นใหม่ รวมรีวิวและคู่มือจากพักใจ">
+  <title>บทความปฏิบัติธรรม ฮีลใจ คลายเครียด — คู่มือสำหรับมือใหม่ | พักใจ</title>
+  <meta name="description" content="รวมบทความแนะนำสถานที่ปฏิบัติธรรม รีวิววัดฝึกสมาธิ วิปัสสนา ฮีลใจ คลายเครียด คู่มือเข้าวัดครั้งแรก สำหรับคนรุ่นใหม่ที่อยากดูแลจิตใจ">
   <meta name="keywords" content="บทความปฏิบัติธรรม, รีวิวสถานที่ปฏิบัติธรรม, แนะนำวัด, ฮีลใจ, คลายเครียด, สถานที่สงบ กรุงเทพ, พักใจ">
-  <meta property="og:title" content="บทความแนะนำ — พักใจ">
-  <meta property="og:description" content="บทความแนะนำสถานที่ปฏิบัติธรรมและสถานที่สงบ สำหรับคนรุ่นใหม่ที่อยากดูแลจิตใจ">
+  <meta property="og:title" content="บทความปฏิบัติธรรม ฮีลใจ คลายเครียด | พักใจ">
+  <meta property="og:description" content="รวมบทความแนะนำสถานที่ปฏิบัติธรรม รีวิววัดฝึกสมาธิ วิปัสสนา คู่มือเข้าวัดครั้งแรก สำหรับคนรุ่นใหม่">
   <meta property="og:url" content="https://pakjai.co/articles/">
   <meta property="og:site_name" content="พักใจ">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="th_TH">
+  <meta property="og:image" content="https://pakjai.co/logo.png">
   <link rel="canonical" href="https://pakjai.co/articles/">
   <script type="application/ld+json">
   {
@@ -81,6 +82,31 @@
     }
     .nav-link:hover { opacity: 1; color: #fff; }
     .nav-link.active { opacity: 1; color: #fff; font-weight: 600; }
+
+    /* HAMBURGER (mobile only) */
+    .nav-hamburger {
+      display: none; background: none; border: none; cursor: pointer; padding: 4px;
+    }
+    .nav-hamburger svg { display: block; }
+    .mobile-menu {
+      display: none; position: fixed; inset: 0; z-index: 9999;
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu-close {
+      position: absolute; top: 20px; right: 24px;
+      background: none; border: none; cursor: pointer;
+    }
+    .mobile-menu-close svg { display: block; }
+    .mobile-menu a {
+      color: #fff; text-decoration: none; font-family: 'Prompt', sans-serif;
+      font-size: 22px; font-weight: 600; opacity: 0.85; transition: opacity 0.2s;
+    }
+    .mobile-menu a:hover { opacity: 1; }
+    @media (max-width: 700px) {
+      .nav-hamburger { display: block; }
+    }
 
     /* HERO */
     .page-hero {
@@ -186,7 +212,7 @@
 
     /* RESPONSIVE */
     @media (max-width: 700px) {
-      .nav-links .nav-link { display: none; }
+      .nav-links { display: none; }
       .page-hero { padding: 60px 20px 48px; }
       .page-hero h1 { font-size: 28px; }
       .article-card { grid-template-columns: 1fr; }
@@ -208,10 +234,21 @@
     <div class="nav-links">
       <a class="nav-link active" href="/articles/">บทความแนะนำ</a>
       <a class="nav-link" href="/">ค้นหาสถานที่</a>
-      <a class="nav-link" href="/recommendation.html">แนะนำสำหรับคุณ</a>
+      <a class="nav-link" href="/recommendation">แนะนำสำหรับคุณ</a>
     </div>
+    <button class="nav-hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="เปิดเมนู">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
 </nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')" aria-label="ปิดเมนู">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/">ค้นหาสถานที่</a>
+  <a href="/articles/">บทความแนะนำ</a>
+  <a href="/recommendation">แนะนำสำหรับคุณ</a>
+</div>
 
 <!-- HERO -->
 <section class="page-hero">
@@ -283,6 +320,46 @@
       </div>
     </a>
 
+    <!-- Article 4 -->
+    <a class="article-card" href="/articles/sathan-thi-pati-tham-nakhon-ratchasima.html">
+      <img class="article-card-img" id="article-img-4" src="" alt="สถานปฏิบัติธรรมในนครราชสีมา">
+      <div class="article-card-body">
+        <div class="article-card-tag">นครราชสีมา (โคราช)</div>
+        <div class="article-card-title">สถานปฏิบัติธรรมในนครราชสีมา — 7 แห่ง</div>
+        <div class="article-card-desc">วัดป่าสายธรรมยุต ศูนย์นานาชาติ และสถานสำหรับผู้หญิง ใกล้เขาใหญ่ เดินทางจากกรุงเทพเพียง 3–4 ชั่วโมง</div>
+        <div class="article-card-meta">
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+            พฤษภาคม 2569
+          </span>
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+            อ่าน 8 นาที
+          </span>
+        </div>
+      </div>
+    </a>
+
+    <!-- Article 5 -->
+    <a class="article-card" href="/articles/sathan-thi-pati-tham-chiang-mai.html">
+      <img class="article-card-img" id="article-img-5" src="" alt="สถานปฏิบัติธรรมในเชียงใหม่">
+      <div class="article-card-body">
+        <div class="article-card-tag">เชียงใหม่</div>
+        <div class="article-card-title">สถานปฏิบัติธรรมในเชียงใหม่ — 8 แห่ง</div>
+        <div class="article-card-desc">วัดโบราณใจกลางเมือง วัดถ้ำในหุบเขา และศูนย์วิปัสสนานานาชาติ หลากหลายสายปฏิบัติ สำหรับมือใหม่ถึงผู้ปฏิบัติจริงจัง</div>
+        <div class="article-card-meta">
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+            พฤษภาคม 2569
+          </span>
+          <span>
+            <svg width="13" height="13" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20V10M18 20V4M6 20v-4"/></svg>
+            อ่าน 9 นาที
+          </span>
+        </div>
+      </div>
+    </a>
+
   </div>
 </section>
 
@@ -299,6 +376,8 @@ const covers = [
   { id: 'article-img-1', slug: 'suan-mokkh-bangkok', file: 'gallery_3.jpg' },
   { id: 'article-img-2', slug: 'wat-mahadhatu-vipassana', file: 'hero.jpg' },
   { id: 'article-img-3', slug: 'wat-pah-nanachat', file: 'hero.jpg' },
+  { id: 'article-img-4', slug: 'watpah-subthawee', file: 'hero.jpg' },
+  { id: 'article-img-5', slug: 'wat-tham-pha-plong', file: 'hero.jpg' },
 ];
 covers.forEach(c => {
   const img = document.getElementById(c.id);
