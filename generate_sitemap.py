@@ -10,6 +10,8 @@ TODAY = date.today().isoformat()
 
 STATIC_PAGES = [
     ("", "weekly", "1.0"),
+    ("places-recommended.html", "weekly", "0.9"),
+    ("places-all.html", "weekly", "0.9"),
     ("recommendation.html", "monthly", "0.8"),
     ("report.html", "monthly", "0.4"),
     ("recommend.html", "monthly", "0.4"),
