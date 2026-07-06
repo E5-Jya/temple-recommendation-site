@@ -17,3 +17,8 @@ node_modules/
 .env
 .env.local
 temple_photos_lookup.json
+
+# photo-run logs (contain API key) + helper artifacts
+*.log
+__pycache__/
+photo_manifest_*backup*.json

@@ -61,6 +61,21 @@ def save_manifest(manifest_dict):
     print(f"\nManifest saved to {MANIFEST_PATH} ({len(entries)} temples)")
 
 
+def _get_json(url, params, retries=3):
+    """GET returning parsed JSON, retrying on transient network errors
+    (DNS failures, timeouts) so a brief connectivity blip doesn't kill the run."""
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, params=params, timeout=15)
+            resp.raise_for_status()
+            return resp.json()
+        except requests.exceptions.RequestException:
+            if attempt < retries:
+                time.sleep(2 * (attempt + 1))
+                continue
+            raise
+
+
 def find_place_id(name_th, name_en, province_en=""):
     """Search for a place by name to get a proper Places API place_id."""
     for query in [name_th, name_en]:
@@ -71,9 +86,7 @@ def find_place_id(name_th, name_en, province_en=""):
             "query": search_query,
             "key": GOOGLE_API_KEY,
         }
-        resp = requests.get(TEXT_SEARCH_URL, params=params, timeout=15)
-        resp.raise_for_status()
-        data = resp.json()
+        data = _get_json(TEXT_SEARCH_URL, params)
         if data.get("status") == "OK" and data.get("results"):
             result = data["results"][0]
             return result.get("place_id"), result.get("name")
@@ -87,9 +100,7 @@ def get_place_details(place_id):
         "fields": "name,formatted_address,photos,rating,user_ratings_total,geometry",
         "key": GOOGLE_API_KEY,
     }
-    resp = requests.get(PLACE_DETAILS_URL, params=params, timeout=15)
-    resp.raise_for_status()
-    data = resp.json()
+    data = _get_json(PLACE_DETAILS_URL, params)
     if data.get("status") != "OK":
         return None, data.get("status"), data.get("error_message", "")
     return data.get("result"), "OK", ""
@@ -105,19 +116,29 @@ PHOTO_SIZES = {
 }
 
 
-def download_photo(photo_reference, max_width=800):
-    """Download a photo from Google Places API, return bytes."""
+def download_photo(photo_reference, max_width=800, retries=2):
+    """Download a photo from Google Places API, return bytes.
+    Tolerates transient network errors (timeouts) by retrying, then
+    returning None so one bad photo never aborts the whole run."""
     url = (
         f"{PLACE_PHOTO_URL}"
         f"?maxwidth={max_width}"
         f"&photo_reference={photo_reference}"
         f"&key={GOOGLE_API_KEY}"
     )
-    resp = requests.get(url, timeout=30)
-    resp.raise_for_status()
-    if resp.headers.get("content-type", "").startswith("image"):
-        return resp.content
-    return None
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, timeout=30)
+            resp.raise_for_status()
+            if resp.headers.get("content-type", "").startswith("image"):
+                return resp.content
+            return None
+        except requests.exceptions.RequestException as e:
+            if attempt < retries:
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            print(f"    ! Download failed after {retries + 1} tries: {e}")
+            return None
 
 
 def upload_to_supabase_storage(slug, filename, image_bytes):
@@ -131,12 +152,19 @@ def upload_to_supabase_storage(slug, filename, image_bytes):
         "Content-Type": "image/jpeg",
         "x-upsert": "true",  # overwrite if exists
     }
-    resp = requests.post(upload_url, headers=headers, data=image_bytes, timeout=30)
-    if resp.status_code in (200, 201):
-        return f"{SUPABASE_STORAGE_BASE}/{storage_path}"
-    else:
-        print(f"    ! Upload failed for {storage_path}: {resp.status_code} {resp.text[:200]}")
-        return None
+    for attempt in range(3):
+        try:
+            resp = requests.post(upload_url, headers=headers, data=image_bytes, timeout=30)
+            if resp.status_code in (200, 201):
+                return f"{SUPABASE_STORAGE_BASE}/{storage_path}"
+            print(f"    ! Upload failed for {storage_path}: {resp.status_code} {resp.text[:200]}")
+            return None
+        except requests.exceptions.RequestException as e:
+            if attempt < 2:
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            print(f"    ! Upload error for {storage_path} after 3 tries: {e}")
+            return None
 
 
 def validate_manifest_urls(entry):
