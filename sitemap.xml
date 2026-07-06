@@ -2,367 +2,379 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://pakjai.co/</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/recommendation</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/recommendation.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/report</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/report.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/recommend</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/recommend.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://pakjai.co/articles/</loc>
-    <lastmod>2026-04-25</lastmod>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/articles/sathan-thi-phak-phon-chai-nai-krungthep</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/articles/sathan-thi-phak-phon-chai-nai-krungthep.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/articles/7-meditation-places-for-beginners</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/articles/7-meditation-places-for-beginners.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/articles/5-meditation-places-for-foreign-friends</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/articles/5-meditation-places-for-foreign-friends.html</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/articles/sathan-thi-pati-tham-nakhon-ratchasima.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pakjai.co/articles/sathan-thi-pati-tham-chiang-mai.html</loc>
+    <lastmod>2026-05-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-003</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-003</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-004</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-004</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-005</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-005</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-006</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-006</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-003</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-003</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-AYT-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-AYT-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CCO-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CCO-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-RYG-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-RYG-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-PTN-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-PTN-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CYP-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CYP-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-004</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-004</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-UDN-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-UDN-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CCO-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CCO-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CCO-003</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CCO-003</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-005</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-005</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-SBR-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-SBR-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-UBN-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-UBN-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-006</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-006</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NMA-007</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NMA-007</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-PTN-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-PTN-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-PRE-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-PRE-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-PRE-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-PRE-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-UTD-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-UTD-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-007</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-007</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-008</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-008</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-009</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-009</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NPT-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NPT-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-MULTI-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-MULTI-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-010</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-010</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-STN-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-STN-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-003</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-003</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-004</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-004</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-005</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-005</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-006</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-006</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-007</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-007</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-STN-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-STN-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-CNX-009</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-CNX-009</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-MHS-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-MHS-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-ATG-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-ATG-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-PLK-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-PLK-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-UTI-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-UTI-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-SBU-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-SBU-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-SNK-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-SNK-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-MHS-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-MHS-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-BKK-011</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-BKK-011</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-SPK-001</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-SPK-001</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://pakjai.co/detail?id=TH-NTB-002</loc>
-    <lastmod>2026-04-25</lastmod>
+    <loc>https://pakjai.co/detail.html?id=TH-NTB-002</loc>
+    <lastmod>2026-05-06</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

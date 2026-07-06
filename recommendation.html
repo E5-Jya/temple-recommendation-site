@@ -20,8 +20,8 @@
   <meta property="og:description" content="ตอบ 4 คำถาม แล้วเราจะแนะนำสถานที่ปฏิบัติธรรมฟรี ฝึกสมาธิ คลายเครียด ที่เหมาะกับคุณ" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="th_TH" />
-  <meta property="og:image" content="https://pakjai.co/logo.png" />
-  <link rel="canonical" href="https://pakjai.co/recommendation">
+  <meta property="og:image" content="https://pakjai.co/pakjai-logo.png" />
+  <link rel="canonical" href="https://pakjai.co/recommendation.html">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -41,7 +41,7 @@
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "หน้าแรก", "item": "https://pakjai.co" },
-      { "@type": "ListItem", "position": 2, "name": "แนะนำสำหรับคุณ", "item": "https://pakjai.co/recommendation" }
+      { "@type": "ListItem", "position": 2, "name": "แนะนำสำหรับคุณ", "item": "https://pakjai.co/recommendation.html" }
     ]
   }
   </script>
@@ -133,6 +133,65 @@
       font-family: inherit; transition: all 0.3s;
     }
     .nav-btn:hover { background: rgba(255,255,255,0.1); }
+
+    /* NAV DROPDOWN */
+    .nav-dropdown { position: relative; }
+    .nav-dropdown > .nav-link { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+    .nav-dropdown-menu {
+      position: absolute; top: 100%; left: 50%;
+      transform: translateX(-50%) translateY(6px);
+      padding-top: 12px;
+      opacity: 0; visibility: hidden;
+      transition: all 0.25s ease;
+      z-index: 1001;
+    }
+    .nav-dropdown:hover .nav-dropdown-menu,
+    .nav-dropdown:focus-within .nav-dropdown-menu {
+      opacity: 1; visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+    .nav-dropdown-inner {
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px; padding: 8px; min-width: 230px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    }
+    .nav-dropdown-item {
+      display: block; padding: 10px 14px; border-radius: 8px;
+      color: #fff; text-decoration: none; font-size: 14px; font-weight: 500;
+      white-space: nowrap; transition: background 0.2s;
+      text-shadow: none;
+    }
+    .nav-dropdown-item:hover { background: rgba(255,255,255,0.12); }
+    .nav-dropdown-item .sub { font-size: 11px; color: rgba(255,255,255,0.5); display: block; font-weight: 400; }
+
+    /* HAMBURGER (mobile only) */
+    .nav-hamburger {
+      display: none; background: none; border: none; cursor: pointer; padding: 4px;
+    }
+    .nav-hamburger svg { display: block; }
+    .mobile-menu {
+      display: none; position: fixed; inset: 0; z-index: 9999;
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu-close {
+      position: absolute; top: 20px; right: 24px;
+      background: none; border: none; cursor: pointer;
+    }
+    .mobile-menu-close svg { display: block; }
+    .mobile-menu a {
+      color: #fff; text-decoration: none; font-family: 'Prompt', sans-serif;
+      font-size: 22px; font-weight: 600; opacity: 0.85; transition: opacity 0.2s;
+    }
+    .mobile-menu a:hover { opacity: 1; }
+    .mobile-menu .nav-btn {
+      padding: 12px 32px; font-size: 16px; margin-top: 8px;
+    }
+    @media (max-width: 900px) {
+      .nav-hamburger { display: block; }
+    }
 
     /* HERO */
     .hero {
@@ -354,7 +413,7 @@
 
     /* RESPONSIVE */
     @media (max-width: 900px) {
-      .nav-links .nav-link { display: none; }
+      .nav-links { display: none; }
       .nav-inner { padding: 0 20px; }
       .hero { padding: 48px 20px 56px; }
       .quiz-wrap { padding: 0 12px 60px; }
@@ -370,18 +429,45 @@
 <!-- NAV -->
 <nav class="nav-solid">
   <div class="nav-inner">
-    <a class="nav-logo" href="index.html">
+    <a class='nav-logo' href='/'>
 <svg width="24" height="24" viewBox="0 0 64 64" fill="none"><path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/><path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/><path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/></svg>
       <span class="nav-logo-text">พักใจ</span>
     </a>
     <div class="nav-links">
       <a class="nav-link" href="/articles/">บทความแนะนำ</a>
-      <a class="nav-link" href="/">ค้นหาสถานที่</a>
-      <a class="nav-link active" href="recommendation.html">แนะนำสำหรับคุณ</a>
+      <div class="nav-dropdown">
+        <a class="nav-link" href="/places-recommended">ค้นหาสถานที่
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="nav-dropdown-menu">
+          <div class="nav-dropdown-inner">
+            <a class="nav-dropdown-item" href="/places-recommended">ค้นหาสถานที่แนะนำ
+              <span class="sub">เฉพาะสถานที่ที่ตรวจสอบแล้ว</span>
+            </a>
+            <a class="nav-dropdown-item" href="/places-all">ค้นหาสถานที่ทั้งหมด
+              <span class="sub">รวมสถานที่ใหม่ ยังไม่ได้รับการรีวิว</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a class='nav-link active' href='/recommendation'>แนะนำสำหรับคุณ</a>
       <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ</button>
     </div>
+    <button class="nav-hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="เปิดเมนู">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
 </nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')" aria-label="ปิดเมนู">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/places-recommended">ค้นหาสถานที่แนะนำ</a>
+  <a href="/places-all">ค้นหาสถานที่ทั้งหมด</a>
+  <a href="/articles/">บทความแนะนำ</a>
+  <a href="/recommendation">แนะนำสำหรับคุณ</a>
+  <button class="nav-btn" onclick="document.getElementById('mobileMenu').classList.remove('open');openAuthModal()">เข้าสู่ระบบ</button>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -602,6 +688,16 @@ function scoreTemple(t) {
   return score;
 }
 
+// Among equal scores: prefer exact profile fit, then free places,
+// then breadth of offered activities; finally Thai name for a stable order.
+function tiebreakScore(t) {
+  let tb = 0;
+  if (t.scores['profile_' + answers.profile] === 3) tb += 4;
+  if (t.scores['budget_free']) tb += 2;
+  tb += Object.keys(t.scores).filter(k => k.indexOf('activity_') === 0 && t.scores[k] === 3).length * 0.25;
+  return tb;
+}
+
 function getProfileLabel() {
   const map = {
     beginner: "ผู้เริ่มต้นสนใจธรรมะ",
@@ -615,8 +711,8 @@ function showResults() {
   document.getElementById('quizSection').style.display = 'none';
   document.getElementById('progressWrap').style.display = 'none';
 
-  const scored = TEMPLES.map(t => ({ ...t, score: scoreTemple(t) }))
-    .sort((a, b) => b.score - a.score);
+  const scored = TEMPLES.map(t => ({ ...t, score: scoreTemple(t), tiebreak: tiebreakScore(t) }))
+    .sort((a, b) => b.score - a.score || b.tiebreak - a.tiebreak || a.nameTh.localeCompare(b.nameTh, 'th'));
 
   const maxScore = scored[0].score;
   const top3 = scored.slice(0, 3);

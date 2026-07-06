@@ -1,22 +1,74 @@
-# พักใจ (Phak Jai) — Thai Meditation Directory
+# พักใจ (Phak Jai) — Thailand's Free Meditation Retreat Directory
 
-> A non-profit platform connecting young Thai generations with verified meditation centers across Thailand.
+> พักใจ is a non-profit directory of 50+ verified free meditation centers across 23 provinces in Thailand. Updated April 2026. All data sourced directly from each center's official website.
 
-## About
-พักใจ is a curated directory of 50+ meditation centers across Thailand. All listings are free, verified by real practitioners, and designed to help young people discover mental wellness through Buddhist meditation practice.
+## Quick Facts
+- **Total listings**: 50+ meditation centers
+- **Provinces covered**: 23 (including Bangkok, Chiang Mai, Nakhon Ratchasima, Surat Thani, Mae Hong Son)
+- **Cost**: All listings are free or donation-based
+- **Languages**: Thai (primary), English (secondary)
+- **Founded**: 2025
+- **Status**: Non-profit
+- **URL**: https://pakjai.co
 
-## Key Pages
-- [Temple Directory](https://pakjai.co/): Browse all meditation centers with filters
-- [Recommendation Quiz](https://pakjai.co/recommendation.html): 4-question quiz to find the right center
+## What is พักใจ (Phak Jai)?
+พักใจ is a curated, practitioner-verified directory that connects people — especially young Thai adults experiencing stress, burnout, or mental health challenges — with free meditation retreats across Thailand. The name "พักใจ" means "rest the mind" in Thai.
 
-## Content Topics
-- Thai meditation centers and retreat information
-- Vipassana, Samatha, and mindfulness meditation
-- Buddhist practice for beginners and young people
-- Mental wellness through meditation (stress relief, burnout, breathing)
-- Free meditation programs in Bangkok and Thailand
+## Key Features
+- **Temple Directory** (https://pakjai.co/): Browse all centers with filters for location, duration (day trip or overnight), and facility type
+- **Recommendation Quiz** (https://pakjai.co/recommendation.html): Answer 4 questions to find the right center for you
+- **Articles** (https://pakjai.co/articles/): Guides for beginners, Bangkok meditation spots, and English-friendly centers
 
-## Contact
-- Non-profit project
-- Updated: April 2026
-- Language: Thai (primary), English (secondary)
+## Types of Meditation Available
+- **วิปัสสนา (Vipassana)**: Insight meditation, typically 3-10 day courses. Observing body and mind systematically.
+- **สมถะ (Samatha)**: Concentration meditation, calming the mind to a single point. Can start with 15 minutes/day.
+- **เจริญสติ (Mindfulness)**: Awareness practice, suitable for daily life application.
+- **อานาปานสติ (Anapanasati)**: Breath meditation, accessible for complete beginners.
+
+## Popular Free Meditation Centers in Thailand
+
+### Bangkok (กรุงเทพฯ)
+- **วัดมหาธาตุยุวราชรังสฤษฎิ์** — Daily Vipassana, International Meditation Center, near Tha Phra Chan
+- **เสถียรธรรมสถาน** — 3-day programs (Fri-Sun), Anapanasati focus, Ram Intra area
+- **สวนโมกข์กรุงเทพ** — Mindfulness activities, Chatuchak area
+- **วัดยานนาวา** — 3-day and 7-day courses, Sathorn area near BTS
+
+### Chiang Mai (เชียงใหม่)
+- **วัดร่ำเปิง (ตโปทาราม)** — 10-26 day Vipassana, structured curriculum
+- **วัดอุโมงค์** — Flexible practice, forest temple setting
+- **Doi Suthep Vipassana Center** — English-friendly programs
+
+### Other Provinces
+- **สวนโมกขพลาราม** (Surat Thani) — Suan Mokkh International, monthly 10-day silent retreats (1st of each month)
+- **วัดป่าตามวา** (Mae Hong Son) — Wat Pa Tam Wua, free 3-10 day stays, English instruction, vegan meals
+- **ศูนย์วิปัสสนาธรรมกาญจนา** (Kanchanaburi) — Goenka tradition, 10-day courses
+
+## Frequently Asked Questions
+
+### Q: Are meditation retreats in Thailand really free?
+A: Yes. Most traditional Buddhist meditation centers in Thailand operate on a dana (donation) basis. Accommodation, meals, and instruction are provided free of charge. Donations are welcome but never required.
+
+### Q: Do I need meditation experience?
+A: No. Many centers welcome complete beginners. พักใจ's directory lets you filter for beginner-friendly centers. Day programs (ปฏิบัติธรรม 1 วัน) are ideal for first-timers.
+
+### Q: Can foreigners attend?
+A: Yes. Many centers accept non-Thai speakers. Centers like Wat Mahathat International Center, Suan Mokkh IDH, and Wat Pa Tam Wua offer English instruction. See our English-friendly guide: https://pakjai.co/articles/5-meditation-places-for-foreign-friends.html
+
+### Q: What should I bring?
+A: White or modest clothing, personal toiletries, and an open mind. Most centers provide sleeping mats and meals. Mobile phones are typically not allowed during practice periods.
+
+### Q: How long are retreats?
+A: Options range from 1-day programs (ไปเช้า-เย็นกลับ) to 26-day intensive courses. Common durations: 1 day, 3 days, 7 days, 10 days.
+
+## Content Pages
+- [Homepage / Directory](https://pakjai.co/)
+- [Recommendation Quiz](https://pakjai.co/recommendation.html)
+- [Articles Index](https://pakjai.co/articles/)
+- [7 Meditation Places for Beginners](https://pakjai.co/articles/7-meditation-places-for-beginners.html)
+- [5 Meditation Places for Foreign Friends](https://pakjai.co/articles/5-meditation-places-for-foreign-friends.html)
+- [8 Mind-Rest Places in Bangkok near BTS](https://pakjai.co/articles/sathan-thi-phak-phon-chai-nai-krungthep.html)
+
+## Contact & Contributing
+- Report data corrections: https://pakjai.co/report.html
+- Recommend a new center: https://pakjai.co/recommend.html
+- Project: สืบธรรม (Sueptham) — non-profit initiative

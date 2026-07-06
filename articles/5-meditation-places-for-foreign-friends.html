@@ -20,10 +20,10 @@
 <meta property="og:description" content="If you have a foreign friend who wants to experience meditation in Thailand — these places welcome everyone, with English instruction and warm communities">
 <meta property="og:type" content="article">
 <meta property="og:locale" content="th_TH">
-<meta property="og:image" content="https://pakjai.co/logo.png">
-<meta property="og:url" content="https://pakjai.co/articles/5-meditation-places-for-foreign-friends">
+<meta property="og:image" content="https://pakjai.co/pakjai-logo.png">
+<meta property="og:url" content="https://pakjai.co/articles/5-meditation-places-for-foreign-friends.html">
 <meta property="og:site_name" content="พักใจ">
-<link rel="canonical" href="https://pakjai.co/articles/5-meditation-places-for-foreign-friends">
+<link rel="canonical" href="https://pakjai.co/articles/5-meditation-places-for-foreign-friends.html">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -37,8 +37,92 @@
     "name": "พักใจ",
     "url": "https://pakjai.co"
   },
-  "mainEntityOfPage": "https://pakjai.co/articles/5-meditation-places-for-foreign-friends",
+  "mainEntityOfPage": "https://pakjai.co/articles/5-meditation-places-for-foreign-friends.html",
   "inLanguage": "th"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "5 สถานที่ปฏิบัติธรรมสำหรับเพื่อนต่างชาติ",
+  "description": "แนะนำ 5 สถานที่ปฏิบัติธรรมในไทยที่สอนเป็นภาษาอังกฤษ เหมาะสำหรับเพื่อนต่างชาติที่อยากลองสัมผัสการปฏิบัติธรรมในเมืองไทย",
+  "numberOfItems": 5,
+  "itemListOrder": "Unordered",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "BuddhistTemple",
+        "name": "วัดป่านานาชาติ",
+        "url": "https://pakjai.co/detail.html?id=TH-UBN-002",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "อุบลราชธานี",
+          "addressCountry": "TH"
+        },
+        "image": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/wat-pah-nanachat/hero.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "BuddhistTemple",
+        "name": "วัดป่าถ้ำวัวสุญญตาราม",
+        "url": "https://pakjai.co/detail.html?id=TH-MHS-002",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "แม่ฮ่องสอน",
+          "addressCountry": "TH"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "BuddhistTemple",
+        "name": "สวนโมกข์นานาชาติ (International Dharma Hermitage)",
+        "url": "https://pakjai.co/detail.html?id=TH-STN-001",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "สุราษฎร์ธานี",
+          "addressCountry": "TH"
+        }
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "PlaceOfWorship",
+        "name": "หมู่บ้านพลัม ประเทศไทย",
+        "url": "https://pakjai.co/detail.html?id=TH-NMA-007",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "นครราชสีมา",
+          "addressCountry": "TH"
+        },
+        "image": "https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/thai-plum-village/hero.jpg"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "BuddhistTemple",
+        "name": "ป่าแป๋ เมดิเตชั่น รีทรีต (Pa Pae)",
+        "url": "https://pakjai.co/detail.html?id=TH-CNX-009",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "เชียงใหม่",
+          "addressCountry": "TH"
+        }
+      }
+    }
+  ]
 }
 </script>
 <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&family=Noto+Serif+Thai:wght@700&display=swap" rel="stylesheet">
@@ -70,19 +154,78 @@
 html { scroll-behavior: smooth; }
 body { font-family: 'Sarabun', sans-serif; background: var(--background); color: var(--foreground); font-size: 16px; line-height: 1.75; }
 
-/* NAV */
-.nav { position: fixed; top: 0; left: 0; right: 0; z-index: 1000; padding: 16px 0; background: var(--foreground); box-shadow: 0 2px 12px rgba(0,0,0,0.15); }
+/* NAV (matched to recommendation page design) */
+.nav { background: var(--foreground); padding: 14px 0; position: relative; z-index: 1000; }
 .nav-inner { max-width: 1200px; margin: 0 auto; padding: 0 32px; display: flex; justify-content: space-between; align-items: center; }
-.nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.nav-logo { display: flex; align-items: center; gap: 10px; cursor: pointer; text-decoration: none; }
 .nav-logo svg { flex-shrink: 0; }
-.nav-logo-text { font-family: 'Prompt', sans-serif; font-size: 22px; font-weight: 700; color: #fff; }
-.nav-links { display: flex; align-items: center; gap: 28px; }
-.nav-link { color: rgba(255,255,255,0.85); text-decoration: none; font-size: 15px; transition: 0.2s; }
-.nav-link:hover { color: #fff; }
+.nav-logo-text { font-family: 'Prompt', sans-serif; font-size: 22px; font-weight: 700; letter-spacing: -0.5px; color: #fff; }
+.nav-links { display: flex; gap: 28px; align-items: center; }
+.nav-link { color: rgba(255,255,255,0.7); text-decoration: none; font-size: 15px; font-weight: 400; transition: color 0.3s; }
+.nav-link:hover { color: rgba(255,255,255,1); }
+.nav-link.active { color: #fff; font-weight: 600; }
+    .nav-btn {
+      padding: 9px 22px; border-radius: 100px;
+      border: 1.5px solid rgba(255,255,255,0.3);
+      background: transparent; color: #fff;
+      font-size: 14px; font-weight: 500; cursor: pointer;
+      font-family: inherit; transition: all 0.3s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.1); }
+.nav-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+.nav-hamburger svg { display: block; }
+.mobile-menu {
+  display: none; position: fixed; inset: 0; z-index: 9999;
+  background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+  flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+}
+.mobile-menu.open { display: flex; }
+.mobile-menu-close { position: absolute; top: 20px; right: 24px; background: none; border: none; cursor: pointer; }
+.mobile-menu-close svg { display: block; }
+.mobile-menu a {
+  color: #fff; text-decoration: none; font-family: 'Prompt', sans-serif;
+  font-size: 22px; font-weight: 600; opacity: 0.85; transition: opacity 0.2s;
+}
+.mobile-menu a:hover { opacity: 1; }
+.mobile-menu .nav-btn { padding: 12px 32px; font-size: 16px; margin-top: 8px; }
+@media (max-width: 900px) {
+  .nav-hamburger { display: block; }
+  .nav-links { display: none; }
+}
+
+    /* NAV DROPDOWN */
+    .nav-dropdown { position: relative; }
+    .nav-dropdown > .nav-link { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+    .nav-dropdown-menu {
+      position: absolute; top: 100%; left: 50%;
+      transform: translateX(-50%) translateY(6px);
+      padding-top: 12px;
+      opacity: 0; visibility: hidden;
+      transition: all 0.25s ease;
+      z-index: 1001;
+    }
+    .nav-dropdown:hover .nav-dropdown-menu,
+    .nav-dropdown:focus-within .nav-dropdown-menu {
+      opacity: 1; visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+    .nav-dropdown-inner {
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px; padding: 8px; min-width: 230px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    }
+    .nav-dropdown-item {
+      display: block; padding: 10px 14px; border-radius: 8px;
+      color: #fff; text-decoration: none; font-size: 14px; font-weight: 500;
+      white-space: nowrap; transition: background 0.2s;
+      text-shadow: none;
+    }
+    .nav-dropdown-item:hover { background: rgba(255,255,255,0.12); }
+    .nav-dropdown-item .sub { font-size: 11px; color: rgba(255,255,255,0.5); display: block; font-weight: 400; }
 
 /* ARTICLE HERO */
 .article-hero {
-  margin-top: 64px;
   padding: 72px 24px 48px;
   background: var(--primary-tint);
   text-align: center;
@@ -151,8 +294,9 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
 }
 .place-image {
   width: 100%; aspect-ratio: 16/9; object-fit: cover; border-radius: var(--radius-md);
-  margin-bottom: 20px; background: var(--surface-alt);
+  margin-bottom: 20px; background: var(--surface-alt); transition: opacity 0.2s;
 }
+a:hover .place-image { opacity: 0.8; }
 .place-text { font-size: 16px; line-height: 1.85; color: #444; margin-bottom: 16px; }
 .place-text p { margin-bottom: 14px; }
 
@@ -254,21 +398,45 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
 <!-- NAV -->
 <nav class="nav">
   <div class="nav-inner">
-    <a class="nav-logo" href="/">
-      <svg width="28" height="28" viewBox="0 0 64 64" fill="none">
-        <path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/>
-        <path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/>
-        <path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/>
-      </svg>
+    <a class='nav-logo' href='/'>
+<svg width="24" height="24" viewBox="0 0 64 64" fill="none"><path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/><path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/><path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/></svg>
       <span class="nav-logo-text">พักใจ</span>
     </a>
     <div class="nav-links">
-      <a class="nav-link" href="/articles/">บทความแนะนำ</a>
-      <a class="nav-link" href="/">ค้นหาสถานที่</a>
-      <a class="nav-link" href="/recommendation.html">แนะนำสำหรับคุณ</a>
+      <a class="nav-link active" href="/articles/">บทความแนะนำ</a>
+      <div class="nav-dropdown">
+        <a class="nav-link" href="/places-recommended">ค้นหาสถานที่
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="nav-dropdown-menu">
+          <div class="nav-dropdown-inner">
+            <a class="nav-dropdown-item" href="/places-recommended">ค้นหาสถานที่แนะนำ
+              <span class="sub">เฉพาะสถานที่ที่ตรวจสอบแล้ว</span>
+            </a>
+            <a class="nav-dropdown-item" href="/places-all">ค้นหาสถานที่ทั้งหมด
+              <span class="sub">รวมสถานที่ใหม่ ยังไม่ได้รับการรีวิว</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a class='nav-link' href='/recommendation'>แนะนำสำหรับคุณ</a>
+      <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ</button>
     </div>
+    <button class="nav-hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="เปิดเมนู">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
 </nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')" aria-label="ปิดเมนู">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/places-recommended">ค้นหาสถานที่แนะนำ</a>
+  <a href="/places-all">ค้นหาสถานที่ทั้งหมด</a>
+  <a href="/articles/">บทความแนะนำ</a>
+  <a href="/recommendation">แนะนำสำหรับคุณ</a>
+  <button class="nav-btn" onclick="document.getElementById('mobileMenu').classList.remove('open');openAuthModal()">เข้าสู่ระบบ</button>
+</div>
 
 <!-- HERO -->
 <header class="article-hero">
@@ -308,7 +476,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
   <!-- 01 -->
   <section class="place-section" id="place-1">
     <span class="place-number">1</span>
-    <h2><a href="/detail.html?id=TH-UBN-002">วัดป่านานาชาติ</a></h2>
+    <h2><a href='/detail?id=TH-UBN-002'>วัดป่านานาชาติ</a></h2>
     <div class="place-name-en">Wat Pah Nanachat — International Forest Monastery</div>
     <div class="place-tags">
       <span class="place-tag">วัดป่า</span>
@@ -316,7 +484,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <span class="place-tag">English</span>
       <span class="place-tag">ฟรี</span>
     </div>
-    <img class="place-image" id="img-1" alt="วัดป่านานาชาติ" loading="lazy">
+    <a href='/detail?id=TH-UBN-002'><img class="place-image" id="img-1" alt="วัดป่านานาชาติ" loading="lazy"></a>
     <div class="place-text">
       <p>วัดป่านานาชาติก่อตั้งโดยหลวงปู่อชาน์และหลวงพ่อสุเมโธในปี 2518 เพื่อเป็นสถานที่ฝึกอบรมพระภิกษุชาวต่างชาติโดยเฉพาะ วันนี้กลายเป็นหนึ่งในวัดป่าสายอชาน์ที่มีชื่อเสียงที่สุดในโลก ใช้ภาษาอังกฤษเป็นภาษากลาง มีพระสงฆ์และผู้ปฏิบัติจากหลากหลายประเทศ</p>
       <p>Wat Pah Nanachat was established in 1975 by Ajahn Chah specifically to train foreign Buddhist monks. Today it is one of the most renowned forest monasteries of the Ajahn Chah tradition worldwide. English is the primary language, and there are monks and practitioners from many different countries.</p>
@@ -328,7 +496,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <div class="place-info-row"><span class="place-info-label">ค่าใช้จ่าย</span><span class="place-info-value">ฟรี (บริจาคตามศรัทธา) / Free (donations)</span></div>
       <div class="place-info-row"><span class="place-info-label">ที่ตั้ง</span><span class="place-info-value">บ้านบุ่งหวาย อ.วารินชำราบ จ.อุบลราชธานี / Ban Bung Wai, Ubon Ratchathani</span></div>
     </div>
-    <a href="/detail.html?id=TH-UBN-002" class="place-cta">
+    <a class='place-cta' href='/detail?id=TH-UBN-002'>
       ดูรายละเอียดเพิ่มเติม
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
@@ -338,7 +506,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
   <!-- 02 -->
   <section class="place-section" id="place-2">
     <span class="place-number">2</span>
-    <h2><a href="/detail.html?id=TH-MHS-002">วัดป่าถ้ำวัวสุญญตาราม</a></h2>
+    <h2><a href='/detail?id=TH-MHS-002'>วัดป่าถ้ำวัวสุญญตาราม</a></h2>
     <div class="place-name-en">Wat Pah Tham Wua — International Vipassana Center</div>
     <div class="place-tags">
       <span class="place-tag">วัดป่า</span>
@@ -346,7 +514,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <span class="place-tag">Walk-in</span>
       <span class="place-tag">ฟรี</span>
     </div>
-    <img class="place-image" id="img-2" alt="วัดป่าถ้ำวัว" loading="lazy">
+    <a href='/detail?id=TH-MHS-002'><img class="place-image" id="img-2" alt="วัดป่าถ้ำวัว" loading="lazy"></a>
     <div class="place-text">
       <p>ซ่อนตัวอยู่กลางหุบเขาแม่ฮ่องสอน วัดป่าถ้ำวัวเป็นศูนย์วิปัสสนานานาชาติที่ต้อนรับนักปฏิบัติจากกว่า 140 ประเทศ สอนเป็นภาษาอังกฤษทุกวัน Walk-in ได้โดยไม่ต้องจองล่วงหน้า และพักได้ฟรี ทำให้เป็นหนึ่งในสถานที่ที่เข้าถึงได้มากที่สุดสำหรับนักเดินทางจากต่างประเทศ</p>
       <p>Hidden in the mountains of Mae Hong Son, Wat Pah Tham Wua is an international vipassana center welcoming practitioners from over 140 countries. English instruction is offered daily, you can walk in without advance reservation, and accommodation is free. This makes it one of the most accessible places for foreign travelers.</p>
@@ -358,7 +526,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <div class="place-info-row"><span class="place-info-label">ค่าใช้จ่าย</span><span class="place-info-value">ฟรี (บริจาคตามศรัทธา) / Free (donations)</span></div>
       <div class="place-info-row"><span class="place-info-label">ที่ตั้ง</span><span class="place-info-value">อ.ขุนยวม จ.แม่ฮ่องสอน / Khun Yuam, Mae Hong Son</span></div>
     </div>
-    <a href="/detail.html?id=TH-MHS-002" class="place-cta">
+    <a class='place-cta' href='/detail?id=TH-MHS-002'>
       ดูรายละเอียดเพิ่มเติม
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
@@ -368,7 +536,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
   <!-- 03 -->
   <section class="place-section" id="place-3">
     <span class="place-number">3</span>
-    <h2><a href="/detail.html?id=TH-STN-001">สวนโมกข์นานาชาติ</a></h2>
+    <h2><a href='/detail?id=TH-STN-001'>สวนโมกข์นานาชาติ</a></h2>
     <div class="place-name-en">Suan Mokkh International Dharma Hermitage</div>
     <div class="place-tags">
       <span class="place-tag">สถานปฏิบัติธรรม</span>
@@ -376,7 +544,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <span class="place-tag">10-day retreat</span>
       <span class="place-tag">English</span>
     </div>
-    <img class="place-image" id="img-3" alt="สวนโมกข์นานาชาติ" loading="lazy">
+    <a href='/detail?id=TH-STN-001'><img class="place-image" id="img-3" alt="สวนโมกข์นานาชาติ" loading="lazy"></a>
     <div class="place-text">
       <p>ก่อตั้งโดยหลวงพ่อพุทธทาสภิกขุ ผู้มีอิทธิพลต่อพุทธศาสนาสมัยใหม่ทั่วโลก สวนโมกข์นานาชาติจัดคอร์สปฏิบัติธรรม 10 วันทุกต้นเดือน สอนและดำเนินการทั้งหมดเป็นภาษาอังกฤษ ดึงดูดนักปฏิบัติจากทั่วโลกมาอย่างต่อเนื่องนับสิบปี</p>
       <p>Founded by Buddhadasa Bhikkhu, an influential figure in global modern Buddhism, Suan Mokkh International offers 10-day meditation courses at the beginning of every month. All instruction and operations are conducted entirely in English, continuously attracting practitioners from around the world for decades.</p>
@@ -388,7 +556,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <div class="place-info-row"><span class="place-info-label">ค่าใช้จ่าย</span><span class="place-info-value">ประมาณ 2,000–2,500 บาท / ~2,000–2,500 THB</span></div>
       <div class="place-info-row"><span class="place-info-label">ที่ตั้ง</span><span class="place-info-value">ไชยา จ.สุราษฎร์ธานี / Chaiya, Surat Thani</span></div>
     </div>
-    <a href="/detail.html?id=TH-STN-001" class="place-cta">
+    <a class='place-cta' href='/detail?id=TH-STN-001'>
       ดูรายละเอียดเพิ่มเติม
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
@@ -398,7 +566,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
   <!-- 04 -->
   <section class="place-section" id="place-4">
     <span class="place-number">4</span>
-    <h2><a href="/detail.html?id=TH-NMA-007">หมู่บ้านพลัม ประเทศไทย</a></h2>
+    <h2><a href='/detail?id=TH-NMA-007'>หมู่บ้านพลัม ประเทศไทย</a></h2>
     <div class="place-name-en">Plum Village Thailand — Mindfulness Practice Center</div>
     <div class="place-tags">
       <span class="place-tag">สถานปฏิบัติธรรม</span>
@@ -406,7 +574,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <span class="place-tag">Mindfulness</span>
       <span class="place-tag">ครอบครัว</span>
     </div>
-    <img class="place-image" id="img-4" alt="หมู่บ้านพลัม ประเทศไทย" loading="lazy">
+    <a href='/detail?id=TH-NMA-007'><img class="place-image" id="img-4" alt="หมู่บ้านพลัม ประเทศไทย" loading="lazy"></a>
     <div class="place-text">
       <p>หมู่บ้านพลัมเป็นชื่อที่นักปฏิบัติธรรมทั่วโลกรู้จักดีในฐานะสายปฏิบัติของหลวงพ่อติช นัท ฮันห์ ศาขาในประเทศไทยตั้งอยู่ที่โคราช สอนทั้งภาษาอังกฤษและภาษาไทย เน้นการมีสติในชีวิตประจำวัน เดินจงกรม นั่งสมาธิ ทำงานด้วยสติ (mindful work) ในบรรยากาศอบอุ่นและเป็นกันเอง</p>
       <p>Plum Village is well-known globally as the Thai branch of Thich Nhat Hanh's mindfulness practice tradition. Located in Korat, it teaches in both English and Thai, emphasizing mindfulness in daily life, mindful walking, sitting meditation, and mindful work in a warm and welcoming atmosphere.</p>
@@ -418,7 +586,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <div class="place-info-row"><span class="place-info-label">ค่าใช้จ่าย</span><span class="place-info-value">ขึ้นอยู่กับคอร์ส / Depends on course</span></div>
       <div class="place-info-row"><span class="place-info-label">ที่ตั้ง</span><span class="place-info-value">อ.ปากช่อง จ.นครราชสีมา / Pak Chong, Nakhon Ratchasima</span></div>
     </div>
-    <a href="/detail.html?id=TH-NMA-007" class="place-cta">
+    <a class='place-cta' href='/detail?id=TH-NMA-007'>
       ดูรายละเอียดเพิ่มเติม
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
@@ -428,7 +596,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
   <!-- 05 -->
   <section class="place-section" id="place-5">
     <span class="place-number">5</span>
-    <h2><a href="/detail.html?id=TH-CNX-009">ป่าแป๋ Parpae Insight Meditation</a></h2>
+    <h2><a href='/detail?id=TH-CNX-009'>ป่าแป๋ Parpae Insight Meditation</a></h2>
     <div class="place-name-en">Parpae — Forest Retreat Center</div>
     <div class="place-tags">
       <span class="place-tag">สถานปฏิบัติธรรม</span>
@@ -436,7 +604,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <span class="place-tag">กลุ่มเล็ก</span>
       <span class="place-tag">English</span>
     </div>
-    <img class="place-image" id="img-5" alt="ป่าแป๋ Parpae" loading="lazy">
+    <a href='/detail?id=TH-CNX-009'><img class="place-image" id="img-5" alt="ป่าแป๋ Parpae" loading="lazy"></a>
     <div class="place-text">
       <p>ป่าแป๋เป็น retreat center เล็กๆ ในป่าใกล้เชียงใหม่ที่ได้รับคะแนนรีวิวสูงมากจากนักปฏิบัติต่างชาติ บรรยากาศเรียบง่าย อบอุ่น สอนวิปัสสนาเป็นภาษาอังกฤษ กลุ่มเล็ก ทำให้ได้รับการดูแลอย่างใกล้ชิด เหมาะมากสำหรับการแนะนำเพื่อนต่างชาติที่ยังไม่เคยปฏิบัติธรรมมาก่อน</p>
       <p>Parpae is a small forest retreat center near Chiang Mai that receives very high reviews from foreign practitioners. The atmosphere is simple and welcoming, with English-language vipassana instruction in small groups for personalized attention. Perfect for introducing foreign friends to meditation for the first time.</p>
@@ -448,7 +616,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       <div class="place-info-row"><span class="place-info-label">ค่าใช้จ่าย</span><span class="place-info-value">ประมาณ 1,500–3,000 บาท / ~1,500–3,000 THB</span></div>
       <div class="place-info-row"><span class="place-info-label">ที่ตั้ง</span><span class="place-info-value">อ.แม่แตง จ.เชียงใหม่ / Mae Taeng, Chiang Mai</span></div>
     </div>
-    <a href="/detail.html?id=TH-CNX-009" class="place-cta">
+    <a class='place-cta' href='/detail?id=TH-CNX-009'>
       ดูรายละเอียดเพิ่มเติม
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
     </a>
@@ -492,7 +660,7 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
       ค้นหาสถานที่ทั้งหมด
     </a>
     <br>
-    <a href="/recommendation.html" class="closing-btn-secondary">
+    <a class='closing-btn-secondary' href='/recommendation'>
       <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14l-5-4.87 6.91-1.01z"/></svg>
       ค้นหาสถานที่ ที่เหมาะกับคุณ
     </a>
@@ -514,11 +682,11 @@ body { font-family: 'Sarabun', sans-serif; background: var(--background); color:
     หากมีข้อมูลตรงไหนที่อยากให้ปรับแก้ สามารถแจ้งเข้ามาได้ที่ช่องทางด้านล่าง
   </p>
   <div style="display:flex; gap:16px; justify-content:center; flex-wrap:wrap;">
-    <a href="/report.html" style="display:inline-flex; align-items:center; gap:8px; padding:12px 28px; border:1.5px solid rgba(255,255,255,0.3); border-radius:50px; color:#fff; text-decoration:none; font-size:15px; font-family:'Prompt',sans-serif; transition:background 0.2s;">
+    <a href='/report' style='display:inline-flex; align-items:center; gap:8px; padding:12px 28px; border:1.5px solid rgba(255,255,255,0.3); border-radius:50px; color:#fff; text-decoration:none; font-size:15px; font-family:\'Prompt\',sans-serif; transition:background 0.2s;'>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
       แจ้งแก้ไขข้อมูล
     </a>
-    <a href="/recommend.html" style="display:inline-flex; align-items:center; gap:8px; padding:12px 28px; border:1.5px solid rgba(255,255,255,0.3); border-radius:50px; color:#fff; text-decoration:none; font-size:15px; font-family:'Prompt',sans-serif; transition:background 0.2s;">
+    <a href='/recommend' style='display:inline-flex; align-items:center; gap:8px; padding:12px 28px; border:1.5px solid rgba(255,255,255,0.3); border-radius:50px; color:#fff; text-decoration:none; font-size:15px; font-family:\'Prompt\',sans-serif; transition:background 0.2s;'>
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
       แนะนำสถานที่เพิ่มเติม
     </a>
@@ -561,5 +729,7 @@ window.addEventListener('scroll', function() {
   document.getElementById('readingProgress').style.width = (s / h * 100) + '%';
 });
 </script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="/supabase-config.js"></script>
 </body>
 </html>

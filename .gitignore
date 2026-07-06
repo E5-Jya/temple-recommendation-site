@@ -22,3 +22,6 @@ temple_photos_lookup.json
 *.log
 __pycache__/
 photo_manifest_*backup*.json
+
+# Netlify CLI local state
+.netlify/

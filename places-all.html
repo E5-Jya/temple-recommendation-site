@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ค้นหาสถานที่ทั้งหมด | พักใจ</title>
+  <link rel="canonical" href="https://pakjai.co/places-all">
+  <link rel="icon" type="image/x-icon" href="/favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&family=Noto+Serif+Thai:wght@700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --background: #F7F5F0;
+      --foreground: #2D3436;
+      --primary: #697662;
+      --primary-dark: #586452;
+      --primary-tint: #F0F2EE;
+      --accent: #D4A847;
+      --accent-light: #E0BE6E;
+      --accent-dark: #B8902E;
+      --accent-tint: #FFF8EC;
+      --surface: #FFFFFF;
+      --surface-alt: #F0EDE6;
+      --card: #FFFFFF;
+      --card-hover: #F0F2EE;
+      --border: #D1CCC4;
+      --border-light: #E5E0D8;
+      --muted: #7A7670;
+      --muted-light: #A09B94;
+      --gradient-header: linear-gradient(135deg, #586452 0%, #697662 100%);
+      --shadow-md: 0 4px 12px rgba(45, 52, 54, 0.10);
+      --shadow-lg: 0 8px 24px rgba(45, 52, 54, 0.12);
+      --radius-md: 12px;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Sarabun', sans-serif; background: var(--background); color: var(--foreground); font-size: 16px; line-height: 1.6; }
+
+    /* NAV (same as landing: transparent over header, solid on scroll) */
+    .nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      padding: 22px 0;
+      transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .nav.nav-scrolled {
+      background: var(--foreground);
+      padding: 12px 0;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+    }
+    .nav-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 32px;
+      display: flex; justify-content: space-between; align-items: center;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; cursor: pointer; text-decoration: none; }
+    .nav-logo-text {
+      font-family: 'Prompt', sans-serif;
+      font-size: 22px; font-weight: 700; letter-spacing: -0.5px; color: #fff;
+    }
+    .nav-links { display: flex; gap: 28px; align-items: center; }
+    .nav-link {
+      color: #fff; text-decoration: none; text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      font-size: 15px; font-weight: 600; opacity: 1;
+      transition: opacity 0.3s;
+    }
+    .nav-link:hover { opacity: 1; }
+    .nav-link.active { opacity: 1; font-weight: 600; }
+    .nav-btn {
+      padding: 9px 22px; border-radius: 100px;
+      border: 1.5px solid rgba(255,255,255,0.7);
+      background: rgba(0,0,0,0.15); color: #fff; text-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      font-size: 14px; font-weight: 500; cursor: pointer;
+      font-family: inherit; transition: all 0.3s;
+    }
+    .nav-btn:hover { background: rgba(255,255,255,0.1); }
+
+    /* NAV DROPDOWN */
+    .nav-dropdown { position: relative; }
+    .nav-dropdown > .nav-link { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+    .nav-dropdown-menu {
+      position: absolute; top: 100%; left: 50%;
+      transform: translateX(-50%) translateY(6px);
+      padding-top: 12px;
+      opacity: 0; visibility: hidden;
+      transition: all 0.25s ease;
+      z-index: 1001;
+    }
+    .nav-dropdown:hover .nav-dropdown-menu,
+    .nav-dropdown:focus-within .nav-dropdown-menu {
+      opacity: 1; visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+    .nav-dropdown-inner {
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px; padding: 8px; min-width: 230px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    }
+    .nav-dropdown-item {
+      display: block; padding: 10px 14px; border-radius: 8px;
+      color: #fff; text-decoration: none; font-size: 14px; font-weight: 500;
+      white-space: nowrap; transition: background 0.2s;
+    }
+    .nav-dropdown-item:hover { background: rgba(255,255,255,0.12); }
+    .nav-dropdown-item.active { background: rgba(255,255,255,0.08); }
+    .nav-dropdown-item .sub { font-size: 11px; color: rgba(255,255,255,0.5); display: block; font-weight: 400; }
+
+    /* HAMBURGER (mobile only) */
+    .nav-hamburger { display: none; background: none; border: none; cursor: pointer; padding: 4px; }
+    .nav-hamburger svg { display: block; }
+    .mobile-menu {
+      display: none; position: fixed; inset: 0; z-index: 9999;
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      flex-direction: column; align-items: center; justify-content: center; gap: 28px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu-close { position: absolute; top: 20px; right: 24px; background: none; border: none; cursor: pointer; }
+    .mobile-menu a {
+      color: #fff; text-decoration: none; font-family: 'Prompt', sans-serif;
+      font-size: 22px; font-weight: 600; opacity: 0.85; transition: opacity 0.2s;
+    }
+    .mobile-menu a.mobile-sub { font-size: 16px; font-weight: 500; opacity: 0.65; }
+    .mobile-menu a:hover { opacity: 1; }
+    .mobile-menu .nav-btn { padding: 12px 32px; font-size: 16px; margin-top: 8px; }
+    @media (max-width: 900px) {
+      .nav-hamburger { display: block; }
+      .nav-links { display: none; }
+    }
+
+    /* PAGE HEADER (compact) */
+    .page-head {
+      background: var(--gradient-header);
+      padding: 130px 32px 44px;
+      color: #fff;
+    }
+    .page-head-inner { max-width: 1200px; margin: 0 auto; }
+    .page-head h1 {
+      font-family: 'Prompt', sans-serif;
+      font-size: clamp(28px, 4vw, 38px); font-weight: 700;
+      letter-spacing: -0.5px; margin-bottom: 8px;
+    }
+    .page-head p { font-size: 16px; font-weight: 300; color: rgba(255,255,255,0.75); margin-bottom: 24px; }
+    .page-tabs { display: inline-flex; gap: 6px; padding: 5px; border-radius: 100px; background: rgba(0,0,0,0.18); margin-bottom: 24px; }
+    .page-tab {
+      padding: 8px 20px; border-radius: 100px; text-decoration: none;
+      font-size: 14px; font-weight: 600; color: rgba(255,255,255,0.7);
+      transition: all 0.2s;
+    }
+    .page-tab:hover { color: #fff; }
+    .page-tab.active { background: #fff; color: var(--foreground); }
+    .head-search-wrap { width: 100%; max-width: 540px; position: relative; }
+    .search-input {
+      width: 100%; padding: 14px 56px 14px 20px;
+      border-radius: 14px; border: 1.5px solid rgba(255,255,255,0.25);
+      background: rgba(255,255,255,0.12);
+      color: #fff; font-size: 16px; font-family: 'Sarabun', sans-serif;
+      outline: none; transition: all 0.2s;
+    }
+    .search-input::placeholder { color: rgba(255,255,255,0.45); }
+    .search-input:focus { border-color: rgba(255,255,255,0.5); background: rgba(255,255,255,0.18); }
+    .search-icon {
+      position: absolute; right: 18px; top: 50%; transform: translateY(-50%);
+      color: rgba(255,255,255,0.5); pointer-events: none;
+    }
+
+    /* FILTER BAR */
+    .filter-section {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      position: sticky; top: 0; z-index: 100;
+      box-shadow: 0 2px 12px rgba(45, 52, 54, 0.06);
+    }
+    .filter-bar {
+      max-width: 1200px; margin: 0 auto;
+      padding: 14px 40px;
+      display: flex; align-items: center; gap: 12px;
+      overflow-x: auto;
+    }
+    .filter-bar::-webkit-scrollbar { display: none; }
+    .filter-label { font-size: 12px; font-weight: 700; color: var(--muted); letter-spacing: 1px; text-transform: uppercase; white-space: nowrap; }
+    .filter-chip {
+      padding: 7px 16px; border-radius: 20px;
+      font-size: 13px; font-weight: 500; cursor: pointer;
+      border: 1.5px solid var(--border); background: var(--surface);
+      color: var(--foreground); transition: all 0.2s; white-space: nowrap;
+      font-family: 'Sarabun', sans-serif;
+    }
+    .filter-chip:hover { border-color: var(--primary); background: var(--card-hover); }
+    .filter-chip.active { background: var(--primary); border-color: var(--primary); color: var(--surface); }
+    .filter-sep { width: 1px; height: 24px; background: var(--border); flex-shrink: 0; }
+    .sort-select {
+      margin-left: auto; padding: 7px 12px; border-radius: 8px;
+      border: 1.5px solid var(--border); background: var(--surface);
+      font-size: 13px; font-family: 'Sarabun', sans-serif; color: var(--foreground);
+      cursor: pointer; outline: none; flex-shrink: 0;
+    }
+
+    /* MAIN LAYOUT */
+    .main-wrap { max-width: 1200px; margin: 0 auto; padding: 32px 40px 80px; }
+    .results-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 24px; }
+    .results-count { font-size: 14px; color: var(--muted); }
+    .results-count strong { color: var(--foreground); font-weight: 700; }
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 20px; }
+
+    .temple-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      transition: all 0.25s;
+      cursor: pointer;
+      text-decoration: none;
+      display: flex; flex-direction: column;
+      color: inherit;
+    }
+    .temple-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--primary); }
+    .temple-card.card-unverified { border-style: dashed; border-color: var(--accent-light); }
+    .temple-card.card-unverified:hover { border-color: var(--accent); }
+
+    .card-header { height: 180px; display: flex; align-items: flex-end; padding: 16px; position: relative; overflow: hidden; }
+    .card-header-bg { position: absolute; inset: 0; overflow: hidden; }
+    .card-header-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(45,52,54,0.85) 0%, rgba(45,52,54,0.2) 60%, transparent 100%);
+    }
+    .card-badge-new {
+      position: absolute; top: 12px; left: 12px; z-index: 2;
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 11px; font-weight: 700; padding: 4px 11px; border-radius: 100px;
+      background: var(--accent); color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .card-province {
+      position: absolute; right: 14px; bottom: 14px; z-index: 1;
+      font-size: 11px; color: rgba(255,255,255,0.7);
+      display: flex; align-items: center; gap: 4px;
+    }
+    .card-body { padding: 18px 20px; overflow: hidden; flex: 1; display: flex; flex-direction: column; }
+    .card-name-th { font-size: 17px; font-weight: 700; color: var(--foreground); margin-bottom: 3px; line-height: 1.3; }
+    .card-name-en { font-family: 'Prompt', sans-serif; font-style: italic; font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+    .card-blurb {
+      font-size: 13px; color: var(--foreground); line-height: 1.6;
+      display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
+      overflow: hidden; margin-bottom: 16px; flex: 1;
+    }
+    .card-chips { display: flex; flex-wrap: wrap; gap: 6px; overflow: hidden; max-height: 58px; margin-top: auto; }
+    .chip { font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 8px; }
+    .chip-y { background: #F0F2EE; color: var(--primary); border: 1px solid #C8CDB8; }
+    .chip-green { background: #e8f5e9; color: #2e7d32; border: 1px solid #a5d6a7; }
+    .chip-pending { background: var(--accent-tint); color: var(--accent-dark); border: 1px solid var(--accent-light); }
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 20px; border-top: 1px solid var(--border); background: var(--surface-alt);
+    }
+    .card-location { font-size: 12px; color: var(--muted); display: flex; align-items: center; gap: 4px; }
+    .card-arrow {
+      width: 28px; height: 28px; border-radius: 8px;
+      background: var(--primary); color: var(--surface);
+      display: flex; align-items: center; justify-content: center;
+      transition: background 0.2s;
+    }
+    .temple-card:hover .card-arrow { background: var(--primary-dark); }
+
+    .no-results { text-align: center; padding: 80px 20px; color: var(--muted); display: none; }
+    .no-results-icon {
+      width: 80px; height: 80px; margin: 0 auto 16px;
+      border-radius: 50%; background: var(--card-hover);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--primary);
+    }
+    .no-results h3 { font-size: 18px; color: var(--foreground); margin-bottom: 8px; }
+
+    .page-footer { background: var(--foreground); color: rgba(255,255,255,0.5); text-align: center; padding: 24px 40px; font-size: 12px; }
+    .page-footer a { color: rgba(255,255,255,0.7); text-decoration: none; }
+
+    mark { background: #E8F5E9; color: inherit; border-radius: 2px; }
+
+    @media (max-width: 900px) {
+      .filter-bar { padding: 12px 16px; }
+      .main-wrap { padding: 24px 16px 60px; }
+      .cards-grid { grid-template-columns: 1fr; }
+      .page-head { padding: 100px 24px 36px; }
+    }
+    @media (max-width: 480px) {
+      .search-input { font-size: 15px; padding: 13px 50px 13px 16px; }
+      .results-header { flex-direction: column; align-items: flex-start; gap: 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a class='nav-logo' href='/'>
+<svg width="24" height="24" viewBox="0 0 64 64" fill="none"><path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/><path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/><path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/></svg>
+      <span class="nav-logo-text">พักใจ</span>
+    </a>
+    <div class="nav-links">
+      <a class="nav-link" href="/articles/">บทความแนะนำ</a>
+      <div class="nav-dropdown">
+        <a class="nav-link active" href="/places-recommended">ค้นหาสถานที่
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="nav-dropdown-menu">
+          <div class="nav-dropdown-inner">
+            <a class="nav-dropdown-item" href="/places-recommended">ค้นหาสถานที่แนะนำ
+              <span class="sub">เฉพาะสถานที่ที่ตรวจสอบแล้ว</span>
+            </a>
+            <a class="nav-dropdown-item active" href="/places-all">ค้นหาสถานที่ทั้งหมด
+              <span class="sub">รวมสถานที่ใหม่ ยังไม่ได้รับการรีวิว</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a class='nav-link' href='/recommendation'>แนะนำสำหรับคุณ</a>
+      <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ / สมัครสมาชิก</button>
+    </div>
+    <button class="nav-hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="เปิดเมนู">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')" aria-label="ปิดเมนู">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/places-recommended">ค้นหาสถานที่แนะนำ</a>
+  <a href="/places-all">ค้นหาสถานที่ทั้งหมด</a>
+  <a href="/articles/">บทความแนะนำ</a>
+  <a href="/recommendation">แนะนำสำหรับคุณ</a>
+  <button class="nav-btn" onclick="document.getElementById('mobileMenu').classList.remove('open');openAuthModal()">เข้าสู่ระบบ / สมัครสมาชิก</button>
+</div>
+
+<!-- PAGE HEADER -->
+<header class="page-head">
+  <div class="page-head-inner">
+    <h1>ค้นหาสถานที่ทั้งหมด</h1>
+    <p>รวมทุกสถานที่ในฐานข้อมูล รวมถึงสถานที่ใหม่ที่ยังไม่ได้รับการรีวิวจากผู้ปฏิบัติ</p>
+    <div class="page-tabs">
+      <a class="page-tab" href="/places-recommended">ค้นหาสถานที่แนะนำ</a>
+      <a class="page-tab active" href="/places-all">ค้นหาสถานที่ทั้งหมด</a>
+    </div>
+    <div class="head-search-wrap">
+      <input type="text" class="search-input" id="searchInput" placeholder="ค้นหาชื่อวัด, จังหวัด, สายปฏิบัติ...">
+      <div class="search-icon">
+        <svg width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- FILTER BAR -->
+<div class="filter-section">
+  <div class="filter-bar">
+    <span class="filter-label">กรอง:</span>
+    <button class="filter-chip active" data-group="location" data-filter="all">ทั้งหมด</button>
+    <button class="filter-chip" data-group="location" data-filter="bkk">ในกรุงเทพ</button>
+    <button class="filter-chip" data-group="location" data-filter="upcountry">จังหวัดอื่นๆ</button>
+    <div class="filter-sep"></div>
+    <button class="filter-chip" data-group="style" data-filter="day">ไม่ค้างคืน</button>
+    <button class="filter-chip" data-group="style" data-filter="stay">ค้างคืน</button>
+    <div class="filter-sep"></div>
+    <button class="filter-chip" data-group="verify" data-filter="verified">ตรวจสอบแล้ว</button>
+    <button class="filter-chip" data-group="verify" data-filter="new">ยังไม่ได้รับการรีวิว</button>
+    <select class="sort-select" id="sortSelect" onchange="renderCards()">
+      <option value="default">เรียงตาม: ค่าเริ่มต้น</option>
+      <option value="alpha">ชื่อ ก–ฮ</option>
+      <option value="province">จังหวัด</option>
+      <option value="cost">ฟรีก่อน</option>
+    </select>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main class="main-wrap">
+  <div class="results-header">
+    <div class="results-count">แสดง <strong id="resultsNum">…</strong> สถานที่</div>
+  </div>
+
+  <div class="cards-grid" id="cardsGrid"></div>
+  <div class="no-results" id="noResults">
+    <div class="no-results-icon">
+      <svg width="40" height="40" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path stroke-linecap="round" stroke-linejoin="round" d="m21 21-4.35-4.35"/></svg>
+    </div>
+    <h3>ไม่พบสถานที่ที่ตรงกับเงื่อนไข</h3>
+    <p>ลองเปลี่ยนคำค้นหาหรือปรับตัวกรอง</p>
+  </div>
+</main>
+
+<footer class="page-footer">
+  <p>ฐานข้อมูลสถานปฏิบัติธรรมไทย · <a href='/recommendation'>แนะนำสถานที่ให้ฉัน →</a></p>
+</footer>
+
+<script src="temple-data.js"></script>
+<script>
+let TEMPLES = [];
+
+let filterLocation = 'all';
+let filterStyle = null;
+let filterVerify = null;
+
+function escapeHTML(str) {
+  return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+function highlight(text, query) {
+  if (!query) return escapeHTML(text);
+  const escaped = escapeHTML(text);
+  const re = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`, 'gi');
+  return escaped.replace(re, '<mark>$1</mark>');
+}
+
+function getFiltered() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const sort = document.getElementById('sortSelect').value;
+
+  let list = TEMPLES.filter(t => {
+    if (filterLocation === 'bkk' && !t.isBKK) return false;
+    if (filterLocation === 'upcountry' && t.isBKK) return false;
+    if (filterStyle === 'stay' && !t.actRetreats) return false;
+    if (filterStyle === 'day' && t.actRetreats) return false;
+    if (filterVerify === 'verified' && t.isNew) return false;
+    if (filterVerify === 'new' && !t.isNew) return false;
+    if (q) {
+      const haystack = ((t.nameTh || '') + (t.nameEn || '') + (t.province || '') + (t.district || '') + (t.tradition || '') + (t.blurb || '')).toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+
+  if (sort === 'alpha') list.sort((a,b) => a.nameTh.localeCompare(b.nameTh, 'th'));
+  else if (sort === 'province') list.sort((a,b) => a.province.localeCompare(b.province, 'th'));
+  else if (sort === 'cost') list.sort((a,b) => (a.isFree === b.isFree ? 0 : a.isFree ? -1 : 1));
+
+  return list;
+}
+
+function renderCards() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const list = getFiltered();
+  const grid = document.getElementById('cardsGrid');
+  const noRes = document.getElementById('noResults');
+  document.getElementById('resultsNum').textContent = list.length;
+
+  if (list.length === 0) {
+    grid.innerHTML = '';
+    noRes.style.display = 'block';
+    return;
+  }
+  noRes.style.display = 'none';
+
+  grid.innerHTML = list.map(t => `
+    <a href="${t.link}" class="temple-card${t.isNew ? ' card-unverified' : ''}" data-id="${t.id}">
+      <div class="card-header">
+        <div class="card-header-bg" style="background:${t.gradient}">${(t.thumbnailUrl || t.slug) ? `<img src="${t.thumbnailUrl || ('https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + t.slug + '/thumbnail.jpg')}" alt="${t.nameEn}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">` : ''}</div>
+        <div class="card-header-overlay"></div>
+        ${t.isNew ? `<div class="card-badge-new">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          ยังไม่ได้รับการรีวิว</div>` : ''}
+        <div class="card-province">
+          <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          ${t.district || t.province}
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-name-th">${highlight(t.nameTh, q)}</div>
+        <div class="card-name-en">${highlight(t.nameEn, q)}</div>
+        <div class="card-blurb">${highlight(t.blurb || '', q)}</div>
+        <div class="card-chips">
+          ${t.placeType ? `<span class="chip chip-green">${t.placeType}</span>` : ''}
+          ${t.isNew ? `<span class="chip chip-pending">ข้อมูลเบื้องต้น</span>` : ''}
+          ${t.chips.filter(c => !["ฟรี","ธรรมยุต","เถรวาท"].includes(c)).map(c => `<span class="chip chip-y">${c}</span>`).join('')}
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="card-location">
+          <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
+          ${[t.district, t.province].filter(Boolean).join(', ')}
+        </div>
+        <div class="card-arrow">
+          <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </div>
+      </div>
+    </a>
+  `).join('');
+}
+
+// Filter chips
+document.querySelectorAll('.filter-chip').forEach(chip => {
+  chip.addEventListener('click', function() {
+    const group = this.dataset.group;
+    const value = this.dataset.filter;
+
+    if (group === 'location') {
+      document.querySelectorAll('.filter-chip[data-group="location"]').forEach(c => c.classList.remove('active'));
+      this.classList.add('active');
+      filterLocation = value;
+    } else if (group === 'style') {
+      if (this.classList.contains('active')) {
+        this.classList.remove('active');
+        filterStyle = null;
+      } else {
+        document.querySelectorAll('.filter-chip[data-group="style"]').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        filterStyle = value;
+      }
+    } else if (group === 'verify') {
+      if (this.classList.contains('active')) {
+        this.classList.remove('active');
+        filterVerify = null;
+      } else {
+        document.querySelectorAll('.filter-chip[data-group="verify"]').forEach(c => c.classList.remove('active'));
+        this.classList.add('active');
+        filterVerify = value;
+      }
+    }
+    renderCards();
+  });
+});
+
+// Search
+let searchTimer;
+document.getElementById('searchInput').addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  searchTimer = setTimeout(renderCards, 200);
+});
+
+// Loading state
+document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted)"><div style="margin-bottom:12px">กำลังโหลดข้อมูล...</div></div>';
+
+// Verified places come from Supabase; the full list (incl. places pending review)
+// comes from temples-directory.json. Anything not in Supabase gets the "new" badge.
+Promise.all([
+  fetchTemples().then(function(rows) { return rows.map(toDirectoryFormat); })
+    .catch(function(err) { console.error('Supabase load failed:', err); return []; }),
+  fetch('temples-directory.json').then(function(r) { return r.json(); })
+    .catch(function(err) { console.error('Directory JSON load failed:', err); return []; })
+]).then(function(res) {
+  var verified = res[0], all = res[1];
+  var verifiedIds = new Set(verified.map(function(t) { return t.id; }));
+  var newcomers = all
+    .filter(function(t) { return !verifiedIds.has(t.id); })
+    .map(function(t) { return Object.assign({}, t, { isNew: verified.length > 0 }); });
+  TEMPLES = verified.concat(newcomers);
+  if (TEMPLES.length === 0) {
+    document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted)">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่</div>';
+    return;
+  }
+  renderCards();
+});
+
+// Nav scroll effect (same as landing)
+window.addEventListener('scroll', function() {
+  var nav = document.getElementById('nav');
+  if (window.scrollY > 40) {
+    nav.classList.add('nav-scrolled');
+  } else {
+    nav.classList.remove('nav-scrolled');
+  }
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase-config.js"></script>
+</body>
+</html>

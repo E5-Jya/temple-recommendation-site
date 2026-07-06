@@ -116,8 +116,9 @@ function injectAuthModal() {
 
       <div class="auth-header">
         <div class="auth-logo">
-          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.5">
-            <path d="M12 2L2 22h20L12 2zM12 2v20M7.5 12L12 22l4.5-10"/>
+          <svg width="24" height="24" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+            <circle cx="12" cy="7" r="4"/>
           </svg>
         </div>
         <h3 id="authTitle">เข้าสู่ระบบ</h3>
@@ -374,7 +375,7 @@ function updateTopbarAuth(user) {
     replacement.id = 'authBtn';
     replacement.type = 'button';
     replacement.className = 'nav-btn';
-    replacement.textContent = 'เข้าสู่ระบบ';
+    replacement.textContent = 'เข้าสู่ระบบ / สมัครสมาชิก';
     replacement.addEventListener('click', () => openAuthModal('login'));
   }
 

@@ -21,9 +21,9 @@
   <meta property="og:site_name" content="พักใจ" />
   <meta property="og:title" content="สถานปฏิบัติธรรม — รายละเอียด | พักใจ" />
   <meta property="og:description" content="ดูรายละเอียดสถานที่ปฏิบัติธรรม กิจกรรมฝึกสมาธิ วิปัสสนา เจริญสติ ตารางปฏิบัติธรรม" />
-  <meta property="og:url" content="https://pakjai.co/detail" />
-  <meta property="og:image" content="https://pakjai.co/logo.png" />
-  <link rel="canonical" href="https://pakjai.co/detail">
+  <meta property="og:url" content="https://pakjai.co/detail.html" />
+  <meta property="og:image" content="https://pakjai.co/pakjai-logo.png" />
+  <link rel="canonical" href="https://pakjai.co/detail.html">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -36,6 +36,9 @@
     "areaServed": "TH",
     "nonprofitStatus": "Nonprofit"
   }
+  </script>
+  <script type="application/ld+json" id="place-schema">
+  {"@context":"https://schema.org","@type":"BuddhistTemple"}
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&family=Prompt:wght@400;600;700&display=swap" rel="stylesheet">
@@ -141,6 +144,65 @@
       font-family: inherit; transition: all 0.3s;
     }
     .nav-btn:hover { background: rgba(255,255,255,0.1); }
+
+    /* NAV DROPDOWN */
+    .nav-dropdown { position: relative; }
+    .nav-dropdown > .nav-link { display: inline-flex; align-items: center; gap: 5px; cursor: pointer; }
+    .nav-dropdown-menu {
+      position: absolute; top: 100%; left: 50%;
+      transform: translateX(-50%) translateY(6px);
+      padding-top: 12px;
+      opacity: 0; visibility: hidden;
+      transition: all 0.25s ease;
+      z-index: 1001;
+    }
+    .nav-dropdown:hover .nav-dropdown-menu,
+    .nav-dropdown:focus-within .nav-dropdown-menu {
+      opacity: 1; visibility: visible;
+      transform: translateX(-50%) translateY(0);
+    }
+    .nav-dropdown-inner {
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 12px; padding: 8px; min-width: 230px;
+      box-shadow: 0 12px 32px rgba(0,0,0,0.25);
+    }
+    .nav-dropdown-item {
+      display: block; padding: 10px 14px; border-radius: 8px;
+      color: #fff; text-decoration: none; font-size: 14px; font-weight: 500;
+      white-space: nowrap; transition: background 0.2s;
+      text-shadow: none;
+    }
+    .nav-dropdown-item:hover { background: rgba(255,255,255,0.12); }
+    .nav-dropdown-item .sub { font-size: 11px; color: rgba(255,255,255,0.5); display: block; font-weight: 400; }
+
+    /* HAMBURGER (mobile only) */
+    .nav-hamburger {
+      display: none; background: none; border: none; cursor: pointer; padding: 4px;
+    }
+    .nav-hamburger svg { display: block; }
+    .mobile-menu {
+      display: none; position: fixed; inset: 0; z-index: 9999;
+      background: rgba(45,52,54,0.97); backdrop-filter: blur(8px);
+      flex-direction: column; align-items: center; justify-content: center; gap: 32px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu-close {
+      position: absolute; top: 20px; right: 24px;
+      background: none; border: none; cursor: pointer;
+    }
+    .mobile-menu-close svg { display: block; }
+    .mobile-menu a {
+      color: #fff; text-decoration: none; font-family: 'Prompt', sans-serif;
+      font-size: 22px; font-weight: 600; opacity: 0.85; transition: opacity 0.2s;
+    }
+    .mobile-menu a:hover { opacity: 1; }
+    .mobile-menu .nav-btn {
+      padding: 12px 32px; font-size: 16px; margin-top: 8px;
+    }
+    @media (max-width: 900px) {
+      .nav-hamburger { display: block; }
+    }
 
     /* ── HERO ── */
     .hero {
@@ -508,7 +570,7 @@
 
     /* ── RESPONSIVE ── */
     @media (max-width: 900px) {
-      .nav-links .nav-link { display: none; }
+      .nav-links { display: none; }
       .nav-inner { padding: 0 20px; }
       .layout {
         grid-template-columns: 1fr;
@@ -554,18 +616,45 @@
 <!-- NAV -->
 <nav class="nav-solid">
   <div class="nav-inner">
-    <a class="nav-logo" href="index.html">
+    <a class='nav-logo' href='/'>
 <svg width="24" height="24" viewBox="0 0 64 64" fill="none"><path d="M32 8C32 8 24 20 24 32C24 44 32 52 32 52C32 52 40 44 40 32C40 20 32 8 32 8Z" fill="#fff" opacity="0.9"/><path d="M32 52C32 52 16 44 12 32C8 20 16 12 16 12C16 12 20 24 24 32C28 40 32 52 32 52Z" fill="#fff" opacity="0.6"/><path d="M32 52C32 52 48 44 52 32C56 20 48 12 48 12C48 12 44 24 40 32C36 40 32 52 32 52Z" fill="#fff" opacity="0.6"/></svg>
       <span class="nav-logo-text">พักใจ</span>
     </a>
     <div class="nav-links">
       <a class="nav-link" href="/articles/">บทความแนะนำ</a>
-      <a class="nav-link" href="/">ค้นหาสถานที่</a>
-      <a class="nav-link" href="recommendation.html">แนะนำสำหรับคุณ</a>
+      <div class="nav-dropdown">
+        <a class="nav-link" href="/places-recommended">ค้นหาสถานที่
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="m6 9 6 6 6-6"/></svg>
+        </a>
+        <div class="nav-dropdown-menu">
+          <div class="nav-dropdown-inner">
+            <a class="nav-dropdown-item" href="/places-recommended">ค้นหาสถานที่แนะนำ
+              <span class="sub">เฉพาะสถานที่ที่ตรวจสอบแล้ว</span>
+            </a>
+            <a class="nav-dropdown-item" href="/places-all">ค้นหาสถานที่ทั้งหมด
+              <span class="sub">รวมสถานที่ใหม่ ยังไม่ได้รับการรีวิว</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <a class='nav-link' href='/recommendation'>แนะนำสำหรับคุณ</a>
       <button class="nav-btn" id="authBtn" onclick="openAuthModal()">เข้าสู่ระบบ</button>
     </div>
+    <button class="nav-hamburger" onclick="document.getElementById('mobileMenu').classList.add('open')" aria-label="เปิดเมนู">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
   </div>
 </nav>
+<div class="mobile-menu" id="mobileMenu">
+  <button class="mobile-menu-close" onclick="document.getElementById('mobileMenu').classList.remove('open')" aria-label="ปิดเมนู">
+    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+  </button>
+  <a href="/places-recommended">ค้นหาสถานที่แนะนำ</a>
+  <a href="/places-all">ค้นหาสถานที่ทั้งหมด</a>
+  <a href="/articles/">บทความแนะนำ</a>
+  <a href="/recommendation">แนะนำสำหรับคุณ</a>
+  <button class="nav-btn" onclick="document.getElementById('mobileMenu').classList.remove('open');openAuthModal()">เข้าสู่ระบบ</button>
+</div>
 
 <!-- HERO -->
 <section class="hero">
@@ -800,17 +889,17 @@ let TEMPLES_DETAIL = {};
     }
 
     // Update hero section
-    document.title = temple.nameTh + ' — สถานที่ปฏิบัติธรรม ' + temple.province + ' | พักใจ';
+    document.title = temple.nameTh + ' - สถานที่ปฏิบัติธรรม ' + temple.province + ' | พักใจ วิปัสสนา เจริญสติ';
     var templeDesc = temple.nameTh + ' สถานที่ปฏิบัติธรรม ใน' + temple.province + ' ดูรายละเอียด กิจกรรม คอร์สปฏิบัติ ข้อมูลติดต่อ';
     document.querySelector('meta[name="description"]').setAttribute('content', templeDesc);
     // Fix #1: Dynamic canonical with query param
-    document.querySelector('link[rel="canonical"]').setAttribute('href', 'https://pakjai.co/detail?id=' + templeId);
+    document.querySelector('link[rel="canonical"]').setAttribute('href', 'https://pakjai.co/detail.html?id=' + templeId);
     // Fix #2: Dynamic OG tags for social sharing
     document.querySelector('meta[property="og:title"]').setAttribute('content', temple.nameTh + ' — สถานที่ปฏิบัติธรรม ' + temple.province + ' | พักใจ');
     document.querySelector('meta[property="og:description"]').setAttribute('content', templeDesc);
-    document.querySelector('meta[property="og:url"]').setAttribute('content', 'https://pakjai.co/detail?id=' + templeId);
+    document.querySelector('meta[property="og:url"]').setAttribute('content', 'https://pakjai.co/detail.html?id=' + templeId);
     // Fix #3: Dynamic OG image — use temple hero photo
-    var ogImage = temple.heroUrl || (temple.slug ? 'https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + temple.slug + '/hero.jpg' : 'https://pakjai.co/logo.png');
+    var ogImage = temple.heroUrl || (temple.slug ? 'https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + temple.slug + '/hero.jpg' : 'https://pakjai.co/pakjai-logo.png');
     document.querySelector('meta[property="og:image"]').setAttribute('content', ogImage);
     document.getElementById('hero-name-th').textContent = temple.nameTh;
     document.getElementById('hero-name-en').textContent = temple.nameEn;
@@ -927,25 +1016,65 @@ let TEMPLES_DETAIL = {};
     // Update callout
     document.getElementById('callout-body').textContent = temple.highlight || 'สถานปฏิบัติธรรมแห่งนี้มีความเชี่ยวชาญและประสบการณ์ยาวนาน';
 
-    // Add Place schema
+    // Build Place schema (BuddhistTemple, with PlaceOfWorship fallback)
+    const placeOfWorshipKeywords = ['หมู่บ้านพลัม', 'มูลนิธิ', 'ศูนย์', 'ธรรมสถาน', 'อาศรม'];
+    const placeType = placeOfWorshipKeywords.some(kw => temple.nameTh && temple.nameTh.indexOf(kw) >= 0)
+      ? 'PlaceOfWorship'
+      : 'BuddhistTemple';
+
+    function isMeaningful(v) {
+      if (!v || typeof v !== 'string') return false;
+      const t = v.trim();
+      if (!t) return false;
+      const lower = t.toLowerCase();
+      return lower !== 'n/a' && t !== 'ไม่ระบุ';
+    }
+
+    let placeDescription = '';
+    if (isMeaningful(temple.blurbTh)) {
+      let d = temple.blurbTh.replace(/\n+/g, ' ').replace(/\s+/g, ' ').trim();
+      if (d.length > 200) {
+        const cut = d.slice(0, 200);
+        const lastSpace = cut.lastIndexOf(' ');
+        d = (lastSpace > 0 ? cut.slice(0, lastSpace) : cut).trim();
+      }
+      placeDescription = d;
+    }
+
+    const placeAddress = { "@type": "PostalAddress", "addressCountry": "TH" };
+    if (isMeaningful(temple.contact && temple.contact.address)) placeAddress.streetAddress = temple.contact.address.trim();
+    if (isMeaningful(temple.district)) placeAddress.addressLocality = temple.district;
+    if (isMeaningful(temple.province)) placeAddress.addressRegion = temple.province;
+
+    const placeSameAs = [];
+    if (temple.contact && typeof temple.contact.website === 'string' && temple.contact.website.indexOf('http') === 0) placeSameAs.push(temple.contact.website);
+    if (temple.contact && typeof temple.contact.facebook === 'string' && temple.contact.facebook.indexOf('http') === 0) placeSameAs.push(temple.contact.facebook);
+    placeSameAs.push('https://www.google.com/maps?q=' + encodeURIComponent(temple.nameTh + ' ' + temple.province));
+
     const placeSchema = {
       "@context": "https://schema.org",
-      "@type": "Place",
+      "@type": placeType,
       "name": temple.nameTh,
-      "description": temple.blurbTh ? temple.blurbTh.substring(0, 200) : '',
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": temple.district || '',
-        "addressRegion": temple.province || '',
-        "addressCountry": "TH"
-      },
-      "isAccessibleForFree": true,
-      "additionalType": "MeditationCenter"
+      "url": "https://pakjai.co/detail.html?id=" + templeId,
+      "address": placeAddress,
+      "isAccessibleForFree": temple.retreatInfo && temple.retreatInfo.cost === "Free"
     };
-    const schemaScript = document.createElement('script');
-    schemaScript.type = 'application/ld+json';
-    schemaScript.textContent = JSON.stringify(placeSchema);
-    document.head.appendChild(schemaScript);
+    if (isMeaningful(temple.nameEn)) placeSchema.alternateName = temple.nameEn;
+    if (placeDescription) placeSchema.description = placeDescription;
+    if (isMeaningful(temple.heroUrl)) placeSchema.image = temple.heroUrl;
+    if (temple.contact && isMeaningful(temple.contact.phone)) placeSchema.telephone = temple.contact.phone;
+    if (placeSameAs.length) placeSchema.sameAs = placeSameAs;
+
+    const placeSchemaEl = document.getElementById('place-schema');
+    if (placeSchemaEl) {
+      placeSchemaEl.textContent = JSON.stringify(placeSchema);
+    } else {
+      const schemaScript = document.createElement('script');
+      schemaScript.type = 'application/ld+json';
+      schemaScript.id = 'place-schema';
+      schemaScript.textContent = JSON.stringify(placeSchema);
+      document.head.appendChild(schemaScript);
+    }
 
     // Add BreadcrumbList schema
     const breadcrumbSchema = {
@@ -1043,19 +1172,28 @@ let TEMPLES_DETAIL = {};
     document.querySelector('.hero-name-th').textContent = 'กำลังโหลดข้อมูล...';
     document.querySelector('.hero-name-en').textContent = 'Loading...';
 
-    fetchTemples()
-      .then(function(rows) {
-        rows.forEach(function(row) {
-          TEMPLES_DETAIL[row.temple_id] = toDetailFormat(row);
-        });
-        var templeId = getTempleId();
-        populateTempleData(templeId);
-      })
-      .catch(function(err) {
-        console.error('Failed to load temple data:', err);
+    // Verified places from Supabase; places pending review from temples-detail.json.
+    // Supabase data wins for ids present in both.
+    Promise.all([
+      fetchTemples().catch(function(err) { console.error('Supabase load failed:', err); return []; }),
+      fetch('temples-detail.json').then(function(r) { return r.json(); })
+        .catch(function(err) { console.error('Detail JSON load failed:', err); return {}; })
+    ]).then(function(res) {
+      var rows = res[0], extra = res[1];
+      Object.keys(extra).forEach(function(id) {
+        TEMPLES_DETAIL[id] = extra[id];
+      });
+      rows.forEach(function(row) {
+        TEMPLES_DETAIL[row.temple_id] = toDetailFormat(row);
+      });
+      if (Object.keys(TEMPLES_DETAIL).length === 0) {
         document.querySelector('.hero-name-th').textContent = 'ไม่สามารถโหลดข้อมูลได้';
         document.querySelector('.hero-name-en').textContent = 'Failed to load data';
-      });
+        return;
+      }
+      var templeId = getTempleId();
+      populateTempleData(templeId);
+    });
   });
 </script>
 
