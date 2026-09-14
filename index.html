@@ -377,6 +377,16 @@
       box-shadow: var(--shadow-lg);
       border-color: var(--primary);
     }
+    .temple-card.card-unverified { border-style: dashed; border-color: var(--accent-light); }
+    .temple-card.card-unverified:hover { border-color: var(--accent); }
+    .card-badge-new {
+      position: absolute; top: 12px; left: 12px; z-index: 2;
+      display: inline-flex; align-items: center; gap: 5px;
+      font-size: 11px; font-weight: 700; padding: 4px 11px; border-radius: 100px;
+      background: var(--accent); color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    }
+    .chip-pending { background: var(--accent-tint); color: var(--accent-dark); border: 1px solid var(--accent-light); }
 
     .card-header {
       height: 180px;
@@ -812,6 +822,7 @@
   <div class="filter-bar">
     <span class="filter-label">กรอง:</span>
     <button class="filter-chip active" data-group="location" data-filter="all">ทั้งหมด</button>
+    <button class="filter-chip" data-group="curated" data-filter="recommended">แนะนำ</button>
     <button class="filter-chip" data-group="location" data-filter="bkk">ในกรุงเทพ</button>
     <button class="filter-chip" data-group="location" data-filter="upcountry">จังหวัดอื่นๆ</button>
     <div class="filter-sep"></div>
@@ -833,7 +844,7 @@
 <main class="main-wrap">
   <div style="font-size: 12px; color: var(--muted); margin-bottom: 8px;">อัปเดตล่าสุด: เมษายน 2026</div>
   <div class="results-header">
-    <div class="results-count">แสดง <strong id="resultsNum">7</strong> สถานที่</div>
+    <div class="results-count">แสดง <strong id="resultsNum">…</strong> สถานที่</div>
   </div>
 
   <div class="cards-grid" id="cardsGrid"></div>
@@ -857,6 +868,7 @@ let TEMPLES = [];
 let filterLocation = 'all';
 let filterStyle = null;
 let filterType = null;
+let filterCurated = null;
 function escapeHTML(str) {
   return str.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
@@ -882,9 +894,11 @@ function getFiltered() {
     // Type filter (toggle)
     if (filterType === 'temple' && t.placeType !== 'วัด') return false;
     if (filterType === 'non-temple' && t.placeType === 'วัด') return false;
+    // Curated filter (toggle): แนะนำ = verified places only
+    if (filterCurated === 'recommended' && t.isNew) return false;
     // Search
     if (q) {
-      const haystack = (t.nameTh + t.nameEn + t.province + t.district + t.tradition + t.blurb).toLowerCase();
+      const haystack = ((t.nameTh || '') + (t.nameEn || '') + (t.province || '') + (t.district || '') + (t.tradition || '') + (t.blurb || '')).toLowerCase();
       if (!haystack.includes(q)) return false;
     }
     return true;
@@ -913,28 +927,32 @@ function renderCards() {
   noRes.style.display = 'none';
 
   grid.innerHTML = list.map(t => `
-    <a href="${t.link}" class="temple-card" data-id="${t.id}">
+    <a href="${t.link}" class="temple-card${t.isNew ? ' card-unverified' : ''}" data-id="${t.id}">
       <div class="card-header" style="">
-        <div class="card-header-bg" style="background:${t.gradient}"><img src="${t.thumbnailUrl || ('https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + t.slug + '/thumbnail.jpg')}" alt="${t.nameEn}" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'"></div>
+        <div class="card-header-bg" style="background:${t.gradient}">${(t.thumbnailUrl || t.slug) ? `<img src="${t.thumbnailUrl || ('https://uopxibyowyqirpeuylot.supabase.co/storage/v1/object/public/temple-photos/' + t.slug + '/thumbnail.jpg')}" alt="${t.nameEn}" loading="lazy" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.display='none'">` : ''}</div>
         <div class="card-header-overlay"></div>
+        ${t.isNew ? `<div class="card-badge-new">
+          <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          ยังไม่ได้รับการรีวิว</div>` : ''}
         <div class="card-province">
           <svg width="10" height="10" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
-          ${t.district}
+          ${t.district || t.province}
         </div>
       </div>
       <div class="card-body">
         <div class="card-name-th">${highlight(t.nameTh, q)}</div>
         <div class="card-name-en">${highlight(t.nameEn, q)}</div>
-        <div class="card-blurb">${highlight(t.blurb, q)}</div>
+        <div class="card-blurb">${highlight(t.blurb || '', q)}</div>
         <div class="card-chips">
           ${t.placeType ? `<span class="chip chip-green">${t.placeType}</span>` : ''}
+          ${t.isNew ? `<span class="chip chip-pending">ข้อมูลเบื้องต้น</span>` : ''}
           ${t.chips.filter(c => !["ฟรี","ธรรมยุต","เถรวาท"].includes(c)).map(c => `<span class="chip chip-y">${c}</span>`).join('')}
         </div>
       </div>
       <div class="card-footer">
         <div class="card-location">
           <svg width="12" height="12" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/></svg>
-          ${t.district}, ${t.province}
+          ${[t.district, t.province].filter(Boolean).join(', ')}
         </div>
         <div class="card-arrow">
           <svg width="14" height="14" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
@@ -975,6 +993,15 @@ document.querySelectorAll('.filter-chip').forEach(chip => {
         this.classList.add('active');
         filterType = value;
       }
+    } else if (group === 'curated') {
+      // Toggle: click again to deactivate
+      if (this.classList.contains('active')) {
+        this.classList.remove('active');
+        filterCurated = null;
+      } else {
+        this.classList.add('active');
+        filterCurated = value;
+      }
     }
     renderCards();
   });
@@ -990,15 +1017,26 @@ document.getElementById('searchInput').addEventListener('input', () => {
 // Show loading state
 document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted)"><div style="margin-bottom:12px">กำลังโหลดข้อมูล...</div></div>';
 
-fetchTemples()
-  .then(function(rows) {
-    TEMPLES = rows.map(toDirectoryFormat);
-    renderCards();
-  })
-  .catch(function(err) {
-    console.error('Failed to load temple data:', err);
-    document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--warning)">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่</div>';
-  });
+// Verified places from Supabase; full list (incl. places pending review)
+// from temples-directory.json. Anything not in Supabase gets isNew.
+Promise.all([
+  fetchTemples().then(function(rows) { return rows.map(toDirectoryFormat); })
+    .catch(function(err) { console.error('Supabase load failed:', err); return []; }),
+  fetch('temples-directory.json').then(function(r) { return r.json(); })
+    .catch(function(err) { console.error('Directory JSON load failed:', err); return []; })
+]).then(function(res) {
+  var verified = res[0], all = res[1];
+  var verifiedIds = new Set(verified.map(function(t) { return t.id; }));
+  var newcomers = all
+    .filter(function(t) { return !verifiedIds.has(t.id); })
+    .map(function(t) { return Object.assign({}, t, { isNew: verified.length > 0 }); });
+  TEMPLES = verified.concat(newcomers);
+  if (TEMPLES.length === 0) {
+    document.getElementById('cardsGrid').innerHTML = '<div style="text-align:center;padding:60px 20px;color:var(--muted)">ไม่สามารถโหลดข้อมูลได้ กรุณาลองใหม่</div>';
+    return;
+  }
+  renderCards();
+});
 
 // Nav scroll effect
 window.addEventListener('scroll', function() {
